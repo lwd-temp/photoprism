@@ -79,7 +79,7 @@
       <div class="video-control video-control--duration text-body-2">
         {{ $util.formatSeconds(video.duration) }}
       </div>
-      <div v-if="video.castable" class="video-control video-control--cast">
+      <div v-if="featExperimental && video.castable" class="video-control video-control--cast">
         <v-icon
           v-if="video.casting"
           icon="mdi-cast-connected"
