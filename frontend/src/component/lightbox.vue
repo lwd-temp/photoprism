@@ -1297,8 +1297,8 @@ export default {
           } else if (ev.clientX && window.innerWidth) {
             const x = ev.clientX / window.innerWidth;
 
-            // Let PhotoSwipe do the left and right 18% of the screen.
-            if (x <= 0.18 || x >= 0.82) {
+            // Let PhotoSwipe handle the left and right 20% of the screen.
+            if (x <= 0.2 || x >= 0.8) {
               return;
             }
           }
