@@ -774,20 +774,17 @@ export default {
         return Promise.reject();
       }
 
-      // Reverse models for right-to-left languages, so that prev() and next() are switched.
-      if (this.$rtl) {
-        models = models.reverse();
-        if (index >= 0) {
-          index = models.length - (index + 1);
-        } else {
-          index = models.length - 1;
-        }
-      }
-
-      // Set the initial model list and start index.
+      // Set the model list and start index.
       // TODO: In the future, additional models should be dynamically loaded when the index reaches the end of the list.
-      this.models = models;
-      this.index = index;
+      if (this.$rtl) {
+        // Reverse the slide direction for right-to-left languages.
+        this.models = models.toReversed();
+        this.index = models.length - (index + 1);
+      } else {
+        // Keep direction for left-to-right languages.
+        this.models = models;
+        this.index = index;
+      }
 
       // Get PhotoSwipe lightbox config options, see https://photoswipe.com/options/.
       const options = this.getOptions();
@@ -955,7 +952,7 @@ export default {
       this.lightbox.init();
 
       // Show first image.
-      this.lightbox.loadAndOpen(index);
+      this.lightbox.loadAndOpen(this.index);
 
       return Promise.resolve();
     },
