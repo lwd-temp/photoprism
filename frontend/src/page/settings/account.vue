@@ -339,7 +339,11 @@
       @close="dialog.passcode = false"
       @updateUser="updateUser()"
     ></p-settings-passcode>
-    <p-settings-password :visible="dialog.password" :model="user" @close="dialog.password = false"></p-settings-password>
+    <p-settings-password
+      :visible="dialog.password"
+      :model="user"
+      @close="dialog.password = false"
+    ></p-settings-password>
     <p-settings-webdav :visible="dialog.webdav" @close="dialog.webdav = false"></p-settings-webdav>
   </div>
 </template>

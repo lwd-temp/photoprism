@@ -196,7 +196,8 @@ export default {
       const ctx = this;
       $notify.blockUI();
 
-      $api.post("import", this.settings.import, { cancelToken: this.source.token })
+      $api
+        .post("import", this.settings.import, { cancelToken: this.source.token })
         .then(function () {
           $notify.unblockUI();
           ctx.busy = false;

@@ -206,7 +206,8 @@ export default {
       };
 
       // Submit POST request.
-      $api.post("index", params, { cancelToken: this.source.token })
+      $api
+        .post("index", params, { cancelToken: this.source.token })
         .then(function () {
           $notify.unblockUI();
           ctx.busy = false;
