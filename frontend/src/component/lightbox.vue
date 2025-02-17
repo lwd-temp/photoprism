@@ -287,7 +287,7 @@ export default {
         mouseMovePan: true,
         arrowPrev: true,
         arrowNext: true,
-        loop: true,
+        loop: false,
         zoom: true,
         close: true,
         escKey: false,
@@ -772,6 +772,16 @@ export default {
       if (!Array.isArray(models) || models.length === 0 || index >= models.length) {
         console.log("lightbox: model list is empty", models);
         return Promise.reject();
+      }
+
+      // Reverse models for right-to-left languages, so that prev() and next() are switched.
+      if (this.$rtl) {
+        models = models.reverse();
+        if (index >= 0) {
+          index = models.length - (index + 1);
+        } else {
+          index = models.length - 1;
+        }
       }
 
       // Set the initial model list and start index.
@@ -1550,7 +1560,7 @@ export default {
       const { video } = this.getContent();
 
       // Play video, if any, but without looping.
-      if (video && (video.paused || video.ended)) {
+      if (video) {
         this.playVideo(video, false);
       }
 
@@ -1587,10 +1597,14 @@ export default {
 
       if (video && !video.paused) {
         // Do nothing if a video is still playing.
-      } else if (this.models.length > this.index + 1) {
+      } else if (!this.$rtl && this.models.length > this.index + 1) {
         // Show the next slide.
         this.slideshow.next = this.index + 1;
         pswp.next();
+      } else if (this.$rtl && this.index > 0) {
+        // Reverse slideshow direction for right-to-left languages.
+        this.slideshow.next = this.index - 1;
+        pswp.prev();
       } else {
         // Pause slideshow if this is the end.
         this.pauseSlideshow();
