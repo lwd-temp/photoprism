@@ -24,7 +24,7 @@ Additional information can be found in our Developer Guide:
 */
 
 import Sockette from "sockette";
-import $event from "pubsub-js";
+import $event from "common/event";
 import { $config } from "app/session";
 
 const host = window.location.host;

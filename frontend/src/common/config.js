@@ -24,7 +24,7 @@ Additional information can be found in our Developer Guide:
 */
 
 import $api from "common/api";
-import $event from "pubsub-js";
+import $event from "common/event";
 import * as themes from "options/themes";
 import translations from "locales/translations.json";
 import { Languages } from "options/options";

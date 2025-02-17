@@ -31,7 +31,7 @@ import $notify from "common/notify";
 import { $view } from "common/view";
 import { $lightbox } from "common/lightbox";
 import { PhotoClipboard } from "common/clipboard";
-import $event from "pubsub-js";
+import $event from "common/event";
 import $log from "common/log";
 import $util from "common/util";
 import * as components from "component/components";
