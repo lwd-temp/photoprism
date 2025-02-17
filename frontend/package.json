@@ -8,6 +8,7 @@
   "scripts": {
     "watch": "webpack --watch",
     "build": "webpack --node-env=production",
+    "build-dev": "webpack --node-env=development",
     "trace": "webpack --stats-children",
     "debug": "webpack --stats-error-details",
     "lint": "eslint --cache src/ *.js",
