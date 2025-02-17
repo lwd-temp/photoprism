@@ -117,7 +117,7 @@ msgstr "Om"
 msgid "Access Token"
 msgstr "Adgangstoken"
 
-#: src/component/navigation.vue:83 src/component/navigation.vue:1697
+#: src/component/navigation.vue:81 src/component/navigation.vue:1697
 #: src/component/service/upload.vue:71 src/model/service.js:96
 #: src/model/user.js:169 src/page/settings.vue:85
 #: src/page/settings/general.vue:492
@@ -273,7 +273,7 @@ msgstr "Sikkerhedskopier af album"
 msgid "Album created"
 msgstr "Album oprettet"
 
-#: src/app/routes.js:175 src/component/album/toolbar.vue:57
+#: src/app/routes.js:175 src/component/album/toolbar.vue:56
 #: src/component/navigation.vue:601 src/component/navigation.vue:1791
 #: src/component/photo/edit/info.vue:220
 msgid "Albums"
@@ -299,20 +299,20 @@ msgstr "Alle %{n} etiketter er indlæst"
 msgid "All %{n} people loaded"
 msgstr "Alle %{n} personer indlæst"
 
-#: src/component/album/toolbar.vue:38 src/component/photo/toolbar.vue:62
+#: src/component/album/toolbar.vue:37 src/component/photo/toolbar.vue:61
 msgid "All Cameras"
 msgstr "Alle kameraer"
 
-#: src/component/photo/toolbar.vue:65 src/page/albums.vue:36
+#: src/component/photo/toolbar.vue:64 src/page/albums.vue:36
 #: src/page/albums.vue:183 src/page/albums.vue:676
 msgid "All Categories"
 msgstr "Alle kategorier"
 
-#: src/component/photo/toolbar.vue:64
+#: src/component/photo/toolbar.vue:63
 msgid "All Colors"
 msgstr "Alle farver"
 
-#: src/component/album/toolbar.vue:44 src/component/photo/toolbar.vue:61
+#: src/component/album/toolbar.vue:43 src/component/photo/toolbar.vue:60
 msgid "All Countries"
 msgstr "Alle lande"
 
@@ -324,11 +324,11 @@ msgstr "Alle felter skal udfyldes"
 msgid "All files from import folder"
 msgstr "Alle filer fra importmappen"
 
-#: src/component/photo/toolbar.vue:63
+#: src/component/photo/toolbar.vue:62
 msgid "All Lenses"
 msgstr "Alle linser"
 
-#: src/component/photo/toolbar.vue:66
+#: src/component/photo/toolbar.vue:65
 msgid "All Months"
 msgstr "Alle måneder"
 
@@ -336,7 +336,7 @@ msgstr "Alle måneder"
 msgid "All originals"
 msgstr "Alle originaler"
 
-#: src/component/photo/toolbar.vue:67 src/page/albums.vue:83
+#: src/component/photo/toolbar.vue:66 src/page/albums.vue:83
 msgid "All Years"
 msgstr "Alle år"
 
@@ -599,7 +599,7 @@ msgstr "Kan ikke kopiere til udklipsholder"
 msgid "Caption"
 msgstr "Billedtekst"
 
-#: src/component/photo/toolbar.vue:91 src/component/photo/toolbar.vue:97
+#: src/component/photo/toolbar.vue:90 src/component/photo/toolbar.vue:96
 msgid "Cards"
 msgstr "Kort"
 
@@ -661,7 +661,7 @@ msgstr "Kontrolleret"
 msgid "Chroma"
 msgstr "Chroma"
 
-#: src/page/library/index.vue:168
+#: src/page/library/index.vue:169
 msgid "Cleaning index and cache"
 msgstr "Oprydning af indeks og cache"
 
@@ -772,7 +772,7 @@ msgstr "Fortsæt med %{udbyder}"
 msgid "Contributor"
 msgstr "Bidragyder"
 
-#: src/page/library/index.vue:178
+#: src/page/library/index.vue:179
 msgid "Converting"
 msgstr "Konverterer"
 
@@ -821,7 +821,7 @@ msgstr "Opret YAML-sidevognsfiler til sikkerhedskopiering af billedmetadata."
 msgid "Created"
 msgstr "Oprettet"
 
-#: src/page/library/index.vue:184
+#: src/page/library/index.vue:185
 msgid "Creating thumbnails for"
 msgstr "Opretter miniaturer til"
 
@@ -916,7 +916,7 @@ msgstr "Dimensioner"
 msgid "Disable Backups"
 msgstr "Deaktiver sikkerhedskopier"
 
-#: src/page/settings/advanced.vue:628
+#: src/page/settings/advanced.vue:630
 msgid "Disable Darktable"
 msgstr "Deaktivere Darktable"
 
@@ -928,11 +928,11 @@ msgstr "Deaktiver ExifTool"
 msgid "Disable features that require write permission for the originals folder."
 msgstr "Deaktiver funktioner, der kræver skrivetilladelse til originalmappen."
 
-#: src/page/settings/advanced.vue:724
+#: src/page/settings/advanced.vue:726
 msgid "Disable FFmpeg"
 msgstr "Deaktiver FFmpeg"
 
-#: src/page/settings/advanced.vue:700
+#: src/page/settings/advanced.vue:702
 msgid "Disable ImageMagick"
 msgstr "Deaktiver ImageMagick"
 
@@ -944,7 +944,7 @@ msgstr "Deaktiver interaktive verdenskort og omvendt geokodning."
 msgid "Disable Places"
 msgstr "Deaktiver steder"
 
-#: src/page/settings/advanced.vue:652
+#: src/page/settings/advanced.vue:654
 msgid "Disable RawTherapee"
 msgstr "Deaktivere RawTherapee"
 
@@ -952,7 +952,7 @@ msgstr "Deaktivere RawTherapee"
 msgid "Disable TensorFlow"
 msgstr "Deaktiver TensorFlow"
 
-#: src/page/settings/advanced.vue:750
+#: src/page/settings/advanced.vue:752
 msgid "Disable Vectors"
 msgstr "Deaktivere vektorer"
 
@@ -960,11 +960,11 @@ msgstr "Deaktivere vektorer"
 msgid "Disable WebDAV"
 msgstr "Deaktiver WebDAV"
 
-#: src/page/settings/advanced.vue:751
+#: src/page/settings/advanced.vue:753
 msgid "Disables vector graphics support."
 msgstr "Deaktiverer understøttelse af vektorgrafik."
 
-#: src/page/settings/advanced.vue:725
+#: src/page/settings/advanced.vue:727
 msgid "Disables video transcoding and thumbnail extraction."
 msgstr "Deaktiverer video-omkodning og dannelse af miniaturebilleder."
 
@@ -984,15 +984,15 @@ msgstr "Afslå"
 msgid "Display Name"
 msgstr "Vis navn"
 
-#: src/page/settings/advanced.vue:629
+#: src/page/settings/advanced.vue:631
 msgid "Don't use Darktable to convert RAW images."
 msgstr "Du må ikke bruge Darktable til at konvertere RAW-filer."
 
-#: src/page/settings/advanced.vue:701
+#: src/page/settings/advanced.vue:703
 msgid "Don't use ImageMagick to convert images."
 msgstr "Brug ikke ImageMagick til at konvertere billeder."
 
-#: src/page/settings/advanced.vue:653
+#: src/page/settings/advanced.vue:655
 msgid "Don't use RawTherapee to convert RAW images."
 msgstr "Du må ikke bruge RawTherapee til at konvertere RAW-filer."
 
@@ -1010,7 +1010,7 @@ msgid "Done."
 msgstr "Udført."
 
 #: src/component/album/clipboard.vue:72 src/component/album/toolbar.vue:120
-#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:981
+#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:988
 #: src/component/people/clipboard.vue:47 src/component/photo/clipboard.vue:116
 #: src/component/photo/edit/files.vue:167 src/page/settings/general.vue:252
 #: src/page/settings/general.vue:624
@@ -1029,10 +1029,10 @@ msgstr "Download fjernfiler"
 msgid "Download single files and zip archives."
 msgstr "Download enkeltfiler og zip-arkiver."
 
-#: src/component/album/clipboard.vue:102 src/component/album/toolbar.vue:106
+#: src/component/album/clipboard.vue:102 src/component/album/toolbar.vue:105
 #: src/component/file/clipboard.vue:61 src/component/label/clipboard.vue:86
-#: src/component/lightbox.vue:1524 src/component/people/clipboard.vue:59
-#: src/component/photo/clipboard.vue:217 src/component/photo/edit/files.vue:118
+#: src/component/lightbox.vue:1535 src/component/people/clipboard.vue:59
+#: src/component/photo/clipboard.vue:216 src/component/photo/edit/files.vue:118
 #: src/component/photo/view/cards.vue:163 src/component/photo/view/list.vue:133
 #: src/page/library/browse.vue:116
 msgid "Downloading…"
@@ -1058,7 +1058,7 @@ msgstr "Duplikater springes over og vises kun én gang."
 msgid "Duration"
 msgstr "Varighed"
 
-#: src/page/settings/advanced.vue:488
+#: src/page/settings/advanced.vue:490
 msgid "Dynamic Previews"
 msgstr "Dynamiske miniaturebilleder"
 
@@ -1071,7 +1071,7 @@ msgid "E-Mail"
 msgstr "E-mail"
 
 #: src/component/album/clipboard.vue:61 src/component/album/toolbar.vue:82
-#: src/component/lightbox.vue:963 src/component/photo/clipboard.vue:90
+#: src/component/lightbox.vue:970 src/component/photo/clipboard.vue:90
 #: src/page/settings/general.vue:324
 msgid "Edit"
 msgstr "Redigere"
@@ -1086,7 +1086,7 @@ msgstr "Rediger %{s}"
 msgid "Edit Account"
 msgstr "Rediger konto"
 
-#: src/component/photo/edit/dialog.vue:64
+#: src/component/photo/edit/dialog.vue:63
 msgid "Edit Photo"
 msgstr "Rediger Billede"
 
@@ -1107,7 +1107,7 @@ msgstr "Aktivér debug-tilstand for at få vist yderligere logfiler og hjælp ti
 msgid "Enable new features that may be incomplete or unstable."
 msgstr "Aktivér nye funktioner, der kan være ufuldstændige eller ustabile."
 
-#: src/page/settings/advanced.vue:677
+#: src/page/settings/advanced.vue:679
 msgid "Enables RAW converter presets. May reduce performance."
 msgstr "Aktiverer RAW-konverteringsindstillinger. Kan reducere ydeevnen."
 
@@ -1260,17 +1260,17 @@ msgstr "Fil"
 msgid "File Browser"
 msgstr "Filbrowser"
 
-#: src/page/settings/advanced.vue:601
+#: src/page/settings/advanced.vue:603
 msgid "File Conversion"
 msgstr "Konvertering af filer"
 
-#: src/component/album/edit/dialog.vue:28 src/component/photo/toolbar.vue:110
-#: src/component/photo/toolbar.vue:121 src/component/photo/toolbar.vue:132
+#: src/component/album/edit/dialog.vue:28 src/component/photo/toolbar.vue:109
+#: src/component/photo/toolbar.vue:120 src/component/photo/toolbar.vue:131
 msgid "File Name"
 msgstr "Filnavn"
 
-#: src/component/album/edit/dialog.vue:29 src/component/photo/toolbar.vue:111
-#: src/component/photo/toolbar.vue:122 src/component/photo/toolbar.vue:133
+#: src/component/album/edit/dialog.vue:29 src/component/photo/toolbar.vue:110
+#: src/component/photo/toolbar.vue:121 src/component/photo/toolbar.vue:132
 msgid "File Size"
 msgstr "Filstørrelse"
 
@@ -1330,7 +1330,7 @@ msgstr "Rammer"
 msgid "Full Access"
 msgstr "Fuld adgang"
 
-#: src/component/lightbox.vue:914
+#: src/component/lightbox.vue:921
 msgid "Fullscreen"
 msgstr "Fuld skærm"
 
@@ -1433,7 +1433,7 @@ msgstr "Hvis du mister adgangen til din godkendelsesapp eller enhed, kan du brug
 msgid "Image"
 msgstr "Billede"
 
-#: src/page/settings/advanced.vue:508
+#: src/page/settings/advanced.vue:510
 msgid "Image Quality"
 msgstr "Billedkvalitet"
 
@@ -1442,7 +1442,7 @@ msgstr "Billedkvalitet"
 msgid "Import"
 msgstr "Importere"
 
-#: src/page/library/import.vue:119
+#: src/page/library/import.vue:120
 msgid "Import failed"
 msgstr "Import mislykkedes"
 
@@ -1490,11 +1490,11 @@ msgstr "Indeks"
 msgid "Index and import files through the user interface."
 msgstr "Indeksér og importer filer via brugergrænsefladen."
 
-#: src/page/library/index.vue:147 src/page/library/index.vue:153
+#: src/page/library/index.vue:148 src/page/library/index.vue:154
 msgid "Indexing"
 msgstr "Indeksering"
 
-#: src/page/library/index.vue:129
+#: src/page/library/index.vue:130
 msgid "Indexing failed"
 msgstr "Indeksering fejlede"
 
@@ -1536,7 +1536,7 @@ msgstr "Ugyldig dato"
 msgid "Invalid parameters"
 msgstr "Ugyldige parametre"
 
-#: src/component/photo/edit/dialog.vue:157 src/model/thumb.js:77
+#: src/component/photo/edit/dialog.vue:156 src/model/thumb.js:77
 msgid "Invalid photo selected"
 msgstr "Ugyldigt foto valgt"
 
@@ -1561,11 +1561,11 @@ msgstr "Element"
 msgid "Items per page:"
 msgstr "Elementer pr. side:"
 
-#: src/page/settings/advanced.vue:524
+#: src/page/settings/advanced.vue:526
 msgid "JPEG Quality: %{n}"
 msgstr "JPEG-kvalitet: %{n}"
 
-#: src/page/settings/advanced.vue:550
+#: src/page/settings/advanced.vue:552
 msgid "JPEG Size Limit: %{n}px"
 msgstr "JPEG maks størrelse: %{n}px"
 
@@ -1656,7 +1656,7 @@ msgstr "Bibliotek"
 msgid "License"
 msgstr "Licens"
 
-#: src/component/lightbox.vue:931
+#: src/component/lightbox.vue:938
 msgid "Like"
 msgstr "Synes godt om"
 
@@ -1676,7 +1676,7 @@ msgstr "Lineær: Meget glat, bedste ydeevne"
 msgid "Link"
 msgstr "Link"
 
-#: src/component/photo/toolbar.vue:92
+#: src/component/photo/toolbar.vue:91
 msgid "List"
 msgstr "Liste"
 
@@ -1833,11 +1833,11 @@ msgstr "Monokrom"
 msgid "Month"
 msgstr "Måned"
 
-#: src/component/photo/toolbar.vue:90 src/component/photo/toolbar.vue:96
+#: src/component/photo/toolbar.vue:89 src/component/photo/toolbar.vue:95
 msgid "Mosaic"
 msgstr "Mosaik"
 
-#: src/component/album/edit/dialog.vue:31 src/component/photo/toolbar.vue:136
+#: src/component/album/edit/dialog.vue:31 src/component/photo/toolbar.vue:135
 msgid "Most Relevant"
 msgstr "Mest relevante"
 
@@ -1849,7 +1849,7 @@ msgstr "Flyt filer"
 msgid "Must have at least %{n} characters."
 msgstr "Skal indeholde mindst %{n} tegn."
 
-#: src/component/lightbox.vue:883
+#: src/component/lightbox.vue:890
 msgid "Mute"
 msgstr "Dæmpet"
 
@@ -1866,7 +1866,7 @@ msgstr "Dæmpet"
 msgid "Name"
 msgstr "Navn"
 
-#: src/component/album/edit/dialog.vue:35 src/component/album/toolbar.vue:66
+#: src/component/album/edit/dialog.vue:35 src/component/album/toolbar.vue:65
 #: src/component/label/edit/dialog.vue:19
 #: src/component/people/edit/dialog.vue:19
 #: src/component/photo/edit/labels.vue:30
@@ -1889,8 +1889,8 @@ msgstr "Nyt"
 msgid "New Password"
 msgstr "Nyt kodeord"
 
-#: src/component/album/edit/dialog.vue:24 src/component/photo/toolbar.vue:105
-#: src/component/photo/toolbar.vue:117 src/component/photo/toolbar.vue:127
+#: src/component/album/edit/dialog.vue:24 src/component/photo/toolbar.vue:104
+#: src/component/photo/toolbar.vue:116 src/component/photo/toolbar.vue:126
 #: src/page/albums.vue:90
 msgid "Newest First"
 msgstr "Nyeste først"
@@ -2033,8 +2033,8 @@ msgstr "OIDC"
 msgid "OK"
 msgstr "OK"
 
-#: src/component/album/edit/dialog.vue:25 src/component/photo/toolbar.vue:106
-#: src/component/photo/toolbar.vue:118 src/component/photo/toolbar.vue:128
+#: src/component/album/edit/dialog.vue:25 src/component/photo/toolbar.vue:105
+#: src/component/photo/toolbar.vue:117 src/component/photo/toolbar.vue:127
 #: src/page/albums.vue:91
 msgid "Oldest First"
 msgstr "Ældste først"
@@ -2043,7 +2043,7 @@ msgstr "Ældste først"
 msgid "On Windows, enter the following resource in the connection dialog:"
 msgstr "På Windows skal du indtaste følgende ressource i forbindelsesdialogboksen:"
 
-#: src/page/settings/advanced.vue:490
+#: src/page/settings/advanced.vue:492
 msgid "On-demand generation of thumbnails may cause high CPU and memory usage. It is not recommended for resource-constrained servers and NAS devices."
 msgstr "Generering af miniaturebilleder efter behov kan medføre et højt CPU- og hukommelsesforbrug. Det anbefales ikke til ressourcebegrænsede servere og NAS-enheder."
 
@@ -2176,7 +2176,7 @@ msgstr "Mennesker"
 msgid "People you share a link with will be able to view public contents."
 msgstr "Personer, som du deler et link med, kan se offentligt indhold."
 
-#: src/component/photo/clipboard.vue:123 src/component/photo/toolbar.vue:208
+#: src/component/photo/clipboard.vue:122 src/component/photo/toolbar.vue:207
 msgid "Permanently deleted"
 msgstr "Permanent slettet"
 
@@ -2208,8 +2208,8 @@ msgstr "PhotoPrism+-medlemskab"
 msgid "Photos"
 msgstr "Fotos"
 
-#: src/component/album/edit/dialog.vue:27 src/component/photo/toolbar.vue:109
-#: src/component/photo/toolbar.vue:120 src/component/photo/toolbar.vue:131
+#: src/component/album/edit/dialog.vue:27 src/component/photo/toolbar.vue:108
+#: src/component/photo/toolbar.vue:119 src/component/photo/toolbar.vue:130
 msgid "Picture Title"
 msgstr "Billedets titel"
 
@@ -2268,7 +2268,7 @@ msgstr "Vent venligst…"
 msgid "PM"
 msgstr "PM"
 
-#: src/page/settings/advanced.vue:576
+#: src/page/settings/advanced.vue:578
 msgid "PNG Size Limit: %{n}px"
 msgstr "PNG maks størrelse: %{n}px"
 
@@ -2372,17 +2372,17 @@ msgstr "Indeksér alle originaler igen, inklusiv allerede indekserede og uændre
 msgid "Read-Only Mode"
 msgstr "Skrivebeskyttet tilstand"
 
-#: src/component/album/edit/dialog.vue:26 src/component/photo/toolbar.vue:107
-#: src/component/photo/toolbar.vue:119 src/component/photo/toolbar.vue:129
+#: src/component/album/edit/dialog.vue:26 src/component/photo/toolbar.vue:106
+#: src/component/photo/toolbar.vue:118 src/component/photo/toolbar.vue:128
 #: src/page/albums.vue:92
 msgid "Recently Added"
 msgstr "Senest tilføjet"
 
-#: src/component/photo/toolbar.vue:108
+#: src/component/photo/toolbar.vue:107
 msgid "Recently Archived"
 msgstr "Arkiveret for nylig"
 
-#: src/component/photo/toolbar.vue:130 src/page/albums.vue:93
+#: src/component/photo/toolbar.vue:129 src/page/albums.vue:93
 msgid "Recently Edited"
 msgstr "Senest redigeret"
 
@@ -2424,7 +2424,7 @@ msgstr "Registrer"
 msgid "Reload"
 msgstr "Genindlæs"
 
-#: src/component/navigation.vue:104 src/component/update.vue:26
+#: src/component/navigation.vue:102 src/component/update.vue:26
 #: src/page/settings/general.vue:103 src/page/settings/library.vue:53
 msgid "Reloading…"
 msgstr "Genindlæser…"
@@ -2437,7 +2437,7 @@ msgstr "Fjernsynkronisering"
 msgid "Remove"
 msgstr "Fjern"
 
-#: src/component/photo/clipboard.vue:163
+#: src/component/photo/clipboard.vue:162
 msgid "remove failed: unknown album"
 msgstr "fjern mislykkedes: ukendt album"
 
@@ -2471,7 +2471,7 @@ msgid "Resolution"
 msgstr "Opløsning"
 
 #: src/page/connect.vue:177 src/page/connect.vue:179
-#: src/page/settings/advanced.vue:780
+#: src/page/settings/advanced.vue:782
 msgid "Restart"
 msgstr "Genstart"
 
@@ -2552,7 +2552,7 @@ msgstr "Hemmelighed"
 msgid "Security and Access"
 msgstr "Sikkerhed og adgang"
 
-#: src/component/lightbox.vue:947
+#: src/component/lightbox.vue:954
 msgid "Select"
 msgstr "Vælg"
 
@@ -2585,15 +2585,15 @@ msgstr "Vælg den mappe, der skal indekseres…"
 msgid "Select Time"
 msgstr "Vælg tid"
 
-#: src/component/photo/clipboard.vue:73
+#: src/component/photo/clipboard.vue:72
 msgid "Selection approved"
 msgstr "Udvælgelse godkendt"
 
-#: src/component/photo/clipboard.vue:103
+#: src/component/photo/clipboard.vue:102
 msgid "Selection archived"
 msgstr "Udvælgelse arkiveret"
 
-#: src/component/photo/clipboard.vue:136
+#: src/component/photo/clipboard.vue:135
 msgid "Selection restored"
 msgstr "Udvalgte gendannet"
 
@@ -2678,7 +2678,7 @@ msgstr "Vis mere"
 msgid "Show server logs in Library."
 msgstr "Vis serverlogfiler i biblioteket."
 
-#: src/component/lightbox.vue:865
+#: src/component/lightbox.vue:872
 msgid "Show/Hide Sidebar"
 msgstr "Vis/skjul sidepanel"
 
@@ -2762,7 +2762,7 @@ msgstr "Samlinger"
 msgid "Start"
 msgstr "Start"
 
-#: src/component/lightbox.vue:898
+#: src/component/lightbox.vue:905
 msgid "Start/Stop Slideshow"
 msgstr "Start/stop lysbilledshow"
 
@@ -3007,7 +3007,7 @@ msgid "Unknown"
 msgstr "Ukendt"
 
 #: src/page/settings/account.vue:49 src/page/settings/account.vue:57
-#: src/component/navigation.vue:72
+#: src/component/navigation.vue:70
 msgid "Unregistered"
 msgstr "Uregistreret"
 
@@ -3023,15 +3023,15 @@ msgstr "Fjern samling"
 msgid "Updated"
 msgstr "Opdateret"
 
-#: src/page/library/index.vue:164
+#: src/page/library/index.vue:165
 msgid "Updating faces"
 msgstr "Opdatering af ansigter"
 
-#: src/page/library/index.vue:170
+#: src/page/library/index.vue:171
 msgid "Updating index"
 msgstr "Opdaterer indeks"
 
-#: src/page/library/index.vue:162
+#: src/page/library/index.vue:163
 msgid "Updating moments"
 msgstr "Opdaterer øjeblikke"
 
@@ -3039,11 +3039,11 @@ msgstr "Opdaterer øjeblikke"
 msgid "Updating picture…"
 msgstr "Opdatering af billede…"
 
-#: src/page/library/index.vue:166
+#: src/page/library/index.vue:167
 msgid "Updating previews"
 msgstr "Opdatering af forhåndsvisninger"
 
-#: src/page/library/index.vue:160
+#: src/page/library/index.vue:161
 msgid "Updating stacks"
 msgstr "Opdatering af samlinger"
 
@@ -3112,7 +3112,7 @@ msgstr "Overførsel af…"
 msgid "Uploads that may contain such images will be rejected automatically."
 msgstr "Uploads, der kan indeholde sådanne billeder, afvises automatisk."
 
-#: src/page/settings/advanced.vue:676
+#: src/page/settings/advanced.vue:678
 msgid "Use Presets"
 msgstr "Brug forudindstillinger"
 
@@ -3170,8 +3170,8 @@ msgstr "Verifikationskode"
 msgid "Video"
 msgstr "Video"
 
-#: src/component/album/edit/dialog.vue:30 src/component/photo/toolbar.vue:112
-#: src/component/photo/toolbar.vue:123 src/component/photo/toolbar.vue:134
+#: src/component/album/edit/dialog.vue:30 src/component/photo/toolbar.vue:111
+#: src/component/photo/toolbar.vue:122 src/component/photo/toolbar.vue:133
 msgid "Video Duration"
 msgstr "Videoens varighed"
 
@@ -3192,7 +3192,7 @@ msgstr "Seer"
 msgid "Visitor"
 msgstr "Besøgende"
 
-#: src/component/photo/toolbar.vue:135
+#: src/component/photo/toolbar.vue:134
 msgid "Visual Similarity"
 msgstr "Visuel lighed"
 

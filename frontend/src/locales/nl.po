@@ -117,7 +117,7 @@ msgstr "Over"
 msgid "Access Token"
 msgstr "Toegangssleutel"
 
-#: src/component/navigation.vue:83 src/component/navigation.vue:1697
+#: src/component/navigation.vue:81 src/component/navigation.vue:1697
 #: src/component/service/upload.vue:71 src/model/service.js:96
 #: src/model/user.js:169 src/page/settings.vue:85
 #: src/page/settings/general.vue:492
@@ -273,7 +273,7 @@ msgstr "Back-ups van albums"
 msgid "Album created"
 msgstr "Album aangemaakt"
 
-#: src/app/routes.js:175 src/component/album/toolbar.vue:57
+#: src/app/routes.js:175 src/component/album/toolbar.vue:56
 #: src/component/navigation.vue:601 src/component/navigation.vue:1791
 #: src/component/photo/edit/info.vue:220
 msgid "Albums"
@@ -299,20 +299,20 @@ msgstr "Alle %{n} labels geladen"
 msgid "All %{n} people loaded"
 msgstr "Alle %{n} mensen geladen"
 
-#: src/component/album/toolbar.vue:38 src/component/photo/toolbar.vue:62
+#: src/component/album/toolbar.vue:37 src/component/photo/toolbar.vue:61
 msgid "All Cameras"
 msgstr "Alle camera’s"
 
-#: src/component/photo/toolbar.vue:65 src/page/albums.vue:36
+#: src/component/photo/toolbar.vue:64 src/page/albums.vue:36
 #: src/page/albums.vue:183 src/page/albums.vue:676
 msgid "All Categories"
 msgstr "Alle categorieën"
 
-#: src/component/photo/toolbar.vue:64
+#: src/component/photo/toolbar.vue:63
 msgid "All Colors"
 msgstr "Alle kleuren"
 
-#: src/component/album/toolbar.vue:44 src/component/photo/toolbar.vue:61
+#: src/component/album/toolbar.vue:43 src/component/photo/toolbar.vue:60
 msgid "All Countries"
 msgstr "Alle landen"
 
@@ -324,11 +324,11 @@ msgstr "Alle velden zijn verplicht"
 msgid "All files from import folder"
 msgstr "Alle bestanden uit de importmap"
 
-#: src/component/photo/toolbar.vue:63
+#: src/component/photo/toolbar.vue:62
 msgid "All Lenses"
 msgstr "Alle lenzen"
 
-#: src/component/photo/toolbar.vue:66
+#: src/component/photo/toolbar.vue:65
 msgid "All Months"
 msgstr "Alle maanden"
 
@@ -336,7 +336,7 @@ msgstr "Alle maanden"
 msgid "All originals"
 msgstr "Alle originelen"
 
-#: src/component/photo/toolbar.vue:67 src/page/albums.vue:83
+#: src/component/photo/toolbar.vue:66 src/page/albums.vue:83
 msgid "All Years"
 msgstr "Alle jaren"
 
@@ -599,7 +599,7 @@ msgstr "Kan niet naar klembord kopiëren"
 msgid "Caption"
 msgstr "Onderschrift"
 
-#: src/component/photo/toolbar.vue:91 src/component/photo/toolbar.vue:97
+#: src/component/photo/toolbar.vue:90 src/component/photo/toolbar.vue:96
 msgid "Cards"
 msgstr "Kaarten"
 
@@ -661,7 +661,7 @@ msgstr "Geselecteerd"
 msgid "Chroma"
 msgstr "Chroma"
 
-#: src/page/library/index.vue:168
+#: src/page/library/index.vue:169
 msgid "Cleaning index and cache"
 msgstr "Index en cache opschonen"
 
@@ -772,7 +772,7 @@ msgstr "Ga verder met %{provider}"
 msgid "Contributor"
 msgstr "Bijdrager"
 
-#: src/page/library/index.vue:178
+#: src/page/library/index.vue:179
 msgid "Converting"
 msgstr "Converteren"
 
@@ -821,7 +821,7 @@ msgstr "Maak YAML sidecar-bestanden om een back-up te maken van afbeeldingsmetag
 msgid "Created"
 msgstr "Aangemaakt"
 
-#: src/page/library/index.vue:184
+#: src/page/library/index.vue:185
 msgid "Creating thumbnails for"
 msgstr "Het maken van miniaturen voor"
 
@@ -916,7 +916,7 @@ msgstr "Afmetingen"
 msgid "Disable Backups"
 msgstr "Back-ups uitschakelen"
 
-#: src/page/settings/advanced.vue:628
+#: src/page/settings/advanced.vue:630
 msgid "Disable Darktable"
 msgstr "Uitschakelen Darktable"
 
@@ -928,11 +928,11 @@ msgstr "Schakel ExifTool uit"
 msgid "Disable features that require write permission for the originals folder."
 msgstr "Schakel functies uit die schrijfrechten vereisen voor de map Originals."
 
-#: src/page/settings/advanced.vue:724
+#: src/page/settings/advanced.vue:726
 msgid "Disable FFmpeg"
 msgstr "FFmpeg uitschakelen"
 
-#: src/page/settings/advanced.vue:700
+#: src/page/settings/advanced.vue:702
 msgid "Disable ImageMagick"
 msgstr "ImageMagick uitschakelen"
 
@@ -944,7 +944,7 @@ msgstr "Schakel interactieve wereldkaarten en omgekeerde geocodering uit."
 msgid "Disable Places"
 msgstr "Locaties"
 
-#: src/page/settings/advanced.vue:652
+#: src/page/settings/advanced.vue:654
 msgid "Disable RawTherapee"
 msgstr "RawTherapee uitschakelen"
 
@@ -952,7 +952,7 @@ msgstr "RawTherapee uitschakelen"
 msgid "Disable TensorFlow"
 msgstr "Schakel TensorFlow uit"
 
-#: src/page/settings/advanced.vue:750
+#: src/page/settings/advanced.vue:752
 msgid "Disable Vectors"
 msgstr "Vectoren uitschakelen"
 
@@ -960,11 +960,11 @@ msgstr "Vectoren uitschakelen"
 msgid "Disable WebDAV"
 msgstr "WebDAV uitschakelen"
 
-#: src/page/settings/advanced.vue:751
+#: src/page/settings/advanced.vue:753
 msgid "Disables vector graphics support."
 msgstr "Schakelt ondersteuning voor vectorafbeeldingen uit."
 
-#: src/page/settings/advanced.vue:725
+#: src/page/settings/advanced.vue:727
 msgid "Disables video transcoding and thumbnail extraction."
 msgstr "Schakelt videoconversie en extractie van miniaturen uit."
 
@@ -984,15 +984,15 @@ msgstr "Ontsla"
 msgid "Display Name"
 msgstr "Naam op scherm"
 
-#: src/page/settings/advanced.vue:629
+#: src/page/settings/advanced.vue:631
 msgid "Don't use Darktable to convert RAW images."
 msgstr "Gebruik geen Darktable om RAW-beelden te converteren."
 
-#: src/page/settings/advanced.vue:701
+#: src/page/settings/advanced.vue:703
 msgid "Don't use ImageMagick to convert images."
 msgstr "Gebruik geen ImageMagick om afbeeldingen te converteren."
 
-#: src/page/settings/advanced.vue:653
+#: src/page/settings/advanced.vue:655
 msgid "Don't use RawTherapee to convert RAW images."
 msgstr "Gebruik geen RawTherapee om RAW beelden te converteren."
 
@@ -1010,7 +1010,7 @@ msgid "Done."
 msgstr "Klaar."
 
 #: src/component/album/clipboard.vue:72 src/component/album/toolbar.vue:120
-#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:981
+#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:988
 #: src/component/people/clipboard.vue:47 src/component/photo/clipboard.vue:116
 #: src/component/photo/edit/files.vue:167 src/page/settings/general.vue:252
 #: src/page/settings/general.vue:624
@@ -1029,10 +1029,10 @@ msgstr "Bestanden op afstand downloaden"
 msgid "Download single files and zip archives."
 msgstr "Download enkele bestanden en zip-archieven."
 
-#: src/component/album/clipboard.vue:102 src/component/album/toolbar.vue:106
+#: src/component/album/clipboard.vue:102 src/component/album/toolbar.vue:105
 #: src/component/file/clipboard.vue:61 src/component/label/clipboard.vue:86
-#: src/component/lightbox.vue:1524 src/component/people/clipboard.vue:59
-#: src/component/photo/clipboard.vue:217 src/component/photo/edit/files.vue:118
+#: src/component/lightbox.vue:1535 src/component/people/clipboard.vue:59
+#: src/component/photo/clipboard.vue:216 src/component/photo/edit/files.vue:118
 #: src/component/photo/view/cards.vue:163 src/component/photo/view/list.vue:133
 #: src/page/library/browse.vue:116
 msgid "Downloading…"
@@ -1058,7 +1058,7 @@ msgstr "Duplicaten worden overgeslagen en verschijnen slechts één keer."
 msgid "Duration"
 msgstr "Duur"
 
-#: src/page/settings/advanced.vue:488
+#: src/page/settings/advanced.vue:490
 msgid "Dynamic Previews"
 msgstr "Dynamische Voorbeelden"
 
@@ -1071,7 +1071,7 @@ msgid "E-Mail"
 msgstr "E-mail"
 
 #: src/component/album/clipboard.vue:61 src/component/album/toolbar.vue:82
-#: src/component/lightbox.vue:963 src/component/photo/clipboard.vue:90
+#: src/component/lightbox.vue:970 src/component/photo/clipboard.vue:90
 #: src/page/settings/general.vue:324
 msgid "Edit"
 msgstr "Bewerken"
@@ -1086,7 +1086,7 @@ msgstr "Bewerken %{s}"
 msgid "Edit Account"
 msgstr "Account bewerken"
 
-#: src/component/photo/edit/dialog.vue:64
+#: src/component/photo/edit/dialog.vue:63
 msgid "Edit Photo"
 msgstr "Bewerk Foto"
 
@@ -1107,7 +1107,7 @@ msgstr "Schakel de debugmodus in om extra logs weer te geven en te helpen bij he
 msgid "Enable new features that may be incomplete or unstable."
 msgstr "Nieuwe functies inschakelen die mogelijk incompleet of instabiel zijn."
 
-#: src/page/settings/advanced.vue:677
+#: src/page/settings/advanced.vue:679
 msgid "Enables RAW converter presets. May reduce performance."
 msgstr "Schakelt RAW-converterpresets in. Kan de prestaties verminderen."
 
@@ -1260,17 +1260,17 @@ msgstr "Bestand"
 msgid "File Browser"
 msgstr "Bestands Browser"
 
-#: src/page/settings/advanced.vue:601
+#: src/page/settings/advanced.vue:603
 msgid "File Conversion"
 msgstr "Bestandsconversie"
 
-#: src/component/album/edit/dialog.vue:28 src/component/photo/toolbar.vue:110
-#: src/component/photo/toolbar.vue:121 src/component/photo/toolbar.vue:132
+#: src/component/album/edit/dialog.vue:28 src/component/photo/toolbar.vue:109
+#: src/component/photo/toolbar.vue:120 src/component/photo/toolbar.vue:131
 msgid "File Name"
 msgstr "Bestandsnaam"
 
-#: src/component/album/edit/dialog.vue:29 src/component/photo/toolbar.vue:111
-#: src/component/photo/toolbar.vue:122 src/component/photo/toolbar.vue:133
+#: src/component/album/edit/dialog.vue:29 src/component/photo/toolbar.vue:110
+#: src/component/photo/toolbar.vue:121 src/component/photo/toolbar.vue:132
 msgid "File Size"
 msgstr "Bestandsgrootte"
 
@@ -1330,7 +1330,7 @@ msgstr "Frames"
 msgid "Full Access"
 msgstr "Volledige Toegang"
 
-#: src/component/lightbox.vue:914
+#: src/component/lightbox.vue:921
 msgid "Fullscreen"
 msgstr "Volledig scherm"
 
@@ -1433,7 +1433,7 @@ msgstr "Als u de toegang tot uw authenticatie-app of -apparaat verliest, kunt u 
 msgid "Image"
 msgstr "Afbeelding"
 
-#: src/page/settings/advanced.vue:508
+#: src/page/settings/advanced.vue:510
 msgid "Image Quality"
 msgstr "Beeldkwaliteit"
 
@@ -1442,7 +1442,7 @@ msgstr "Beeldkwaliteit"
 msgid "Import"
 msgstr "Importeren"
 
-#: src/page/library/import.vue:119
+#: src/page/library/import.vue:120
 msgid "Import failed"
 msgstr "Importeren mislust"
 
@@ -1490,11 +1490,11 @@ msgstr "Index"
 msgid "Index and import files through the user interface."
 msgstr "Indexeer en importeer bestanden via de gebruikersinterface."
 
-#: src/page/library/index.vue:147 src/page/library/index.vue:153
+#: src/page/library/index.vue:148 src/page/library/index.vue:154
 msgid "Indexing"
 msgstr "Indexeren"
 
-#: src/page/library/index.vue:129
+#: src/page/library/index.vue:130
 msgid "Indexing failed"
 msgstr "Indexeren mislukt"
 
@@ -1536,7 +1536,7 @@ msgstr "Ongeldige datum"
 msgid "Invalid parameters"
 msgstr "Ongeldige parameters"
 
-#: src/component/photo/edit/dialog.vue:157 src/model/thumb.js:77
+#: src/component/photo/edit/dialog.vue:156 src/model/thumb.js:77
 msgid "Invalid photo selected"
 msgstr "Ongeldige foto geselecteerd"
 
@@ -1561,11 +1561,11 @@ msgstr "Item"
 msgid "Items per page:"
 msgstr "Artikelen per pagina:"
 
-#: src/page/settings/advanced.vue:524
+#: src/page/settings/advanced.vue:526
 msgid "JPEG Quality: %{n}"
 msgstr "JPEG-kwaliteit: %{n}"
 
-#: src/page/settings/advanced.vue:550
+#: src/page/settings/advanced.vue:552
 msgid "JPEG Size Limit: %{n}px"
 msgstr "JPEG-groottegrens: %{n}px"
 
@@ -1656,7 +1656,7 @@ msgstr "Bibliotheek"
 msgid "License"
 msgstr "Licentie"
 
-#: src/component/lightbox.vue:931
+#: src/component/lightbox.vue:938
 msgid "Like"
 msgstr "Vind ik leuk"
 
@@ -1676,7 +1676,7 @@ msgstr "Lineair: Zeer glad, beste prestaties"
 msgid "Link"
 msgstr "Link"
 
-#: src/component/photo/toolbar.vue:92
+#: src/component/photo/toolbar.vue:91
 msgid "List"
 msgstr "Lijst"
 
@@ -1833,11 +1833,11 @@ msgstr "Monochroom"
 msgid "Month"
 msgstr "Maand"
 
-#: src/component/photo/toolbar.vue:90 src/component/photo/toolbar.vue:96
+#: src/component/photo/toolbar.vue:89 src/component/photo/toolbar.vue:95
 msgid "Mosaic"
 msgstr "Mozaiek"
 
-#: src/component/album/edit/dialog.vue:31 src/component/photo/toolbar.vue:136
+#: src/component/album/edit/dialog.vue:31 src/component/photo/toolbar.vue:135
 msgid "Most Relevant"
 msgstr "Meest relevant"
 
@@ -1849,7 +1849,7 @@ msgstr "Bestanden verplaatsen"
 msgid "Must have at least %{n} characters."
 msgstr "Moet minstens %{n} tekens bevatten."
 
-#: src/component/lightbox.vue:883
+#: src/component/lightbox.vue:890
 msgid "Mute"
 msgstr "Stomme"
 
@@ -1866,7 +1866,7 @@ msgstr "Stomme"
 msgid "Name"
 msgstr "Naam"
 
-#: src/component/album/edit/dialog.vue:35 src/component/album/toolbar.vue:66
+#: src/component/album/edit/dialog.vue:35 src/component/album/toolbar.vue:65
 #: src/component/label/edit/dialog.vue:19
 #: src/component/people/edit/dialog.vue:19
 #: src/component/photo/edit/labels.vue:30
@@ -1889,8 +1889,8 @@ msgstr "Nieuw"
 msgid "New Password"
 msgstr "Nieuw wachtwoord"
 
-#: src/component/album/edit/dialog.vue:24 src/component/photo/toolbar.vue:105
-#: src/component/photo/toolbar.vue:117 src/component/photo/toolbar.vue:127
+#: src/component/album/edit/dialog.vue:24 src/component/photo/toolbar.vue:104
+#: src/component/photo/toolbar.vue:116 src/component/photo/toolbar.vue:126
 #: src/page/albums.vue:90
 msgid "Newest First"
 msgstr "Nieuwste eerst"
@@ -2033,8 +2033,8 @@ msgstr "OIDC"
 msgid "OK"
 msgstr "OK"
 
-#: src/component/album/edit/dialog.vue:25 src/component/photo/toolbar.vue:106
-#: src/component/photo/toolbar.vue:118 src/component/photo/toolbar.vue:128
+#: src/component/album/edit/dialog.vue:25 src/component/photo/toolbar.vue:105
+#: src/component/photo/toolbar.vue:117 src/component/photo/toolbar.vue:127
 #: src/page/albums.vue:91
 msgid "Oldest First"
 msgstr "Oudste eerst"
@@ -2043,7 +2043,7 @@ msgstr "Oudste eerst"
 msgid "On Windows, enter the following resource in the connection dialog:"
 msgstr "In Windows voert u de volgende bron in het verbindingsdialoogvenster in:"
 
-#: src/page/settings/advanced.vue:490
+#: src/page/settings/advanced.vue:492
 msgid "On-demand generation of thumbnails may cause high CPU and memory usage. It is not recommended for resource-constrained servers and NAS devices."
 msgstr "Het op aanvraag genereren van miniaturen kan een hoog CPU- en geheugengebruik veroorzaken. Het wordt niet aanbevolen voor servers en NAS-apparaten met beperkte bronnen."
 
@@ -2176,7 +2176,7 @@ msgstr "Personen"
 msgid "People you share a link with will be able to view public contents."
 msgstr "Mensen met wie je een link deelt, kunnen de openbare inhoud bekijken."
 
-#: src/component/photo/clipboard.vue:123 src/component/photo/toolbar.vue:208
+#: src/component/photo/clipboard.vue:122 src/component/photo/toolbar.vue:207
 msgid "Permanently deleted"
 msgstr "Permanent verwijderd"
 
@@ -2208,8 +2208,8 @@ msgstr "PhotoPrism+ lidmaatschap"
 msgid "Photos"
 msgstr "Foto’s"
 
-#: src/component/album/edit/dialog.vue:27 src/component/photo/toolbar.vue:109
-#: src/component/photo/toolbar.vue:120 src/component/photo/toolbar.vue:131
+#: src/component/album/edit/dialog.vue:27 src/component/photo/toolbar.vue:108
+#: src/component/photo/toolbar.vue:119 src/component/photo/toolbar.vue:130
 msgid "Picture Title"
 msgstr "Titel afbeelding"
 
@@ -2268,7 +2268,7 @@ msgstr "Wacht even…"
 msgid "PM"
 msgstr "PM"
 
-#: src/page/settings/advanced.vue:576
+#: src/page/settings/advanced.vue:578
 msgid "PNG Size Limit: %{n}px"
 msgstr "PNG-groottegrens: %{n}px"
 
@@ -2372,17 +2372,17 @@ msgstr "Herindexeer alle originelen, inclusief de reeds geïndexeerde en ongewij
 msgid "Read-Only Mode"
 msgstr "Alleen-lezen modus"
 
-#: src/component/album/edit/dialog.vue:26 src/component/photo/toolbar.vue:107
-#: src/component/photo/toolbar.vue:119 src/component/photo/toolbar.vue:129
+#: src/component/album/edit/dialog.vue:26 src/component/photo/toolbar.vue:106
+#: src/component/photo/toolbar.vue:118 src/component/photo/toolbar.vue:128
 #: src/page/albums.vue:92
 msgid "Recently Added"
 msgstr "Onlangs toegevoegd"
 
-#: src/component/photo/toolbar.vue:108
+#: src/component/photo/toolbar.vue:107
 msgid "Recently Archived"
 msgstr "Onlangs gearchiveerd"
 
-#: src/component/photo/toolbar.vue:130 src/page/albums.vue:93
+#: src/component/photo/toolbar.vue:129 src/page/albums.vue:93
 msgid "Recently Edited"
 msgstr "Recent bewerkt"
 
@@ -2424,7 +2424,7 @@ msgstr "Registreer"
 msgid "Reload"
 msgstr "Ververs"
 
-#: src/component/navigation.vue:104 src/component/update.vue:26
+#: src/component/navigation.vue:102 src/component/update.vue:26
 #: src/page/settings/general.vue:103 src/page/settings/library.vue:53
 msgid "Reloading…"
 msgstr "Herladen…"
@@ -2437,7 +2437,7 @@ msgstr "Synchronisatie op afstand"
 msgid "Remove"
 msgstr "Verwijderen"
 
-#: src/component/photo/clipboard.vue:163
+#: src/component/photo/clipboard.vue:162
 msgid "remove failed: unknown album"
 msgstr "verwijderen mislukt: onbekend album"
 
@@ -2471,7 +2471,7 @@ msgid "Resolution"
 msgstr "Resolutie"
 
 #: src/page/connect.vue:177 src/page/connect.vue:179
-#: src/page/settings/advanced.vue:780
+#: src/page/settings/advanced.vue:782
 msgid "Restart"
 msgstr "Herstart"
 
@@ -2552,7 +2552,7 @@ msgstr "Geheim"
 msgid "Security and Access"
 msgstr "Veiligheid en toegang"
 
-#: src/component/lightbox.vue:947
+#: src/component/lightbox.vue:954
 msgid "Select"
 msgstr "Selecteer"
 
@@ -2585,15 +2585,15 @@ msgstr "Selecteer de map die geïndexeerd moet worden…"
 msgid "Select Time"
 msgstr "Selecteer tijd"
 
-#: src/component/photo/clipboard.vue:73
+#: src/component/photo/clipboard.vue:72
 msgid "Selection approved"
 msgstr "Selectie goedgekeurd"
 
-#: src/component/photo/clipboard.vue:103
+#: src/component/photo/clipboard.vue:102
 msgid "Selection archived"
 msgstr "Selectie gearchiveerd"
 
-#: src/component/photo/clipboard.vue:136
+#: src/component/photo/clipboard.vue:135
 msgid "Selection restored"
 msgstr "Selectie hersteld"
 
@@ -2678,7 +2678,7 @@ msgstr "Toon meer"
 msgid "Show server logs in Library."
 msgstr "Toon serverlogs in Bibliotheek."
 
-#: src/component/lightbox.vue:865
+#: src/component/lightbox.vue:872
 msgid "Show/Hide Sidebar"
 msgstr "Zijbalk tonen/verbergen"
 
@@ -2762,7 +2762,7 @@ msgstr "Stapels"
 msgid "Start"
 msgstr "Start"
 
-#: src/component/lightbox.vue:898
+#: src/component/lightbox.vue:905
 msgid "Start/Stop Slideshow"
 msgstr "Start/Stop Diavoorstelling"
 
@@ -3007,7 +3007,7 @@ msgid "Unknown"
 msgstr "Onbekend"
 
 #: src/page/settings/account.vue:49 src/page/settings/account.vue:57
-#: src/component/navigation.vue:72
+#: src/component/navigation.vue:70
 msgid "Unregistered"
 msgstr "Ongeregistreerd"
 
@@ -3023,15 +3023,15 @@ msgstr "Ontstapel"
 msgid "Updated"
 msgstr "Bijgewerkt"
 
-#: src/page/library/index.vue:164
+#: src/page/library/index.vue:165
 msgid "Updating faces"
 msgstr "Gezichten bijwerken"
 
-#: src/page/library/index.vue:170
+#: src/page/library/index.vue:171
 msgid "Updating index"
 msgstr "Bijwerken van de index"
 
-#: src/page/library/index.vue:162
+#: src/page/library/index.vue:163
 msgid "Updating moments"
 msgstr "Momenten van actualisering"
 
@@ -3039,11 +3039,11 @@ msgstr "Momenten van actualisering"
 msgid "Updating picture…"
 msgstr "Foto bijwerken…"
 
-#: src/page/library/index.vue:166
+#: src/page/library/index.vue:167
 msgid "Updating previews"
 msgstr "Voorvertoningen bijwerken"
 
-#: src/page/library/index.vue:160
+#: src/page/library/index.vue:161
 msgid "Updating stacks"
 msgstr "Actualisering van de stapels"
 
@@ -3112,7 +3112,7 @@ msgstr "Uploaden…"
 msgid "Uploads that may contain such images will be rejected automatically."
 msgstr "Uploads die dergelijke beelden kunnen bevatten, worden automatisch geweigerd."
 
-#: src/page/settings/advanced.vue:676
+#: src/page/settings/advanced.vue:678
 msgid "Use Presets"
 msgstr "Gebruik Voorinstellingen"
 
@@ -3170,8 +3170,8 @@ msgstr "Verificatiecode"
 msgid "Video"
 msgstr "Video"
 
-#: src/component/album/edit/dialog.vue:30 src/component/photo/toolbar.vue:112
-#: src/component/photo/toolbar.vue:123 src/component/photo/toolbar.vue:134
+#: src/component/album/edit/dialog.vue:30 src/component/photo/toolbar.vue:111
+#: src/component/photo/toolbar.vue:122 src/component/photo/toolbar.vue:133
 msgid "Video Duration"
 msgstr "Videoduur"
 
@@ -3192,7 +3192,7 @@ msgstr "Kijker"
 msgid "Visitor"
 msgstr "Bezoeker"
 
-#: src/component/photo/toolbar.vue:135
+#: src/component/photo/toolbar.vue:134
 msgid "Visual Similarity"
 msgstr "Visuele gelijkenis"
 

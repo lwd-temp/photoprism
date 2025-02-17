@@ -117,7 +117,7 @@ msgstr "درباره"
 msgid "Access Token"
 msgstr "نشانه دسترسی"
 
-#: src/component/navigation.vue:83 src/component/navigation.vue:1697
+#: src/component/navigation.vue:81 src/component/navigation.vue:1697
 #: src/component/service/upload.vue:71 src/model/service.js:96
 #: src/model/user.js:169 src/page/settings.vue:85
 #: src/page/settings/general.vue:492
@@ -273,7 +273,7 @@ msgstr "پشتیبان گیری از آلبوم"
 msgid "Album created"
 msgstr "آلبوم ایجاد شد"
 
-#: src/app/routes.js:175 src/component/album/toolbar.vue:57
+#: src/app/routes.js:175 src/component/album/toolbar.vue:56
 #: src/component/navigation.vue:601 src/component/navigation.vue:1791
 #: src/component/photo/edit/info.vue:220
 msgid "Albums"
@@ -299,20 +299,20 @@ msgstr "همه برچسب‌های %{n} بارگیری شدند"
 msgid "All %{n} people loaded"
 msgstr "همه %{n} نفر بارگیری شدند"
 
-#: src/component/album/toolbar.vue:38 src/component/photo/toolbar.vue:62
+#: src/component/album/toolbar.vue:37 src/component/photo/toolbar.vue:61
 msgid "All Cameras"
 msgstr "همه دوربین ها"
 
-#: src/component/photo/toolbar.vue:65 src/page/albums.vue:36
+#: src/component/photo/toolbar.vue:64 src/page/albums.vue:36
 #: src/page/albums.vue:183 src/page/albums.vue:676
 msgid "All Categories"
 msgstr "همه دسته بندی ها"
 
-#: src/component/photo/toolbar.vue:64
+#: src/component/photo/toolbar.vue:63
 msgid "All Colors"
 msgstr "همه رنگ ها"
 
-#: src/component/album/toolbar.vue:44 src/component/photo/toolbar.vue:61
+#: src/component/album/toolbar.vue:43 src/component/photo/toolbar.vue:60
 msgid "All Countries"
 msgstr "همه کشورها"
 
@@ -324,11 +324,11 @@ msgstr "همه فیلدها الزامی است"
 msgid "All files from import folder"
 msgstr "همه پرونده ها از پوشه واردات"
 
-#: src/component/photo/toolbar.vue:63
+#: src/component/photo/toolbar.vue:62
 msgid "All Lenses"
 msgstr "همه لنزها"
 
-#: src/component/photo/toolbar.vue:66
+#: src/component/photo/toolbar.vue:65
 msgid "All Months"
 msgstr "همه ماه ها"
 
@@ -336,7 +336,7 @@ msgstr "همه ماه ها"
 msgid "All originals"
 msgstr "همه اصل"
 
-#: src/component/photo/toolbar.vue:67 src/page/albums.vue:83
+#: src/component/photo/toolbar.vue:66 src/page/albums.vue:83
 msgid "All Years"
 msgstr "همه سالها"
 
@@ -599,7 +599,7 @@ msgstr "نمی توان در کلیپ بورد کپی کرد"
 msgid "Caption"
 msgstr "عنوان"
 
-#: src/component/photo/toolbar.vue:91 src/component/photo/toolbar.vue:97
+#: src/component/photo/toolbar.vue:90 src/component/photo/toolbar.vue:96
 msgid "Cards"
 msgstr "کارت ها"
 
@@ -661,7 +661,7 @@ msgstr "بررسی شده"
 msgid "Chroma"
 msgstr "کروما"
 
-#: src/page/library/index.vue:168
+#: src/page/library/index.vue:169
 msgid "Cleaning index and cache"
 msgstr "پاک کردن فهرست و کش"
 
@@ -772,7 +772,7 @@ msgstr "ادامه با %{provider}"
 msgid "Contributor"
 msgstr "مشارکت کننده"
 
-#: src/page/library/index.vue:178
+#: src/page/library/index.vue:179
 msgid "Converting"
 msgstr "تبدیل"
 
@@ -821,7 +821,7 @@ msgstr "فایل های YAML sidecar را برای پشتیبان گیری از 
 msgid "Created"
 msgstr "ایجاد شده"
 
-#: src/page/library/index.vue:184
+#: src/page/library/index.vue:185
 msgid "Creating thumbnails for"
 msgstr "ایجاد تصاویر کوچک برای"
 
@@ -916,7 +916,7 @@ msgstr "ابعاد"
 msgid "Disable Backups"
 msgstr "غیرفعال کردن پشتیبان گیری"
 
-#: src/page/settings/advanced.vue:628
+#: src/page/settings/advanced.vue:630
 msgid "Disable Darktable"
 msgstr "غیرفعال کردن Darktable"
 
@@ -928,11 +928,11 @@ msgstr "غیرفعال کردن exiftool"
 msgid "Disable features that require write permission for the originals folder."
 msgstr "ویژگی هایی را که به مجوز نوشتن برای پوشه اصلی نیاز دارند غیرفعال کنید."
 
-#: src/page/settings/advanced.vue:724
+#: src/page/settings/advanced.vue:726
 msgid "Disable FFmpeg"
 msgstr "غیرفعال کردن ffmpeg"
 
-#: src/page/settings/advanced.vue:700
+#: src/page/settings/advanced.vue:702
 msgid "Disable ImageMagick"
 msgstr "ImageMagick را غیرفعال کنید"
 
@@ -944,7 +944,7 @@ msgstr "غیرفعال کردن نقشه های تعاملی جهان و معک�
 msgid "Disable Places"
 msgstr "غیرفعال کردن مکان ها"
 
-#: src/page/settings/advanced.vue:652
+#: src/page/settings/advanced.vue:654
 msgid "Disable RawTherapee"
 msgstr "غیرفعال کردن Rawtherapee"
 
@@ -952,7 +952,7 @@ msgstr "غیرفعال کردن Rawtherapee"
 msgid "Disable TensorFlow"
 msgstr "غیرفعال کردن tensorflow"
 
-#: src/page/settings/advanced.vue:750
+#: src/page/settings/advanced.vue:752
 msgid "Disable Vectors"
 msgstr "غیرفعال کردن بردارها"
 
@@ -960,11 +960,11 @@ msgstr "غیرفعال کردن بردارها"
 msgid "Disable WebDAV"
 msgstr "غیرفعال کردن WebDAV"
 
-#: src/page/settings/advanced.vue:751
+#: src/page/settings/advanced.vue:753
 msgid "Disables vector graphics support."
 msgstr "پشتیبانی از گرافیک برداری را غیرفعال می کند."
 
-#: src/page/settings/advanced.vue:725
+#: src/page/settings/advanced.vue:727
 msgid "Disables video transcoding and thumbnail extraction."
 msgstr "رمزگذاری ویدیو و استخراج تصاویر کوچک را غیرفعال می کند."
 
@@ -984,15 +984,15 @@ msgstr "رد کردن"
 msgid "Display Name"
 msgstr "نام نمایشی"
 
-#: src/page/settings/advanced.vue:629
+#: src/page/settings/advanced.vue:631
 msgid "Don't use Darktable to convert RAW images."
 msgstr "از DarkTable برای تبدیل پرونده های خام استفاده نکنید."
 
-#: src/page/settings/advanced.vue:701
+#: src/page/settings/advanced.vue:703
 msgid "Don't use ImageMagick to convert images."
 msgstr "برای تبدیل تصاویر از ImageMagick استفاده نکنید."
 
-#: src/page/settings/advanced.vue:653
+#: src/page/settings/advanced.vue:655
 msgid "Don't use RawTherapee to convert RAW images."
 msgstr "از rawtherapee برای تبدیل پرونده های خام استفاده نکنید."
 
@@ -1010,7 +1010,7 @@ msgid "Done."
 msgstr "انجام شده است."
 
 #: src/component/album/clipboard.vue:72 src/component/album/toolbar.vue:120
-#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:981
+#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:988
 #: src/component/people/clipboard.vue:47 src/component/photo/clipboard.vue:116
 #: src/component/photo/edit/files.vue:167 src/page/settings/general.vue:252
 #: src/page/settings/general.vue:624
@@ -1029,10 +1029,10 @@ msgstr "بارگیری پرونده های از راه دور"
 msgid "Download single files and zip archives."
 msgstr "بارگیری پرونده های تک و بایگانی زیپ."
 
-#: src/component/album/clipboard.vue:102 src/component/album/toolbar.vue:106
+#: src/component/album/clipboard.vue:102 src/component/album/toolbar.vue:105
 #: src/component/file/clipboard.vue:61 src/component/label/clipboard.vue:86
-#: src/component/lightbox.vue:1524 src/component/people/clipboard.vue:59
-#: src/component/photo/clipboard.vue:217 src/component/photo/edit/files.vue:118
+#: src/component/lightbox.vue:1535 src/component/people/clipboard.vue:59
+#: src/component/photo/clipboard.vue:216 src/component/photo/edit/files.vue:118
 #: src/component/photo/view/cards.vue:163 src/component/photo/view/list.vue:133
 #: src/page/library/browse.vue:116
 msgid "Downloading…"
@@ -1058,7 +1058,7 @@ msgstr "نسخه های تکراری پرش می شوند و فقط یک بار 
 msgid "Duration"
 msgstr "مدت"
 
-#: src/page/settings/advanced.vue:488
+#: src/page/settings/advanced.vue:490
 msgid "Dynamic Previews"
 msgstr "پیش نمایش پویا"
 
@@ -1071,7 +1071,7 @@ msgid "E-Mail"
 msgstr "ایمیل"
 
 #: src/component/album/clipboard.vue:61 src/component/album/toolbar.vue:82
-#: src/component/lightbox.vue:963 src/component/photo/clipboard.vue:90
+#: src/component/lightbox.vue:970 src/component/photo/clipboard.vue:90
 #: src/page/settings/general.vue:324
 msgid "Edit"
 msgstr "ویرایش"
@@ -1086,7 +1086,7 @@ msgstr "ویرایش %{s}"
 msgid "Edit Account"
 msgstr "ویرایش حساب کاربری"
 
-#: src/component/photo/edit/dialog.vue:64
+#: src/component/photo/edit/dialog.vue:63
 msgid "Edit Photo"
 msgstr "ویرایش تصویر"
 
@@ -1107,7 +1107,7 @@ msgstr "برای نمایش گزارش های اضافی و کمک به عیب �
 msgid "Enable new features that may be incomplete or unstable."
 msgstr "ویژگی های جدیدی را فعال کنید که ممکن است ناقص یا ناپایدار باشند."
 
-#: src/page/settings/advanced.vue:677
+#: src/page/settings/advanced.vue:679
 msgid "Enables RAW converter presets. May reduce performance."
 msgstr "فعال کردن RAW converter presets  . ممکن است عملکرد را کاهش دهد."
 
@@ -1260,17 +1260,17 @@ msgstr "فایل"
 msgid "File Browser"
 msgstr "مرورگر فایل"
 
-#: src/page/settings/advanced.vue:601
+#: src/page/settings/advanced.vue:603
 msgid "File Conversion"
 msgstr "تبدیل فایل"
 
-#: src/component/album/edit/dialog.vue:28 src/component/photo/toolbar.vue:110
-#: src/component/photo/toolbar.vue:121 src/component/photo/toolbar.vue:132
+#: src/component/album/edit/dialog.vue:28 src/component/photo/toolbar.vue:109
+#: src/component/photo/toolbar.vue:120 src/component/photo/toolbar.vue:131
 msgid "File Name"
 msgstr "نام فایل"
 
-#: src/component/album/edit/dialog.vue:29 src/component/photo/toolbar.vue:111
-#: src/component/photo/toolbar.vue:122 src/component/photo/toolbar.vue:133
+#: src/component/album/edit/dialog.vue:29 src/component/photo/toolbar.vue:110
+#: src/component/photo/toolbar.vue:121 src/component/photo/toolbar.vue:132
 msgid "File Size"
 msgstr "فایل"
 
@@ -1330,7 +1330,7 @@ msgstr "قاب‌ها"
 msgid "Full Access"
 msgstr "دسترسی کامل"
 
-#: src/component/lightbox.vue:914
+#: src/component/lightbox.vue:921
 msgid "Fullscreen"
 msgstr "تمام صفحه"
 
@@ -1433,7 +1433,7 @@ msgstr "اگر دسترسی به برنامه یا دستگاه احراز هو�
 msgid "Image"
 msgstr "تصویر"
 
-#: src/page/settings/advanced.vue:508
+#: src/page/settings/advanced.vue:510
 msgid "Image Quality"
 msgstr "کیفیت تصویر"
 
@@ -1442,7 +1442,7 @@ msgstr "کیفیت تصویر"
 msgid "Import"
 msgstr "وارد کردن"
 
-#: src/page/library/import.vue:119
+#: src/page/library/import.vue:120
 msgid "Import failed"
 msgstr "خطا در وارد کردن"
 
@@ -1490,11 +1490,11 @@ msgstr "نمایه"
 msgid "Index and import files through the user interface."
 msgstr "فهرست و وارد کردن فایل ها از طریق رابط کاربری."
 
-#: src/page/library/index.vue:147 src/page/library/index.vue:153
+#: src/page/library/index.vue:148 src/page/library/index.vue:154
 msgid "Indexing"
 msgstr "نمایه سازی"
 
-#: src/page/library/index.vue:129
+#: src/page/library/index.vue:130
 msgid "Indexing failed"
 msgstr "نمایه سازی انجام نشد"
 
@@ -1536,7 +1536,7 @@ msgstr "تاریخ نامعتبر است"
 msgid "Invalid parameters"
 msgstr "پارامترهای نامعتبر"
 
-#: src/component/photo/edit/dialog.vue:157 src/model/thumb.js:77
+#: src/component/photo/edit/dialog.vue:156 src/model/thumb.js:77
 msgid "Invalid photo selected"
 msgstr "عکس نامعتبر انتخاب شد"
 
@@ -1561,11 +1561,11 @@ msgstr "مورد"
 msgid "Items per page:"
 msgstr "موارد در هر صفحه:"
 
-#: src/page/settings/advanced.vue:524
+#: src/page/settings/advanced.vue:526
 msgid "JPEG Quality: %{n}"
 msgstr "کیفیت JPEG: %{n}"
 
-#: src/page/settings/advanced.vue:550
+#: src/page/settings/advanced.vue:552
 msgid "JPEG Size Limit: %{n}px"
 msgstr "محدودیت اندازه JPEG: %{n}px"
 
@@ -1656,7 +1656,7 @@ msgstr "کتابخانه"
 msgid "License"
 msgstr "مجوز"
 
-#: src/component/lightbox.vue:931
+#: src/component/lightbox.vue:938
 msgid "Like"
 msgstr "پسندیدن"
 
@@ -1676,7 +1676,7 @@ msgstr "خطی: بسیار روان، بهترین عملکرد"
 msgid "Link"
 msgstr "لینک"
 
-#: src/component/photo/toolbar.vue:92
+#: src/component/photo/toolbar.vue:91
 msgid "List"
 msgstr "لیست"
 
@@ -1833,11 +1833,11 @@ msgstr "تک رنگ"
 msgid "Month"
 msgstr "ماه"
 
-#: src/component/photo/toolbar.vue:90 src/component/photo/toolbar.vue:96
+#: src/component/photo/toolbar.vue:89 src/component/photo/toolbar.vue:95
 msgid "Mosaic"
 msgstr "موزائیک"
 
-#: src/component/album/edit/dialog.vue:31 src/component/photo/toolbar.vue:136
+#: src/component/album/edit/dialog.vue:31 src/component/photo/toolbar.vue:135
 msgid "Most Relevant"
 msgstr "بسیار مرتبط"
 
@@ -1849,7 +1849,7 @@ msgstr "جابجایی فایل ها"
 msgid "Must have at least %{n} characters."
 msgstr "باید حداقل %{n} حرف داشته باشد."
 
-#: src/component/lightbox.vue:883
+#: src/component/lightbox.vue:890
 msgid "Mute"
 msgstr "بی صدا"
 
@@ -1866,7 +1866,7 @@ msgstr "بی صدا"
 msgid "Name"
 msgstr "نام"
 
-#: src/component/album/edit/dialog.vue:35 src/component/album/toolbar.vue:66
+#: src/component/album/edit/dialog.vue:35 src/component/album/toolbar.vue:65
 #: src/component/label/edit/dialog.vue:19
 #: src/component/people/edit/dialog.vue:19
 #: src/component/photo/edit/labels.vue:30
@@ -1889,8 +1889,8 @@ msgstr "جدید"
 msgid "New Password"
 msgstr "رمزعبور جدید"
 
-#: src/component/album/edit/dialog.vue:24 src/component/photo/toolbar.vue:105
-#: src/component/photo/toolbar.vue:117 src/component/photo/toolbar.vue:127
+#: src/component/album/edit/dialog.vue:24 src/component/photo/toolbar.vue:104
+#: src/component/photo/toolbar.vue:116 src/component/photo/toolbar.vue:126
 #: src/page/albums.vue:90
 msgid "Newest First"
 msgstr "اول جدیدترین ها"
@@ -2033,8 +2033,8 @@ msgstr "OIDC"
 msgid "OK"
 msgstr "باشه"
 
-#: src/component/album/edit/dialog.vue:25 src/component/photo/toolbar.vue:106
-#: src/component/photo/toolbar.vue:118 src/component/photo/toolbar.vue:128
+#: src/component/album/edit/dialog.vue:25 src/component/photo/toolbar.vue:105
+#: src/component/photo/toolbar.vue:117 src/component/photo/toolbar.vue:127
 #: src/page/albums.vue:91
 msgid "Oldest First"
 msgstr "اول قدیمی‌تر ها"
@@ -2043,7 +2043,7 @@ msgstr "اول قدیمی‌تر ها"
 msgid "On Windows, enter the following resource in the connection dialog:"
 msgstr "در ویندوز، منبع زیر را در گفتگوی اتصال وارد کنید:"
 
-#: src/page/settings/advanced.vue:490
+#: src/page/settings/advanced.vue:492
 msgid "On-demand generation of thumbnails may cause high CPU and memory usage. It is not recommended for resource-constrained servers and NAS devices."
 msgstr "تولید تصاویر بندانگشتی بر اساس تقاضا ممکن است باعث مصرف بالای CPU و حافظه شود. برای سرورهای دارای محدودیت منابع و دستگاه های NAS توصیه نمی شود."
 
@@ -2176,7 +2176,7 @@ msgstr "مردم"
 msgid "People you share a link with will be able to view public contents."
 msgstr "افرادی که لینکی را با آنها به اشتراک می گذارید می توانند محتوای عمومی را مشاهده کنند."
 
-#: src/component/photo/clipboard.vue:123 src/component/photo/toolbar.vue:208
+#: src/component/photo/clipboard.vue:122 src/component/photo/toolbar.vue:207
 msgid "Permanently deleted"
 msgstr "برای همیشه حذف شد"
 
@@ -2208,8 +2208,8 @@ msgstr "عضویت PhotoPrism+"
 msgid "Photos"
 msgstr "تصاویر"
 
-#: src/component/album/edit/dialog.vue:27 src/component/photo/toolbar.vue:109
-#: src/component/photo/toolbar.vue:120 src/component/photo/toolbar.vue:131
+#: src/component/album/edit/dialog.vue:27 src/component/photo/toolbar.vue:108
+#: src/component/photo/toolbar.vue:119 src/component/photo/toolbar.vue:130
 msgid "Picture Title"
 msgstr "عنوان تصویر"
 
@@ -2268,7 +2268,7 @@ msgstr "لطفا صبر کنید…"
 msgid "PM"
 msgstr "PM"
 
-#: src/page/settings/advanced.vue:576
+#: src/page/settings/advanced.vue:578
 msgid "PNG Size Limit: %{n}px"
 msgstr "محدودیت اندازه PNG: %{n}px"
 
@@ -2372,17 +2372,17 @@ msgstr "نمایه سازی مجدد همه نسخه های اصلی، از جم
 msgid "Read-Only Mode"
 msgstr "حالت فقط خواندنی"
 
-#: src/component/album/edit/dialog.vue:26 src/component/photo/toolbar.vue:107
-#: src/component/photo/toolbar.vue:119 src/component/photo/toolbar.vue:129
+#: src/component/album/edit/dialog.vue:26 src/component/photo/toolbar.vue:106
+#: src/component/photo/toolbar.vue:118 src/component/photo/toolbar.vue:128
 #: src/page/albums.vue:92
 msgid "Recently Added"
 msgstr "به تازگی اضافه شده"
 
-#: src/component/photo/toolbar.vue:108
+#: src/component/photo/toolbar.vue:107
 msgid "Recently Archived"
 msgstr "اخیراً بایگانی شده است"
 
-#: src/component/photo/toolbar.vue:130 src/page/albums.vue:93
+#: src/component/photo/toolbar.vue:129 src/page/albums.vue:93
 msgid "Recently Edited"
 msgstr "به تازگی ویرایش شده است"
 
@@ -2424,7 +2424,7 @@ msgstr "ثبت نام"
 msgid "Reload"
 msgstr "بارگذاری مجدد"
 
-#: src/component/navigation.vue:104 src/component/update.vue:26
+#: src/component/navigation.vue:102 src/component/update.vue:26
 #: src/page/settings/general.vue:103 src/page/settings/library.vue:53
 msgid "Reloading…"
 msgstr "در حال بارگیری مجدد…"
@@ -2437,7 +2437,7 @@ msgstr "همگام سازی از راه دور"
 msgid "Remove"
 msgstr "حذف"
 
-#: src/component/photo/clipboard.vue:163
+#: src/component/photo/clipboard.vue:162
 msgid "remove failed: unknown album"
 msgstr "حذف نشد: آلبوم ناشناخته"
 
@@ -2471,7 +2471,7 @@ msgid "Resolution"
 msgstr "رزولوشن"
 
 #: src/page/connect.vue:177 src/page/connect.vue:179
-#: src/page/settings/advanced.vue:780
+#: src/page/settings/advanced.vue:782
 msgid "Restart"
 msgstr "راه اندازی مجدد"
 
@@ -2552,7 +2552,7 @@ msgstr "محرمانه"
 msgid "Security and Access"
 msgstr "امنیت و دسترسی"
 
-#: src/component/lightbox.vue:947
+#: src/component/lightbox.vue:954
 msgid "Select"
 msgstr "انتخاب"
 
@@ -2585,15 +2585,15 @@ msgstr "پوشه مورد نظر برای ایندکس شدن را انتخاب 
 msgid "Select Time"
 msgstr "زمان را انتخاب کنید"
 
-#: src/component/photo/clipboard.vue:73
+#: src/component/photo/clipboard.vue:72
 msgid "Selection approved"
 msgstr "انتخاب تایید شد"
 
-#: src/component/photo/clipboard.vue:103
+#: src/component/photo/clipboard.vue:102
 msgid "Selection archived"
 msgstr "انتخاب بایگانی شد"
 
-#: src/component/photo/clipboard.vue:136
+#: src/component/photo/clipboard.vue:135
 msgid "Selection restored"
 msgstr "انتخاب بازگردانده شد"
 
@@ -2678,7 +2678,7 @@ msgstr "نمایش بیشتر"
 msgid "Show server logs in Library."
 msgstr "نمایش گزارش‌های سرور در کتابخانه."
 
-#: src/component/lightbox.vue:865
+#: src/component/lightbox.vue:872
 msgid "Show/Hide Sidebar"
 msgstr "نمایش/پنهان کردن نوار کناری"
 
@@ -2762,7 +2762,7 @@ msgstr "پشته ها"
 msgid "Start"
 msgstr "شروع"
 
-#: src/component/lightbox.vue:898
+#: src/component/lightbox.vue:905
 msgid "Start/Stop Slideshow"
 msgstr "شروع/پایان اسلایدشو"
 
@@ -3007,7 +3007,7 @@ msgid "Unknown"
 msgstr "ناشناس"
 
 #: src/page/settings/account.vue:49 src/page/settings/account.vue:57
-#: src/component/navigation.vue:72
+#: src/component/navigation.vue:70
 msgid "Unregistered"
 msgstr "ثبت نشده"
 
@@ -3023,15 +3023,15 @@ msgstr "باز کردن پشته"
 msgid "Updated"
 msgstr "به روز شد"
 
-#: src/page/library/index.vue:164
+#: src/page/library/index.vue:165
 msgid "Updating faces"
 msgstr "به روزرسانی چهره ها"
 
-#: src/page/library/index.vue:170
+#: src/page/library/index.vue:171
 msgid "Updating index"
 msgstr "به روزرسانی نمایه ها"
 
-#: src/page/library/index.vue:162
+#: src/page/library/index.vue:163
 msgid "Updating moments"
 msgstr "به روزرسانی لحظه ها"
 
@@ -3039,11 +3039,11 @@ msgstr "به روزرسانی لحظه ها"
 msgid "Updating picture…"
 msgstr "به روزرسانی پیش نمایش ها"
 
-#: src/page/library/index.vue:166
+#: src/page/library/index.vue:167
 msgid "Updating previews"
 msgstr "به روزرسانی پیش نمایش ها"
 
-#: src/page/library/index.vue:160
+#: src/page/library/index.vue:161
 msgid "Updating stacks"
 msgstr "به روزرسانی پشته ها"
 
@@ -3112,7 +3112,7 @@ msgstr "در حال بارگیری مجدد…"
 msgid "Uploads that may contain such images will be rejected automatically."
 msgstr "آپلودهایی که ممکن است حاوی چنین تصاویری باشند به طور خودکار رد می شوند."
 
-#: src/page/settings/advanced.vue:676
+#: src/page/settings/advanced.vue:678
 msgid "Use Presets"
 msgstr "از Presets استفاده کنید"
 
@@ -3170,8 +3170,8 @@ msgstr "کد تایید"
 msgid "Video"
 msgstr "ویدیو"
 
-#: src/component/album/edit/dialog.vue:30 src/component/photo/toolbar.vue:112
-#: src/component/photo/toolbar.vue:123 src/component/photo/toolbar.vue:134
+#: src/component/album/edit/dialog.vue:30 src/component/photo/toolbar.vue:111
+#: src/component/photo/toolbar.vue:122 src/component/photo/toolbar.vue:133
 msgid "Video Duration"
 msgstr "مدت"
 
@@ -3192,7 +3192,7 @@ msgstr "بیننده"
 msgid "Visitor"
 msgstr "بازدید کننده"
 
-#: src/component/photo/toolbar.vue:135
+#: src/component/photo/toolbar.vue:134
 msgid "Visual Similarity"
 msgstr "گروه بندی بر اساس شباهت"
 
