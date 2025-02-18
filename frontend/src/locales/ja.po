@@ -50,11 +50,11 @@ msgstr "%{n} 件のアルバムが見つかりました"
 msgid "%{n} files uploaded"
 msgstr "%{n} 件のファイルをアップロードしました"
 
-#: src/page/library/browse.vue:328
+#: src/page/library/browse.vue:330
 msgid "%{n} folders found"
 msgstr "%{n} 個のフォルダが見つかりました"
 
-#: src/page/labels.vue:472
+#: src/page/labels.vue:474
 msgid "%{n} labels found"
 msgstr "%{n} 個のラベルが見つかりました"
 
@@ -63,8 +63,8 @@ msgstr "%{n} 個のラベルが見つかりました"
 msgid "%{n} people found"
 msgstr "%{n} 人が見つかりました"
 
-#: src/page/album/photos.vue:296 src/page/album/photos.vue:459
-#: src/page/photos.vue:431 src/page/photos.vue:606
+#: src/page/album/photos.vue:298 src/page/album/photos.vue:461
+#: src/page/photos.vue:433 src/page/photos.vue:608
 msgid "%{n} pictures found"
 msgstr "%{n} 枚の写真が見つかりました"
 
@@ -291,7 +291,7 @@ msgstr "すべて"
 msgid "All %{n} albums loaded"
 msgstr "%{n} 個のアルバムを読み込みました"
 
-#: src/page/labels.vue:321
+#: src/page/labels.vue:323
 msgid "All %{n} labels loaded"
 msgstr "%{n} 個のラベルを読み込みました"
 
@@ -316,11 +316,11 @@ msgstr "すべての色"
 msgid "All Countries"
 msgstr "すべての国"
 
-#: src/page/about/feedback.vue:42 src/page/about/feedback.vue:41
+#: src/page/about/feedback.vue:48 src/page/about/feedback.vue:41
 msgid "All fields are required"
 msgstr "すべてのフィールドが必須項目です"
 
-#: src/page/library/import.vue:11
+#: src/page/library/import.vue:10
 msgid "All files from import folder"
 msgstr "インポートフォルダ内のすべてのファイル"
 
@@ -332,7 +332,7 @@ msgstr "すべてのレンズ"
 msgid "All Months"
 msgstr "すべての月"
 
-#: src/page/library/index.vue:11
+#: src/page/library/index.vue:10
 msgid "All originals"
 msgstr "すべてのオリジナル"
 
@@ -450,7 +450,7 @@ msgstr "アスペクト比"
 msgid "Authentication"
 msgstr "認証"
 
-#: src/component/photo/edit/info.vue:45
+#: src/component/photo/edit/info.vue:43
 msgid "Auto"
 msgstr "オート"
 
@@ -555,14 +555,14 @@ msgstr "カメラのシリアル"
 msgid "Can't access your authenticator app or device?"
 msgstr "認証アプリやデバイスにアクセスできませんか？"
 
-#: src/page/album/photos.vue:303 src/page/photos.vue:438
+#: src/page/album/photos.vue:305 src/page/photos.vue:440
 msgid "Can't load more, limit reached"
 msgstr "制限に達したため、これ以上読み込めません"
 
 #: src/common/clipboard.js:102 src/common/clipboard.js:139
-#: src/page/albums.vue:614 src/page/albums.vue:630 src/page/labels.vue:247
-#: src/page/labels.vue:267 src/page/library/browse.vue:210
-#: src/page/library/browse.vue:226 src/page/people/new.vue:274
+#: src/page/albums.vue:614 src/page/albums.vue:630 src/page/labels.vue:249
+#: src/page/labels.vue:269 src/page/library/browse.vue:212
+#: src/page/library/browse.vue:228 src/page/people/new.vue:274
 #: src/page/people/new.vue:290 src/page/people/recognized.vue:303
 #: src/page/people/recognized.vue:319
 msgid "Can't select more items"
@@ -589,11 +589,11 @@ msgstr "これ以上項目を選択することはできません"
 msgid "Cancel"
 msgstr "キャンセル"
 
-#: src/common/util.js:678
+#: src/common/util.js:693
 msgid "Cannot copy to clipboard"
 msgstr "クリップボードにコピーできない"
 
-#: src/component/photo/edit/details.vue:87 src/component/photo/edit/info.vue:61
+#: src/component/photo/edit/details.vue:87 src/component/photo/edit/info.vue:59
 #: src/component/photo/edit/labels.vue:42
 #: src/component/photo/view/cards.vue:427
 msgid "Caption"
@@ -641,7 +641,7 @@ msgstr "変更を保存できませんでした"
 #: src/component/user/edit/dialog.vue:82 src/component/user/edit/dialog.vue:158
 #: src/component/album/edit/dialog.vue:73
 #: src/component/label/edit/dialog.vue:46
-#: src/component/photo/edit/files.vue:161 src/component/service/edit.vue:90
+#: src/component/photo/edit/files.vue:160 src/component/service/edit.vue:90
 #: src/component/share/dialog.vue:92 src/component/share/dialog.vue:111
 #: src/page/albums.vue:607 src/page/people/recognized.vue:117
 #: src/page/settings/advanced.vue:58 src/page/settings/general.vue:107
@@ -661,7 +661,7 @@ msgstr "選択済み"
 msgid "Chroma"
 msgstr "彩度"
 
-#: src/page/library/index.vue:169
+#: src/page/library/index.vue:168
 msgid "Cleaning index and cache"
 msgstr "インデックスとキャッシュのクリーニング"
 
@@ -681,7 +681,7 @@ msgstr "クライアント"
 msgid "Client Credentials"
 msgstr "クライアント資格情報"
 
-#: src/page/admin/sessions.vue:454 src/component/lightbox.vue:214
+#: src/page/admin/sessions.vue:454 src/component/lightbox.vue:215
 #: src/component/photo/edit/details.vue:627 src/component/photo/toolbar.vue:242
 #: src/component/photo/upload/dialog.vue:222
 #: src/component/settings/apps.vue:224 src/component/settings/apps.vue:437
@@ -772,11 +772,11 @@ msgstr "プロバイダー}で続ける。"
 msgid "Contributor"
 msgstr "投稿者"
 
-#: src/page/library/index.vue:179
+#: src/page/library/index.vue:178
 msgid "Converting"
 msgstr "変換しています"
 
-#: src/common/util.js:675
+#: src/common/util.js:690
 msgid "Copied to clipboard"
 msgstr "クリップボードにコピーしました"
 
@@ -821,7 +821,7 @@ msgstr "画像のメタデータをバックアップするためにYAMLサイ�
 msgid "Created"
 msgstr "作成日時"
 
-#: src/page/library/index.vue:185
+#: src/page/library/index.vue:184
 msgid "Creating thumbnails for"
 msgstr "次の項目のサムネイルを作成しています"
 
@@ -862,7 +862,7 @@ msgid "Debug Logs"
 msgstr "デバッグログ"
 
 #: src/options/admin.js:31 src/page/admin/sessions.vue:62
-#: src/page/admin/users.vue:96 src/component/photo/edit/info.vue:47
+#: src/page/admin/users.vue:96 src/component/photo/edit/info.vue:45
 #: src/component/photo/edit/info.vue:110 src/model/session.js:64
 #: src/model/user.js:244 src/options/auth.js:20 src/options/auth.js:21
 #: src/options/auth.js:39 src/options/auth.js:40 src/options/options.js:323
@@ -908,7 +908,7 @@ msgstr "詳しい手順はユーザーガイドを参照してください。"
 msgid "Details"
 msgstr "詳細"
 
-#: src/component/photo/edit/files.vue:42
+#: src/component/photo/edit/files.vue:41
 msgid "Dimensions"
 msgstr "寸法"
 
@@ -1031,10 +1031,10 @@ msgstr "単一のファイルとzipアーカイブをダウンロードします
 
 #: src/component/album/clipboard.vue:102 src/component/album/toolbar.vue:105
 #: src/component/file/clipboard.vue:61 src/component/label/clipboard.vue:86
-#: src/component/lightbox.vue:1535 src/component/people/clipboard.vue:59
-#: src/component/photo/clipboard.vue:216 src/component/photo/edit/files.vue:118
+#: src/component/lightbox.vue:1534 src/component/people/clipboard.vue:59
+#: src/component/photo/clipboard.vue:216 src/component/photo/edit/files.vue:117
 #: src/component/photo/view/cards.vue:163 src/component/photo/view/list.vue:133
-#: src/page/library/browse.vue:116
+#: src/page/library/browse.vue:118
 msgid "Downloading…"
 msgstr "ダウンロードしています…"
 
@@ -1135,7 +1135,7 @@ msgstr "認証コードを入力してください"
 msgid "Enter your password to confirm the action and continue:"
 msgstr "パスワードを入力して操作を確認し、続行します:"
 
-#: src/page/connect.vue:52 src/component/lightbox.vue:218
+#: src/page/connect.vue:52 src/component/lightbox.vue:219
 #: src/page/connect.vue:56 src/page/library/errors.vue:203
 msgid "Error"
 msgstr "エラー"
@@ -1144,7 +1144,7 @@ msgstr "エラー"
 msgid "Errors"
 msgstr "エラー"
 
-#: src/component/photo/edit/info.vue:55
+#: src/component/photo/edit/info.vue:53
 msgid "Estimate"
 msgstr "見積もり"
 
@@ -1302,11 +1302,11 @@ msgstr "焦点距離"
 msgid "Folder"
 msgstr "フォルダ"
 
-#: src/page/library/browse.vue:331
+#: src/page/library/browse.vue:333
 msgid "Folder contains %{n} files"
 msgstr "フォルダには %{n} 個のファイルがあります"
 
-#: src/page/library/browse.vue:322
+#: src/page/library/browse.vue:324
 msgid "Folder is empty"
 msgstr "フォルダは空です"
 
@@ -1428,7 +1428,7 @@ msgstr "私達にできることはありますか？"
 msgid "If you lose access to your authenticator app or device, you can use your recovery code to regain access to your account."
 msgstr "認証アプリまたはデバイスにアクセスできなくなった場合は、回復コードを使用してアカウントに再度アクセスできます。"
 
-#: src/component/photo/edit/info.vue:63 src/component/photo/edit/labels.vue:46
+#: src/component/photo/edit/info.vue:61 src/component/photo/edit/labels.vue:46
 #: src/model/file.js:217 src/options/options.js:360
 msgid "Image"
 msgstr "写真"
@@ -1442,7 +1442,7 @@ msgstr "画質"
 msgid "Import"
 msgstr "インポート"
 
-#: src/page/library/import.vue:120
+#: src/page/library/import.vue:119
 msgid "Import failed"
 msgstr "インポートに失敗"
 
@@ -1490,11 +1490,11 @@ msgstr "インデックス"
 msgid "Index and import files through the user interface."
 msgstr "ユーザーインターフェースを通じて、ファイルのインデックスやインポートを行います。"
 
-#: src/page/library/index.vue:148 src/page/library/index.vue:154
+#: src/page/library/index.vue:147 src/page/library/index.vue:153
 msgid "Indexing"
 msgstr "インデックス中"
 
-#: src/page/library/index.vue:130
+#: src/page/library/index.vue:129
 msgid "Indexing failed"
 msgstr "インデックスに失敗"
 
@@ -1664,7 +1664,7 @@ msgstr "お気に入り"
 msgid "Lime"
 msgstr "黄緑"
 
-#: src/page/library/browse.vue:335
+#: src/page/library/browse.vue:337
 msgid "Limit reached, showing first %{n} files"
 msgstr "制限に達しました。最初の %{n} 個のファイルを表示しています"
 
@@ -1711,7 +1711,7 @@ msgid "Local Time"
 msgstr "現地時間"
 
 #: src/page/settings/account.vue:665 src/page/settings/account.vue:667
-#: src/component/album/edit/dialog.vue:92 src/component/photo/edit/info.vue:65
+#: src/component/album/edit/dialog.vue:92 src/component/photo/edit/info.vue:63
 #: src/component/photo/edit/labels.vue:48
 #: src/component/photo/view/cards.vue:513 src/component/photo/view/list.vue:116
 #: src/page/albums.vue:89 src/page/settings/account.vue:557
@@ -1767,7 +1767,7 @@ msgstr "男性"
 msgid "Manage Account"
 msgstr "アカウント管理"
 
-#: src/component/photo/edit/info.vue:49 src/component/photo/edit/labels.vue:38
+#: src/component/photo/edit/info.vue:47 src/component/photo/edit/labels.vue:38
 msgid "Manual"
 msgstr "マニュアル"
 
@@ -1795,11 +1795,11 @@ msgstr "メンバーシップ"
 msgid "Merge %{a} with %{b}?"
 msgstr "%{a} を %{b} に統合しますか？"
 
-#: src/page/about/feedback.vue:38 src/page/about/feedback.vue:37
+#: src/page/about/feedback.vue:44 src/page/about/feedback.vue:37
 msgid "Message sent"
 msgstr "メッセージを送信しました"
 
-#: src/component/photo/edit/info.vue:51
+#: src/component/photo/edit/info.vue:49
 msgid "Metadata"
 msgstr "メタデータ"
 
@@ -1856,7 +1856,7 @@ msgstr "ミュート"
 #: src/page/about/feedback.vue:132 src/component/album/edit/dialog.vue:77
 #: src/component/label/edit/dialog.vue:71
 #: src/component/people/edit/dialog.vue:71
-#: src/component/photo/edit/files.vue:40 src/component/photo/edit/info.vue:57
+#: src/component/photo/edit/files.vue:39 src/component/photo/edit/info.vue:55
 #: src/component/photo/edit/info.vue:125 src/component/photo/edit/people.vue:36
 #: src/component/photo/view/list.vue:116 src/component/photo/view/list.vue:215
 #: src/component/service/edit.vue:308 src/component/settings/apps.vue:52
@@ -1895,7 +1895,7 @@ msgstr "新しいパスワード"
 msgid "Newest First"
 msgstr "新しい順"
 
-#: src/component/lightbox.vue:217 src/locales.js:112
+#: src/component/lightbox.vue:218 src/locales.js:112
 msgid "Next"
 msgstr "次のページ"
 
@@ -1923,7 +1923,7 @@ msgstr "アルバムが見つかりませんでした"
 msgid "No data available"
 msgstr "データなし"
 
-#: src/page/labels.vue:467 src/page/labels.vue:177
+#: src/page/labels.vue:469 src/page/labels.vue:177
 msgid "No labels found"
 msgstr "ラベルが見つかりませんでした"
 
@@ -1941,10 +1941,10 @@ msgstr "これ以上ない"
 msgid "No people found"
 msgstr "ユーザーが見つかりませんでした"
 
-#: src/component/lightbox.vue:291 src/component/photo/view/cards.vue:112
+#: src/component/lightbox.vue:292 src/component/photo/view/cards.vue:112
 #: src/component/photo/view/list.vue:82 src/component/photo/view/mosaic.vue:71
-#: src/page/album/photos.vue:454 src/page/library/browse.vue:128
-#: src/page/photos.vue:601 src/page/places.vue:452 src/page/places.vue:539
+#: src/page/album/photos.vue:456 src/page/library/browse.vue:128
+#: src/page/photos.vue:603 src/page/places.vue:452 src/page/places.vue:539
 msgid "No pictures found"
 msgstr "写真はありません"
 
@@ -1984,11 +1984,11 @@ msgstr "写真ではないものや、低品質な画像は検索結果に表示
 msgid "None"
 msgstr "なし"
 
-#: src/component/lightbox.vue:553
+#: src/component/lightbox.vue:554
 msgid "Not allowed"
 msgstr "不可"
 
-#: src/component/lightbox.vue:550
+#: src/component/lightbox.vue:551
 msgid "Not found"
 msgstr "見つかりませんでした"
 
@@ -1996,7 +1996,7 @@ msgstr "見つかりませんでした"
 msgid "Not sorted."
 msgstr "選別されていない。"
 
-#: src/component/lightbox.vue:547
+#: src/component/lightbox.vue:548
 msgid "Not supported"
 msgstr "サポートされていない"
 
@@ -2055,7 +2055,7 @@ msgstr "1週間に1度"
 msgid "One album found"
 msgstr "1 つのアルバムが見つかりました"
 
-#: src/page/library/browse.vue:324
+#: src/page/library/browse.vue:326
 msgid "One file found"
 msgstr "1 個のファイルが見つかりました"
 
@@ -2063,11 +2063,11 @@ msgstr "1 個のファイルが見つかりました"
 msgid "One file uploaded"
 msgstr "%{n} 件のファイルをアップロードしました"
 
-#: src/page/library/browse.vue:326
+#: src/page/library/browse.vue:328
 msgid "One folder found"
 msgstr "1 個のフォルダが見つかりました"
 
-#: src/page/labels.vue:469
+#: src/page/labels.vue:471
 msgid "One label found"
 msgstr "1 個のラベルが見つかりました"
 
@@ -2076,7 +2076,7 @@ msgstr "1 個のラベルが見つかりました"
 msgid "One person found"
 msgstr "1 人が見つかりました"
 
-#: src/page/album/photos.vue:456 src/page/photos.vue:603
+#: src/page/album/photos.vue:458 src/page/photos.vue:605
 msgid "One picture found"
 msgstr "1 枚の写真が見つかりました"
 
@@ -2300,7 +2300,7 @@ msgstr "プレビュー"
 msgid "Preview Images"
 msgstr "プレビュー画像"
 
-#: src/component/lightbox.vue:216 src/locales.js:113
+#: src/component/lightbox.vue:217 src/locales.js:113
 msgid "Previous"
 msgstr "前へ"
 
@@ -2312,7 +2312,7 @@ msgstr "前のページ"
 msgid "Previous visual"
 msgstr "以前のビジュアル"
 
-#: src/component/photo/edit/files.vue:34 src/component/photo/edit/files.vue:188
+#: src/component/photo/edit/files.vue:33 src/component/photo/edit/files.vue:188
 #: src/component/photo/edit/files.vue:356
 msgid "Primary"
 msgstr "プライマリ"
@@ -2698,7 +2698,7 @@ msgstr "サインイン"
 msgid "Similar"
 msgstr "似ている項目"
 
-#: src/component/photo/edit/files.vue:50 src/component/photo/edit/files.vue:303
+#: src/component/photo/edit/files.vue:49 src/component/photo/edit/files.vue:303
 #: src/component/service/edit.vue:138
 msgid "Size"
 msgstr "サイズ"
@@ -2770,7 +2770,7 @@ msgstr "スライドショーを開始/停止"
 msgid "Static Size Limit: %{n}px"
 msgstr "静的サイズ制限: %{n} px"
 
-#: src/component/photo/edit/files.vue:58
+#: src/component/photo/edit/files.vue:57
 msgid "Status"
 msgstr "状態"
 
@@ -2899,7 +2899,7 @@ msgctxt "Photo"
 msgid "Title"
 msgstr "タイトル"
 
-#: src/component/photo/edit/info.vue:59 src/component/photo/edit/info.vue:155
+#: src/component/photo/edit/info.vue:57 src/component/photo/edit/info.vue:155
 #: src/component/photo/edit/labels.vue:40 src/component/photo/view/list.vue:113
 msgid "Title"
 msgstr "タイトル"
@@ -2947,7 +2947,7 @@ msgstr "表示を切り替え"
 msgid "Token"
 msgstr "トークン"
 
-#: src/component/photo/upload/dialog.vue:201
+#: src/component/photo/upload/dialog.vue:200
 msgid "Too many files selected"
 msgstr "選択されたファイルが多すぎます"
 
@@ -2974,7 +2974,7 @@ msgstr "他のフィルターまたはキーワードを用いて、再度試し
 msgid "Two-factor authentication has been enabled for your account."
 msgstr "あなたのアカウントでは2要素認証が有効になっています。"
 
-#: src/component/photo/edit/files.vue:57 src/component/photo/edit/files.vue:314
+#: src/component/photo/edit/files.vue:56 src/component/photo/edit/files.vue:314
 #: src/component/photo/edit/info.vue:87 src/component/service/edit.vue:386
 msgid "Type"
 msgstr "種類"
@@ -3023,15 +3023,15 @@ msgstr "スタック解除"
 msgid "Updated"
 msgstr "更新日"
 
-#: src/page/library/index.vue:165
+#: src/page/library/index.vue:164
 msgid "Updating faces"
 msgstr "顔を更新しています"
 
-#: src/page/library/index.vue:171
+#: src/page/library/index.vue:170
 msgid "Updating index"
 msgstr "インデックスを更新しています"
 
-#: src/page/library/index.vue:163
+#: src/page/library/index.vue:162
 msgid "Updating moments"
 msgstr "モーメントを更新しています"
 
@@ -3039,11 +3039,11 @@ msgstr "モーメントを更新しています"
 msgid "Updating picture…"
 msgstr "画像を更新しています…"
 
-#: src/page/library/index.vue:167
+#: src/page/library/index.vue:166
 msgid "Updating previews"
 msgstr "プレビューを更新しています"
 
-#: src/page/library/index.vue:161
+#: src/page/library/index.vue:160
 msgid "Updating stacks"
 msgstr "スタックを更新しています"
 
@@ -3060,14 +3060,14 @@ msgid "Upgrade Now"
 msgstr "今すぐアップグレード"
 
 #: src/component/album/toolbar.vue:210 src/component/navigation.vue:1733
-#: src/component/photo/toolbar.vue:196 src/component/photo/upload/dialog.vue:49
+#: src/component/photo/toolbar.vue:196 src/component/photo/upload/dialog.vue:48
 #: src/component/service/upload.vue:142 src/page/albums.vue:131
 #: src/page/library/import.vue:117 src/page/settings/general.vue:228
 #: src/page/settings/services.vue:37
 msgid "Upload"
 msgstr "アップロード"
 
-#: src/component/photo/upload/dialog.vue:294
+#: src/component/photo/upload/dialog.vue:293
 msgid "Upload complete"
 msgstr "アップロード完了"
 
@@ -3075,8 +3075,8 @@ msgstr "アップロード完了"
 msgid "Upload complete. Indexing…"
 msgstr "アップロードが完了しました。インデックスしています…"
 
-#: src/component/photo/upload/dialog.vue:280
-#: src/component/photo/upload/dialog.vue:299
+#: src/component/photo/upload/dialog.vue:279
+#: src/component/photo/upload/dialog.vue:298
 #: src/component/photo/upload/dialog.vue:125
 msgid "Upload failed"
 msgstr "アップロード失敗"
@@ -3098,9 +3098,9 @@ msgstr "WebDAVにアップロードして、友達とリンクを共有できま
 msgid "Uploading %{n} of %{t}…"
 msgstr "%{t} 件中 %{n} 件をアップロードしています…"
 
-#: src/component/photo/upload/dialog.vue:115
-#: src/component/photo/upload/dialog.vue:123
-#: src/component/photo/upload/dialog.vue:237
+#: src/component/photo/upload/dialog.vue:114
+#: src/component/photo/upload/dialog.vue:122
+#: src/component/photo/upload/dialog.vue:236
 msgid "Uploading photos…"
 msgstr "写真をアップロードしています…"
 
@@ -3312,7 +3312,7 @@ msgstr "皆様の継続的なご支援により、私たちは定期的なアッ
 msgid "Your library is continuously analyzed to automatically create albums of special moments, trips, and places."
 msgstr "あなたのライブラリは継続的に分析され、特別な瞬間や旅行、場所を記録したアルバムを自動的に作成します。"
 
-#: src/component/lightbox.vue:215
+#: src/component/lightbox.vue:216
 msgid "Zoom in/out"
 msgstr "ズーム イン/アウト"
 

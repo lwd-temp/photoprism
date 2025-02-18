@@ -47,11 +47,11 @@ msgstr "%{n} albumit leitud"
 msgid "%{n} files uploaded"
 msgstr "%{n} faili üles laaditud"
 
-#: src/page/library/browse.vue:328
+#: src/page/library/browse.vue:330
 msgid "%{n} folders found"
 msgstr "%{n} kausta leitud"
 
-#: src/page/labels.vue:472
+#: src/page/labels.vue:474
 msgid "%{n} labels found"
 msgstr "%{n} silti leitud"
 
@@ -60,8 +60,8 @@ msgstr "%{n} silti leitud"
 msgid "%{n} people found"
 msgstr "%{n} inimest leitud"
 
-#: src/page/album/photos.vue:296 src/page/album/photos.vue:459
-#: src/page/photos.vue:431 src/page/photos.vue:606
+#: src/page/album/photos.vue:298 src/page/album/photos.vue:461
+#: src/page/photos.vue:433 src/page/photos.vue:608
 msgid "%{n} pictures found"
 msgstr "%{n} pilti leitud"
 
@@ -288,7 +288,7 @@ msgstr "Kõik"
 msgid "All %{n} albums loaded"
 msgstr "Kõik %{n} albumit laaditud"
 
-#: src/page/labels.vue:321
+#: src/page/labels.vue:323
 msgid "All %{n} labels loaded"
 msgstr "Kõik %{n} silti laaditud"
 
@@ -313,11 +313,11 @@ msgstr "Kõik värvid"
 msgid "All Countries"
 msgstr "Kõik riigid"
 
-#: src/page/about/feedback.vue:42 src/page/about/feedback.vue:41
+#: src/page/about/feedback.vue:48 src/page/about/feedback.vue:41
 msgid "All fields are required"
 msgstr "Kõik väljad on kohustuslikud"
 
-#: src/page/library/import.vue:11
+#: src/page/library/import.vue:10
 msgid "All files from import folder"
 msgstr "Kõik failid impordikaustast"
 
@@ -329,7 +329,7 @@ msgstr "Kõik läätsed"
 msgid "All Months"
 msgstr "Kõik kuud"
 
-#: src/page/library/index.vue:11
+#: src/page/library/index.vue:10
 msgid "All originals"
 msgstr "Kõik originaalid"
 
@@ -447,7 +447,7 @@ msgstr "Küljesuhe"
 msgid "Authentication"
 msgstr "Autentimine"
 
-#: src/component/photo/edit/info.vue:45
+#: src/component/photo/edit/info.vue:43
 msgid "Auto"
 msgstr "Auto"
 
@@ -552,14 +552,14 @@ msgstr "Kaamera seerianumber"
 msgid "Can't access your authenticator app or device?"
 msgstr "Ei saa juurdepääsu oma autentimisrakendusele või seadmele?"
 
-#: src/page/album/photos.vue:303 src/page/photos.vue:438
+#: src/page/album/photos.vue:305 src/page/photos.vue:440
 msgid "Can't load more, limit reached"
 msgstr "Rohkem ei saa laadida, limiit on saavutatud"
 
 #: src/common/clipboard.js:102 src/common/clipboard.js:139
-#: src/page/albums.vue:614 src/page/albums.vue:630 src/page/labels.vue:247
-#: src/page/labels.vue:267 src/page/library/browse.vue:210
-#: src/page/library/browse.vue:226 src/page/people/new.vue:274
+#: src/page/albums.vue:614 src/page/albums.vue:630 src/page/labels.vue:249
+#: src/page/labels.vue:269 src/page/library/browse.vue:212
+#: src/page/library/browse.vue:228 src/page/people/new.vue:274
 #: src/page/people/new.vue:290 src/page/people/recognized.vue:303
 #: src/page/people/recognized.vue:319
 msgid "Can't select more items"
@@ -586,11 +586,11 @@ msgstr "Rohkem objekte ei saa valida"
 msgid "Cancel"
 msgstr "Katkesta"
 
-#: src/common/util.js:678
+#: src/common/util.js:693
 msgid "Cannot copy to clipboard"
 msgstr "Ei saa kopeerida lõikelauale"
 
-#: src/component/photo/edit/details.vue:87 src/component/photo/edit/info.vue:61
+#: src/component/photo/edit/details.vue:87 src/component/photo/edit/info.vue:59
 #: src/component/photo/edit/labels.vue:42
 #: src/component/photo/view/cards.vue:427
 msgid "Caption"
@@ -638,7 +638,7 @@ msgstr "Muudatuste salvestamine ebaõnnestus"
 #: src/component/user/edit/dialog.vue:82 src/component/user/edit/dialog.vue:158
 #: src/component/album/edit/dialog.vue:73
 #: src/component/label/edit/dialog.vue:46
-#: src/component/photo/edit/files.vue:161 src/component/service/edit.vue:90
+#: src/component/photo/edit/files.vue:160 src/component/service/edit.vue:90
 #: src/component/share/dialog.vue:92 src/component/share/dialog.vue:111
 #: src/page/albums.vue:607 src/page/people/recognized.vue:117
 #: src/page/settings/advanced.vue:58 src/page/settings/general.vue:107
@@ -658,7 +658,7 @@ msgstr "Kontrollitud"
 msgid "Chroma"
 msgstr "Värviküllastus"
 
-#: src/page/library/index.vue:169
+#: src/page/library/index.vue:168
 msgid "Cleaning index and cache"
 msgstr "Indeksi ja vahemälu puhastamine"
 
@@ -678,7 +678,7 @@ msgstr "Klient"
 msgid "Client Credentials"
 msgstr "Kliendi volitused"
 
-#: src/page/admin/sessions.vue:454 src/component/lightbox.vue:214
+#: src/page/admin/sessions.vue:454 src/component/lightbox.vue:215
 #: src/component/photo/edit/details.vue:627 src/component/photo/toolbar.vue:242
 #: src/component/photo/upload/dialog.vue:222
 #: src/component/settings/apps.vue:224 src/component/settings/apps.vue:437
@@ -769,11 +769,11 @@ msgstr "Jätka %{provider}"
 msgid "Contributor"
 msgstr "Toetaja"
 
-#: src/page/library/index.vue:179
+#: src/page/library/index.vue:178
 msgid "Converting"
 msgstr "Konverteerimine"
 
-#: src/common/util.js:675
+#: src/common/util.js:690
 msgid "Copied to clipboard"
 msgstr "Kopeeritud lõikelauale"
 
@@ -818,7 +818,7 @@ msgstr "Loo YAML-sidekartiifailid pildi metaandmete varundamiseks."
 msgid "Created"
 msgstr "Lisatud"
 
-#: src/page/library/index.vue:185
+#: src/page/library/index.vue:184
 msgid "Creating thumbnails for"
 msgstr "Pisipiltide loomine:"
 
@@ -859,7 +859,7 @@ msgid "Debug Logs"
 msgstr "Tõrkeotsingu logid"
 
 #: src/options/admin.js:31 src/page/admin/sessions.vue:62
-#: src/page/admin/users.vue:96 src/component/photo/edit/info.vue:47
+#: src/page/admin/users.vue:96 src/component/photo/edit/info.vue:45
 #: src/component/photo/edit/info.vue:110 src/model/session.js:64
 #: src/model/user.js:244 src/options/auth.js:20 src/options/auth.js:21
 #: src/options/auth.js:39 src/options/auth.js:40 src/options/options.js:323
@@ -905,7 +905,7 @@ msgstr "Üksikasjalikud juhised leiad meie kasutajajuhendist."
 msgid "Details"
 msgstr "Üksikasjad"
 
-#: src/component/photo/edit/files.vue:42
+#: src/component/photo/edit/files.vue:41
 msgid "Dimensions"
 msgstr "Mõõtmed"
 
@@ -1028,10 +1028,10 @@ msgstr "Laadi alla üksikuid faile ja ZIP-arhiive."
 
 #: src/component/album/clipboard.vue:102 src/component/album/toolbar.vue:105
 #: src/component/file/clipboard.vue:61 src/component/label/clipboard.vue:86
-#: src/component/lightbox.vue:1535 src/component/people/clipboard.vue:59
-#: src/component/photo/clipboard.vue:216 src/component/photo/edit/files.vue:118
+#: src/component/lightbox.vue:1534 src/component/people/clipboard.vue:59
+#: src/component/photo/clipboard.vue:216 src/component/photo/edit/files.vue:117
 #: src/component/photo/view/cards.vue:163 src/component/photo/view/list.vue:133
-#: src/page/library/browse.vue:116
+#: src/page/library/browse.vue:118
 msgid "Downloading…"
 msgstr "Allalaadimine…"
 
@@ -1132,7 +1132,7 @@ msgstr "Sisesta kontrollkood"
 msgid "Enter your password to confirm the action and continue:"
 msgstr "Toimingu kinnitamiseks ja jätkamiseks sisestage oma parool:"
 
-#: src/page/connect.vue:52 src/component/lightbox.vue:218
+#: src/page/connect.vue:52 src/component/lightbox.vue:219
 #: src/page/connect.vue:56 src/page/library/errors.vue:203
 msgid "Error"
 msgstr "Viga"
@@ -1141,7 +1141,7 @@ msgstr "Viga"
 msgid "Errors"
 msgstr "Vead"
 
-#: src/component/photo/edit/info.vue:55
+#: src/component/photo/edit/info.vue:53
 msgid "Estimate"
 msgstr "Hinnang:"
 
@@ -1299,11 +1299,11 @@ msgstr "Fookuskaugus"
 msgid "Folder"
 msgstr "Kaust"
 
-#: src/page/library/browse.vue:331
+#: src/page/library/browse.vue:333
 msgid "Folder contains %{n} files"
 msgstr "Kaust sisaldab %{n} faili"
 
-#: src/page/library/browse.vue:322
+#: src/page/library/browse.vue:324
 msgid "Folder is empty"
 msgstr "Kaust on tühi"
 
@@ -1425,7 +1425,7 @@ msgstr "Kuidas me saame aidata?"
 msgid "If you lose access to your authenticator app or device, you can use your recovery code to regain access to your account."
 msgstr "Kui kaotate juurdepääsu autentimisrakendusele või -seadmele, saate oma kontole juurdepääsu taastamiseks kasutada taastekoodi."
 
-#: src/component/photo/edit/info.vue:63 src/component/photo/edit/labels.vue:46
+#: src/component/photo/edit/info.vue:61 src/component/photo/edit/labels.vue:46
 #: src/model/file.js:217 src/options/options.js:360
 msgid "Image"
 msgstr "Pilt"
@@ -1439,7 +1439,7 @@ msgstr "Pildi kvaliteet"
 msgid "Import"
 msgstr "Import"
 
-#: src/page/library/import.vue:120
+#: src/page/library/import.vue:119
 msgid "Import failed"
 msgstr "Import ebaõnnestus"
 
@@ -1487,11 +1487,11 @@ msgstr "Indeks"
 msgid "Index and import files through the user interface."
 msgstr "Indekseeri ja impordi faile kasutajaliidese kaudu."
 
-#: src/page/library/index.vue:148 src/page/library/index.vue:154
+#: src/page/library/index.vue:147 src/page/library/index.vue:153
 msgid "Indexing"
 msgstr "Indekseerimine"
 
-#: src/page/library/index.vue:130
+#: src/page/library/index.vue:129
 msgid "Indexing failed"
 msgstr "Indekseerimine ebaõnnestus"
 
@@ -1661,7 +1661,7 @@ msgstr "Meeldib"
 msgid "Lime"
 msgstr "Laimiroheline"
 
-#: src/page/library/browse.vue:335
+#: src/page/library/browse.vue:337
 msgid "Limit reached, showing first %{n} files"
 msgstr "Limiit saavutatud, näidatakse esimest %{n} faili"
 
@@ -1708,7 +1708,7 @@ msgid "Local Time"
 msgstr "Kohalik aeg"
 
 #: src/page/settings/account.vue:665 src/page/settings/account.vue:667
-#: src/component/album/edit/dialog.vue:92 src/component/photo/edit/info.vue:65
+#: src/component/album/edit/dialog.vue:92 src/component/photo/edit/info.vue:63
 #: src/component/photo/edit/labels.vue:48
 #: src/component/photo/view/cards.vue:513 src/component/photo/view/list.vue:116
 #: src/page/albums.vue:89 src/page/settings/account.vue:557
@@ -1764,7 +1764,7 @@ msgstr "Mees"
 msgid "Manage Account"
 msgstr "Halda kontot"
 
-#: src/component/photo/edit/info.vue:49 src/component/photo/edit/labels.vue:38
+#: src/component/photo/edit/info.vue:47 src/component/photo/edit/labels.vue:38
 msgid "Manual"
 msgstr "Käsitsi"
 
@@ -1792,11 +1792,11 @@ msgstr "Liikmelisus"
 msgid "Merge %{a} with %{b}?"
 msgstr "Ühendada %{a} ja %{b}?"
 
-#: src/page/about/feedback.vue:38 src/page/about/feedback.vue:37
+#: src/page/about/feedback.vue:44 src/page/about/feedback.vue:37
 msgid "Message sent"
 msgstr "Sõnum saadetud"
 
-#: src/component/photo/edit/info.vue:51
+#: src/component/photo/edit/info.vue:49
 msgid "Metadata"
 msgstr "Metaandmed"
 
@@ -1853,7 +1853,7 @@ msgstr "Mute"
 #: src/page/about/feedback.vue:132 src/component/album/edit/dialog.vue:77
 #: src/component/label/edit/dialog.vue:71
 #: src/component/people/edit/dialog.vue:71
-#: src/component/photo/edit/files.vue:40 src/component/photo/edit/info.vue:57
+#: src/component/photo/edit/files.vue:39 src/component/photo/edit/info.vue:55
 #: src/component/photo/edit/info.vue:125 src/component/photo/edit/people.vue:36
 #: src/component/photo/view/list.vue:116 src/component/photo/view/list.vue:215
 #: src/component/service/edit.vue:308 src/component/settings/apps.vue:52
@@ -1892,7 +1892,7 @@ msgstr "Uus parool"
 msgid "Newest First"
 msgstr "Uuemad eespool"
 
-#: src/component/lightbox.vue:217 src/locales.js:112
+#: src/component/lightbox.vue:218 src/locales.js:112
 msgid "Next"
 msgstr "Järgmine"
 
@@ -1920,7 +1920,7 @@ msgstr "Albumeid ei leitud"
 msgid "No data available"
 msgstr "Andmed puuduvad"
 
-#: src/page/labels.vue:467 src/page/labels.vue:177
+#: src/page/labels.vue:469 src/page/labels.vue:177
 msgid "No labels found"
 msgstr "Silte ei leitud"
 
@@ -1938,10 +1938,10 @@ msgstr "Enam ei ole"
 msgid "No people found"
 msgstr "Inimesi ei leitud"
 
-#: src/component/lightbox.vue:291 src/component/photo/view/cards.vue:112
+#: src/component/lightbox.vue:292 src/component/photo/view/cards.vue:112
 #: src/component/photo/view/list.vue:82 src/component/photo/view/mosaic.vue:71
-#: src/page/album/photos.vue:454 src/page/library/browse.vue:128
-#: src/page/photos.vue:601 src/page/places.vue:452 src/page/places.vue:539
+#: src/page/album/photos.vue:456 src/page/library/browse.vue:128
+#: src/page/photos.vue:603 src/page/places.vue:452 src/page/places.vue:539
 msgid "No pictures found"
 msgstr "Pilte ei leitud"
 
@@ -1981,11 +1981,11 @@ msgstr "Mittefotograafilised ja madala kvaliteediga pildid tuleb üle vaadata, e
 msgid "None"
 msgstr "Puudub"
 
-#: src/component/lightbox.vue:553
+#: src/component/lightbox.vue:554
 msgid "Not allowed"
 msgstr "Ei ole lubatud"
 
-#: src/component/lightbox.vue:550
+#: src/component/lightbox.vue:551
 msgid "Not found"
 msgstr "Ei leitud"
 
@@ -1993,7 +1993,7 @@ msgstr "Ei leitud"
 msgid "Not sorted."
 msgstr "Ei ole sorteeritud."
 
-#: src/component/lightbox.vue:547
+#: src/component/lightbox.vue:548
 msgid "Not supported"
 msgstr "Ei toetata"
 
@@ -2052,7 +2052,7 @@ msgstr "Üks kord nädalas"
 msgid "One album found"
 msgstr "Üks album leitud"
 
-#: src/page/library/browse.vue:324
+#: src/page/library/browse.vue:326
 msgid "One file found"
 msgstr "Üks fail leitud"
 
@@ -2060,11 +2060,11 @@ msgstr "Üks fail leitud"
 msgid "One file uploaded"
 msgstr "Üks fail üles laaditud"
 
-#: src/page/library/browse.vue:326
+#: src/page/library/browse.vue:328
 msgid "One folder found"
 msgstr "Üks kaust leitud"
 
-#: src/page/labels.vue:469
+#: src/page/labels.vue:471
 msgid "One label found"
 msgstr "Üks silt leitud"
 
@@ -2073,7 +2073,7 @@ msgstr "Üks silt leitud"
 msgid "One person found"
 msgstr "Üks inimene leitud"
 
-#: src/page/album/photos.vue:456 src/page/photos.vue:603
+#: src/page/album/photos.vue:458 src/page/photos.vue:605
 msgid "One picture found"
 msgstr "Üks pilt leitud"
 
@@ -2297,7 +2297,7 @@ msgstr "Eelvaade"
 msgid "Preview Images"
 msgstr "Eelvaatepildid"
 
-#: src/component/lightbox.vue:216 src/locales.js:113
+#: src/component/lightbox.vue:217 src/locales.js:113
 msgid "Previous"
 msgstr "Eelmine"
 
@@ -2309,7 +2309,7 @@ msgstr "Eelmine lehekülg"
 msgid "Previous visual"
 msgstr "Eelmine visuaalne"
 
-#: src/component/photo/edit/files.vue:34 src/component/photo/edit/files.vue:188
+#: src/component/photo/edit/files.vue:33 src/component/photo/edit/files.vue:188
 #: src/component/photo/edit/files.vue:356
 msgid "Primary"
 msgstr "Primaarne"
@@ -2695,7 +2695,7 @@ msgstr "Logi sisse"
 msgid "Similar"
 msgstr "Sarnased"
 
-#: src/component/photo/edit/files.vue:50 src/component/photo/edit/files.vue:303
+#: src/component/photo/edit/files.vue:49 src/component/photo/edit/files.vue:303
 #: src/component/service/edit.vue:138
 msgid "Size"
 msgstr "Suurus"
@@ -2767,7 +2767,7 @@ msgstr "Käivita/peata slaidiesitlus"
 msgid "Static Size Limit: %{n}px"
 msgstr "Staatiline suuruse limiit: %{n}px"
 
-#: src/component/photo/edit/files.vue:58
+#: src/component/photo/edit/files.vue:57
 msgid "Status"
 msgstr "Staatus"
 
@@ -2896,7 +2896,7 @@ msgctxt "Photo"
 msgid "Title"
 msgstr "Pealkiri"
 
-#: src/component/photo/edit/info.vue:59 src/component/photo/edit/info.vue:155
+#: src/component/photo/edit/info.vue:57 src/component/photo/edit/info.vue:155
 #: src/component/photo/edit/labels.vue:40 src/component/photo/view/list.vue:113
 msgid "Title"
 msgstr "Pealkiri"
@@ -2944,7 +2944,7 @@ msgstr "Muuda vaadet"
 msgid "Token"
 msgstr "Token"
 
-#: src/component/photo/upload/dialog.vue:201
+#: src/component/photo/upload/dialog.vue:200
 msgid "Too many files selected"
 msgstr "Liiga palju valitud faile"
 
@@ -2971,7 +2971,7 @@ msgstr "Proovi uuesti, kasutades teisi filtreid või märksõnu."
 msgid "Two-factor authentication has been enabled for your account."
 msgstr "Teie konto jaoks on lubatud kahefaktoriline autentimine."
 
-#: src/component/photo/edit/files.vue:57 src/component/photo/edit/files.vue:314
+#: src/component/photo/edit/files.vue:56 src/component/photo/edit/files.vue:314
 #: src/component/photo/edit/info.vue:87 src/component/service/edit.vue:386
 msgid "Type"
 msgstr "Tüüp"
@@ -3020,15 +3020,15 @@ msgstr "Unstack"
 msgid "Updated"
 msgstr "Uuendatud"
 
-#: src/page/library/index.vue:165
+#: src/page/library/index.vue:164
 msgid "Updating faces"
 msgstr "Nägude uuendamine"
 
-#: src/page/library/index.vue:171
+#: src/page/library/index.vue:170
 msgid "Updating index"
 msgstr "Indeksi uuendamine"
 
-#: src/page/library/index.vue:163
+#: src/page/library/index.vue:162
 msgid "Updating moments"
 msgstr "Hetkede uuendamine"
 
@@ -3036,11 +3036,11 @@ msgstr "Hetkede uuendamine"
 msgid "Updating picture…"
 msgstr "Pildi uuendamine…"
 
-#: src/page/library/index.vue:167
+#: src/page/library/index.vue:166
 msgid "Updating previews"
 msgstr "Eelvaadete uuendamine"
 
-#: src/page/library/index.vue:161
+#: src/page/library/index.vue:160
 msgid "Updating stacks"
 msgstr "Virnade uuendamine"
 
@@ -3057,14 +3057,14 @@ msgid "Upgrade Now"
 msgstr "Uuenda nüüd"
 
 #: src/component/album/toolbar.vue:210 src/component/navigation.vue:1733
-#: src/component/photo/toolbar.vue:196 src/component/photo/upload/dialog.vue:49
+#: src/component/photo/toolbar.vue:196 src/component/photo/upload/dialog.vue:48
 #: src/component/service/upload.vue:142 src/page/albums.vue:131
 #: src/page/library/import.vue:117 src/page/settings/general.vue:228
 #: src/page/settings/services.vue:37
 msgid "Upload"
 msgstr "Üleslaadimine"
 
-#: src/component/photo/upload/dialog.vue:294
+#: src/component/photo/upload/dialog.vue:293
 msgid "Upload complete"
 msgstr "Üleslaadimine lõpetatud"
 
@@ -3072,8 +3072,8 @@ msgstr "Üleslaadimine lõpetatud"
 msgid "Upload complete. Indexing…"
 msgstr "Üleslaadimine lõpetatud. Indekseerimine…"
 
-#: src/component/photo/upload/dialog.vue:280
-#: src/component/photo/upload/dialog.vue:299
+#: src/component/photo/upload/dialog.vue:279
+#: src/component/photo/upload/dialog.vue:298
 #: src/component/photo/upload/dialog.vue:125
 msgid "Upload failed"
 msgstr "Üleslaadimine ebaõnnestus"
@@ -3095,9 +3095,9 @@ msgstr "Laadi üles WebDAV-i ja jaga linke sõpradega."
 msgid "Uploading %{n} of %{t}…"
 msgstr "Üleslaadimine %{n}/%{t}…"
 
-#: src/component/photo/upload/dialog.vue:115
-#: src/component/photo/upload/dialog.vue:123
-#: src/component/photo/upload/dialog.vue:237
+#: src/component/photo/upload/dialog.vue:114
+#: src/component/photo/upload/dialog.vue:122
+#: src/component/photo/upload/dialog.vue:236
 msgid "Uploading photos…"
 msgstr "Fotode üleslaadimine…"
 
@@ -3311,7 +3311,7 @@ msgstr "Sinu jätkuv toetus aitab meil pakkuda regulaarseid uuendusi ja jääda 
 msgid "Your library is continuously analyzed to automatically create albums of special moments, trips, and places."
 msgstr "Sinu fototeeki analüüsitakse pidevalt, et luua automaatselt albumied erilistest hetkedest, reisidest ja kohtadest."
 
-#: src/component/lightbox.vue:215
+#: src/component/lightbox.vue:216
 msgid "Zoom in/out"
 msgstr "Suumi sisse/välja"
 
