@@ -175,7 +175,7 @@ export default {
         cancel: this.$gettext("Cancel"),
         confirm: this.$gettext("Done"),
       },
-      rtl: this.$rtl,
+      rtl: this.$isRtl,
     };
   },
   watch: {

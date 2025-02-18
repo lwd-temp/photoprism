@@ -40,8 +40,8 @@ const Minute = 60 * Second;
 const Hour = 60 * Minute;
 let start = new Date();
 
-export default class Util {
-  formatDate(s) {
+export default class $util {
+  static formatDate(s) {
     if (!s || !s.length) {
       return s;
     }
@@ -248,6 +248,21 @@ export default class Util {
 
   static generateToken() {
     return (Math.random() + 1).toString(36).substring(6);
+  }
+
+  static hasTouch() {
+    return navigator.maxTouchPoints && navigator.maxTouchPoints > 0;
+  }
+
+  static isMobile() {
+    return (
+      /Android|webOS|iPhone|iPad|iPod|BlackBerry|Mobile|IEMobile|Opera Mini/i.test(navigator.userAgent) ||
+      (navigator.maxTouchPoints && navigator.maxTouchPoints > 2)
+    );
+  }
+
+  static isHttps() {
+    return window.location.protocol === "https:";
   }
 
   static fileType(value) {
@@ -671,7 +686,7 @@ export default class Util {
     }
 
     try {
-      await Util.copyToMachineClipboard(text);
+      await this.copyToMachineClipboard(text);
       $notify.success($gettext("Copied to clipboard"));
       return true;
     } catch (_) {

@@ -159,7 +159,7 @@ export default {
       categories: this.$config.albumCategories(),
       collectionTitle: this.$route.meta?.collectionTitle ? this.$route.meta.collectionTitle : this.$gettext("Albums"),
       collectionRoute: this.$route.meta?.collectionRoute ? this.$route.meta.collectionRoute : "albums",
-      navIcon: this.$rtl ? "mdi-chevron-left" : "mdi-chevron-right",
+      navIcon: this.$isRtl ? "mdi-chevron-left" : "mdi-chevron-right",
       listView: this.$config.getSettings()?.search?.listView,
       dialog: {
         share: false,

@@ -283,7 +283,7 @@ export default {
       session: this.$session,
       minLength: this.$config.get("passwordLength"),
       maxLength: 72,
-      rtl: this.$rtl,
+      rtl: this.$isRtl,
       key: {},
     };
   },

@@ -230,7 +230,7 @@ export default {
         album: false,
         share: false,
       },
-      rtl: this.$rtl,
+      rtl: this.$isRtl,
     };
   },
   methods: {

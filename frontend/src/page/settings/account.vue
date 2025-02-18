@@ -378,7 +378,7 @@ export default {
       isDemo,
       isPublic,
       valid: true,
-      rtl: this.$rtl,
+      rtl: this.$isRtl,
       user: user,
       countries: countries,
       session: this.$session,

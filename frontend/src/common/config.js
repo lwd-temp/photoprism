@@ -438,7 +438,7 @@ export default class Config {
 
       // Update <html> lang and dir attributes on current locale.
       document.documentElement.setAttribute("lang", locale);
-      document.documentElement.setAttribute("dir", isRtl ? "rtl" : "ltr");
+      document.documentElement.setAttribute("dir", this.dir(isRtl));
 
       // Set body.is-rtl class depending on current locale.
       if (isRtl !== document.body.classList.contains("is-rtl")) {
@@ -490,6 +490,15 @@ export default class Config {
     }
 
     return Languages().some((l) => l.value === locale && l.rtl);
+  }
+
+  // dir returns the user interface direction (for the current locale if no argument is given).
+  dir(isRtl) {
+    if (typeof isRtl === "undefined") {
+      isRtl = this.isRtl();
+    }
+
+    return isRtl ? "rtl" : "ltr";
   }
 
   // setTheme set the current UI theme based on the specified name.

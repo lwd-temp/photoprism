@@ -323,11 +323,9 @@
 </template>
 
 <script>
-import Thumb from "model/thumb";
 import { DateTime } from "luxon";
 import * as options from "options/options";
 import { $gettext, T } from "common/gettext";
-import Util from "common/util";
 
 export default {
   name: "PTabPhotoAdvanced",
@@ -389,7 +387,7 @@ export default {
         case "location":
           return this.$gettext("Location");
         default:
-          return T(Util.capitalize(s));
+          return T(this.$util.capitalize(s));
       }
     },
     formatTime(s) {

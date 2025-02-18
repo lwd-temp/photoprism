@@ -33,7 +33,7 @@ export default {
     const customer = this.$config.getCustomer();
 
     return {
-      rtl: this.$rtl,
+      rtl: this.$isRtl,
       about: about,
       membership: membership,
       customer: customer,

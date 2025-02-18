@@ -975,7 +975,7 @@ export default {
       page: this.$config.page,
       user: this.$session.getUser(),
       speedDial: false,
-      rtl: this.$rtl,
+      rtl: this.$isRtl,
       subscriptions: [],
     };
   },

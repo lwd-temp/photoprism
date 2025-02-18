@@ -132,7 +132,7 @@ export default {
 
     return {
       config: this.$config.values,
-      navIcon: this.$rtl ? "mdi-chevron-left" : "mdi-chevron-right",
+      navIcon: this.$isRtl ? "mdi-chevron-left" : "mdi-chevron-right",
       subscriptions: [],
       listen: false,
       dirty: false,

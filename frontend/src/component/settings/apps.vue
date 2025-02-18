@@ -284,7 +284,7 @@ export default {
       showPassword: false,
       minLength: this.$config.get("passwordLength"),
       maxLength: 72,
-      rtl: this.$rtl,
+      rtl: this.$isRtl,
       action: "",
       confirmAction: "",
       user: this.$session.getUser(),

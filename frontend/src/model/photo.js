@@ -27,10 +27,10 @@ import memoizeOne from "memoize-one";
 import RestModel from "model/rest";
 import File from "model/file";
 import Marker from "model/marker";
-import $api from "common/api";
 import { DateTime } from "luxon";
-import Util from "common/util";
 import { $config } from "app/session";
+import $api from "common/api";
+import $util from "common/util";
 import countries from "options/countries.json";
 import { $gettext } from "common/gettext";
 import { PhotoClipboard } from "common/clipboard";
@@ -352,7 +352,7 @@ export class Photo extends RestModel {
     let result = this.fileBase(this.FileName ? this.FileName : this.primaryFile().Name);
 
     if (truncate) {
-      result = Util.truncate(result, truncate, "…");
+      result = $util.truncate(result, truncate, "…");
     }
 
     return result;
@@ -523,7 +523,7 @@ export class Photo extends RestModel {
     const file = this.videoFile();
 
     if (file) {
-      return Util.videoContentType(file?.Codec, file?.Mime);
+      return $util.videoContentType(file?.Codec, file?.Mime);
     } else {
       return media.ContentTypeMp4AvcMain;
     }
@@ -532,7 +532,7 @@ export class Photo extends RestModel {
   videoUrl() {
     const file = this.videoFile();
 
-    return Util.videoUrl(file ? file.Hash : this.Hash, file?.Codec, file?.Mime);
+    return $util.videoUrl(file ? file.Hash : this.Hash, file?.Codec, file?.Mime);
   }
 
   primaryFile() {
@@ -905,7 +905,7 @@ export class Photo extends RestModel {
     const info = [];
 
     if (file.MediaType === media.Vector) {
-      info.push(Util.fileType(file.FileType));
+      info.push($util.fileType(file.FileType));
     } else {
       info.push($gettext("Vector"));
     }
@@ -928,20 +928,20 @@ export class Photo extends RestModel {
 
     const info = [];
 
-    const cameraInfo = Util.formatCamera(camera, cameraId, cameraMake, cameraModel);
+    const cameraInfo = $util.formatCamera(camera, cameraId, cameraMake, cameraModel);
 
     if (cameraInfo) {
       info.push(cameraInfo);
     }
 
     /* if (file.Duration > 0) {
-      info.push(Util.formatDuration(file.Duration));
+      info.push($util.formatDuration(file.Duration));
     } */
 
     if (file.Codec) {
-      info.push(Util.formatCodec(file.Codec));
+      info.push($util.formatCodec(file.Codec));
     } else if (file.FileType) {
-      info.push(Util.formatCodec(file.FileType));
+      info.push($util.formatCodec(file.FileType));
     }
 
     this.addSizeInfo(file, info);
@@ -963,7 +963,7 @@ export class Photo extends RestModel {
     if (!file) {
       return "";
     } else if (file.Duration && file.Duration > 0) {
-      return Util.formatDuration(file.Duration);
+      return $util.formatDuration(file.Duration);
     }
 
     return "";
@@ -978,14 +978,14 @@ export class Photo extends RestModel {
   generatePhotoInfo = memoizeOne((camera, cameraId, cameraMake, cameraModel, file) => {
     let info = [];
 
-    const cameraInfo = Util.formatCamera(camera, cameraId, cameraMake, cameraModel);
+    const cameraInfo = $util.formatCamera(camera, cameraId, cameraMake, cameraModel);
 
     if (cameraInfo) {
       info.push(cameraInfo);
     }
 
     if (file && file.Width && file.Codec) {
-      info.push(Util.formatCodec(file.Codec));
+      info.push($util.formatCodec(file.Codec));
     }
 
     this.addSizeInfo(file, info);

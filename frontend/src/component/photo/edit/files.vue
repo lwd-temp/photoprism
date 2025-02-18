@@ -373,7 +373,6 @@
 import Thumb from "model/thumb";
 import { DateTime } from "luxon";
 import $notify from "common/notify";
-import Util from "common/util";
 import * as options from "options/options";
 
 export default {
@@ -400,7 +399,7 @@ export default {
         this.$config.allow("photos", "access_library") && this.$config.allow("photos", "access_private"),
       options: options,
       busy: false,
-      rtl: this.$rtl,
+      rtl: this.$isRtl,
       listColumns: [
         {
           title: this.$gettext("Primary"),
@@ -443,21 +442,21 @@ export default {
         return "";
       }
 
-      return Util.formatDuration(file.Duration);
+      return this.$util.formatDuration(file.Duration);
     },
     fileType(file) {
       if (!file || !file.FileType) {
         return "";
       }
 
-      return Util.fileType(file.FileType);
+      return this.$util.fileType(file.FileType);
     },
     codecName(file) {
       if (!file || !file.Codec) {
         return "";
       }
 
-      return Util.codecName(file.Codec);
+      return this.$util.codecName(file.Codec);
     },
     openFile(file) {
       this.$lightbox.openModels([Thumb.fromFile(this.view.model, file)], 0);

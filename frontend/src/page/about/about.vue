@@ -252,7 +252,7 @@ export default {
     const isPublic = this.$config.isPublic();
     const isSuperAdmin = this.$session.isSuperAdmin();
     return {
-      rtl: this.$rtl,
+      rtl: this.$isRtl,
       tier: tier,
       membership: membership,
       canUpgrade: tier <= 4,

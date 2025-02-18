@@ -493,7 +493,7 @@ export default {
       isSponsor: this.$config.isSponsor(),
       readonly: this.$config.get("readonly"),
       config: this.$config.values,
-      rtl: this.$rtl,
+      rtl: this.$isRtl,
       settings: new ConfigOptions(false),
       options: options,
     };

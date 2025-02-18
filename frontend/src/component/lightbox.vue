@@ -102,7 +102,6 @@
 import PhotoSwipe from "photoswipe";
 import Lightbox from "photoswipe/lightbox";
 import Captions from "common/captions";
-import Util from "common/util";
 import $api from "common/api";
 import Thumb from "model/thumb";
 import { Photo } from "model/photo";
@@ -122,7 +121,7 @@ export default {
       lightbox: null, // Current PhotoSwipe lightbox instance.
       captionPlugin: null, // Current PhotoSwipe caption plugin instance.
       muted: window.sessionStorage.getItem("lightbox.muted") === "true",
-      hasTouch: false,
+      hasTouch: this.$util.hasTouch(),
       shortVideoDuration: 5, // Duration in seconds for videos that are short enough to automatically loop.
       playControlHideDelay: 1000, // Hide the lightbox controls after this time in ms when a video starts playing.
       defaultControlHideDelay: 5000, // Automatically hide lightbox controls this time in ms, TODO: add custom settings.
@@ -435,7 +434,7 @@ export default {
       const pixels = this.getWindowPixels();
 
       // Get the right thumbnail size based on the screen resolution in pixels.
-      const thumbSize = Util.thumbSize(pixels.width, pixels.height);
+      const thumbSize = this.$util.thumbSize(pixels.width, pixels.height);
 
       // Get thumbnail image URL, width, and height.
       const img = {
@@ -464,7 +463,7 @@ export default {
           html: `<div class="pswp__html"></div>`, // Replaced with the <video> element.
           model: model, // Content model.
           duration: model.Duration > 0 ? model.Duration / 1000000000 : 0,
-          format: Util.videoFormat(model?.Codec, model?.Mime), // Content format.
+          format: this.$util.videoFormat(model?.Codec, model?.Mime), // Content format.
           loop: model?.Type !== media.Live && (isShort || model?.Type === media.Animated), // If possible, loop these types.
           msrc: img.src, // Image URL.
         };
@@ -554,7 +553,7 @@ export default {
       video.playsInline = true;
       video.disableRemotePlayback = false;
       video.controls = false;
-      video.dir = this.$rtl ? "rtl" : "ltr";
+      video.dir = document.dir ? document.dir : this.$config.dir(this.$isRtl);
 
       // Attach video event handler.
       video.addEventListener("loadstart", (ev) => this.onVideo(ev));
@@ -583,13 +582,13 @@ export default {
       ) {
         const nativeSource = document.createElement("source");
         nativeSource.type = model.Mime;
-        nativeSource.src = Util.videoFormatUrl(model.Hash, format);
+        nativeSource.src = this.$util.videoFormatUrl(model.Hash, format);
         video.appendChild(nativeSource);
       }
 
       const avcSource = document.createElement("source");
       avcSource.type = media.ContentTypeMp4AvcMain;
-      avcSource.src = Util.videoFormatUrl(model.Hash, media.FormatAvc);
+      avcSource.src = this.$util.videoFormatUrl(model.Hash, media.FormatAvc);
       video.appendChild(avcSource);
 
       if (video.remote && video.remote instanceof RemotePlayback) {
@@ -776,7 +775,7 @@ export default {
 
       // Set the model list and start index.
       // TODO: In the future, additional models should be dynamically loaded when the index reaches the end of the list.
-      if (this.$rtl) {
+      if (this.$isRtl) {
         // Reverse the slide direction for right-to-left languages.
         this.models = models.toReversed();
         this.index = models.length - (index + 1);
@@ -805,7 +804,6 @@ export default {
       // Keep reference to PhotoSwipe instance.
       this.lightbox = lightbox;
       this.idleTimer = false;
-      this.hasTouch = false;
 
       // Use dynamic caption plugin,
       // see https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin.
@@ -1151,7 +1149,7 @@ export default {
       let caption = "";
 
       if (model.Title) {
-        caption += `<h4>${Util.encodeHTML(model.Title)}</h4>`;
+        caption += `<h4>${this.$util.encodeHTML(model.Title)}</h4>`;
       }
 
       /*
@@ -1159,16 +1157,16 @@ export default {
               We MAY postpone this and display it along with other metadata in the new sidebar.
        */
       /* if (model.TakenAtLocal) {
-         caption += `<div>${Util.formatDate(model.TakenAtLocal)}</div>`;
+         caption += `<div>${this.$util.formatDate(model.TakenAtLocal)}</div>`;
       } */
 
       if (model.Caption) {
-        caption += `<p>${Util.encodeHTML(model.Caption)}</p>`;
+        caption += `<p>${this.$util.encodeHTML(model.Caption)}</p>`;
       } else if (model.Description) {
-        caption += `<p>${Util.encodeHTML(model.Description)}</p>`;
+        caption += `<p>${this.$util.encodeHTML(model.Description)}</p>`;
       }
 
-      return Util.sanitizeHtml(caption);
+      return this.$util.sanitizeHtml(caption);
     },
     // Removes any event listeners before the lightbox is fully closed.
     onClose() {
@@ -1182,7 +1180,6 @@ export default {
     },
     // Resets the state of the lightbox controls.
     resetControls() {
-      this.hasTouch = false;
       this.controlsShown = -1;
     },
     // Reset the lightbox models and index.
@@ -1594,11 +1591,11 @@ export default {
 
       if (video && !video.paused) {
         // Do nothing if a video is still playing.
-      } else if (!this.$rtl && this.models.length > this.index + 1) {
+      } else if (!this.$isRtl && this.models.length > this.index + 1) {
         // Show the next slide.
         this.slideshow.next = this.index + 1;
         pswp.next();
-      } else if (this.$rtl && this.index > 0) {
+      } else if (this.$isRtl && this.index > 0) {
         // Reverse slideshow direction for right-to-left languages.
         this.slideshow.next = this.index - 1;
         pswp.prev();
@@ -1791,7 +1788,7 @@ export default {
       document.addEventListener("mousemove", this.onMouseMoveOnce.bind(this), { once: true });
     },
     startTimer() {
-      if (this.hasTouch || this.$isMobile) {
+      if (this.hasTouch) {
         return;
       }
 
@@ -1900,7 +1897,7 @@ export default {
       const currentHeight = Math.round(slide.height * zoomLevel * window.devicePixelRatio);
 
       // Find the right thumbnail size based on the slide size and zoom level in pixels.
-      const thumbSize = Util.thumbSize(currentWidth, currentHeight);
+      const thumbSize = this.$util.thumbSize(currentWidth, currentHeight);
 
       // Don't continue of no matching size was found.
       if (!thumbSize) {

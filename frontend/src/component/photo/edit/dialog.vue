@@ -151,7 +151,7 @@ export default {
       canEdit: this.$config.feature("edit"),
       readonly: this.$config.get("readonly"),
       active: this.tab,
-      rtl: this.$rtl,
+      rtl: this.$isRtl,
       subscriptions: [],
     };
   },
