@@ -1010,7 +1010,7 @@ export default {
     this.subscriptions.push(this.$event.subscribe("index", this.onIndex));
     this.subscriptions.push(this.$event.subscribe("import", this.onIndex));
   },
-  unmounted() {
+  beforeUnmount() {
     for (let i = 0; i < this.subscriptions.length; i++) {
       this.$event.unsubscribe(this.subscriptions[i]);
     }

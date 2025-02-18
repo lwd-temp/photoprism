@@ -26,7 +26,7 @@ export default {
   created() {
     this.subscriptionId = this.$event.subscribe("notify", this.onNotify);
   },
-  unmounted() {
+  beforeUnmount() {
     this.$event.unsubscribe(this.subscriptionId);
   },
   methods: {

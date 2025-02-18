@@ -242,6 +242,7 @@ export default {
     // Triggered when the dialog has been fully opened.
     afterEnter() {
       this.$event.publish("lightbox.enter");
+      this.$emit("enter");
     },
     // Triggered when the dialog has closed.
     afterLeave() {
@@ -250,6 +251,7 @@ export default {
       this.busy = false;
       this.$view.leave(this);
       this.$event.publish("lightbox.leave");
+      this.$emit("leave");
     },
     // Triggered when the dialog focus changes.
     onDialogFocus(ev) {

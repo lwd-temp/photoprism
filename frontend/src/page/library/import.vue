@@ -123,7 +123,7 @@ export default {
     this.subscriptionId = this.$event.subscribe("import", this.handleEvent);
     this.load();
   },
-  unmounted() {
+  beforeUnmount() {
     this.$event.unsubscribe(this.subscriptionId);
   },
   methods: {
