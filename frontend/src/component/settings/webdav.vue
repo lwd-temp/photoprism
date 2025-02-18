@@ -115,11 +115,26 @@ export default {
       return baseUrl;
     },
     windowsUrl() {
+      // Generates a resource string for Windows users to connect via WebDAV,
+      // see https://docs.photoprism.app/user-guide/sync/webdav/#microsoft-windows.
       let baseUrl = "";
 
-      if (window.location.protocol === "https") {
-        baseUrl = `\\\\${window.location.host}@SSL\\originals\\`;
+      if (this.$util.isHttps()) {
+        if (window.location.port && window.location.port !== "443") {
+          /*
+              \\example.com@SSL@8443\originals\
+          */
+          baseUrl = `\\\\${window.location.hostname}@SSL@${window.location.port}\\originals\\`;
+        } else {
+          /*
+              \\example.com@SSL\originals\
+          */
+          baseUrl = `\\\\${window.location.hostname}@SSL\\originals\\`;
+        }
       } else {
+        /*
+            \\localhost:2342\originals\
+        */
         baseUrl = `\\\\${window.location.host}\\originals\\`;
       }
 
