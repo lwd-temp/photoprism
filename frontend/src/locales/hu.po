@@ -62,8 +62,8 @@ msgstr "%{n} címke találat"
 msgid "%{n} people found"
 msgstr "%{n} ember találat"
 
-#: src/page/album/photos.vue:298 src/page/album/photos.vue:461
-#: src/page/photos.vue:433 src/page/photos.vue:608
+#: src/page/album/photos.vue:286 src/page/album/photos.vue:459
+#: src/page/photos.vue:421 src/page/photos.vue:596
 msgid "%{n} pictures found"
 msgstr "%{n} kép találat"
 
@@ -554,7 +554,7 @@ msgstr "Kamera sorozat"
 msgid "Can't access your authenticator app or device?"
 msgstr "Nem tud hozzáférni az autentikátor alkalmazásához vagy eszközéhez?"
 
-#: src/page/album/photos.vue:305 src/page/photos.vue:440
+#: src/page/album/photos.vue:293 src/page/photos.vue:428
 msgid "Can't load more, limit reached"
 msgstr "Nem tölthet be többet, elérte a korlátot"
 
@@ -680,7 +680,7 @@ msgstr "Ügyfél"
 msgid "Client Credentials"
 msgstr "Ügyfél hitelesítő adatok"
 
-#: src/page/admin/sessions.vue:454 src/component/lightbox.vue:215
+#: src/page/admin/sessions.vue:454 src/component/lightbox.vue:227
 #: src/component/photo/edit/details.vue:627 src/component/photo/toolbar.vue:242
 #: src/component/photo/upload/dialog.vue:222
 #: src/component/settings/apps.vue:224 src/component/settings/apps.vue:437
@@ -1009,7 +1009,7 @@ msgid "Done."
 msgstr "Kész."
 
 #: src/component/album/clipboard.vue:72 src/component/album/toolbar.vue:120
-#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:988
+#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1050
 #: src/component/people/clipboard.vue:47 src/component/photo/clipboard.vue:116
 #: src/component/photo/edit/files.vue:167 src/page/settings/general.vue:252
 #: src/page/settings/general.vue:624
@@ -1030,9 +1030,9 @@ msgstr "Egyedi fájlok és zip-archívumok letöltése."
 
 #: src/component/album/clipboard.vue:102 src/component/album/toolbar.vue:105
 #: src/component/file/clipboard.vue:61 src/component/label/clipboard.vue:86
-#: src/component/lightbox.vue:1534 src/component/people/clipboard.vue:59
+#: src/component/lightbox.vue:1600 src/component/people/clipboard.vue:59
 #: src/component/photo/clipboard.vue:216 src/component/photo/edit/files.vue:117
-#: src/component/photo/view/cards.vue:163 src/component/photo/view/list.vue:133
+#: src/component/photo/view/cards.vue:164 src/component/photo/view/list.vue:133
 #: src/page/library/browse.vue:118
 msgid "Downloading…"
 msgstr "Letöltés…"
@@ -1070,7 +1070,7 @@ msgid "E-Mail"
 msgstr "Email"
 
 #: src/component/album/clipboard.vue:61 src/component/album/toolbar.vue:82
-#: src/component/lightbox.vue:970 src/component/photo/clipboard.vue:90
+#: src/component/lightbox.vue:1032 src/component/photo/clipboard.vue:90
 #: src/page/settings/general.vue:324
 msgid "Edit"
 msgstr "Szerkesztés"
@@ -1134,7 +1134,7 @@ msgstr "Adja meg a megerősítő kódot"
 msgid "Enter your password to confirm the action and continue:"
 msgstr "Adja meg jelszavát a művelet megerősítéséhez, és folytassa:"
 
-#: src/page/connect.vue:52 src/component/lightbox.vue:219
+#: src/page/connect.vue:52 src/component/lightbox.vue:231
 #: src/page/connect.vue:56 src/page/library/errors.vue:203
 msgid "Error"
 msgstr "Hiba"
@@ -1329,7 +1329,7 @@ msgstr "Keretek"
 msgid "Full Access"
 msgstr "Teljes hozzáférés"
 
-#: src/component/lightbox.vue:921
+#: src/component/lightbox.vue:983
 msgid "Fullscreen"
 msgstr "Teljes képernyő"
 
@@ -1655,7 +1655,7 @@ msgstr "Könyvtár"
 msgid "License"
 msgstr "Engedély"
 
-#: src/component/lightbox.vue:938
+#: src/component/lightbox.vue:1000
 msgid "Like"
 msgstr "Kedvelés"
 
@@ -1848,7 +1848,7 @@ msgstr "Fájlok áthelyezése"
 msgid "Must have at least %{n} characters."
 msgstr "Legalább %{n} karakteresnek kell lennie."
 
-#: src/component/lightbox.vue:890
+#: src/component/lightbox.vue:952
 msgid "Mute"
 msgstr "Mute"
 
@@ -1894,7 +1894,7 @@ msgstr "Új jelszó"
 msgid "Newest First"
 msgstr "Először a legújabb"
 
-#: src/component/lightbox.vue:218 src/locales.js:112
+#: src/component/lightbox.vue:230 src/locales.js:112
 msgid "Next"
 msgstr "Következő"
 
@@ -1940,10 +1940,10 @@ msgstr "Nem több"
 msgid "No people found"
 msgstr "Nem találhatók személyek"
 
-#: src/component/lightbox.vue:292 src/component/photo/view/cards.vue:112
+#: src/component/lightbox.vue:304 src/component/photo/view/cards.vue:112
 #: src/component/photo/view/list.vue:82 src/component/photo/view/mosaic.vue:71
-#: src/page/album/photos.vue:456 src/page/library/browse.vue:128
-#: src/page/photos.vue:603 src/page/places.vue:452 src/page/places.vue:539
+#: src/page/album/photos.vue:454 src/page/library/browse.vue:128
+#: src/page/photos.vue:591 src/page/places.vue:452 src/page/places.vue:539
 msgid "No pictures found"
 msgstr "Nem találhatók képek"
 
@@ -1983,11 +1983,11 @@ msgstr "A rossz minőségű képek ellenörzésre kerülnek, mielőtt megjelenn�
 msgid "None"
 msgstr "Egyik sem"
 
-#: src/component/lightbox.vue:554
+#: src/component/lightbox.vue:569
 msgid "Not allowed"
 msgstr "Nem megengedett"
 
-#: src/component/lightbox.vue:551
+#: src/component/lightbox.vue:566
 msgid "Not found"
 msgstr "Nem található"
 
@@ -1995,7 +1995,7 @@ msgstr "Nem található"
 msgid "Not sorted."
 msgstr "Nem rendezett."
 
-#: src/component/lightbox.vue:548
+#: src/component/lightbox.vue:563 src/component/lightbox.vue:678
 msgid "Not supported"
 msgstr "Nem támogatott"
 
@@ -2075,7 +2075,7 @@ msgstr "Egy címkét találtunk"
 msgid "One person found"
 msgstr "Egy személyt találtak"
 
-#: src/page/album/photos.vue:458 src/page/photos.vue:605
+#: src/page/album/photos.vue:456 src/page/photos.vue:593
 msgid "One picture found"
 msgstr "Egy kép található"
 
@@ -2299,7 +2299,7 @@ msgstr "Előnézet"
 msgid "Preview Images"
 msgstr "Képek előnézete"
 
-#: src/component/lightbox.vue:217 src/locales.js:113
+#: src/component/lightbox.vue:229 src/locales.js:113
 msgid "Previous"
 msgstr "Előző"
 
@@ -2448,7 +2448,7 @@ msgstr "Eltávolítás az albumból"
 msgid "Remove imported files to save storage. Unsupported file types will never be deleted, they remain in their current location."
 msgstr "Távolítsa el az importált fájlokat a tárhely megtakarításához. A nem támogatott fájltípusok soha nem törlődnek, a jelenlegi helyükön maradnak."
 
-#: src/common/api.js:102
+#: src/common/api.js:102 src/component/lightbox.vue:674
 msgid "Request failed - are you offline?"
 msgstr "A kérés sikertelen - offline vagy?"
 
@@ -2551,7 +2551,7 @@ msgstr "Titok"
 msgid "Security and Access"
 msgstr "Biztonság és hozzáférés"
 
-#: src/component/lightbox.vue:954
+#: src/component/lightbox.vue:1016
 msgid "Select"
 msgstr "Kiválasztás"
 
@@ -2677,7 +2677,7 @@ msgstr "Mutass többet"
 msgid "Show server logs in Library."
 msgstr "Szervernaplók megjelenítése a Könyvtárban."
 
-#: src/component/lightbox.vue:872
+#: src/component/lightbox.vue:934
 msgid "Show/Hide Sidebar"
 msgstr "Oldalsáv megjelenítése/elrejtése"
 
@@ -2713,6 +2713,10 @@ msgstr "Szoftver"
 #: src/component/update.vue:38
 msgid "Software Update"
 msgstr "Szoftverfrissítés"
+
+#: src/component/lightbox.vue:671
+msgid "Something went wrong, try again"
+msgstr "Valami rosszul ment, próbálja újra"
 
 #: src/locales.js:42
 msgid "Sort by"
@@ -2761,7 +2765,7 @@ msgstr "Stackek"
 msgid "Start"
 msgstr "Rajt"
 
-#: src/component/lightbox.vue:905
+#: src/component/lightbox.vue:967
 msgid "Start/Stop Slideshow"
 msgstr "Diavetítés indítása/leállítása"
 
@@ -3311,7 +3315,7 @@ msgstr "Folyamatos támogatása segít nekünk olyan szolgáltatásokat nyújtan
 msgid "Your library is continuously analyzed to automatically create albums of special moments, trips, and places."
 msgstr "Könyvtárát folyamatosan elemzi a rendszer, hogy automatikusan létrehozza a különleges pillanatokat, utazásokat és helyeket tartalmazó albumokat."
 
-#: src/component/lightbox.vue:216
+#: src/component/lightbox.vue:228
 msgid "Zoom in/out"
 msgstr "Nagyítás/kicsinyítés"
 
@@ -3561,9 +3565,6 @@ msgstr "Nagyítás/kicsinyítés"
 
 #~ msgid "Feel free to contact us at membership@photoprism.app for questions regarding your membership."
 #~ msgstr "A tagsággal kapcsolatos kérdéseivel forduljon hozzánk bizalommal a membership@photoprism.app e-mail címen."
-
-#~ msgid "Something went wrong, try again"
-#~ msgstr "Valami rosszul ment, próbálja újra"
 
 #~ msgid "An error occurred - are you offline?"
 #~ msgstr "Hiba történt - van internet elérése?"

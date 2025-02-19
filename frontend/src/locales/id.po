@@ -63,8 +63,8 @@ msgstr "%{n} label yang ditemukan"
 msgid "%{n} people found"
 msgstr "%{n} orang yang ditemukan"
 
-#: src/page/album/photos.vue:298 src/page/album/photos.vue:461
-#: src/page/photos.vue:433 src/page/photos.vue:608
+#: src/page/album/photos.vue:286 src/page/album/photos.vue:459
+#: src/page/photos.vue:421 src/page/photos.vue:596
 msgid "%{n} pictures found"
 msgstr "%{n} gambar yang ditemukan"
 
@@ -555,7 +555,7 @@ msgstr "Serial Kamera"
 msgid "Can't access your authenticator app or device?"
 msgstr "Tidak dapat mengakses aplikasi atau perangkat autentikator Anda?"
 
-#: src/page/album/photos.vue:305 src/page/photos.vue:440
+#: src/page/album/photos.vue:293 src/page/photos.vue:428
 msgid "Can't load more, limit reached"
 msgstr "Tidak dapat memuat lebih banyak, batas tercapai"
 
@@ -681,7 +681,7 @@ msgstr "Klien"
 msgid "Client Credentials"
 msgstr "Kredensial Klien"
 
-#: src/page/admin/sessions.vue:454 src/component/lightbox.vue:215
+#: src/page/admin/sessions.vue:454 src/component/lightbox.vue:227
 #: src/component/photo/edit/details.vue:627 src/component/photo/toolbar.vue:242
 #: src/component/photo/upload/dialog.vue:222
 #: src/component/settings/apps.vue:224 src/component/settings/apps.vue:437
@@ -1010,7 +1010,7 @@ msgid "Done."
 msgstr "Selesai."
 
 #: src/component/album/clipboard.vue:72 src/component/album/toolbar.vue:120
-#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:988
+#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1050
 #: src/component/people/clipboard.vue:47 src/component/photo/clipboard.vue:116
 #: src/component/photo/edit/files.vue:167 src/page/settings/general.vue:252
 #: src/page/settings/general.vue:624
@@ -1031,9 +1031,9 @@ msgstr "Unduh file tunggal dan arsip zip."
 
 #: src/component/album/clipboard.vue:102 src/component/album/toolbar.vue:105
 #: src/component/file/clipboard.vue:61 src/component/label/clipboard.vue:86
-#: src/component/lightbox.vue:1534 src/component/people/clipboard.vue:59
+#: src/component/lightbox.vue:1600 src/component/people/clipboard.vue:59
 #: src/component/photo/clipboard.vue:216 src/component/photo/edit/files.vue:117
-#: src/component/photo/view/cards.vue:163 src/component/photo/view/list.vue:133
+#: src/component/photo/view/cards.vue:164 src/component/photo/view/list.vue:133
 #: src/page/library/browse.vue:118
 msgid "Downloading…"
 msgstr "Mengunduh…"
@@ -1071,7 +1071,7 @@ msgid "E-Mail"
 msgstr "Email"
 
 #: src/component/album/clipboard.vue:61 src/component/album/toolbar.vue:82
-#: src/component/lightbox.vue:970 src/component/photo/clipboard.vue:90
+#: src/component/lightbox.vue:1032 src/component/photo/clipboard.vue:90
 #: src/page/settings/general.vue:324
 msgid "Edit"
 msgstr "Sunting"
@@ -1135,7 +1135,7 @@ msgstr "Masukkan kode verifikasi"
 msgid "Enter your password to confirm the action and continue:"
 msgstr "Masukkan kata sandi Anda untuk mengonfirmasi tindakan dan melanjutkan:"
 
-#: src/page/connect.vue:52 src/component/lightbox.vue:219
+#: src/page/connect.vue:52 src/component/lightbox.vue:231
 #: src/page/connect.vue:56 src/page/library/errors.vue:203
 msgid "Error"
 msgstr "Kesalahan"
@@ -1330,7 +1330,7 @@ msgstr "Bingkai"
 msgid "Full Access"
 msgstr "Akses penuh"
 
-#: src/component/lightbox.vue:921
+#: src/component/lightbox.vue:983
 msgid "Fullscreen"
 msgstr "Layar Penuh"
 
@@ -1656,7 +1656,7 @@ msgstr "Perpustakaan"
 msgid "License"
 msgstr "Lisensi"
 
-#: src/component/lightbox.vue:938
+#: src/component/lightbox.vue:1000
 msgid "Like"
 msgstr "Suka"
 
@@ -1849,7 +1849,7 @@ msgstr "Pindahkan File"
 msgid "Must have at least %{n} characters."
 msgstr "Harus memiliki setidaknya %{n} karakter."
 
-#: src/component/lightbox.vue:890
+#: src/component/lightbox.vue:952
 msgid "Mute"
 msgstr "Bisu"
 
@@ -1895,7 +1895,7 @@ msgstr "Kata sandi baru"
 msgid "Newest First"
 msgstr "Terbaru terlebih dahulu"
 
-#: src/component/lightbox.vue:218 src/locales.js:112
+#: src/component/lightbox.vue:230 src/locales.js:112
 msgid "Next"
 msgstr "Berikutnya"
 
@@ -1941,10 +1941,10 @@ msgstr "Tidak ada lagi."
 msgid "No people found"
 msgstr "Tidak ada orang yang ditemukan"
 
-#: src/component/lightbox.vue:292 src/component/photo/view/cards.vue:112
+#: src/component/lightbox.vue:304 src/component/photo/view/cards.vue:112
 #: src/component/photo/view/list.vue:82 src/component/photo/view/mosaic.vue:71
-#: src/page/album/photos.vue:456 src/page/library/browse.vue:128
-#: src/page/photos.vue:603 src/page/places.vue:452 src/page/places.vue:539
+#: src/page/album/photos.vue:454 src/page/library/browse.vue:128
+#: src/page/photos.vue:591 src/page/places.vue:452 src/page/places.vue:539
 msgid "No pictures found"
 msgstr "Tidak ada gambar yang ditemukan"
 
@@ -1984,11 +1984,11 @@ msgstr "Gambar non-fotografis dan berkualitas rendah memerlukan peninjauan sebel
 msgid "None"
 msgstr "Tidak ada"
 
-#: src/component/lightbox.vue:554
+#: src/component/lightbox.vue:569
 msgid "Not allowed"
 msgstr "Tidak diperbolehkan"
 
-#: src/component/lightbox.vue:551
+#: src/component/lightbox.vue:566
 msgid "Not found"
 msgstr "Tidak ditemukan"
 
@@ -1996,7 +1996,7 @@ msgstr "Tidak ditemukan"
 msgid "Not sorted."
 msgstr "Tidak diurutkan."
 
-#: src/component/lightbox.vue:548
+#: src/component/lightbox.vue:563 src/component/lightbox.vue:678
 msgid "Not supported"
 msgstr "Tidak didukung"
 
@@ -2076,7 +2076,7 @@ msgstr "Satu label ditemukan"
 msgid "One person found"
 msgstr "Satu orang ditemukan"
 
-#: src/page/album/photos.vue:458 src/page/photos.vue:605
+#: src/page/album/photos.vue:456 src/page/photos.vue:593
 msgid "One picture found"
 msgstr "Satu gambar ditemukan"
 
@@ -2300,7 +2300,7 @@ msgstr "Pratinjau"
 msgid "Preview Images"
 msgstr "Pratinjau Gambar"
 
-#: src/component/lightbox.vue:217 src/locales.js:113
+#: src/component/lightbox.vue:229 src/locales.js:113
 msgid "Previous"
 msgstr "Sebelumnya"
 
@@ -2449,7 +2449,7 @@ msgstr "Hapus dari album"
 msgid "Remove imported files to save storage. Unsupported file types will never be deleted, they remain in their current location."
 msgstr "Hapus file yang diimpor untuk menghemat penyimpanan. Jenis file yang tidak didukung tidak akan pernah dihapus, mereka tetap di lokasi mereka saat ini."
 
-#: src/common/api.js:102
+#: src/common/api.js:102 src/component/lightbox.vue:674
 msgid "Request failed - are you offline?"
 msgstr "Permintaan gagal - apakah Anda sedang offline?"
 
@@ -2552,7 +2552,7 @@ msgstr "Rahasia"
 msgid "Security and Access"
 msgstr "Keamanan dan Akses"
 
-#: src/component/lightbox.vue:954
+#: src/component/lightbox.vue:1016
 msgid "Select"
 msgstr "Pilih"
 
@@ -2678,7 +2678,7 @@ msgstr "Tampilkan lebih banyak"
 msgid "Show server logs in Library."
 msgstr "Tampilkan log server di Perpustakaan."
 
-#: src/component/lightbox.vue:872
+#: src/component/lightbox.vue:934
 msgid "Show/Hide Sidebar"
 msgstr "Tampilkan/Sembunyikan Bilah Samping"
 
@@ -2714,6 +2714,10 @@ msgstr "Perangkat lunak"
 #: src/component/update.vue:38
 msgid "Software Update"
 msgstr "Pembaruan Perangkat Lunak"
+
+#: src/component/lightbox.vue:671
+msgid "Something went wrong, try again"
+msgstr "Ada yang salah, coba lagi"
 
 #: src/locales.js:42
 msgid "Sort by"
@@ -2762,7 +2766,7 @@ msgstr "Tumpukan"
 msgid "Start"
 msgstr "Mulai"
 
-#: src/component/lightbox.vue:905
+#: src/component/lightbox.vue:967
 msgid "Start/Stop Slideshow"
 msgstr "Mulai/Hentikan Slideshow"
 
@@ -3312,7 +3316,7 @@ msgstr "Dukungan Anda yang berkelanjutan membantu kami menyediakan layanan seper
 msgid "Your library is continuously analyzed to automatically create albums of special moments, trips, and places."
 msgstr "Perpustakaan Anda akan terus dianalisis secara otomatis dalam membuat album momen spesial, perjalanan, dan tempat."
 
-#: src/component/lightbox.vue:216
+#: src/component/lightbox.vue:228
 msgid "Zoom in/out"
 msgstr "Memperbesar/memperkecil"
 
@@ -3562,9 +3566,6 @@ msgstr "Memperbesar/memperkecil"
 
 #~ msgid "Feel free to contact us at membership@photoprism.app for questions regarding your membership."
 #~ msgstr "Jangan ragu untuk menghubungi kami di membership@photoprism.app jika ada pertanyaan mengenai keanggotaan Anda."
-
-#~ msgid "Something went wrong, try again"
-#~ msgstr "Ada yang salah, coba lagi"
 
 #~ msgid "An error occurred - are you offline?"
 #~ msgstr "Sebuah error terjadi - apakah Anda tidak tersambung dengan internet?"

@@ -63,8 +63,8 @@ msgstr "找到了 %{n} 個標籤"
 msgid "%{n} people found"
 msgstr "找到 %{n} 個人"
 
-#: src/page/album/photos.vue:298 src/page/album/photos.vue:461
-#: src/page/photos.vue:433 src/page/photos.vue:608
+#: src/page/album/photos.vue:286 src/page/album/photos.vue:459
+#: src/page/photos.vue:421 src/page/photos.vue:596
 msgid "%{n} pictures found"
 msgstr "找到 %{n} 張圖片"
 
@@ -555,7 +555,7 @@ msgstr "相機序號"
 msgid "Can't access your authenticator app or device?"
 msgstr "无法访问您的身份验证应用程序或设备？"
 
-#: src/page/album/photos.vue:305 src/page/photos.vue:440
+#: src/page/album/photos.vue:293 src/page/photos.vue:428
 msgid "Can't load more, limit reached"
 msgstr "已達上限，無法再載入更多"
 
@@ -681,7 +681,7 @@ msgstr "客户"
 msgid "Client Credentials"
 msgstr "个人"
 
-#: src/page/admin/sessions.vue:454 src/component/lightbox.vue:215
+#: src/page/admin/sessions.vue:454 src/component/lightbox.vue:227
 #: src/component/photo/edit/details.vue:627 src/component/photo/toolbar.vue:242
 #: src/component/photo/upload/dialog.vue:222
 #: src/component/settings/apps.vue:224 src/component/settings/apps.vue:437
@@ -1010,7 +1010,7 @@ msgid "Done."
 msgstr "完成。"
 
 #: src/component/album/clipboard.vue:72 src/component/album/toolbar.vue:120
-#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:988
+#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1050
 #: src/component/people/clipboard.vue:47 src/component/photo/clipboard.vue:116
 #: src/component/photo/edit/files.vue:167 src/page/settings/general.vue:252
 #: src/page/settings/general.vue:624
@@ -1031,9 +1031,9 @@ msgstr "下載單一檔案以及 zip 壓縮檔。"
 
 #: src/component/album/clipboard.vue:102 src/component/album/toolbar.vue:105
 #: src/component/file/clipboard.vue:61 src/component/label/clipboard.vue:86
-#: src/component/lightbox.vue:1534 src/component/people/clipboard.vue:59
+#: src/component/lightbox.vue:1600 src/component/people/clipboard.vue:59
 #: src/component/photo/clipboard.vue:216 src/component/photo/edit/files.vue:117
-#: src/component/photo/view/cards.vue:163 src/component/photo/view/list.vue:133
+#: src/component/photo/view/cards.vue:164 src/component/photo/view/list.vue:133
 #: src/page/library/browse.vue:118
 msgid "Downloading…"
 msgstr "下載中…"
@@ -1071,7 +1071,7 @@ msgid "E-Mail"
 msgstr "電子郵件"
 
 #: src/component/album/clipboard.vue:61 src/component/album/toolbar.vue:82
-#: src/component/lightbox.vue:970 src/component/photo/clipboard.vue:90
+#: src/component/lightbox.vue:1032 src/component/photo/clipboard.vue:90
 #: src/page/settings/general.vue:324
 msgid "Edit"
 msgstr "編輯"
@@ -1135,7 +1135,7 @@ msgstr "輸入驗證碼"
 msgid "Enter your password to confirm the action and continue:"
 msgstr "輸入您的密碼以確認操作並繼續："
 
-#: src/page/connect.vue:52 src/component/lightbox.vue:219
+#: src/page/connect.vue:52 src/component/lightbox.vue:231
 #: src/page/connect.vue:56 src/page/library/errors.vue:203
 msgid "Error"
 msgstr "錯誤"
@@ -1330,7 +1330,7 @@ msgstr "框架"
 msgid "Full Access"
 msgstr "完全存取權限"
 
-#: src/component/lightbox.vue:921
+#: src/component/lightbox.vue:983
 msgid "Fullscreen"
 msgstr "全螢幕"
 
@@ -1656,7 +1656,7 @@ msgstr "收藏庫"
 msgid "License"
 msgstr "授權"
 
-#: src/component/lightbox.vue:938
+#: src/component/lightbox.vue:1000
 msgid "Like"
 msgstr "喜歡"
 
@@ -1849,7 +1849,7 @@ msgstr "移動檔案"
 msgid "Must have at least %{n} characters."
 msgstr "必須至少有 %{n} 個字元。"
 
-#: src/component/lightbox.vue:890
+#: src/component/lightbox.vue:952
 msgid "Mute"
 msgstr "沉默的"
 
@@ -1895,7 +1895,7 @@ msgstr "新密碼"
 msgid "Newest First"
 msgstr "按最新優先"
 
-#: src/component/lightbox.vue:218 src/locales.js:112
+#: src/component/lightbox.vue:230 src/locales.js:112
 msgid "Next"
 msgstr "下一個"
 
@@ -1941,10 +1941,10 @@ msgstr "不再"
 msgid "No people found"
 msgstr "找不到人"
 
-#: src/component/lightbox.vue:292 src/component/photo/view/cards.vue:112
+#: src/component/lightbox.vue:304 src/component/photo/view/cards.vue:112
 #: src/component/photo/view/list.vue:82 src/component/photo/view/mosaic.vue:71
-#: src/page/album/photos.vue:456 src/page/library/browse.vue:128
-#: src/page/photos.vue:603 src/page/places.vue:452 src/page/places.vue:539
+#: src/page/album/photos.vue:454 src/page/library/browse.vue:128
+#: src/page/photos.vue:591 src/page/places.vue:452 src/page/places.vue:539
 msgid "No pictures found"
 msgstr "找不到圖片"
 
@@ -1984,11 +1984,11 @@ msgstr "非照片和低品質圖像需要進行手動確認，才會出現在搜
 msgid "None"
 msgstr "無"
 
-#: src/component/lightbox.vue:554
+#: src/component/lightbox.vue:569
 msgid "Not allowed"
 msgstr "不允許"
 
-#: src/component/lightbox.vue:551
+#: src/component/lightbox.vue:566
 msgid "Not found"
 msgstr "未找到"
 
@@ -1996,7 +1996,7 @@ msgstr "未找到"
 msgid "Not sorted."
 msgstr "沒有排序。"
 
-#: src/component/lightbox.vue:548
+#: src/component/lightbox.vue:563 src/component/lightbox.vue:678
 msgid "Not supported"
 msgstr "不支援"
 
@@ -2076,7 +2076,7 @@ msgstr "找到一個標籤"
 msgid "One person found"
 msgstr "找到一個人"
 
-#: src/page/album/photos.vue:458 src/page/photos.vue:605
+#: src/page/album/photos.vue:456 src/page/photos.vue:593
 msgid "One picture found"
 msgstr "找到一張圖片"
 
@@ -2300,7 +2300,7 @@ msgstr "預覽"
 msgid "Preview Images"
 msgstr "图片预览"
 
-#: src/component/lightbox.vue:217 src/locales.js:113
+#: src/component/lightbox.vue:229 src/locales.js:113
 msgid "Previous"
 msgstr "以前的"
 
@@ -2449,7 +2449,7 @@ msgstr "從相簿中刪除"
 msgid "Remove imported files to save storage. Unsupported file types will never be deleted, they remain in their current location."
 msgstr "刪除已匯入的檔案以節省儲存空間。不支援的檔案類型將不會被刪除，它們會保留在當前位置。"
 
-#: src/common/api.js:102
+#: src/common/api.js:102 src/component/lightbox.vue:674
 msgid "Request failed - are you offline?"
 msgstr "要求失敗－您是否處於離線狀態？"
 
@@ -2552,7 +2552,7 @@ msgstr "秘密"
 msgid "Security and Access"
 msgstr "安全和存取"
 
-#: src/component/lightbox.vue:954
+#: src/component/lightbox.vue:1016
 msgid "Select"
 msgstr "選擇"
 
@@ -2678,7 +2678,7 @@ msgstr "顯示更多"
 msgid "Show server logs in Library."
 msgstr "在收藏庫中顯示伺服器日誌。"
 
-#: src/component/lightbox.vue:872
+#: src/component/lightbox.vue:934
 msgid "Show/Hide Sidebar"
 msgstr "顯示/隱藏側邊欄"
 
@@ -2714,6 +2714,10 @@ msgstr "軟體"
 #: src/component/update.vue:38
 msgid "Software Update"
 msgstr "軟體更新"
+
+#: src/component/lightbox.vue:671
+msgid "Something went wrong, try again"
+msgstr "出错了，再试一次"
 
 #: src/locales.js:42
 msgid "Sort by"
@@ -2762,7 +2766,7 @@ msgstr "堆疊"
 msgid "Start"
 msgstr "開始"
 
-#: src/component/lightbox.vue:905
+#: src/component/lightbox.vue:967
 msgid "Start/Stop Slideshow"
 msgstr "開始/停止 幻燈片"
 
@@ -3312,7 +3316,7 @@ msgstr "您的持續支持有助於我們提供定期更新並保持獨立，因
 msgid "Your library is continuously analyzed to automatically create albums of special moments, trips, and places."
 msgstr "您的資料庫會持續進行分析，以自動建立有關特殊時刻、旅行和地點的相簿。"
 
-#: src/component/lightbox.vue:216
+#: src/component/lightbox.vue:228
 msgid "Zoom in/out"
 msgstr "縮放"
 
@@ -3566,9 +3570,6 @@ msgstr "縮放"
 
 #~ msgid "Feel free to contact us at membership@photoprism.app for questions regarding your membership."
 #~ msgstr "如有关于会员资格的问题，请随时与我们联系，membership@photoprism.app。"
-
-#~ msgid "Something went wrong, try again"
-#~ msgstr "出错了，再试一次"
 
 #~ msgid "An error occurred - are you offline?"
 #~ msgstr "發生錯誤了 - 你是不是離線了？"

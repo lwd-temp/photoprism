@@ -62,8 +62,8 @@ msgstr ""
 msgid "%{n} people found"
 msgstr ""
 
-#: src/page/album/photos.vue:298 src/page/album/photos.vue:461
-#: src/page/photos.vue:433 src/page/photos.vue:608
+#: src/page/album/photos.vue:286 src/page/album/photos.vue:459
+#: src/page/photos.vue:421 src/page/photos.vue:596
 msgid "%{n} pictures found"
 msgstr ""
 
@@ -554,7 +554,7 @@ msgstr ""
 msgid "Can't access your authenticator app or device?"
 msgstr ""
 
-#: src/page/album/photos.vue:305 src/page/photos.vue:440
+#: src/page/album/photos.vue:293 src/page/photos.vue:428
 msgid "Can't load more, limit reached"
 msgstr ""
 
@@ -680,7 +680,7 @@ msgstr ""
 msgid "Client Credentials"
 msgstr ""
 
-#: src/page/admin/sessions.vue:454 src/component/lightbox.vue:215
+#: src/page/admin/sessions.vue:454 src/component/lightbox.vue:227
 #: src/component/photo/edit/details.vue:627 src/component/photo/toolbar.vue:242
 #: src/component/photo/upload/dialog.vue:222
 #: src/component/settings/apps.vue:224 src/component/settings/apps.vue:437
@@ -1009,7 +1009,7 @@ msgid "Done."
 msgstr ""
 
 #: src/component/album/clipboard.vue:72 src/component/album/toolbar.vue:120
-#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:988
+#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1050
 #: src/component/people/clipboard.vue:47 src/component/photo/clipboard.vue:116
 #: src/component/photo/edit/files.vue:167 src/page/settings/general.vue:252
 #: src/page/settings/general.vue:624
@@ -1030,9 +1030,9 @@ msgstr ""
 
 #: src/component/album/clipboard.vue:102 src/component/album/toolbar.vue:105
 #: src/component/file/clipboard.vue:61 src/component/label/clipboard.vue:86
-#: src/component/lightbox.vue:1534 src/component/people/clipboard.vue:59
+#: src/component/lightbox.vue:1600 src/component/people/clipboard.vue:59
 #: src/component/photo/clipboard.vue:216 src/component/photo/edit/files.vue:117
-#: src/component/photo/view/cards.vue:163 src/component/photo/view/list.vue:133
+#: src/component/photo/view/cards.vue:164 src/component/photo/view/list.vue:133
 #: src/page/library/browse.vue:118
 msgid "Downloading…"
 msgstr ""
@@ -1070,7 +1070,7 @@ msgid "E-Mail"
 msgstr ""
 
 #: src/component/album/clipboard.vue:61 src/component/album/toolbar.vue:82
-#: src/component/lightbox.vue:970 src/component/photo/clipboard.vue:90
+#: src/component/lightbox.vue:1032 src/component/photo/clipboard.vue:90
 #: src/page/settings/general.vue:324
 msgid "Edit"
 msgstr ""
@@ -1134,7 +1134,7 @@ msgstr ""
 msgid "Enter your password to confirm the action and continue:"
 msgstr ""
 
-#: src/page/connect.vue:52 src/component/lightbox.vue:219
+#: src/page/connect.vue:52 src/component/lightbox.vue:231
 #: src/page/connect.vue:56 src/page/library/errors.vue:203
 msgid "Error"
 msgstr ""
@@ -1329,7 +1329,7 @@ msgstr ""
 msgid "Full Access"
 msgstr ""
 
-#: src/component/lightbox.vue:921
+#: src/component/lightbox.vue:983
 msgid "Fullscreen"
 msgstr ""
 
@@ -1655,7 +1655,7 @@ msgstr ""
 msgid "License"
 msgstr ""
 
-#: src/component/lightbox.vue:938
+#: src/component/lightbox.vue:1000
 msgid "Like"
 msgstr ""
 
@@ -1848,7 +1848,7 @@ msgstr ""
 msgid "Must have at least %{n} characters."
 msgstr ""
 
-#: src/component/lightbox.vue:890
+#: src/component/lightbox.vue:952
 msgid "Mute"
 msgstr ""
 
@@ -1894,7 +1894,7 @@ msgstr ""
 msgid "Newest First"
 msgstr ""
 
-#: src/component/lightbox.vue:218 src/locales.js:112
+#: src/component/lightbox.vue:230 src/locales.js:112
 msgid "Next"
 msgstr "Next"
 
@@ -1940,10 +1940,10 @@ msgstr ""
 msgid "No people found"
 msgstr ""
 
-#: src/component/lightbox.vue:292 src/component/photo/view/cards.vue:112
+#: src/component/lightbox.vue:304 src/component/photo/view/cards.vue:112
 #: src/component/photo/view/list.vue:82 src/component/photo/view/mosaic.vue:71
-#: src/page/album/photos.vue:456 src/page/library/browse.vue:128
-#: src/page/photos.vue:603 src/page/places.vue:452 src/page/places.vue:539
+#: src/page/album/photos.vue:454 src/page/library/browse.vue:128
+#: src/page/photos.vue:591 src/page/places.vue:452 src/page/places.vue:539
 msgid "No pictures found"
 msgstr ""
 
@@ -1983,11 +1983,11 @@ msgstr ""
 msgid "None"
 msgstr ""
 
-#: src/component/lightbox.vue:554
+#: src/component/lightbox.vue:569
 msgid "Not allowed"
 msgstr ""
 
-#: src/component/lightbox.vue:551
+#: src/component/lightbox.vue:566
 msgid "Not found"
 msgstr ""
 
@@ -1995,7 +1995,7 @@ msgstr ""
 msgid "Not sorted."
 msgstr ""
 
-#: src/component/lightbox.vue:548
+#: src/component/lightbox.vue:563 src/component/lightbox.vue:678
 msgid "Not supported"
 msgstr ""
 
@@ -2075,7 +2075,7 @@ msgstr ""
 msgid "One person found"
 msgstr ""
 
-#: src/page/album/photos.vue:458 src/page/photos.vue:605
+#: src/page/album/photos.vue:456 src/page/photos.vue:593
 msgid "One picture found"
 msgstr ""
 
@@ -2299,7 +2299,7 @@ msgstr ""
 msgid "Preview Images"
 msgstr ""
 
-#: src/component/lightbox.vue:217 src/locales.js:113
+#: src/component/lightbox.vue:229 src/locales.js:113
 msgid "Previous"
 msgstr ""
 
@@ -2448,7 +2448,7 @@ msgstr ""
 msgid "Remove imported files to save storage. Unsupported file types will never be deleted, they remain in their current location."
 msgstr ""
 
-#: src/common/api.js:102
+#: src/common/api.js:102 src/component/lightbox.vue:674
 msgid "Request failed - are you offline?"
 msgstr ""
 
@@ -2551,7 +2551,7 @@ msgstr ""
 msgid "Security and Access"
 msgstr ""
 
-#: src/component/lightbox.vue:954
+#: src/component/lightbox.vue:1016
 msgid "Select"
 msgstr ""
 
@@ -2677,7 +2677,7 @@ msgstr ""
 msgid "Show server logs in Library."
 msgstr ""
 
-#: src/component/lightbox.vue:872
+#: src/component/lightbox.vue:934
 msgid "Show/Hide Sidebar"
 msgstr ""
 
@@ -2712,6 +2712,10 @@ msgstr ""
 
 #: src/component/update.vue:38
 msgid "Software Update"
+msgstr ""
+
+#: src/component/lightbox.vue:671
+msgid "Something went wrong, try again"
 msgstr ""
 
 #: src/locales.js:42
@@ -2761,7 +2765,7 @@ msgstr ""
 msgid "Start"
 msgstr ""
 
-#: src/component/lightbox.vue:905
+#: src/component/lightbox.vue:967
 msgid "Start/Stop Slideshow"
 msgstr ""
 
@@ -3311,7 +3315,7 @@ msgstr ""
 msgid "Your library is continuously analyzed to automatically create albums of special moments, trips, and places."
 msgstr ""
 
-#: src/component/lightbox.vue:216
+#: src/component/lightbox.vue:228
 msgid "Zoom in/out"
 msgstr ""
 

@@ -63,8 +63,8 @@ msgstr "%{n} nalezených štítků"
 msgid "%{n} people found"
 msgstr "%{n} nalezeno lidí"
 
-#: src/page/album/photos.vue:298 src/page/album/photos.vue:461
-#: src/page/photos.vue:433 src/page/photos.vue:608
+#: src/page/album/photos.vue:286 src/page/album/photos.vue:459
+#: src/page/photos.vue:421 src/page/photos.vue:596
 msgid "%{n} pictures found"
 msgstr "%{n} nalezených obrázků"
 
@@ -555,7 +555,7 @@ msgstr "Sériové číslo kamery"
 msgid "Can't access your authenticator app or device?"
 msgstr "Nemůžete získat přístup k aplikaci nebo zařízení autentizátoru?"
 
-#: src/page/album/photos.vue:305 src/page/photos.vue:440
+#: src/page/album/photos.vue:293 src/page/photos.vue:428
 msgid "Can't load more, limit reached"
 msgstr "Nelze načíst více, dosaženo limitu"
 
@@ -681,7 +681,7 @@ msgstr "Klient"
 msgid "Client Credentials"
 msgstr "Pověření klienta"
 
-#: src/page/admin/sessions.vue:454 src/component/lightbox.vue:215
+#: src/page/admin/sessions.vue:454 src/component/lightbox.vue:227
 #: src/component/photo/edit/details.vue:627 src/component/photo/toolbar.vue:242
 #: src/component/photo/upload/dialog.vue:222
 #: src/component/settings/apps.vue:224 src/component/settings/apps.vue:437
@@ -1010,7 +1010,7 @@ msgid "Done."
 msgstr "Hotovo."
 
 #: src/component/album/clipboard.vue:72 src/component/album/toolbar.vue:120
-#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:988
+#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1050
 #: src/component/people/clipboard.vue:47 src/component/photo/clipboard.vue:116
 #: src/component/photo/edit/files.vue:167 src/page/settings/general.vue:252
 #: src/page/settings/general.vue:624
@@ -1031,9 +1031,9 @@ msgstr "Stáhnout jednotlivé soubory a archivy zip."
 
 #: src/component/album/clipboard.vue:102 src/component/album/toolbar.vue:105
 #: src/component/file/clipboard.vue:61 src/component/label/clipboard.vue:86
-#: src/component/lightbox.vue:1534 src/component/people/clipboard.vue:59
+#: src/component/lightbox.vue:1600 src/component/people/clipboard.vue:59
 #: src/component/photo/clipboard.vue:216 src/component/photo/edit/files.vue:117
-#: src/component/photo/view/cards.vue:163 src/component/photo/view/list.vue:133
+#: src/component/photo/view/cards.vue:164 src/component/photo/view/list.vue:133
 #: src/page/library/browse.vue:118
 msgid "Downloading…"
 msgstr "Stahování…"
@@ -1071,7 +1071,7 @@ msgid "E-Mail"
 msgstr "E-Mail"
 
 #: src/component/album/clipboard.vue:61 src/component/album/toolbar.vue:82
-#: src/component/lightbox.vue:970 src/component/photo/clipboard.vue:90
+#: src/component/lightbox.vue:1032 src/component/photo/clipboard.vue:90
 #: src/page/settings/general.vue:324
 msgid "Edit"
 msgstr "Upravit"
@@ -1135,7 +1135,7 @@ msgstr "Vložte ověřovací kód"
 msgid "Enter your password to confirm the action and continue:"
 msgstr "Pro potvrzení zadejte své heslo a pokračujte:"
 
-#: src/page/connect.vue:52 src/component/lightbox.vue:219
+#: src/page/connect.vue:52 src/component/lightbox.vue:231
 #: src/page/connect.vue:56 src/page/library/errors.vue:203
 msgid "Error"
 msgstr "Chyba"
@@ -1330,7 +1330,7 @@ msgstr "Frames"
 msgid "Full Access"
 msgstr "Volný přístup"
 
-#: src/component/lightbox.vue:921
+#: src/component/lightbox.vue:983
 msgid "Fullscreen"
 msgstr "Celá obrazovka"
 
@@ -1656,7 +1656,7 @@ msgstr "Knihovna"
 msgid "License"
 msgstr "Licence"
 
-#: src/component/lightbox.vue:938
+#: src/component/lightbox.vue:1000
 msgid "Like"
 msgstr "Líbí se mi"
 
@@ -1849,7 +1849,7 @@ msgstr "Přesunout soubory"
 msgid "Must have at least %{n} characters."
 msgstr "Musí mít alespoň %{n} znaků."
 
-#: src/component/lightbox.vue:890
+#: src/component/lightbox.vue:952
 msgid "Mute"
 msgstr "Ztlumit"
 
@@ -1895,7 +1895,7 @@ msgstr "Nové heslo"
 msgid "Newest First"
 msgstr "Od nejnovějších"
 
-#: src/component/lightbox.vue:218 src/locales.js:112
+#: src/component/lightbox.vue:230 src/locales.js:112
 msgid "Next"
 msgstr "Další"
 
@@ -1941,10 +1941,10 @@ msgstr "Ne více"
 msgid "No people found"
 msgstr "Nenalezeny žádné osoby"
 
-#: src/component/lightbox.vue:292 src/component/photo/view/cards.vue:112
+#: src/component/lightbox.vue:304 src/component/photo/view/cards.vue:112
 #: src/component/photo/view/list.vue:82 src/component/photo/view/mosaic.vue:71
-#: src/page/album/photos.vue:456 src/page/library/browse.vue:128
-#: src/page/photos.vue:603 src/page/places.vue:452 src/page/places.vue:539
+#: src/page/album/photos.vue:454 src/page/library/browse.vue:128
+#: src/page/photos.vue:591 src/page/places.vue:452 src/page/places.vue:539
 msgid "No pictures found"
 msgstr "Nenalezeny žádné obrázky"
 
@@ -1984,11 +1984,11 @@ msgstr "Nefotografické obrázky a snímky nízké kvality vyžadují kontrolu, 
 msgid "None"
 msgstr "Žádné"
 
-#: src/component/lightbox.vue:554
+#: src/component/lightbox.vue:569
 msgid "Not allowed"
 msgstr "Není povoleno"
 
-#: src/component/lightbox.vue:551
+#: src/component/lightbox.vue:566
 msgid "Not found"
 msgstr "Nenalezeno"
 
@@ -1996,7 +1996,7 @@ msgstr "Nenalezeno"
 msgid "Not sorted."
 msgstr "Netřídí se."
 
-#: src/component/lightbox.vue:548
+#: src/component/lightbox.vue:563 src/component/lightbox.vue:678
 msgid "Not supported"
 msgstr "Není podporováno"
 
@@ -2076,7 +2076,7 @@ msgstr "Nalezen jeden štítek"
 msgid "One person found"
 msgstr "Nalezena jedna osoba"
 
-#: src/page/album/photos.vue:458 src/page/photos.vue:605
+#: src/page/album/photos.vue:456 src/page/photos.vue:593
 msgid "One picture found"
 msgstr "Nalezen jeden obrázek"
 
@@ -2300,7 +2300,7 @@ msgstr "Náhled"
 msgid "Preview Images"
 msgstr "Náhled obrázků"
 
-#: src/component/lightbox.vue:217 src/locales.js:113
+#: src/component/lightbox.vue:229 src/locales.js:113
 msgid "Previous"
 msgstr "Předchozí"
 
@@ -2449,7 +2449,7 @@ msgstr "Odebrat z alba"
 msgid "Remove imported files to save storage. Unsupported file types will never be deleted, they remain in their current location."
 msgstr "Odstranit importované soubory pro ušetření úložného prostoru. Nepodporované typy souborů odstraněny nikdy nebudou, zůstanou ve svém aktuálním umístění."
 
-#: src/common/api.js:102
+#: src/common/api.js:102 src/component/lightbox.vue:674
 msgid "Request failed - are you offline?"
 msgstr "Požadavek se nezdařil - jste offline?"
 
@@ -2552,7 +2552,7 @@ msgstr "Tajemství"
 msgid "Security and Access"
 msgstr "Zabezpečení a přístup"
 
-#: src/component/lightbox.vue:954
+#: src/component/lightbox.vue:1016
 msgid "Select"
 msgstr "Označit"
 
@@ -2678,7 +2678,7 @@ msgstr "Zobrazit více"
 msgid "Show server logs in Library."
 msgstr "Zobrazit logy serveru v Knihovně."
 
-#: src/component/lightbox.vue:872
+#: src/component/lightbox.vue:934
 msgid "Show/Hide Sidebar"
 msgstr "Zobrazit/skrýt postranní panel"
 
@@ -2714,6 +2714,10 @@ msgstr "Software"
 #: src/component/update.vue:38
 msgid "Software Update"
 msgstr "Aktualizace softwaru"
+
+#: src/component/lightbox.vue:671
+msgid "Something went wrong, try again"
+msgstr "Něco se pokazilo, zkuste to znovu"
 
 #: src/locales.js:42
 msgid "Sort by"
@@ -2762,7 +2766,7 @@ msgstr "Stohy"
 msgid "Start"
 msgstr "Spustit"
 
-#: src/component/lightbox.vue:905
+#: src/component/lightbox.vue:967
 msgid "Start/Stop Slideshow"
 msgstr "Spustit/Zastavit prezentaci"
 
@@ -3312,7 +3316,7 @@ msgstr "Vaše trvalá podpora nám pomáhá poskytovat pravidelné aktualizace a
 msgid "Your library is continuously analyzed to automatically create albums of special moments, trips, and places."
 msgstr "Vaše knihovna je průběžně analyzována a automaticky vytváří alba zvláštních okamžiků, výletů a míst."
 
-#: src/component/lightbox.vue:216
+#: src/component/lightbox.vue:228
 msgid "Zoom in/out"
 msgstr "Přiblížit/Oddálit"
 
@@ -3564,9 +3568,6 @@ msgstr "Přiblížit/Oddálit"
 
 #~ msgid "Feel free to contact us at membership@photoprism.app for questions regarding your membership."
 #~ msgstr "V případě dotazů týkajících se vašeho členství nás neváhejte kontaktovat na adrese membership@photoprism.app."
-
-#~ msgid "Something went wrong, try again"
-#~ msgstr "Něco se pokazilo, zkuste to znovu"
 
 #~ msgid "An error occurred - are you offline?"
 #~ msgstr "Došlo k chybě - jste offline?"

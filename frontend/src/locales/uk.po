@@ -63,8 +63,8 @@ msgstr "%{n} міток знайдено"
 msgid "%{n} people found"
 msgstr "%{n} людей знайдено"
 
-#: src/page/album/photos.vue:298 src/page/album/photos.vue:461
-#: src/page/photos.vue:433 src/page/photos.vue:608
+#: src/page/album/photos.vue:286 src/page/album/photos.vue:459
+#: src/page/photos.vue:421 src/page/photos.vue:596
 msgid "%{n} pictures found"
 msgstr "%{n} зображень знайдено"
 
@@ -555,7 +555,7 @@ msgstr "Серійний номер камери"
 msgid "Can't access your authenticator app or device?"
 msgstr "Не можете отримати доступ до програми або пристрою автентифікації?"
 
-#: src/page/album/photos.vue:305 src/page/photos.vue:440
+#: src/page/album/photos.vue:293 src/page/photos.vue:428
 msgid "Can't load more, limit reached"
 msgstr "Не можна завантажити більше, досягнуто ліміту"
 
@@ -681,7 +681,7 @@ msgstr "Клієнт"
 msgid "Client Credentials"
 msgstr "Облікові дані клієнта"
 
-#: src/page/admin/sessions.vue:454 src/component/lightbox.vue:215
+#: src/page/admin/sessions.vue:454 src/component/lightbox.vue:227
 #: src/component/photo/edit/details.vue:627 src/component/photo/toolbar.vue:242
 #: src/component/photo/upload/dialog.vue:222
 #: src/component/settings/apps.vue:224 src/component/settings/apps.vue:437
@@ -1010,7 +1010,7 @@ msgid "Done."
 msgstr "Готово."
 
 #: src/component/album/clipboard.vue:72 src/component/album/toolbar.vue:120
-#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:988
+#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1050
 #: src/component/people/clipboard.vue:47 src/component/photo/clipboard.vue:116
 #: src/component/photo/edit/files.vue:167 src/page/settings/general.vue:252
 #: src/page/settings/general.vue:624
@@ -1031,9 +1031,9 @@ msgstr "Завантажити окремі файли та архіви zip."
 
 #: src/component/album/clipboard.vue:102 src/component/album/toolbar.vue:105
 #: src/component/file/clipboard.vue:61 src/component/label/clipboard.vue:86
-#: src/component/lightbox.vue:1534 src/component/people/clipboard.vue:59
+#: src/component/lightbox.vue:1600 src/component/people/clipboard.vue:59
 #: src/component/photo/clipboard.vue:216 src/component/photo/edit/files.vue:117
-#: src/component/photo/view/cards.vue:163 src/component/photo/view/list.vue:133
+#: src/component/photo/view/cards.vue:164 src/component/photo/view/list.vue:133
 #: src/page/library/browse.vue:118
 msgid "Downloading…"
 msgstr "Завантаження…"
@@ -1071,7 +1071,7 @@ msgid "E-Mail"
 msgstr "Електронна пошта"
 
 #: src/component/album/clipboard.vue:61 src/component/album/toolbar.vue:82
-#: src/component/lightbox.vue:970 src/component/photo/clipboard.vue:90
+#: src/component/lightbox.vue:1032 src/component/photo/clipboard.vue:90
 #: src/page/settings/general.vue:324
 msgid "Edit"
 msgstr "Редагувати"
@@ -1135,7 +1135,7 @@ msgstr "Введіть код верифікації"
 msgid "Enter your password to confirm the action and continue:"
 msgstr "Введіть пароль для підтвердження дії та продовжуйте:"
 
-#: src/page/connect.vue:52 src/component/lightbox.vue:219
+#: src/page/connect.vue:52 src/component/lightbox.vue:231
 #: src/page/connect.vue:56 src/page/library/errors.vue:203
 msgid "Error"
 msgstr "Помилка."
@@ -1330,7 +1330,7 @@ msgstr "Кадрів"
 msgid "Full Access"
 msgstr "Повний доступ"
 
-#: src/component/lightbox.vue:921
+#: src/component/lightbox.vue:983
 msgid "Fullscreen"
 msgstr "Повний екран"
 
@@ -1656,7 +1656,7 @@ msgstr "Бібліотека"
 msgid "License"
 msgstr "Ліцензія"
 
-#: src/component/lightbox.vue:938
+#: src/component/lightbox.vue:1000
 msgid "Like"
 msgstr "Вподобання"
 
@@ -1849,7 +1849,7 @@ msgstr "Перемістити файли"
 msgid "Must have at least %{n} characters."
 msgstr "Повинно містити не менше %{n} символів."
 
-#: src/component/lightbox.vue:890
+#: src/component/lightbox.vue:952
 msgid "Mute"
 msgstr "Вимкнути звук."
 
@@ -1895,7 +1895,7 @@ msgstr "Новий пароль"
 msgid "Newest First"
 msgstr "Спочатку найновіші"
 
-#: src/component/lightbox.vue:218 src/locales.js:112
+#: src/component/lightbox.vue:230 src/locales.js:112
 msgid "Next"
 msgstr "Далі"
 
@@ -1941,10 +1941,10 @@ msgstr "Досить."
 msgid "No people found"
 msgstr "Людей не знайдено"
 
-#: src/component/lightbox.vue:292 src/component/photo/view/cards.vue:112
+#: src/component/lightbox.vue:304 src/component/photo/view/cards.vue:112
 #: src/component/photo/view/list.vue:82 src/component/photo/view/mosaic.vue:71
-#: src/page/album/photos.vue:456 src/page/library/browse.vue:128
-#: src/page/photos.vue:603 src/page/places.vue:452 src/page/places.vue:539
+#: src/page/album/photos.vue:454 src/page/library/browse.vue:128
+#: src/page/photos.vue:591 src/page/places.vue:452 src/page/places.vue:539
 msgid "No pictures found"
 msgstr "Зображення не знайдено"
 
@@ -1984,11 +1984,11 @@ msgstr "Нефотографічні та низькоякісні зображ�
 msgid "None"
 msgstr "Жодного"
 
-#: src/component/lightbox.vue:554
+#: src/component/lightbox.vue:569
 msgid "Not allowed"
 msgstr "Не можна."
 
-#: src/component/lightbox.vue:551
+#: src/component/lightbox.vue:566
 msgid "Not found"
 msgstr "Не знайдено"
 
@@ -1996,7 +1996,7 @@ msgstr "Не знайдено"
 msgid "Not sorted."
 msgstr "Не відсортовано."
 
-#: src/component/lightbox.vue:548
+#: src/component/lightbox.vue:563 src/component/lightbox.vue:678
 msgid "Not supported"
 msgstr "Не підтримується"
 
@@ -2076,7 +2076,7 @@ msgstr "Одну мітку знайдено"
 msgid "One person found"
 msgstr "Одну людину знайдено"
 
-#: src/page/album/photos.vue:458 src/page/photos.vue:605
+#: src/page/album/photos.vue:456 src/page/photos.vue:593
 msgid "One picture found"
 msgstr "Одне зображення знайдено"
 
@@ -2300,7 +2300,7 @@ msgstr "Попередній перегляд"
 msgid "Preview Images"
 msgstr "Попередній перегляд зображень"
 
-#: src/component/lightbox.vue:217 src/locales.js:113
+#: src/component/lightbox.vue:229 src/locales.js:113
 msgid "Previous"
 msgstr "Попередні"
 
@@ -2449,7 +2449,7 @@ msgstr "Видалити з альбому"
 msgid "Remove imported files to save storage. Unsupported file types will never be deleted, they remain in their current location."
 msgstr "Вилучіть імпортовані файли, щоб заощадити пам’ять. Непідтримувані типи файлів ніколи не будуть видалені, вони залишаться в поточному місці."
 
-#: src/common/api.js:102
+#: src/common/api.js:102 src/component/lightbox.vue:674
 msgid "Request failed - are you offline?"
 msgstr "Запит не вдалось виконати - ви не в мережі?"
 
@@ -2552,7 +2552,7 @@ msgstr "Таємний"
 msgid "Security and Access"
 msgstr "Безпека та доступ"
 
-#: src/component/lightbox.vue:954
+#: src/component/lightbox.vue:1016
 msgid "Select"
 msgstr "Вибрати"
 
@@ -2678,7 +2678,7 @@ msgstr "Показати більше"
 msgid "Show server logs in Library."
 msgstr "Показати журнали сервера в бібліотеці."
 
-#: src/component/lightbox.vue:872
+#: src/component/lightbox.vue:934
 msgid "Show/Hide Sidebar"
 msgstr "Показати/приховати бічну панель"
 
@@ -2714,6 +2714,10 @@ msgstr "Програмне забезпечення"
 #: src/component/update.vue:38
 msgid "Software Update"
 msgstr "Оновлення програмного забезпечення"
+
+#: src/component/lightbox.vue:671
+msgid "Something went wrong, try again"
+msgstr "Щось пішло не так, спробуйте ще раз"
 
 #: src/locales.js:42
 msgid "Sort by"
@@ -2762,7 +2766,7 @@ msgstr "Групи"
 msgid "Start"
 msgstr "Почати"
 
-#: src/component/lightbox.vue:905
+#: src/component/lightbox.vue:967
 msgid "Start/Stop Slideshow"
 msgstr "Почати/зупинити показ слайдів"
 
@@ -3312,7 +3316,7 @@ msgstr "Ваша постійна підтримка допомагає нам �
 msgid "Your library is continuously analyzed to automatically create albums of special moments, trips, and places."
 msgstr "Ваша бібліотека постійно аналізується, щоб автоматично створювати альбоми особливих моментів, подорожей і місць."
 
-#: src/component/lightbox.vue:216
+#: src/component/lightbox.vue:228
 msgid "Zoom in/out"
 msgstr "Збільшення/зменшення"
 
@@ -3566,9 +3570,6 @@ msgstr "Збільшення/зменшення"
 
 #~ msgid "Feel free to contact us at membership@photoprism.app for questions regarding your membership."
 #~ msgstr "Будь ласка, звертайтеся до нас за адресою membership@photoprism.app з питаннями щодо вашого членства."
-
-#~ msgid "Something went wrong, try again"
-#~ msgstr "Щось пішло не так, спробуйте ще раз"
 
 #~ msgid "An error occurred - are you offline?"
 #~ msgstr "Сталася помилка - ви офлайн?"

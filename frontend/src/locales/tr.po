@@ -63,8 +63,8 @@ msgstr "%{n} etiket bulundu"
 msgid "%{n} people found"
 msgstr "%{n} kişi bulundu"
 
-#: src/page/album/photos.vue:298 src/page/album/photos.vue:461
-#: src/page/photos.vue:433 src/page/photos.vue:608
+#: src/page/album/photos.vue:286 src/page/album/photos.vue:459
+#: src/page/photos.vue:421 src/page/photos.vue:596
 msgid "%{n} pictures found"
 msgstr "%{n} resim bulundu"
 
@@ -555,7 +555,7 @@ msgstr "Kamera Seri"
 msgid "Can't access your authenticator app or device?"
 msgstr "Kimlik doğrulayıcı uygulamanıza veya cihazınıza erişemiyor musunuz?"
 
-#: src/page/album/photos.vue:305 src/page/photos.vue:440
+#: src/page/album/photos.vue:293 src/page/photos.vue:428
 msgid "Can't load more, limit reached"
 msgstr "Daha fazla yüklenemiyor, sınıra ulaşıldı"
 
@@ -681,7 +681,7 @@ msgstr "Müşteri"
 msgid "Client Credentials"
 msgstr "Müşteri Kimlik Bilgileri"
 
-#: src/page/admin/sessions.vue:454 src/component/lightbox.vue:215
+#: src/page/admin/sessions.vue:454 src/component/lightbox.vue:227
 #: src/component/photo/edit/details.vue:627 src/component/photo/toolbar.vue:242
 #: src/component/photo/upload/dialog.vue:222
 #: src/component/settings/apps.vue:224 src/component/settings/apps.vue:437
@@ -1010,7 +1010,7 @@ msgid "Done."
 msgstr "Tamamlandı."
 
 #: src/component/album/clipboard.vue:72 src/component/album/toolbar.vue:120
-#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:988
+#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1050
 #: src/component/people/clipboard.vue:47 src/component/photo/clipboard.vue:116
 #: src/component/photo/edit/files.vue:167 src/page/settings/general.vue:252
 #: src/page/settings/general.vue:624
@@ -1031,9 +1031,9 @@ msgstr "Tek dosyaları ve zip arşivlerini indirin."
 
 #: src/component/album/clipboard.vue:102 src/component/album/toolbar.vue:105
 #: src/component/file/clipboard.vue:61 src/component/label/clipboard.vue:86
-#: src/component/lightbox.vue:1534 src/component/people/clipboard.vue:59
+#: src/component/lightbox.vue:1600 src/component/people/clipboard.vue:59
 #: src/component/photo/clipboard.vue:216 src/component/photo/edit/files.vue:117
-#: src/component/photo/view/cards.vue:163 src/component/photo/view/list.vue:133
+#: src/component/photo/view/cards.vue:164 src/component/photo/view/list.vue:133
 #: src/page/library/browse.vue:118
 msgid "Downloading…"
 msgstr "İndiriliyor…"
@@ -1071,7 +1071,7 @@ msgid "E-Mail"
 msgstr "E-Posta"
 
 #: src/component/album/clipboard.vue:61 src/component/album/toolbar.vue:82
-#: src/component/lightbox.vue:970 src/component/photo/clipboard.vue:90
+#: src/component/lightbox.vue:1032 src/component/photo/clipboard.vue:90
 #: src/page/settings/general.vue:324
 msgid "Edit"
 msgstr "Düzenle"
@@ -1135,7 +1135,7 @@ msgstr "Doğrulama kodunu giriniz"
 msgid "Enter your password to confirm the action and continue:"
 msgstr "İşlemi onaylamak ve devam etmek için şifrenizi girin:"
 
-#: src/page/connect.vue:52 src/component/lightbox.vue:219
+#: src/page/connect.vue:52 src/component/lightbox.vue:231
 #: src/page/connect.vue:56 src/page/library/errors.vue:203
 msgid "Error"
 msgstr "Hata"
@@ -1330,7 +1330,7 @@ msgstr "Çerçeveler"
 msgid "Full Access"
 msgstr "Tam erişim"
 
-#: src/component/lightbox.vue:921
+#: src/component/lightbox.vue:983
 msgid "Fullscreen"
 msgstr "Tam ekran"
 
@@ -1656,7 +1656,7 @@ msgstr "Kütüphane"
 msgid "License"
 msgstr "Lisans"
 
-#: src/component/lightbox.vue:938
+#: src/component/lightbox.vue:1000
 msgid "Like"
 msgstr "Sevmek"
 
@@ -1849,7 +1849,7 @@ msgstr "Dosyaları Taşı"
 msgid "Must have at least %{n} characters."
 msgstr "En az %{n} karakter olmalıdır."
 
-#: src/component/lightbox.vue:890
+#: src/component/lightbox.vue:952
 msgid "Mute"
 msgstr "Sessiz"
 
@@ -1895,7 +1895,7 @@ msgstr "Yeni Şifre"
 msgid "Newest First"
 msgstr "Yeniden Eskiye"
 
-#: src/component/lightbox.vue:218 src/locales.js:112
+#: src/component/lightbox.vue:230 src/locales.js:112
 msgid "Next"
 msgstr "Sonraki"
 
@@ -1941,10 +1941,10 @@ msgstr "Daha fazla değil"
 msgid "No people found"
 msgstr "Hiç kimse bulunamadı"
 
-#: src/component/lightbox.vue:292 src/component/photo/view/cards.vue:112
+#: src/component/lightbox.vue:304 src/component/photo/view/cards.vue:112
 #: src/component/photo/view/list.vue:82 src/component/photo/view/mosaic.vue:71
-#: src/page/album/photos.vue:456 src/page/library/browse.vue:128
-#: src/page/photos.vue:603 src/page/places.vue:452 src/page/places.vue:539
+#: src/page/album/photos.vue:454 src/page/library/browse.vue:128
+#: src/page/photos.vue:591 src/page/places.vue:452 src/page/places.vue:539
 msgid "No pictures found"
 msgstr "Resim bulunamadı"
 
@@ -1984,11 +1984,11 @@ msgstr "Fotoğrafik olmayan ve düşük kaliteli görüntülerin arama sonuçlar
 msgid "None"
 msgstr "Hiçbiri"
 
-#: src/component/lightbox.vue:554
+#: src/component/lightbox.vue:569
 msgid "Not allowed"
 msgstr "İzin verilmez"
 
-#: src/component/lightbox.vue:551
+#: src/component/lightbox.vue:566
 msgid "Not found"
 msgstr "Bulunamadı"
 
@@ -1996,7 +1996,7 @@ msgstr "Bulunamadı"
 msgid "Not sorted."
 msgstr "Sıralanmamış."
 
-#: src/component/lightbox.vue:548
+#: src/component/lightbox.vue:563 src/component/lightbox.vue:678
 msgid "Not supported"
 msgstr "Desteklenmiyor"
 
@@ -2076,7 +2076,7 @@ msgstr "Bir etiket bulundu"
 msgid "One person found"
 msgstr "Bir kişi bulundu"
 
-#: src/page/album/photos.vue:458 src/page/photos.vue:605
+#: src/page/album/photos.vue:456 src/page/photos.vue:593
 msgid "One picture found"
 msgstr "Bir resim bulundu"
 
@@ -2300,7 +2300,7 @@ msgstr "Önizleme"
 msgid "Preview Images"
 msgstr "Önizleme Görüntüleri"
 
-#: src/component/lightbox.vue:217 src/locales.js:113
+#: src/component/lightbox.vue:229 src/locales.js:113
 msgid "Previous"
 msgstr "Önceki"
 
@@ -2449,7 +2449,7 @@ msgstr "Albümden çıkar"
 msgid "Remove imported files to save storage. Unsupported file types will never be deleted, they remain in their current location."
 msgstr "Depolama alanından tasarruf etmek için içe aktarılan dosyaları kaldırın. Desteklenmeyen dosya türleri asla silinmez, mevcut konumlarında kalırlar."
 
-#: src/common/api.js:102
+#: src/common/api.js:102 src/component/lightbox.vue:674
 msgid "Request failed - are you offline?"
 msgstr "İstek başarısız oldu - çevrimdışı mısınız?"
 
@@ -2552,7 +2552,7 @@ msgstr "Gizli"
 msgid "Security and Access"
 msgstr "Güvenlik ve Erişim"
 
-#: src/component/lightbox.vue:954
+#: src/component/lightbox.vue:1016
 msgid "Select"
 msgstr "Seç"
 
@@ -2678,7 +2678,7 @@ msgstr "Daha fazla göster"
 msgid "Show server logs in Library."
 msgstr "Kütüphane'de sunucu günlüklerini gösterin."
 
-#: src/component/lightbox.vue:872
+#: src/component/lightbox.vue:934
 msgid "Show/Hide Sidebar"
 msgstr "Kenar Çubuğunu Göster/Gizle"
 
@@ -2714,6 +2714,10 @@ msgstr "Yazılım"
 #: src/component/update.vue:38
 msgid "Software Update"
 msgstr "Yazılım Güncellemesi"
+
+#: src/component/lightbox.vue:671
+msgid "Something went wrong, try again"
+msgstr "Bir şeyler ters gitti, tekrar deneyin"
 
 #: src/locales.js:42
 msgid "Sort by"
@@ -2762,7 +2766,7 @@ msgstr "Yığınlar"
 msgid "Start"
 msgstr "Başla"
 
-#: src/component/lightbox.vue:905
+#: src/component/lightbox.vue:967
 msgid "Start/Stop Slideshow"
 msgstr "Slayt Gösterisini Başlat/Durdur"
 
@@ -3312,7 +3316,7 @@ msgstr "Devam eden desteğiniz düzenli güncellemeler sağlamamıza ve bağıms
 msgid "Your library is continuously analyzed to automatically create albums of special moments, trips, and places."
 msgstr "Özel anların, gezilerin ve yerlerin albümlerini otomatik olarak oluşturmak için kitaplığınız sürekli olarak analiz edilir."
 
-#: src/component/lightbox.vue:216
+#: src/component/lightbox.vue:228
 msgid "Zoom in/out"
 msgstr "Yakınlaştır / uzaklaştır"
 
@@ -3566,9 +3570,6 @@ msgstr "Yakınlaştır / uzaklaştır"
 
 #~ msgid "Feel free to contact us at membership@photoprism.app for questions regarding your membership."
 #~ msgstr "Üyeliğinizle ilgili sorularınız için membership@photoprism.app adresinden bizimle iletişime geçmekten çekinmeyin."
-
-#~ msgid "Something went wrong, try again"
-#~ msgstr "Bir şeyler ters gitti, tekrar deneyin"
 
 #~ msgid "An error occurred - are you offline?"
 #~ msgstr "Bir hata oluştu - çevrimdışı mısınız?"

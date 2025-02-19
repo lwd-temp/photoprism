@@ -63,8 +63,8 @@ msgstr "%{n} लेबल मिले"
 msgid "%{n} people found"
 msgstr "%{n} लोग मिले"
 
-#: src/page/album/photos.vue:298 src/page/album/photos.vue:461
-#: src/page/photos.vue:433 src/page/photos.vue:608
+#: src/page/album/photos.vue:286 src/page/album/photos.vue:459
+#: src/page/photos.vue:421 src/page/photos.vue:596
 msgid "%{n} pictures found"
 msgstr "%{n} चित्र मिले"
 
@@ -555,7 +555,7 @@ msgstr "कैमरा सीरियल"
 msgid "Can't access your authenticator app or device?"
 msgstr "क्या आप अपने प्रमाणक ऐप या डिवाइस तक नहीं पहुंच पा रहे हैं?"
 
-#: src/page/album/photos.vue:305 src/page/photos.vue:440
+#: src/page/album/photos.vue:293 src/page/photos.vue:428
 msgid "Can't load more, limit reached"
 msgstr "अधिक लोड नहीं किया जा सकता, सीमा तक पहुंच गया"
 
@@ -681,7 +681,7 @@ msgstr "ग्राहक"
 msgid "Client Credentials"
 msgstr "ग्राहक क्रेडेंशियल"
 
-#: src/page/admin/sessions.vue:454 src/component/lightbox.vue:215
+#: src/page/admin/sessions.vue:454 src/component/lightbox.vue:227
 #: src/component/photo/edit/details.vue:627 src/component/photo/toolbar.vue:242
 #: src/component/photo/upload/dialog.vue:222
 #: src/component/settings/apps.vue:224 src/component/settings/apps.vue:437
@@ -1010,7 +1010,7 @@ msgid "Done."
 msgstr "किया हुआ |"
 
 #: src/component/album/clipboard.vue:72 src/component/album/toolbar.vue:120
-#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:988
+#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1050
 #: src/component/people/clipboard.vue:47 src/component/photo/clipboard.vue:116
 #: src/component/photo/edit/files.vue:167 src/page/settings/general.vue:252
 #: src/page/settings/general.vue:624
@@ -1031,9 +1031,9 @@ msgstr "एकल फाइलें और ज़िप अभिलेखा�
 
 #: src/component/album/clipboard.vue:102 src/component/album/toolbar.vue:105
 #: src/component/file/clipboard.vue:61 src/component/label/clipboard.vue:86
-#: src/component/lightbox.vue:1534 src/component/people/clipboard.vue:59
+#: src/component/lightbox.vue:1600 src/component/people/clipboard.vue:59
 #: src/component/photo/clipboard.vue:216 src/component/photo/edit/files.vue:117
-#: src/component/photo/view/cards.vue:163 src/component/photo/view/list.vue:133
+#: src/component/photo/view/cards.vue:164 src/component/photo/view/list.vue:133
 #: src/page/library/browse.vue:118
 msgid "Downloading…"
 msgstr "डाउनलोड कर रहा है …"
@@ -1071,7 +1071,7 @@ msgid "E-Mail"
 msgstr "ईमेल"
 
 #: src/component/album/clipboard.vue:61 src/component/album/toolbar.vue:82
-#: src/component/lightbox.vue:970 src/component/photo/clipboard.vue:90
+#: src/component/lightbox.vue:1032 src/component/photo/clipboard.vue:90
 #: src/page/settings/general.vue:324
 msgid "Edit"
 msgstr "संपादित करें"
@@ -1135,7 +1135,7 @@ msgstr "सत्यापन कोड दर्ज करें"
 msgid "Enter your password to confirm the action and continue:"
 msgstr "कार्रवाई की पुष्टि करने और जारी रखने के लिए अपना पासवर्ड दर्ज करें:"
 
-#: src/page/connect.vue:52 src/component/lightbox.vue:219
+#: src/page/connect.vue:52 src/component/lightbox.vue:231
 #: src/page/connect.vue:56 src/page/library/errors.vue:203
 msgid "Error"
 msgstr "त्रुटि"
@@ -1330,7 +1330,7 @@ msgstr "फ्रेम्स"
 msgid "Full Access"
 msgstr "पूर्ण पहुँच"
 
-#: src/component/lightbox.vue:921
+#: src/component/lightbox.vue:983
 msgid "Fullscreen"
 msgstr "पूर्ण स्क्रीन"
 
@@ -1656,7 +1656,7 @@ msgstr "पुस्तकालय"
 msgid "License"
 msgstr "लाइसेंस"
 
-#: src/component/lightbox.vue:938
+#: src/component/lightbox.vue:1000
 msgid "Like"
 msgstr "पसंद"
 
@@ -1849,7 +1849,7 @@ msgstr "फ़ाइलें ले जाएँ"
 msgid "Must have at least %{n} characters."
 msgstr "कम से कम %{n} अक्षर होने चाहिए।"
 
-#: src/component/lightbox.vue:890
+#: src/component/lightbox.vue:952
 msgid "Mute"
 msgstr "आवाज़ बंद करना"
 
@@ -1895,7 +1895,7 @@ msgstr "नया पासवर्ड"
 msgid "Newest First"
 msgstr "नवीनतम पहले"
 
-#: src/component/lightbox.vue:218 src/locales.js:112
+#: src/component/lightbox.vue:230 src/locales.js:112
 msgid "Next"
 msgstr "अगला"
 
@@ -1941,10 +1941,10 @@ msgstr "अब और नहीं"
 msgid "No people found"
 msgstr "कोई व्यक्ति नहीं मिला"
 
-#: src/component/lightbox.vue:292 src/component/photo/view/cards.vue:112
+#: src/component/lightbox.vue:304 src/component/photo/view/cards.vue:112
 #: src/component/photo/view/list.vue:82 src/component/photo/view/mosaic.vue:71
-#: src/page/album/photos.vue:456 src/page/library/browse.vue:128
-#: src/page/photos.vue:603 src/page/places.vue:452 src/page/places.vue:539
+#: src/page/album/photos.vue:454 src/page/library/browse.vue:128
+#: src/page/photos.vue:591 src/page/places.vue:452 src/page/places.vue:539
 msgid "No pictures found"
 msgstr "कोई चित्र नहीं मिला"
 
@@ -1984,11 +1984,11 @@ msgstr "गैर-फोटोग्राफिक और निम्न-ग�
 msgid "None"
 msgstr "कोई नहीं"
 
-#: src/component/lightbox.vue:554
+#: src/component/lightbox.vue:569
 msgid "Not allowed"
 msgstr "अनुमति नहीं"
 
-#: src/component/lightbox.vue:551
+#: src/component/lightbox.vue:566
 msgid "Not found"
 msgstr "नहीं मिला"
 
@@ -1996,7 +1996,7 @@ msgstr "नहीं मिला"
 msgid "Not sorted."
 msgstr "क्रमबद्ध नहीं।"
 
-#: src/component/lightbox.vue:548
+#: src/component/lightbox.vue:563 src/component/lightbox.vue:678
 msgid "Not supported"
 msgstr "समर्थित नहीं"
 
@@ -2076,7 +2076,7 @@ msgstr "एक लेबल मिला"
 msgid "One person found"
 msgstr "एक व्यक्ति मिला"
 
-#: src/page/album/photos.vue:458 src/page/photos.vue:605
+#: src/page/album/photos.vue:456 src/page/photos.vue:593
 msgid "One picture found"
 msgstr "एक तस्वीर मिली"
 
@@ -2300,7 +2300,7 @@ msgstr "पूर्वावलोकन"
 msgid "Preview Images"
 msgstr "छवियों का पूर्वावलोकन करें"
 
-#: src/component/lightbox.vue:217 src/locales.js:113
+#: src/component/lightbox.vue:229 src/locales.js:113
 msgid "Previous"
 msgstr "पहले का"
 
@@ -2449,7 +2449,7 @@ msgstr "एल्बम से निकालें"
 msgid "Remove imported files to save storage. Unsupported file types will never be deleted, they remain in their current location."
 msgstr "स्टोरेज को सेव करने के लिए इंपोर्टेड फाइल्स निकालें। असमर्थित फ़ाइल प्रकार कभी भी हटाए नहीं जाएंगे, वे अपने वर्तमान स्थान पर बने रहेंगे।"
 
-#: src/common/api.js:102
+#: src/common/api.js:102 src/component/lightbox.vue:674
 msgid "Request failed - are you offline?"
 msgstr "अनुरोध विफल - क्या आप ऑफ़लाइन हैं?"
 
@@ -2552,7 +2552,7 @@ msgstr "गुप्त"
 msgid "Security and Access"
 msgstr "सुरक्षा और पहुंच"
 
-#: src/component/lightbox.vue:954
+#: src/component/lightbox.vue:1016
 msgid "Select"
 msgstr "चुनें"
 
@@ -2678,7 +2678,7 @@ msgstr "और दिखाओ"
 msgid "Show server logs in Library."
 msgstr "लायब्रेरी में सर्वर लॉग दिखाएं।"
 
-#: src/component/lightbox.vue:872
+#: src/component/lightbox.vue:934
 msgid "Show/Hide Sidebar"
 msgstr "साइडबार दिखाएँ/छिपाएँ"
 
@@ -2714,6 +2714,10 @@ msgstr "सॉफ़्टवेयर"
 #: src/component/update.vue:38
 msgid "Software Update"
 msgstr "सॉफ्टवेयर अपडेट"
+
+#: src/component/lightbox.vue:671
+msgid "Something went wrong, try again"
+msgstr "कुछ गलत हुआ है, दोबारा कोशिश करें"
 
 #: src/locales.js:42
 msgid "Sort by"
@@ -2762,7 +2766,7 @@ msgstr "ढेर"
 msgid "Start"
 msgstr "शुरू"
 
-#: src/component/lightbox.vue:905
+#: src/component/lightbox.vue:967
 msgid "Start/Stop Slideshow"
 msgstr "शुरू / बंद स्लाइड शो"
 
@@ -3312,7 +3316,7 @@ msgstr "आपका निरंतर समर्थन हमें नि�
 msgid "Your library is continuously analyzed to automatically create albums of special moments, trips, and places."
 msgstr "विशेष क्षणों, यात्राओं और स्थानों के स्वचालित रूप से एल्बम बनाने के लिए आपकी लाइब्रेरी का लगातार विश्लेषण किया जाता है।"
 
-#: src/component/lightbox.vue:216
+#: src/component/lightbox.vue:228
 msgid "Zoom in/out"
 msgstr "ज़ूम इन / आउट करें"
 
@@ -3579,9 +3583,6 @@ msgstr "ज़ूम इन / आउट करें"
 
 #~ msgid "Feel free to contact us at membership@photoprism.app for questions regarding your membership."
 #~ msgstr "अपनी सदस्यता से संबंधित प्रश्नों के लिए बेझिझक हमसे membership@photoprism.app पर संपर्क करें।"
-
-#~ msgid "Something went wrong, try again"
-#~ msgstr "कुछ गलत हुआ है, दोबारा कोशिश करें"
 
 #~ msgid "An error occurred - are you offline?"
 #~ msgstr "एक त्रुटि हुई - क्या आप ऑफ़लाइन हैं?"

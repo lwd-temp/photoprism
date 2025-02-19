@@ -63,8 +63,8 @@ msgstr "%{n} 個のラベルが見つかりました"
 msgid "%{n} people found"
 msgstr "%{n} 人が見つかりました"
 
-#: src/page/album/photos.vue:298 src/page/album/photos.vue:461
-#: src/page/photos.vue:433 src/page/photos.vue:608
+#: src/page/album/photos.vue:286 src/page/album/photos.vue:459
+#: src/page/photos.vue:421 src/page/photos.vue:596
 msgid "%{n} pictures found"
 msgstr "%{n} 枚の写真が見つかりました"
 
@@ -555,7 +555,7 @@ msgstr "カメラのシリアル"
 msgid "Can't access your authenticator app or device?"
 msgstr "認証アプリやデバイスにアクセスできませんか？"
 
-#: src/page/album/photos.vue:305 src/page/photos.vue:440
+#: src/page/album/photos.vue:293 src/page/photos.vue:428
 msgid "Can't load more, limit reached"
 msgstr "制限に達したため、これ以上読み込めません"
 
@@ -681,7 +681,7 @@ msgstr "クライアント"
 msgid "Client Credentials"
 msgstr "クライアント資格情報"
 
-#: src/page/admin/sessions.vue:454 src/component/lightbox.vue:215
+#: src/page/admin/sessions.vue:454 src/component/lightbox.vue:227
 #: src/component/photo/edit/details.vue:627 src/component/photo/toolbar.vue:242
 #: src/component/photo/upload/dialog.vue:222
 #: src/component/settings/apps.vue:224 src/component/settings/apps.vue:437
@@ -1010,7 +1010,7 @@ msgid "Done."
 msgstr "完了しました。"
 
 #: src/component/album/clipboard.vue:72 src/component/album/toolbar.vue:120
-#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:988
+#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1050
 #: src/component/people/clipboard.vue:47 src/component/photo/clipboard.vue:116
 #: src/component/photo/edit/files.vue:167 src/page/settings/general.vue:252
 #: src/page/settings/general.vue:624
@@ -1031,9 +1031,9 @@ msgstr "単一のファイルとzipアーカイブをダウンロードします
 
 #: src/component/album/clipboard.vue:102 src/component/album/toolbar.vue:105
 #: src/component/file/clipboard.vue:61 src/component/label/clipboard.vue:86
-#: src/component/lightbox.vue:1534 src/component/people/clipboard.vue:59
+#: src/component/lightbox.vue:1600 src/component/people/clipboard.vue:59
 #: src/component/photo/clipboard.vue:216 src/component/photo/edit/files.vue:117
-#: src/component/photo/view/cards.vue:163 src/component/photo/view/list.vue:133
+#: src/component/photo/view/cards.vue:164 src/component/photo/view/list.vue:133
 #: src/page/library/browse.vue:118
 msgid "Downloading…"
 msgstr "ダウンロードしています…"
@@ -1071,7 +1071,7 @@ msgid "E-Mail"
 msgstr "メール"
 
 #: src/component/album/clipboard.vue:61 src/component/album/toolbar.vue:82
-#: src/component/lightbox.vue:970 src/component/photo/clipboard.vue:90
+#: src/component/lightbox.vue:1032 src/component/photo/clipboard.vue:90
 #: src/page/settings/general.vue:324
 msgid "Edit"
 msgstr "編集"
@@ -1135,7 +1135,7 @@ msgstr "認証コードを入力してください"
 msgid "Enter your password to confirm the action and continue:"
 msgstr "パスワードを入力して操作を確認し、続行します:"
 
-#: src/page/connect.vue:52 src/component/lightbox.vue:219
+#: src/page/connect.vue:52 src/component/lightbox.vue:231
 #: src/page/connect.vue:56 src/page/library/errors.vue:203
 msgid "Error"
 msgstr "エラー"
@@ -1330,7 +1330,7 @@ msgstr "フレーム"
 msgid "Full Access"
 msgstr "フルアクセス"
 
-#: src/component/lightbox.vue:921
+#: src/component/lightbox.vue:983
 msgid "Fullscreen"
 msgstr "全画面"
 
@@ -1656,7 +1656,7 @@ msgstr "ライブラリ"
 msgid "License"
 msgstr "ライセンス"
 
-#: src/component/lightbox.vue:938
+#: src/component/lightbox.vue:1000
 msgid "Like"
 msgstr "お気に入り"
 
@@ -1849,7 +1849,7 @@ msgstr "ファイルを移動"
 msgid "Must have at least %{n} characters."
 msgstr "少なくとも %{n} 文字必要です。"
 
-#: src/component/lightbox.vue:890
+#: src/component/lightbox.vue:952
 msgid "Mute"
 msgstr "ミュート"
 
@@ -1895,7 +1895,7 @@ msgstr "新しいパスワード"
 msgid "Newest First"
 msgstr "新しい順"
 
-#: src/component/lightbox.vue:218 src/locales.js:112
+#: src/component/lightbox.vue:230 src/locales.js:112
 msgid "Next"
 msgstr "次のページ"
 
@@ -1941,10 +1941,10 @@ msgstr "これ以上ない"
 msgid "No people found"
 msgstr "ユーザーが見つかりませんでした"
 
-#: src/component/lightbox.vue:292 src/component/photo/view/cards.vue:112
+#: src/component/lightbox.vue:304 src/component/photo/view/cards.vue:112
 #: src/component/photo/view/list.vue:82 src/component/photo/view/mosaic.vue:71
-#: src/page/album/photos.vue:456 src/page/library/browse.vue:128
-#: src/page/photos.vue:603 src/page/places.vue:452 src/page/places.vue:539
+#: src/page/album/photos.vue:454 src/page/library/browse.vue:128
+#: src/page/photos.vue:591 src/page/places.vue:452 src/page/places.vue:539
 msgid "No pictures found"
 msgstr "写真はありません"
 
@@ -1984,11 +1984,11 @@ msgstr "写真ではないものや、低品質な画像は検索結果に表示
 msgid "None"
 msgstr "なし"
 
-#: src/component/lightbox.vue:554
+#: src/component/lightbox.vue:569
 msgid "Not allowed"
 msgstr "不可"
 
-#: src/component/lightbox.vue:551
+#: src/component/lightbox.vue:566
 msgid "Not found"
 msgstr "見つかりませんでした"
 
@@ -1996,7 +1996,7 @@ msgstr "見つかりませんでした"
 msgid "Not sorted."
 msgstr "選別されていない。"
 
-#: src/component/lightbox.vue:548
+#: src/component/lightbox.vue:563 src/component/lightbox.vue:678
 msgid "Not supported"
 msgstr "サポートされていない"
 
@@ -2076,7 +2076,7 @@ msgstr "1 個のラベルが見つかりました"
 msgid "One person found"
 msgstr "1 人が見つかりました"
 
-#: src/page/album/photos.vue:458 src/page/photos.vue:605
+#: src/page/album/photos.vue:456 src/page/photos.vue:593
 msgid "One picture found"
 msgstr "1 枚の写真が見つかりました"
 
@@ -2300,7 +2300,7 @@ msgstr "プレビュー"
 msgid "Preview Images"
 msgstr "プレビュー画像"
 
-#: src/component/lightbox.vue:217 src/locales.js:113
+#: src/component/lightbox.vue:229 src/locales.js:113
 msgid "Previous"
 msgstr "前へ"
 
@@ -2449,7 +2449,7 @@ msgstr "アルバムからの削除"
 msgid "Remove imported files to save storage. Unsupported file types will never be deleted, they remain in their current location."
 msgstr "インポートされたファイルを削除してストレージを節約します。対応していないファイルは削除されることはなく、現在の場所に残ります。"
 
-#: src/common/api.js:102
+#: src/common/api.js:102 src/component/lightbox.vue:674
 msgid "Request failed - are you offline?"
 msgstr "リクエストに失敗しました - オフラインですか？"
 
@@ -2552,7 +2552,7 @@ msgstr "シークレット"
 msgid "Security and Access"
 msgstr "セキュリティとアクセス"
 
-#: src/component/lightbox.vue:954
+#: src/component/lightbox.vue:1016
 msgid "Select"
 msgstr "選択"
 
@@ -2678,7 +2678,7 @@ msgstr "表示を増やす"
 msgid "Show server logs in Library."
 msgstr "ライブラリにサーバログを表示します。"
 
-#: src/component/lightbox.vue:872
+#: src/component/lightbox.vue:934
 msgid "Show/Hide Sidebar"
 msgstr "サイドバーの表示/非表示"
 
@@ -2714,6 +2714,10 @@ msgstr "ソフトウェア"
 #: src/component/update.vue:38
 msgid "Software Update"
 msgstr "ソフトウェア・アップデート"
+
+#: src/component/lightbox.vue:671
+msgid "Something went wrong, try again"
+msgstr "何かが間違っている、もう一度やり直してください"
 
 #: src/locales.js:42
 msgid "Sort by"
@@ -2762,7 +2766,7 @@ msgstr "スタック"
 msgid "Start"
 msgstr "開始"
 
-#: src/component/lightbox.vue:905
+#: src/component/lightbox.vue:967
 msgid "Start/Stop Slideshow"
 msgstr "スライドショーを開始/停止"
 
@@ -3312,7 +3316,7 @@ msgstr "皆様の継続的なご支援により、私たちは定期的なアッ
 msgid "Your library is continuously analyzed to automatically create albums of special moments, trips, and places."
 msgstr "あなたのライブラリは継続的に分析され、特別な瞬間や旅行、場所を記録したアルバムを自動的に作成します。"
 
-#: src/component/lightbox.vue:216
+#: src/component/lightbox.vue:228
 msgid "Zoom in/out"
 msgstr "ズーム イン/アウト"
 
@@ -3566,9 +3570,6 @@ msgstr "ズーム イン/アウト"
 
 #~ msgid "Feel free to contact us at membership@photoprism.app for questions regarding your membership."
 #~ msgstr "メンバーシップに関するご質問は、membership@photoprism.app までお気軽にご連絡ください。"
-
-#~ msgid "Something went wrong, try again"
-#~ msgstr "何かが間違っている、もう一度やり直してください"
 
 #~ msgid "An error occurred - are you offline?"
 #~ msgstr "エラーが発生しました - オフラインではありませんか？"

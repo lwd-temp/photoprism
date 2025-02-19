@@ -63,8 +63,8 @@ msgstr "%{n} nájdených štítkov"
 msgid "%{n} people found"
 msgstr "%{n} nájdených ľudí"
 
-#: src/page/album/photos.vue:298 src/page/album/photos.vue:461
-#: src/page/photos.vue:433 src/page/photos.vue:608
+#: src/page/album/photos.vue:286 src/page/album/photos.vue:459
+#: src/page/photos.vue:421 src/page/photos.vue:596
 msgid "%{n} pictures found"
 msgstr "%{n} nájdených obrázkov"
 
@@ -555,7 +555,7 @@ msgstr "Séria Kamery"
 msgid "Can't access your authenticator app or device?"
 msgstr "Nemôžete získať prístup k aplikácii alebo zariadeniu autentifikátora?"
 
-#: src/page/album/photos.vue:305 src/page/photos.vue:440
+#: src/page/album/photos.vue:293 src/page/photos.vue:428
 msgid "Can't load more, limit reached"
 msgstr "Nemožno načítať viac, limit dosiahnutý"
 
@@ -681,7 +681,7 @@ msgstr "Klient"
 msgid "Client Credentials"
 msgstr "Splnomocnenia klienta"
 
-#: src/page/admin/sessions.vue:454 src/component/lightbox.vue:215
+#: src/page/admin/sessions.vue:454 src/component/lightbox.vue:227
 #: src/component/photo/edit/details.vue:627 src/component/photo/toolbar.vue:242
 #: src/component/photo/upload/dialog.vue:222
 #: src/component/settings/apps.vue:224 src/component/settings/apps.vue:437
@@ -1010,7 +1010,7 @@ msgid "Done."
 msgstr "Hotovo."
 
 #: src/component/album/clipboard.vue:72 src/component/album/toolbar.vue:120
-#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:988
+#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1050
 #: src/component/people/clipboard.vue:47 src/component/photo/clipboard.vue:116
 #: src/component/photo/edit/files.vue:167 src/page/settings/general.vue:252
 #: src/page/settings/general.vue:624
@@ -1031,9 +1031,9 @@ msgstr "Stiahnuť samostatné súbory a zip archívy."
 
 #: src/component/album/clipboard.vue:102 src/component/album/toolbar.vue:105
 #: src/component/file/clipboard.vue:61 src/component/label/clipboard.vue:86
-#: src/component/lightbox.vue:1534 src/component/people/clipboard.vue:59
+#: src/component/lightbox.vue:1600 src/component/people/clipboard.vue:59
 #: src/component/photo/clipboard.vue:216 src/component/photo/edit/files.vue:117
-#: src/component/photo/view/cards.vue:163 src/component/photo/view/list.vue:133
+#: src/component/photo/view/cards.vue:164 src/component/photo/view/list.vue:133
 #: src/page/library/browse.vue:118
 msgid "Downloading…"
 msgstr "Sťahovanie…"
@@ -1071,7 +1071,7 @@ msgid "E-Mail"
 msgstr "E-Mail"
 
 #: src/component/album/clipboard.vue:61 src/component/album/toolbar.vue:82
-#: src/component/lightbox.vue:970 src/component/photo/clipboard.vue:90
+#: src/component/lightbox.vue:1032 src/component/photo/clipboard.vue:90
 #: src/page/settings/general.vue:324
 msgid "Edit"
 msgstr "Upraviť"
@@ -1135,7 +1135,7 @@ msgstr "Zadajte overovací kód"
 msgid "Enter your password to confirm the action and continue:"
 msgstr "Zadajte svoje heslo na potvrdenie akcie a pokračujte:"
 
-#: src/page/connect.vue:52 src/component/lightbox.vue:219
+#: src/page/connect.vue:52 src/component/lightbox.vue:231
 #: src/page/connect.vue:56 src/page/library/errors.vue:203
 msgid "Error"
 msgstr "Chyba"
@@ -1330,7 +1330,7 @@ msgstr "Frames"
 msgid "Full Access"
 msgstr "Úplný prístup"
 
-#: src/component/lightbox.vue:921
+#: src/component/lightbox.vue:983
 msgid "Fullscreen"
 msgstr "Plná obrazovka"
 
@@ -1656,7 +1656,7 @@ msgstr "Knižnica"
 msgid "License"
 msgstr "Licencia"
 
-#: src/component/lightbox.vue:938
+#: src/component/lightbox.vue:1000
 msgid "Like"
 msgstr "Páči sa mi to"
 
@@ -1849,7 +1849,7 @@ msgstr "Presunúť Súbory"
 msgid "Must have at least %{n} characters."
 msgstr "Musí obsahovať aspoň %{n} znakov."
 
-#: src/component/lightbox.vue:890
+#: src/component/lightbox.vue:952
 msgid "Mute"
 msgstr "Vypnutie zvuku"
 
@@ -1895,7 +1895,7 @@ msgstr "Nové heslo"
 msgid "Newest First"
 msgstr "Najnovšie prvé"
 
-#: src/component/lightbox.vue:218 src/locales.js:112
+#: src/component/lightbox.vue:230 src/locales.js:112
 msgid "Next"
 msgstr "Ďalšie"
 
@@ -1941,10 +1941,10 @@ msgstr "Nie viac"
 msgid "No people found"
 msgstr "Neboli nájdení žiadni ľudia"
 
-#: src/component/lightbox.vue:292 src/component/photo/view/cards.vue:112
+#: src/component/lightbox.vue:304 src/component/photo/view/cards.vue:112
 #: src/component/photo/view/list.vue:82 src/component/photo/view/mosaic.vue:71
-#: src/page/album/photos.vue:456 src/page/library/browse.vue:128
-#: src/page/photos.vue:603 src/page/places.vue:452 src/page/places.vue:539
+#: src/page/album/photos.vue:454 src/page/library/browse.vue:128
+#: src/page/photos.vue:591 src/page/places.vue:452 src/page/places.vue:539
 msgid "No pictures found"
 msgstr "Nenašli sa žiadne fotky"
 
@@ -1984,11 +1984,11 @@ msgstr "Nefotografické a fotografie nízkej kvality vyžadujú skontrolovanie p
 msgid "None"
 msgstr "Žiadne"
 
-#: src/component/lightbox.vue:554
+#: src/component/lightbox.vue:569
 msgid "Not allowed"
 msgstr "Nie je povolené"
 
-#: src/component/lightbox.vue:551
+#: src/component/lightbox.vue:566
 msgid "Not found"
 msgstr "Nenájdené"
 
@@ -1996,7 +1996,7 @@ msgstr "Nenájdené"
 msgid "Not sorted."
 msgstr "Nie je vytriedené."
 
-#: src/component/lightbox.vue:548
+#: src/component/lightbox.vue:563 src/component/lightbox.vue:678
 msgid "Not supported"
 msgstr "Nie je podporované"
 
@@ -2076,7 +2076,7 @@ msgstr "Našiel sa jeden štítok"
 msgid "One person found"
 msgstr "Našla sa jedna osoba"
 
-#: src/page/album/photos.vue:458 src/page/photos.vue:605
+#: src/page/album/photos.vue:456 src/page/photos.vue:593
 msgid "One picture found"
 msgstr "Našla sa jedna fotka"
 
@@ -2300,7 +2300,7 @@ msgstr "Ukážka"
 msgid "Preview Images"
 msgstr "Náhľad obrázkov"
 
-#: src/component/lightbox.vue:217 src/locales.js:113
+#: src/component/lightbox.vue:229 src/locales.js:113
 msgid "Previous"
 msgstr "Predchádzajúci"
 
@@ -2449,7 +2449,7 @@ msgstr "Odstrániť z albumu"
 msgid "Remove imported files to save storage. Unsupported file types will never be deleted, they remain in their current location."
 msgstr "Odstráňte importované súbory pre uvoľnenie miesta. Nepodporované typy súborov nebudú nikdy odstránené. Zostanú na ich momentálnom mieste."
 
-#: src/common/api.js:102
+#: src/common/api.js:102 src/component/lightbox.vue:674
 msgid "Request failed - are you offline?"
 msgstr "Žiadosť zlyhala - ste offline?"
 
@@ -2552,7 +2552,7 @@ msgstr "Tajomstvo"
 msgid "Security and Access"
 msgstr "Bezpečnosť a prístup"
 
-#: src/component/lightbox.vue:954
+#: src/component/lightbox.vue:1016
 msgid "Select"
 msgstr "Vybrať"
 
@@ -2678,7 +2678,7 @@ msgstr "Zobraziť viac"
 msgid "Show server logs in Library."
 msgstr "Zobraziť serverové záznamy v knižnici."
 
-#: src/component/lightbox.vue:872
+#: src/component/lightbox.vue:934
 msgid "Show/Hide Sidebar"
 msgstr "Zobraziť/skryť bočný panel"
 
@@ -2714,6 +2714,10 @@ msgstr "Softvér"
 #: src/component/update.vue:38
 msgid "Software Update"
 msgstr "Aktualizácia softvéru"
+
+#: src/component/lightbox.vue:671
+msgid "Something went wrong, try again"
+msgstr "Niečo sa pokazilo, skúste to znova"
 
 #: src/locales.js:42
 msgid "Sort by"
@@ -2762,7 +2766,7 @@ msgstr "Naskladané"
 msgid "Start"
 msgstr "Štart"
 
-#: src/component/lightbox.vue:905
+#: src/component/lightbox.vue:967
 msgid "Start/Stop Slideshow"
 msgstr "Spustiť/Zastaviť Prezentáciu"
 
@@ -3312,7 +3316,7 @@ msgstr "Vaša podpora nám pomáha poskytovať pravidelné aktualizácie a zosta
 msgid "Your library is continuously analyzed to automatically create albums of special moments, trips, and places."
 msgstr "Vaša knižnica sa priebežne analyzuje aby mohla automaticky vytvárať albumy špeciálnych momentov, výletov a miest."
 
-#: src/component/lightbox.vue:216
+#: src/component/lightbox.vue:228
 msgid "Zoom in/out"
 msgstr "Priblíziť/Oddialiť"
 
@@ -3562,9 +3566,6 @@ msgstr "Priblíziť/Oddialiť"
 
 #~ msgid "Feel free to contact us at membership@photoprism.app for questions regarding your membership."
 #~ msgstr "V prípade otázok týkajúcich sa vášho členstva nás môžete kontaktovať na adrese membership@photoprism.app."
-
-#~ msgid "Something went wrong, try again"
-#~ msgstr "Niečo sa pokazilo, skúste to znova"
 
 #~ msgid "An error occurred - are you offline?"
 #~ msgstr "Nastala chyba - ste offline?"

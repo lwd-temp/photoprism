@@ -43,33 +43,28 @@
       </div>
     </div>
     <div v-show="video.controls && controlsShown !== 0" ref="controls" class="p-lightbox__controls" @click.stop.prevent>
-      <div class="video-control video-control--play">
-        <v-icon v-if="video.seeking" icon="mdi-loading" class="animate-loading"></v-icon>
+      <div :title="video.error" class="video-control video-control--play">
+        <v-icon v-if="video.error || video.errorCode > 0" icon="mdi-alert"></v-icon>
+        <v-icon v-else-if="video.seeking || video.waiting" icon="mdi-loading" class="animate-loading"></v-icon>
         <v-icon
           v-else-if="video.playing"
           icon="mdi-pause"
           class="clickable"
           @pointerdown.stop.prevent="toggleVideo"
         ></v-icon>
-        <v-icon
-          v-else-if="video.paused || video.ended"
-          icon="mdi-play"
-          class="clickable"
-          @pointerdown.stop.prevent="toggleVideo"
-        ></v-icon>
-        <v-icon v-else v-tooltip="video.error" icon="mdi-alert-circle" class="clickable"></v-icon>
+        <v-icon v-else icon="mdi-play" class="clickable" @pointerdown.stop.prevent="toggleVideo"></v-icon>
       </div>
       <div class="video-control video-control--time text-body-2">
         {{ $util.formatSeconds(video.time) }}
       </div>
       <v-slider
         :model-value="video.time"
-        :disabled="video.state === 0"
+        :disabled="!video.seekable"
         :readonly="video.seeking"
         :thumb-size="12"
         :track-size="3"
         hide-details
-        :error="!!video.error"
+        :error="video.errorCode > 0"
         :min="0"
         :max="video.duration"
         class="video-control video-control--slider"
@@ -147,10 +142,12 @@ export default {
         controls: false,
         src: "",
         error: "",
+        errorCode: 0,
         state: 0,
         time: 0,
         duration: 0,
         seeking: false,
+        seekable: false,
         waiting: false,
         playing: false,
         paused: false,
@@ -698,7 +695,8 @@ export default {
         this.resetVideo();
       }
 
-      const isPlaying = video.readyState && !video.paused && !video.ended && !video.waiting && !video.error;
+      const isPlaying =
+        video.readyState && !video.paused && !video.ended && !video.waiting && (!video.error || video.error.code === 0);
 
       if (ev && ev.type) {
         switch (ev.type) {
@@ -707,6 +705,7 @@ export default {
             this.video.waiting = false;
             this.hideControlsWithDelay(this.playControlHideDelay);
             video.parentElement.classList.add("is-playing");
+            video.parentElement.classList.remove("is-waiting");
             break;
           case "ended":
           case "pause":
@@ -714,8 +713,8 @@ export default {
             break;
           case "abort":
           case "error":
+            video.parentElement.classList.add("is-broken");
             video.parentElement.classList.remove("is-playing");
-            video.parentElement.classList.remove("is-broken");
             break;
           case "timeupdate":
           case "loadeddata":
@@ -724,6 +723,7 @@ export default {
             break;
           case "waiting":
             this.video.waiting = true;
+            video.parentElement.classList.add("is-waiting");
         }
 
         // Automatically hide the lightbox controls after a video has started playing.
@@ -752,12 +752,54 @@ export default {
       // Update properties of the currently playing video.
       this.video.controls =
         !this.slideshow.active && !video.loop && data.model?.Type !== media.Animated && data.model?.Type !== media.Live;
+
       this.video.src = video.src;
-      this.video.error = video.error;
+
+      // Get video playback error, if any:
+      // https://developer.mozilla.org/de/docs/Web/API/HTMLMediaElement/error
+      if (video.error && video.error instanceof MediaError && video.error.code > 0) {
+        if (this.debug) {
+          this.log(video.error.message);
+        }
+
+        switch (video.error.code) {
+          case 1:
+            this.$notify.error(this.$gettext("Something went wrong, try again"));
+            break;
+          case 2:
+            this.video.error = this.$gettext("Request failed - are you offline?");
+            break;
+          case 3:
+          case 4:
+            this.video.error = this.$gettext("Not supported");
+            break;
+          default:
+            this.video.error = video.error.message;
+        }
+
+        video.parentElement.classList.add("is-broken");
+        this.video.errorCode = video.error.code;
+      } else {
+        video.parentElement.classList.remove("is-broken");
+        this.video.error = "";
+        this.video.errorCode = 0;
+      }
+
       this.video.state = video.readyState;
       this.video.time = video.currentTime;
       this.video.duration = video.duration ? video.duration : data.duration;
-      this.video.seeking = !!video.seeking;
+      this.video.seeking = video.seeking === true;
+
+      // Enable seeking if the video has a seekable time range.
+      if (video.seekable && video.seekable instanceof TimeRanges) {
+        this.video.seekable = video.seekable.length > 0;
+      }
+
+      // Disable seeking if video is broken or not loaded.
+      if (this.video.errorCode > 0 || this.video.state <= 0) {
+        this.video.seekable = false;
+      }
+
       this.video.playing = isPlaying;
       this.video.paused = video.paused;
       this.video.ended = video.ended;
@@ -767,10 +809,12 @@ export default {
         controls: !!showControls,
         src: "",
         error: "",
+        errorCode: 0,
         state: 0,
         time: 0,
         duration: 0,
         seeking: false,
+        seekable: false,
         waiting: false,
         playing: false,
         paused: false,
@@ -1433,6 +1477,10 @@ export default {
     // Starts playback on the specified video element, if any.
     playVideo(video, loop) {
       if (!video || !(video instanceof HTMLMediaElement)) {
+        return;
+      }
+
+      if (video.error && video.error instanceof MediaError && video.error.code > 0) {
         return;
       }
 
