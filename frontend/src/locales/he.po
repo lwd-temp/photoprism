@@ -149,7 +149,7 @@ msgstr "פעולה"
 msgid "Actions"
 msgstr "פעולות"
 
-#: src/page/connect.vue:292 src/component/settings/passcode.vue:346
+#: src/page/connect.vue:292 src/component/settings/passcode.vue:345
 #: src/page/connect.vue:299
 msgid "Activate"
 msgstr "הפעלה"
@@ -582,16 +582,12 @@ msgstr "לא ניתן לבחור עוד פרטים"
 #: src/component/service/edit.vue:453 src/component/service/remove.vue:49
 #: src/component/service/upload.vue:115 src/component/settings/apps.vue:352
 #: src/component/settings/passcode.vue:248
-#: src/component/settings/passcode.vue:333
+#: src/component/settings/passcode.vue:332
 #: src/component/settings/password.vue:155 src/component/share/dialog.vue:28
 #: src/locales.js:26 src/page/auth/login.vue:205 src/page/connect.vue:119
 #: src/page/library/import.vue:103 src/page/library/index.vue:115
 msgid "Cancel"
 msgstr "ביטול"
-
-#: src/common/util.js:693
-msgid "Cannot copy to clipboard"
-msgstr "לא ניתן להעתיק ללוח"
 
 #: src/component/photo/edit/details.vue:87 src/component/photo/edit/info.vue:59
 #: src/component/photo/edit/labels.vue:42
@@ -686,9 +682,9 @@ msgstr "אישורי לקוח"
 #: src/component/photo/upload/dialog.vue:222
 #: src/component/settings/apps.vue:224 src/component/settings/apps.vue:437
 #: src/component/settings/passcode.vue:148
-#: src/component/settings/passcode.vue:455
-#: src/component/settings/passcode.vue:496
-#: src/component/settings/webdav.vue:133 src/component/share/dialog.vue:231
+#: src/component/settings/passcode.vue:454
+#: src/component/settings/passcode.vue:495
+#: src/component/settings/webdav.vue:131 src/component/share/dialog.vue:231
 #: src/component/update.vue:57 src/locales.js:22
 #: src/page/library/errors.vue:271
 msgid "Close"
@@ -776,11 +772,11 @@ msgstr "תוֹרֵם"
 msgid "Converting"
 msgstr "ממיר"
 
-#: src/common/util.js:690
+#: src/common/util.js:699
 msgid "Copied to clipboard"
 msgstr "הועתק ללוח"
 
-#: src/component/settings/apps.vue:250 src/component/settings/passcode.vue:358
+#: src/component/settings/apps.vue:250 src/component/settings/passcode.vue:357
 msgid "Copy"
 msgstr "עותק"
 
@@ -853,7 +849,7 @@ msgstr "גיבויים של מסדי נתונים"
 msgid "Day"
 msgstr "יום"
 
-#: src/component/settings/passcode.vue:444
+#: src/component/settings/passcode.vue:443
 msgid "Deactivate"
 msgstr "השבת"
 
@@ -899,7 +895,7 @@ msgstr "מחק ערכי אינדקס יתומים, קבצי צדדיות ותמ�
 msgid "Description"
 msgstr "תיאור"
 
-#: src/component/settings/webdav.vue:117
+#: src/component/settings/webdav.vue:115
 msgid "Detailed instructions can be found in our User Guide."
 msgstr "הוראות מפורטות ניתן למצוא במדריך למשתמש שלנו."
 
@@ -1424,7 +1420,7 @@ msgstr "טווח דינמי גבוה (HDR)"
 msgid "How can we help?"
 msgstr "איך אפשר לעזור?"
 
-#: src/component/settings/passcode.vue:389
+#: src/component/settings/passcode.vue:388
 msgid "If you lose access to your authenticator app or device, you can use your recovery code to regain access to your account."
 msgstr "אם תאבד את הגישה לאפליקציית המאמת או למכשיר שלך, תוכל להשתמש בקוד השחזור שלך כדי לקבל חזרה גישה לחשבון שלך."
 
@@ -1548,8 +1544,8 @@ msgstr "זמן לא חוקי"
 msgid "Invalid URL"
 msgstr "כתובת אתר לא חוקית"
 
-#: src/component/settings/passcode.vue:314
-#: src/component/settings/passcode.vue:391
+#: src/component/settings/passcode.vue:313
+#: src/component/settings/passcode.vue:390
 msgid "It is a one-time use code that will disable 2FA for your account when you use it."
 msgstr "זהו קוד לשימוש חד פעמי שישבית את 2FA עבור חשבונך כאשר אתה משתמש בו."
 
@@ -1984,7 +1980,7 @@ msgstr "תמונות שאינן נראות צילום או באיכות נמוכ
 msgid "None"
 msgstr "ללא"
 
-#: src/component/lightbox.vue:569
+#: src/common/util.js:706 src/component/lightbox.vue:569
 msgid "Not allowed"
 msgstr "אסור"
 
@@ -1996,7 +1992,8 @@ msgstr "לא נמצא"
 msgid "Not sorted."
 msgstr "לא ממוין."
 
-#: src/component/lightbox.vue:563 src/component/lightbox.vue:678
+#: src/common/util.js:711 src/component/lightbox.vue:563
+#: src/component/lightbox.vue:678
 msgid "Not supported"
 msgstr "לא נתמך"
 
@@ -2039,7 +2036,7 @@ msgstr "בְּסֵדֶר"
 msgid "Oldest First"
 msgstr "הישן ראשון"
 
-#: src/component/settings/webdav.vue:78
+#: src/component/settings/webdav.vue:77
 msgid "On Windows, enter the following resource in the connection dialog:"
 msgstr "ב-Windows, הזן את המשאב הבא בתיבת הדו-שיח של החיבור:"
 
@@ -2080,7 +2077,7 @@ msgstr "אדם אחד נמצא"
 msgid "One picture found"
 msgstr "תמונה אחת נמצאה"
 
-#: src/component/settings/passcode.vue:477
+#: src/component/settings/passcode.vue:476
 msgid "Only locally managed accounts can be set up for authentication with 2FA."
 msgstr "ניתן להגדיר רק חשבונות בניהול מקומי לאימות עם 2FA."
 
@@ -2157,7 +2154,7 @@ msgstr "פנורמות"
 #: src/component/user/add/dialog.vue:97 src/component/user/add/dialog.vue:98
 #: src/component/service/add.vue:106 src/component/service/edit.vue:350
 #: src/component/settings/apps.vue:121 src/component/settings/passcode.vue:107
-#: src/component/settings/passcode.vue:418 src/component/share/dialog.vue:27
+#: src/component/settings/passcode.vue:417 src/component/share/dialog.vue:27
 #: src/options/auth.js:91 src/page/auth/login.vue:174
 msgid "Password"
 msgstr "סיסמה"
@@ -2800,7 +2797,7 @@ msgid "Successfully Connected"
 msgstr "מחובר בהצלחה"
 
 #: src/component/session/remove/dialog.vue:32
-#: src/component/settings/apps.vue:218
+#: src/component/settings/apps.vue:217
 msgid "Successfully deleted"
 msgstr "נמחק בהצלחה"
 
@@ -2876,7 +2873,7 @@ msgstr "ערכת נושא"
 msgid "This field is required"
 msgstr "שדה זה חובה"
 
-#: src/component/settings/webdav.vue:102 src/page/settings/services.vue:144
+#: src/component/settings/webdav.vue:100 src/page/settings/services.vue:144
 msgid "This mounts the originals folder as a network drive and allows you to open, edit, and delete files from your computer or smartphone as if they were local."
 msgstr "זה מגדיר את תיקיית המקור ככונן רשת ומאפשר לך לפתוח, לערוך ולמחוק קבצים מהמחשב או מהסמארטפון כל עוד מחוברים לרשת המקומית."
 
@@ -2920,7 +2917,7 @@ msgstr "הכותרת ארוכה מדי"
 msgid "to"
 msgstr "ל"
 
-#: src/component/settings/passcode.vue:312
+#: src/component/settings/passcode.vue:311
 msgid "To avoid being locked out of your account, please download, print or copy this recovery code now and keep it in a safe place."
 msgstr "כדי להימנע מנעילת החשבון שלך, אנא הורד, הדפס או העתק את קוד השחזור הזה כעת ושמור אותו במקום בטוח."
 
@@ -2928,7 +2925,7 @@ msgstr "כדי להימנע מנעילת החשבון שלך, אנא הורד, �
 msgid "To generate a new app-specific password, please enter the name and authorization scope of the application and select an expiration date:"
 msgstr "כדי ליצור סיסמה חדשה ספציפית לאפליקציה, הזן את השם והיקף ההרשאה של האפליקציה ובחר תאריך תפוגה:"
 
-#: src/component/settings/passcode.vue:400
+#: src/component/settings/passcode.vue:399
 msgid "To switch to a new authenticator app or device, first deactivate two-factor authentication and then reactivate it:"
 msgstr "כדי לעבור לאפליקציית אימות או מכשיר חדש, תחילה השבת את האימות הדו-שלבי ולאחר מכן הפעל אותו מחדש:"
 
@@ -2974,7 +2971,7 @@ msgstr "רשימת בדיקות לפתרון בעיות"
 msgid "Try again using other filters or keywords."
 msgstr "נסה שוב להשתמש בסינון או במילת מפתח שונה."
 
-#: src/component/settings/passcode.vue:380
+#: src/component/settings/passcode.vue:379
 msgid "Two-factor authentication has been enabled for your account."
 msgstr "אימות דו-שלבי הופעל עבור חשבונך."
 
@@ -3319,6 +3316,9 @@ msgstr "הספרייה שלך מנותחת באופן רציף ליצירת אל
 #: src/component/lightbox.vue:228
 msgid "Zoom in/out"
 msgstr "זום פנימה\\החוצה"
+
+#~ msgid "Cannot copy to clipboard"
+#~ msgstr "לא ניתן להעתיק ללוח"
 
 #~ msgid "Sound"
 #~ msgstr "קוֹל"

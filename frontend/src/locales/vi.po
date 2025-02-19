@@ -146,7 +146,7 @@ msgstr "Hoạt động"
 msgid "Actions"
 msgstr "hành động"
 
-#: src/page/connect.vue:292 src/component/settings/passcode.vue:346
+#: src/page/connect.vue:292 src/component/settings/passcode.vue:345
 #: src/page/connect.vue:299
 msgid "Activate"
 msgstr "Kích hoạt"
@@ -579,16 +579,12 @@ msgstr "Không thể chọn thêm mục"
 #: src/component/service/edit.vue:453 src/component/service/remove.vue:49
 #: src/component/service/upload.vue:115 src/component/settings/apps.vue:352
 #: src/component/settings/passcode.vue:248
-#: src/component/settings/passcode.vue:333
+#: src/component/settings/passcode.vue:332
 #: src/component/settings/password.vue:155 src/component/share/dialog.vue:28
 #: src/locales.js:26 src/page/auth/login.vue:205 src/page/connect.vue:119
 #: src/page/library/import.vue:103 src/page/library/index.vue:115
 msgid "Cancel"
 msgstr "Hủy bỏ"
-
-#: src/common/util.js:693
-msgid "Cannot copy to clipboard"
-msgstr "Không thể sao chép vào clipboard"
 
 #: src/component/photo/edit/details.vue:87 src/component/photo/edit/info.vue:59
 #: src/component/photo/edit/labels.vue:42
@@ -683,9 +679,9 @@ msgstr "Thông tin xác thực của khách hàng"
 #: src/component/photo/upload/dialog.vue:222
 #: src/component/settings/apps.vue:224 src/component/settings/apps.vue:437
 #: src/component/settings/passcode.vue:148
-#: src/component/settings/passcode.vue:455
-#: src/component/settings/passcode.vue:496
-#: src/component/settings/webdav.vue:133 src/component/share/dialog.vue:231
+#: src/component/settings/passcode.vue:454
+#: src/component/settings/passcode.vue:495
+#: src/component/settings/webdav.vue:131 src/component/share/dialog.vue:231
 #: src/component/update.vue:57 src/locales.js:22
 #: src/page/library/errors.vue:271
 msgid "Close"
@@ -773,11 +769,11 @@ msgstr "Người đóng góp"
 msgid "Converting"
 msgstr "Chuyển đổi"
 
-#: src/common/util.js:690
+#: src/common/util.js:699
 msgid "Copied to clipboard"
 msgstr "Sao chép vào clipboard"
 
-#: src/component/settings/apps.vue:250 src/component/settings/passcode.vue:358
+#: src/component/settings/apps.vue:250 src/component/settings/passcode.vue:357
 msgid "Copy"
 msgstr "Sao chép"
 
@@ -850,7 +846,7 @@ msgstr "Sao lưu cơ sở dữ liệu"
 msgid "Day"
 msgstr "Ngày"
 
-#: src/component/settings/passcode.vue:444
+#: src/component/settings/passcode.vue:443
 msgid "Deactivate"
 msgstr "Vô hiệu hóa"
 
@@ -896,7 +892,7 @@ msgstr "Xóa các mục chỉ mục mồ côi, tệp sidecar và hình thu nhỏ
 msgid "Description"
 msgstr "Sự miêu tả"
 
-#: src/component/settings/webdav.vue:117
+#: src/component/settings/webdav.vue:115
 msgid "Detailed instructions can be found in our User Guide."
 msgstr "Hướng dẫn chi tiết có thể được tìm thấy trong Hướng dẫn sử dụng của chúng tôi."
 
@@ -1421,7 +1417,7 @@ msgstr "Dải động cao (HDR)"
 msgid "How can we help?"
 msgstr "Làm thế nào chúng ta có thể giúp đỡ?"
 
-#: src/component/settings/passcode.vue:389
+#: src/component/settings/passcode.vue:388
 msgid "If you lose access to your authenticator app or device, you can use your recovery code to regain access to your account."
 msgstr "Nếu mất quyền truy cập vào ứng dụng hoặc thiết bị xác thực, bạn có thể sử dụng mã khôi phục để lấy lại quyền truy cập vào tài khoản của mình."
 
@@ -1545,8 +1541,8 @@ msgstr "Thời gian không hợp lệ"
 msgid "Invalid URL"
 msgstr "URL không hợp lệ"
 
-#: src/component/settings/passcode.vue:314
-#: src/component/settings/passcode.vue:391
+#: src/component/settings/passcode.vue:313
+#: src/component/settings/passcode.vue:390
 msgid "It is a one-time use code that will disable 2FA for your account when you use it."
 msgstr "Đây là mã sử dụng một lần sẽ vô hiệu hóa 2FA cho tài khoản của bạn khi bạn sử dụng."
 
@@ -1981,7 +1977,7 @@ msgstr "Hình ảnh không phải ảnh và chất lượng thấp cần đượ
 msgid "None"
 msgstr "Không có"
 
-#: src/component/lightbox.vue:569
+#: src/common/util.js:706 src/component/lightbox.vue:569
 msgid "Not allowed"
 msgstr "Không được phép"
 
@@ -1993,7 +1989,8 @@ msgstr "Không tìm thấy"
 msgid "Not sorted."
 msgstr "Chưa được sắp xếp."
 
-#: src/component/lightbox.vue:563 src/component/lightbox.vue:678
+#: src/common/util.js:711 src/component/lightbox.vue:563
+#: src/component/lightbox.vue:678
 msgid "Not supported"
 msgstr "Không được hỗ trợ"
 
@@ -2036,7 +2033,7 @@ msgstr "ĐƯỢC RỒI"
 msgid "Oldest First"
 msgstr "Cũ nhất đầu tiên"
 
-#: src/component/settings/webdav.vue:78
+#: src/component/settings/webdav.vue:77
 msgid "On Windows, enter the following resource in the connection dialog:"
 msgstr "Trên Windows, nhập tài nguyên sau vào hộp thoại kết nối:"
 
@@ -2077,7 +2074,7 @@ msgstr "Một người được tìm thấy"
 msgid "One picture found"
 msgstr "Một hình ảnh được tìm thấy"
 
-#: src/component/settings/passcode.vue:477
+#: src/component/settings/passcode.vue:476
 msgid "Only locally managed accounts can be set up for authentication with 2FA."
 msgstr "Chỉ những tài khoản được quản lý cục bộ mới có thể được thiết lập để xác thực bằng 2FA."
 
@@ -2154,7 +2151,7 @@ msgstr "Ảnh toàn cảnh"
 #: src/component/user/add/dialog.vue:97 src/component/user/add/dialog.vue:98
 #: src/component/service/add.vue:106 src/component/service/edit.vue:350
 #: src/component/settings/apps.vue:121 src/component/settings/passcode.vue:107
-#: src/component/settings/passcode.vue:418 src/component/share/dialog.vue:27
+#: src/component/settings/passcode.vue:417 src/component/share/dialog.vue:27
 #: src/options/auth.js:91 src/page/auth/login.vue:174
 msgid "Password"
 msgstr "Mật khẩu"
@@ -2797,7 +2794,7 @@ msgid "Successfully Connected"
 msgstr "Kết nối thành công"
 
 #: src/component/session/remove/dialog.vue:32
-#: src/component/settings/apps.vue:218
+#: src/component/settings/apps.vue:217
 msgid "Successfully deleted"
 msgstr "Đã xóa thành công"
 
@@ -2873,7 +2870,7 @@ msgstr "chủ đề"
 msgid "This field is required"
 msgstr "Trường này là bắt buộc"
 
-#: src/component/settings/webdav.vue:102 src/page/settings/services.vue:144
+#: src/component/settings/webdav.vue:100 src/page/settings/services.vue:144
 msgid "This mounts the originals folder as a network drive and allows you to open, edit, and delete files from your computer or smartphone as if they were local."
 msgstr "Thao tác này sẽ gắn thư mục gốc dưới dạng ổ đĩa mạng và cho phép bạn mở, chỉnh sửa và xóa các tệp khỏi máy tính hoặc điện thoại thông minh của bạn như thể chúng là cục bộ."
 
@@ -2917,7 +2914,7 @@ msgstr "Tiêu đề quá dài"
 msgid "to"
 msgstr "ĐẾN"
 
-#: src/component/settings/passcode.vue:312
+#: src/component/settings/passcode.vue:311
 msgid "To avoid being locked out of your account, please download, print or copy this recovery code now and keep it in a safe place."
 msgstr "Để tránh bị khóa tài khoản, vui lòng tải xuống, in hoặc sao chép mã khôi phục này ngay bây giờ và giữ nó ở nơi an toàn."
 
@@ -2925,7 +2922,7 @@ msgstr "Để tránh bị khóa tài khoản, vui lòng tải xuống, in hoặc
 msgid "To generate a new app-specific password, please enter the name and authorization scope of the application and select an expiration date:"
 msgstr "Để tạo mật khẩu mới dành riêng cho ứng dụng, vui lòng nhập tên và phạm vi ủy quyền của ứng dụng và chọn ngày hết hạn:"
 
-#: src/component/settings/passcode.vue:400
+#: src/component/settings/passcode.vue:399
 msgid "To switch to a new authenticator app or device, first deactivate two-factor authentication and then reactivate it:"
 msgstr "Để chuyển sang ứng dụng hoặc thiết bị xác thực mới, trước tiên hãy tắt xác thực hai yếu tố rồi kích hoạt lại:"
 
@@ -2971,7 +2968,7 @@ msgstr "Danh sách kiểm tra khắc phục sự cố"
 msgid "Try again using other filters or keywords."
 msgstr "Hãy thử lại bằng các bộ lọc hoặc từ khóa khác."
 
-#: src/component/settings/passcode.vue:380
+#: src/component/settings/passcode.vue:379
 msgid "Two-factor authentication has been enabled for your account."
 msgstr "Xác thực hai yếu tố đã được kích hoạt cho tài khoản của bạn."
 
@@ -3318,6 +3315,9 @@ msgstr "Thư viện của bạn được phân tích liên tục để tự đ�
 #: src/component/lightbox.vue:228
 msgid "Zoom in/out"
 msgstr "Phóng to / thu nhỏ"
+
+#~ msgid "Cannot copy to clipboard"
+#~ msgstr "Không thể sao chép vào clipboard"
 
 #~ msgid "Sound"
 #~ msgstr "Âm thanh"

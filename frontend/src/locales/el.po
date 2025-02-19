@@ -146,7 +146,7 @@ msgstr "Ενέργεια"
 msgid "Actions"
 msgstr "Ενέργειες"
 
-#: src/page/connect.vue:292 src/component/settings/passcode.vue:346
+#: src/page/connect.vue:292 src/component/settings/passcode.vue:345
 #: src/page/connect.vue:299
 msgid "Activate"
 msgstr "Ενεργοποίηση"
@@ -579,16 +579,12 @@ msgstr "Δεν μπορείτε να επιλέξετε περισσότερα �
 #: src/component/service/edit.vue:453 src/component/service/remove.vue:49
 #: src/component/service/upload.vue:115 src/component/settings/apps.vue:352
 #: src/component/settings/passcode.vue:248
-#: src/component/settings/passcode.vue:333
+#: src/component/settings/passcode.vue:332
 #: src/component/settings/password.vue:155 src/component/share/dialog.vue:28
 #: src/locales.js:26 src/page/auth/login.vue:205 src/page/connect.vue:119
 #: src/page/library/import.vue:103 src/page/library/index.vue:115
 msgid "Cancel"
 msgstr "Ακύρωση"
-
-#: src/common/util.js:693
-msgid "Cannot copy to clipboard"
-msgstr "Δεν είναι δυνατή η αντιγραφή στο πρόχειρο"
 
 #: src/component/photo/edit/details.vue:87 src/component/photo/edit/info.vue:59
 #: src/component/photo/edit/labels.vue:42
@@ -683,9 +679,9 @@ msgstr "Διαπιστευτήρια πελάτη"
 #: src/component/photo/upload/dialog.vue:222
 #: src/component/settings/apps.vue:224 src/component/settings/apps.vue:437
 #: src/component/settings/passcode.vue:148
-#: src/component/settings/passcode.vue:455
-#: src/component/settings/passcode.vue:496
-#: src/component/settings/webdav.vue:133 src/component/share/dialog.vue:231
+#: src/component/settings/passcode.vue:454
+#: src/component/settings/passcode.vue:495
+#: src/component/settings/webdav.vue:131 src/component/share/dialog.vue:231
 #: src/component/update.vue:57 src/locales.js:22
 #: src/page/library/errors.vue:271
 msgid "Close"
@@ -773,11 +769,11 @@ msgstr "Συντελεστής"
 msgid "Converting"
 msgstr "Μετατροπή"
 
-#: src/common/util.js:690
+#: src/common/util.js:699
 msgid "Copied to clipboard"
 msgstr "Αντιγραφή στο πρόχειρο"
 
-#: src/component/settings/apps.vue:250 src/component/settings/passcode.vue:358
+#: src/component/settings/apps.vue:250 src/component/settings/passcode.vue:357
 msgid "Copy"
 msgstr "αντίγραφο"
 
@@ -850,7 +846,7 @@ msgstr "Αντίγραφα ασφαλείας βάσης δεδομένων"
 msgid "Day"
 msgstr "Ημέρα"
 
-#: src/component/settings/passcode.vue:444
+#: src/component/settings/passcode.vue:443
 msgid "Deactivate"
 msgstr "Απενεργοποίηση"
 
@@ -896,7 +892,7 @@ msgstr "Διαγράψτε ορφανές καταχωρήσεις ευρετη�
 msgid "Description"
 msgstr "Περιγραφή"
 
-#: src/component/settings/webdav.vue:117
+#: src/component/settings/webdav.vue:115
 msgid "Detailed instructions can be found in our User Guide."
 msgstr "Λεπτομερείς οδηγίες μπορείτε να βρείτε στον Οδηγό Χρήσης."
 
@@ -1421,7 +1417,7 @@ msgstr "Υψηλό δυναμικό εύρος (HDR)"
 msgid "How can we help?"
 msgstr "Πώς μπορούμε να βοηθήσουμε;"
 
-#: src/component/settings/passcode.vue:389
+#: src/component/settings/passcode.vue:388
 msgid "If you lose access to your authenticator app or device, you can use your recovery code to regain access to your account."
 msgstr "Εάν χάσετε την πρόσβαση στην εφαρμογή ή τη συσκευή ελέγχου ταυτότητας, μπορείτε να χρησιμοποιήσετε τον κωδικό ανάκτησης για να ανακτήσετε την πρόσβαση στον λογαριασμό σας."
 
@@ -1545,8 +1541,8 @@ msgstr "Μη έγκυρη ώρα"
 msgid "Invalid URL"
 msgstr "Μη έγκυρο URL"
 
-#: src/component/settings/passcode.vue:314
-#: src/component/settings/passcode.vue:391
+#: src/component/settings/passcode.vue:313
+#: src/component/settings/passcode.vue:390
 msgid "It is a one-time use code that will disable 2FA for your account when you use it."
 msgstr "Είναι ένας κωδικός μίας χρήσης που θα απενεργοποιήσει το 2FA για τον λογαριασμό σας όταν τον χρησιμοποιείτε."
 
@@ -1981,7 +1977,7 @@ msgstr "Οι μη φωτογραφικές εικόνες και οι εικόν
 msgid "None"
 msgstr "Κανένα"
 
-#: src/component/lightbox.vue:569
+#: src/common/util.js:706 src/component/lightbox.vue:569
 msgid "Not allowed"
 msgstr "Δεν επιτρέπεται"
 
@@ -1993,7 +1989,8 @@ msgstr "Δεν βρέθηκε"
 msgid "Not sorted."
 msgstr "Δεν έχει ταξινομηθεί."
 
-#: src/component/lightbox.vue:563 src/component/lightbox.vue:678
+#: src/common/util.js:711 src/component/lightbox.vue:563
+#: src/component/lightbox.vue:678
 msgid "Not supported"
 msgstr "Δεν υποστηρίζεται"
 
@@ -2036,7 +2033,7 @@ msgstr "OK"
 msgid "Oldest First"
 msgstr "Ο παλαιότερος πρώτος"
 
-#: src/component/settings/webdav.vue:78
+#: src/component/settings/webdav.vue:77
 msgid "On Windows, enter the following resource in the connection dialog:"
 msgstr "Στα Windows, εισαγάγετε τον ακόλουθο πόρο στο παράθυρο διαλόγου σύνδεσης:"
 
@@ -2077,7 +2074,7 @@ msgstr "Ένα άτομο βρήκε"
 msgid "One picture found"
 msgstr "Μια εικόνα που βρέθηκε"
 
-#: src/component/settings/passcode.vue:477
+#: src/component/settings/passcode.vue:476
 msgid "Only locally managed accounts can be set up for authentication with 2FA."
 msgstr "Μόνο οι τοπικά διαχειριζόμενοι λογαριασμοί μπορούν να ρυθμιστούν για έλεγχο ταυτότητας με το 2FA."
 
@@ -2154,7 +2151,7 @@ msgstr "Πανοράματα"
 #: src/component/user/add/dialog.vue:97 src/component/user/add/dialog.vue:98
 #: src/component/service/add.vue:106 src/component/service/edit.vue:350
 #: src/component/settings/apps.vue:121 src/component/settings/passcode.vue:107
-#: src/component/settings/passcode.vue:418 src/component/share/dialog.vue:27
+#: src/component/settings/passcode.vue:417 src/component/share/dialog.vue:27
 #: src/options/auth.js:91 src/page/auth/login.vue:174
 msgid "Password"
 msgstr "Κωδικός πρόσβασης"
@@ -2797,7 +2794,7 @@ msgid "Successfully Connected"
 msgstr "Επιτυχής σύνδεση"
 
 #: src/component/session/remove/dialog.vue:32
-#: src/component/settings/apps.vue:218
+#: src/component/settings/apps.vue:217
 msgid "Successfully deleted"
 msgstr "Διαγράφηκε επιτυχώς"
 
@@ -2873,7 +2870,7 @@ msgstr "Θέμα"
 msgid "This field is required"
 msgstr "Το πεδίο αυτό είναι υποχρεωτικό"
 
-#: src/component/settings/webdav.vue:102 src/page/settings/services.vue:144
+#: src/component/settings/webdav.vue:100 src/page/settings/services.vue:144
 msgid "This mounts the originals folder as a network drive and allows you to open, edit, and delete files from your computer or smartphone as if they were local."
 msgstr "Αυτό προσαρτά το φάκελο πρωτοτύπων ως μονάδα δίσκου δικτύου και σας επιτρέπει να ανοίγετε, να επεξεργάζεστε και να διαγράφετε αρχεία από τον υπολογιστή ή το smartphone σας σαν να ήταν τοπικά."
 
@@ -2917,7 +2914,7 @@ msgstr "Πολύ μεγάλος τίτλος"
 msgid "to"
 msgstr "στο"
 
-#: src/component/settings/passcode.vue:312
+#: src/component/settings/passcode.vue:311
 msgid "To avoid being locked out of your account, please download, print or copy this recovery code now and keep it in a safe place."
 msgstr "Για να αποφύγετε τον αποκλεισμό του λογαριασμού σας, κάντε λήψη, εκτυπώστε ή αντιγράψτε αυτόν τον κωδικό ανάκτησης τώρα και φυλάξτε τον σε ασφαλές μέρος."
 
@@ -2925,7 +2922,7 @@ msgstr "Για να αποφύγετε τον αποκλεισμό του λογ
 msgid "To generate a new app-specific password, please enter the name and authorization scope of the application and select an expiration date:"
 msgstr "Για να δημιουργήσετε έναν νέο κωδικό πρόσβασης για συγκεκριμένη εφαρμογή, εισαγάγετε το όνομα και το εύρος εξουσιοδότησης της εφαρμογής και επιλέξτε μια ημερομηνία λήξης:"
 
-#: src/component/settings/passcode.vue:400
+#: src/component/settings/passcode.vue:399
 msgid "To switch to a new authenticator app or device, first deactivate two-factor authentication and then reactivate it:"
 msgstr "Για να μεταβείτε σε μια νέα εφαρμογή ή συσκευή ελέγχου ταυτότητας, πρώτα απενεργοποιήστε τον έλεγχο ταυτότητας δύο παραγόντων και, στη συνέχεια, ενεργοποιήστε τον ξανά:"
 
@@ -2971,7 +2968,7 @@ msgstr "Λίστες ελέγχου αντιμετώπισης προβλημά�
 msgid "Try again using other filters or keywords."
 msgstr "Δοκιμάστε ξανά χρησιμοποιώντας άλλα φίλτρα ή λέξεις-κλειδιά."
 
-#: src/component/settings/passcode.vue:380
+#: src/component/settings/passcode.vue:379
 msgid "Two-factor authentication has been enabled for your account."
 msgstr "Ο έλεγχος ταυτότητας δύο παραγόντων έχει ενεργοποιηθεί για τον λογαριασμό σας."
 
@@ -3316,6 +3313,9 @@ msgstr "Η βιβλιοθήκη σας αναλύεται συνεχώς για 
 #: src/component/lightbox.vue:228
 msgid "Zoom in/out"
 msgstr "Μεγέθυνση/ σμίκρυνση"
+
+#~ msgid "Cannot copy to clipboard"
+#~ msgstr "Δεν είναι δυνατή η αντιγραφή στο πρόχειρο"
 
 #~ msgid "Sound"
 #~ msgstr "Ήχος"

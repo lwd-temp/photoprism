@@ -149,7 +149,7 @@ msgstr "Tindakan"
 msgid "Actions"
 msgstr "Tindakan"
 
-#: src/page/connect.vue:292 src/component/settings/passcode.vue:346
+#: src/page/connect.vue:292 src/component/settings/passcode.vue:345
 #: src/page/connect.vue:299
 msgid "Activate"
 msgstr "Aktifkan"
@@ -582,16 +582,12 @@ msgstr "Tidak dapat memilih item lainnya"
 #: src/component/service/edit.vue:453 src/component/service/remove.vue:49
 #: src/component/service/upload.vue:115 src/component/settings/apps.vue:352
 #: src/component/settings/passcode.vue:248
-#: src/component/settings/passcode.vue:333
+#: src/component/settings/passcode.vue:332
 #: src/component/settings/password.vue:155 src/component/share/dialog.vue:28
 #: src/locales.js:26 src/page/auth/login.vue:205 src/page/connect.vue:119
 #: src/page/library/import.vue:103 src/page/library/index.vue:115
 msgid "Cancel"
 msgstr "Batal"
-
-#: src/common/util.js:693
-msgid "Cannot copy to clipboard"
-msgstr "Tidak dapat menyalin ke papan klip"
 
 #: src/component/photo/edit/details.vue:87 src/component/photo/edit/info.vue:59
 #: src/component/photo/edit/labels.vue:42
@@ -686,9 +682,9 @@ msgstr "Kredensial Klien"
 #: src/component/photo/upload/dialog.vue:222
 #: src/component/settings/apps.vue:224 src/component/settings/apps.vue:437
 #: src/component/settings/passcode.vue:148
-#: src/component/settings/passcode.vue:455
-#: src/component/settings/passcode.vue:496
-#: src/component/settings/webdav.vue:133 src/component/share/dialog.vue:231
+#: src/component/settings/passcode.vue:454
+#: src/component/settings/passcode.vue:495
+#: src/component/settings/webdav.vue:131 src/component/share/dialog.vue:231
 #: src/component/update.vue:57 src/locales.js:22
 #: src/page/library/errors.vue:271
 msgid "Close"
@@ -776,11 +772,11 @@ msgstr "Kontributor"
 msgid "Converting"
 msgstr "Mengubah"
 
-#: src/common/util.js:690
+#: src/common/util.js:699
 msgid "Copied to clipboard"
 msgstr "Disalin ke papan klip"
 
-#: src/component/settings/apps.vue:250 src/component/settings/passcode.vue:358
+#: src/component/settings/apps.vue:250 src/component/settings/passcode.vue:357
 msgid "Copy"
 msgstr "Menyalin"
 
@@ -853,7 +849,7 @@ msgstr "Pencadangan Basis Data"
 msgid "Day"
 msgstr "Hari"
 
-#: src/component/settings/passcode.vue:444
+#: src/component/settings/passcode.vue:443
 msgid "Deactivate"
 msgstr "Menonaktifkan"
 
@@ -899,7 +895,7 @@ msgstr "Menghapus entri indeks, file sidebar, dan gambar mini."
 msgid "Description"
 msgstr "Deskripsi"
 
-#: src/component/settings/webdav.vue:117
+#: src/component/settings/webdav.vue:115
 msgid "Detailed instructions can be found in our User Guide."
 msgstr "Petunjuk rinci dapat ditemukan di Panduan Pengguna kami."
 
@@ -1424,7 +1420,7 @@ msgstr "Rentang Dinamis Tinggi (HDR)"
 msgid "How can we help?"
 msgstr "Bagaimana kami bisa membantu?"
 
-#: src/component/settings/passcode.vue:389
+#: src/component/settings/passcode.vue:388
 msgid "If you lose access to your authenticator app or device, you can use your recovery code to regain access to your account."
 msgstr "Jika Anda kehilangan akses ke aplikasi atau perangkat pengautentikasi, Anda dapat menggunakan kode pemulihan untuk mendapatkan kembali akses ke akun Anda."
 
@@ -1548,8 +1544,8 @@ msgstr "Waktu tidak valid"
 msgid "Invalid URL"
 msgstr "URL tidak valid"
 
-#: src/component/settings/passcode.vue:314
-#: src/component/settings/passcode.vue:391
+#: src/component/settings/passcode.vue:313
+#: src/component/settings/passcode.vue:390
 msgid "It is a one-time use code that will disable 2FA for your account when you use it."
 msgstr "Ini adalah kode sekali pakai yang akan menonaktifkan 2FA untuk akun Anda saat Anda menggunakannya."
 
@@ -1984,7 +1980,7 @@ msgstr "Gambar non-fotografis dan berkualitas rendah memerlukan peninjauan sebel
 msgid "None"
 msgstr "Tidak ada"
 
-#: src/component/lightbox.vue:569
+#: src/common/util.js:706 src/component/lightbox.vue:569
 msgid "Not allowed"
 msgstr "Tidak diperbolehkan"
 
@@ -1996,7 +1992,8 @@ msgstr "Tidak ditemukan"
 msgid "Not sorted."
 msgstr "Tidak diurutkan."
 
-#: src/component/lightbox.vue:563 src/component/lightbox.vue:678
+#: src/common/util.js:711 src/component/lightbox.vue:563
+#: src/component/lightbox.vue:678
 msgid "Not supported"
 msgstr "Tidak didukung"
 
@@ -2039,7 +2036,7 @@ msgstr "BAIKLAH."
 msgid "Oldest First"
 msgstr "Paling lama"
 
-#: src/component/settings/webdav.vue:78
+#: src/component/settings/webdav.vue:77
 msgid "On Windows, enter the following resource in the connection dialog:"
 msgstr "Pada Windows, masukkan sumber daya berikut ini dalam dialog connection:"
 
@@ -2080,7 +2077,7 @@ msgstr "Satu orang ditemukan"
 msgid "One picture found"
 msgstr "Satu gambar ditemukan"
 
-#: src/component/settings/passcode.vue:477
+#: src/component/settings/passcode.vue:476
 msgid "Only locally managed accounts can be set up for authentication with 2FA."
 msgstr "Hanya akun yang dikelola secara lokal yang dapat diatur untuk autentikasi dengan 2FA."
 
@@ -2157,7 +2154,7 @@ msgstr "Panorama"
 #: src/component/user/add/dialog.vue:97 src/component/user/add/dialog.vue:98
 #: src/component/service/add.vue:106 src/component/service/edit.vue:350
 #: src/component/settings/apps.vue:121 src/component/settings/passcode.vue:107
-#: src/component/settings/passcode.vue:418 src/component/share/dialog.vue:27
+#: src/component/settings/passcode.vue:417 src/component/share/dialog.vue:27
 #: src/options/auth.js:91 src/page/auth/login.vue:174
 msgid "Password"
 msgstr "Kata sandi"
@@ -2800,7 +2797,7 @@ msgid "Successfully Connected"
 msgstr "Berhasil Terhubung"
 
 #: src/component/session/remove/dialog.vue:32
-#: src/component/settings/apps.vue:218
+#: src/component/settings/apps.vue:217
 msgid "Successfully deleted"
 msgstr "Berhasil dihapus"
 
@@ -2876,7 +2873,7 @@ msgstr "Tema"
 msgid "This field is required"
 msgstr "Bidang ini wajib diisi"
 
-#: src/component/settings/webdav.vue:102 src/page/settings/services.vue:144
+#: src/component/settings/webdav.vue:100 src/page/settings/services.vue:144
 msgid "This mounts the originals folder as a network drive and allows you to open, edit, and delete files from your computer or smartphone as if they were local."
 msgstr "Ini memasang folder asli sebagai drive tersambung dan memungkinkan Anda untuk membuka, mengubah, dan menghapus file dari komputer atau ponsel cerdas Anda."
 
@@ -2920,7 +2917,7 @@ msgstr "Judul terlalu panjang"
 msgid "to"
 msgstr "ke"
 
-#: src/component/settings/passcode.vue:312
+#: src/component/settings/passcode.vue:311
 msgid "To avoid being locked out of your account, please download, print or copy this recovery code now and keep it in a safe place."
 msgstr "Untuk menghindari akun Anda terkunci, silakan unduh, cetak, atau salin kode pemulihan ini sekarang dan simpan di tempat yang aman."
 
@@ -2928,7 +2925,7 @@ msgstr "Untuk menghindari akun Anda terkunci, silakan unduh, cetak, atau salin k
 msgid "To generate a new app-specific password, please enter the name and authorization scope of the application and select an expiration date:"
 msgstr "Untuk membuat kata sandi khusus aplikasi yang baru, masukkan nama dan cakupan otorisasi aplikasi dan pilih tanggal kedaluwarsa:"
 
-#: src/component/settings/passcode.vue:400
+#: src/component/settings/passcode.vue:399
 msgid "To switch to a new authenticator app or device, first deactivate two-factor authentication and then reactivate it:"
 msgstr "Untuk beralih ke aplikasi atau perangkat pengautentikasi baru, nonaktifkan autentikasi dua faktor terlebih dahulu, lalu aktifkan kembali:"
 
@@ -2974,7 +2971,7 @@ msgstr "Daftar Periksa Pemecahan Masalah"
 msgid "Try again using other filters or keywords."
 msgstr "Coba lagi menggunakan filter atau kata kunci lain."
 
-#: src/component/settings/passcode.vue:380
+#: src/component/settings/passcode.vue:379
 msgid "Two-factor authentication has been enabled for your account."
 msgstr "Otentikasi dua faktor telah diaktifkan untuk akun Anda."
 
@@ -3319,6 +3316,9 @@ msgstr "Perpustakaan Anda akan terus dianalisis secara otomatis dalam membuat al
 #: src/component/lightbox.vue:228
 msgid "Zoom in/out"
 msgstr "Memperbesar/memperkecil"
+
+#~ msgid "Cannot copy to clipboard"
+#~ msgstr "Tidak dapat menyalin ke papan klip"
 
 #~ msgid "Sound"
 #~ msgstr "Suara"
