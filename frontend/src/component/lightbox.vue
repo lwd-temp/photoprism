@@ -206,7 +206,7 @@ export default {
     // Returns true if a blocking event is currently being processed.
     isBusy(action) {
       if (this.busy) {
-        console.log(`lightbox: still busy, cannot ${action ? action : "do this"}`);
+        this.log(`still busy, cannot ${action ? action : "do this"}`);
         return true;
       }
 
@@ -256,14 +256,24 @@ export default {
     // Triggered when the dialog focus changes.
     onDialogFocus(ev) {
       if (this.trace) {
-        console.log(`lightbox: dialog.${ev.type}`);
+        this.log(`dialog.${ev.type}`);
       }
       return false;
+    },
+    log(ev, data) {
+      if (!ev) {
+        return;
+      }
+      if (data) {
+        console.log(`%clightbox: ${ev}`, "color: #039be5;", data);
+      } else {
+        console.log(`%clightbox: ${ev}`, "color: #039be5;");
+      }
     },
     // Returns the PhotoSwipe content element.
     getContentElement() {
       if (!this.$refs.content) {
-        console.log("lightbox: content element is not visible");
+        this.log("content element is not visible");
         return null;
       }
 
@@ -272,7 +282,7 @@ export default {
     // Returns the metadata sidebar element.
     getSidebarElement() {
       if (!this.$refs.sidebar) {
-        console.log("lightbox: sidebar element is not visible");
+        this.log("sidebar element is not visible");
         return null;
       }
 
@@ -303,9 +313,9 @@ export default {
         hideAnimationDuration: 0,
         showAnimationDuration: 0,
         wheelToZoom: true,
-        maxZoomLevel: 6,
+        maxZoomLevel: 8,
         bgOpacity: 1,
-        preload: [1, 1],
+        preload: [2, 2],
         showHideAnimationType: "none",
         mainClass: "p-lightbox__pswp",
         tapAction: (point, ev) => this.onContentTap(ev),
@@ -328,7 +338,7 @@ export default {
 
       // Check if at least one model was passed, as otherwise no content can be displayed.
       if (!Array.isArray(models) || models.length === 0 || index >= models.length) {
-        console.log("model list passed to lightbox is empty:", models);
+        this.log("model list passed to lightbox is empty:", models);
         return Promise.reject();
       }
 
@@ -429,22 +439,23 @@ export default {
         });
     },
     getItemData(el, i) {
-      // Get the current slide model data.
+      // Get the slide model.
       const model = this.models[i];
 
-      // Get the screen (window) resolution in real pixels
-      const pixels = this.getWindowPixels();
+      // Get the estimated slide (viewport) size in real pixels.
+      const pixels = this.getSlidePixels(model);
 
-      // Get the right thumbnail size based on the screen resolution in pixels.
+      // Get initial thumbnail size that best matches the viewport size in real pixels.
       const thumbSize = this.$util.thumbSize(pixels.width, pixels.height);
 
       // Get thumbnail image URL, width, and height.
-      const img = {
+      const thumb = {
         src: model.Thumbs[thumbSize].src,
         width: model.Thumbs[thumbSize].w,
         height: model.Thumbs[thumbSize].h,
         alt: model?.Title,
         model: model,
+        loading: false,
       };
 
       // Check if content is playable and return the data needed to render it in "contentLoad".
@@ -467,12 +478,13 @@ export default {
           duration: model.Duration > 0 ? model.Duration / 1000000000 : 0,
           format: this.$util.videoFormat(model?.Codec, model?.Mime), // Content format.
           loop: model?.Type !== media.Live && (isShort || model?.Type === media.Animated), // If possible, loop these types.
-          msrc: img.src, // Image URL.
+          msrc: thumb.src, // Image URL.
+          loading: true,
         };
 
         if (model?.Type === media.Live) {
-          data.width = img.width;
-          data.height = img.height;
+          data.width = thumb.width;
+          data.height = thumb.height;
         }
 
         return data;
@@ -480,7 +492,7 @@ export default {
 
       // Return the image data so that PhotoSwipe can render it in the lightbox,
       // see https://photoswipe.com/data-sources/#dynamically-generated-data.
-      return img;
+      return thumb;
     },
     isContentZoomable(isContentZoomable, content) {
       if (content.data?.model?.Type === media.Live) {
@@ -519,9 +531,10 @@ export default {
 
           content.element = mediaElement;
           content.state = "loading";
+          content.data.loading = false;
           content.onLoaded();
         } catch (err) {
-          console.warn("failed to load video", err);
+          this.log("failed to load video", err);
         }
       }
     },
@@ -658,7 +671,7 @@ export default {
             this.$notify.error(err.message);
         }
       } else {
-        console.warn(err);
+        this.log(err);
       }
     },
     onVideoRemote(ev) {
@@ -771,7 +784,7 @@ export default {
     renderLightbox(models, index = 0) {
       // Check if at least one model was passed, as otherwise no content can be displayed.
       if (!Array.isArray(models) || models.length === 0 || index >= models.length) {
-        console.log("lightbox: model list is empty", models);
+        this.log("model list is empty", models);
         return Promise.reject();
       }
 
@@ -791,7 +804,7 @@ export default {
       const options = this.getOptions();
 
       if (!options.appendToEl) {
-        console.log("lightbox: content element not found", options);
+        this.log("content element not found", options);
         return Promise.reject();
       }
 
@@ -1252,7 +1265,7 @@ export default {
           action();
           return true;
         } else {
-          console.log(`lightbox: controls not visible, will not call ${action.name}`);
+          this.log(`controls not visible, will not call ${action.name}`);
         }
       }
 
@@ -1413,7 +1426,7 @@ export default {
         try {
           video.pause();
         } catch (e) {
-          console.log(e);
+          this.log(e);
         }
       }
     },
@@ -1438,7 +1451,7 @@ export default {
           if (playPromise !== undefined) {
             playPromise.catch((err) => {
               if (this.trace && err && err.message) {
-                console.log(err.message);
+                this.log(err.message);
               }
             });
           }
@@ -1517,7 +1530,7 @@ export default {
           video.pause();
           this.showControls();
         } catch (e) {
-          console.log(e);
+          this.log(e);
         }
       }
     },
@@ -1628,7 +1641,7 @@ export default {
        */
 
       if (!this.model || !this.model.DownloadUrl) {
-        console.warn("photo lightbox: no download url");
+        this.log("photo lightbox: no download url");
         return;
       }
 
@@ -1808,12 +1821,7 @@ export default {
         this.idleTimer = false;
       }
     },
-    getWindowPixels() {
-      return {
-        width: window.innerWidth * window.devicePixelRatio,
-        height: window.innerHeight * window.devicePixelRatio,
-      };
-    },
+    // Returns the viewport size without sidebar, if visible.
     getViewport() {
       const el = this.getContentElement();
 
@@ -1829,6 +1837,24 @@ export default {
         };
       }
     },
+    getSlidePixels(model) {
+      // Get viewport size without sidebar, if visible.
+      const viewport = this.getViewport();
+
+      // Subtract viewport padding to get estimated slide size if it is an image or vector graphic.
+      if (model && (model.Type === media.Image || model.Type === media.Raw || model.Type === media.Vector)) {
+        const padding = this.getPadding(viewport, { width: model.Width, height: model.Height });
+        viewport.x = viewport.x - padding.left - padding.right;
+        viewport.y = viewport.y - padding.top - padding.bottom;
+      }
+
+      // Calculate estimated slide size based on viewport size and device pixel ratio.
+      return {
+        width: viewport.x * window.devicePixelRatio,
+        height: viewport.y * window.devicePixelRatio,
+      };
+    },
+    // Calculates viewport padding based on screen and image size.
     getPadding(viewport, data) {
       let top = 0,
         bottom = 0,
@@ -1864,7 +1890,7 @@ export default {
 
       return { top, bottom, left, right };
     },
-    // Called when the zoom level changes and higher quality thumbnails may be required.
+    // Updates the thumbnail when the zoom level changes and a different resolution may be required.
     onImageSizeChange() {
       if (this.isBusy("change image size")) {
         return;
@@ -1876,75 +1902,118 @@ export default {
         return;
       }
 
-      if (video || data?.type === "html") {
+      // Continue only if the content is an <img> element and not e.g. a <video>.
+      if (video || data?.type === "html" || data?.loading) {
+        return;
+      } else if (!content || !content.element || !(content.element instanceof HTMLImageElement)) {
         return;
       }
 
-      // Get current slide and zoom level.
+      // Get current zoom level and image model.
       const zoomLevel = slide.currZoomLevel;
       const model = data.model;
 
-      // Don't continue if current model is not set.
+      // Do not proceed if the model is missing or incomplete.
       if (!model || !model.Thumbs) {
         return;
       }
 
-      // Don't continue if slide is not zoomed.
-      if (zoomLevel < 1) {
+      // Do not proceed unless the image is zoomed to near its intrinsic (natural) size.
+      if (zoomLevel < 0.9) {
         return;
       }
 
-      // Calculate thumbnail width and height based on slide size multiplied by zoom level and pixel ratio.
-      const currentWidth = Math.round(slide.width * zoomLevel * window.devicePixelRatio);
-      const currentHeight = Math.round(slide.height * zoomLevel * window.devicePixelRatio);
+      // Calculate slide width and height in real pixels based on zoom level and pixel ratio.
+      const slideWidth = Math.ceil(slide.width * zoomLevel * window.devicePixelRatio);
+      const slideHeight = Math.ceil(slide.height * zoomLevel * window.devicePixelRatio);
 
-      // Find the right thumbnail size based on the slide size and zoom level in pixels.
-      const thumbSize = this.$util.thumbSize(currentWidth, currentHeight);
+      // Find thumbnail size that best matches the current slide size and zoom level.
+      const thumbSize = this.$util.thumbSize(slideWidth, slideHeight);
 
-      // Don't continue of no matching size was found.
+      // Do not proceed if no matching size was found.
       if (!thumbSize) {
         return;
       }
 
-      // New thumbnail image URL, width, and height.
-      const img = {
+      // Get new thumbnail URL based on the calculated size.
+      const thumb = {
         src: model.Thumbs[thumbSize].src,
         width: model.Thumbs[thumbSize].w,
         height: model.Thumbs[thumbSize].h,
       };
 
-      // Get current thumbnail image URL.
+      // Get the thumbnail URL of the currently displayed image.
       const currentSrc = data.src;
 
-      // Don't update thumbnail if the URL stays the same.
-      if (currentSrc === img.src) {
+      // Do not proceed if the thumbnail URL remains the same.
+      if (currentSrc === thumb.src) {
         return;
       }
 
       // Create HTMLImageElement to load thumbnail image in the matching size.
       try {
-        const el = new Image();
-        el.src = img.src;
+        const image = new Image();
 
-        // Swap thumbnails when the new image has loaded.
-        el.onload = () => {
-          // Abort if image URL is empty or the current slide is undefined.
-          if (!content || !el?.src) {
+        // Decode the image synchronously for atomic presentation with other content:
+        // https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/decoding
+        image.decoding = "sync";
+
+        // Tell the browser to load the new image as quickly as possible:
+        // https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/loading
+        image.loading = "eager";
+
+        // Flag the new image as loading in the content data.
+        data.loading = true;
+
+        // Attach an onload event handler to swap the thumbnail when the new image is loaded.
+        image.addEventListener("load", (ev) => {
+          if (!ev || !ev.target) {
             return;
           }
 
+          // Remove loading flag.
+          data.loading = false;
+
+          if (this.trace) {
+            this.log(`image.${ev.type}`, [ev, ev.target]);
+          }
+
+          // Abort if image URL is empty or the current slide is undefined.
+          if (!content || !ev.target.currentSrc || !ev.target.naturalHeight || !ev.target.naturalWidth) {
+            if (this.debug) {
+              this.log(`failed to replace thumbnail with ${thumb.src}`, { element: content.element, image: ev.target });
+            }
+            data.loading = false;
+            return;
+          }
+
+          if (content.element.src === ev.target.currentSrc) {
+            this.log(`old and new thumbnail are the same ${ev.target.currentSrc}`);
+            data.loading = false;
+            return;
+          }
+
+          if (this.debug) {
+            this.log(`loaded thumbnail ${thumbSize} from ${ev.target.currentSrc}`);
+          }
+
           // Update the slide's HTMLImageElement to use the new thumbnail image.
-          content.element.src = el.src;
-          content.element.width = img.width;
-          content.element.height = img.height;
+          content.element.src = ev.target.currentSrc;
+          content.element.width = ev.target.width;
+          content.element.height = ev.target.height;
 
           // Update PhotoSwipe's slide data.
-          data.src = img.src;
-          data.width = img.width;
-          data.height = img.height;
-        };
+          data.src = thumb.src;
+          data.width = thumb.width;
+          data.height = thumb.height;
+          data.loading = false;
+        });
+
+        // Set thumbnail src to load the new image.
+        image.src = thumb.src;
       } catch (err) {
-        console.warn("lightbox: failed to change image size", err);
+        this.log(`failed to load image size ${thumbSize}`, err);
+        data.loading = false;
       }
     },
   },

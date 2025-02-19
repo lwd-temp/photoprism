@@ -22,17 +22,17 @@ const $event = PubSub;
 if (trace) {
   $event.subscribeAll((ev, data) => {
     if (data) {
-      console.debug(`%c${ev}`, "background: transparent; color: #1E88E5; font-weight: normal;", data);
+      console.debug(`%c${ev}`, "background: transparent; color: #9FA8DA; font-weight: normal;", data);
     } else {
-      console.debug(`%c${ev}`, "background: transparent; color: #1E88E5; font-weight: normal;");
+      console.debug(`%c${ev}`, "background: transparent; color: #9FA8DA; font-weight: normal;");
     }
   });
 } else if (debug) {
   $event.subscribe("config", (ev, data) => {
     if (data) {
-      console.debug(`%c${ev}`, "background: transparent; color: #1E88E5; font-weight: normal;", data);
+      console.debug(`%c${ev}`, "background: transparent; color: #9FA8DA; font-weight: normal;", data);
     } else {
-      console.debug(`%c${ev}`, "background: transparent; color: #1E88E5; font-weight: normal;");
+      console.debug(`%c${ev}`, "background: transparent; color: #9FA8DA; font-weight: normal;");
     }
   });
 }
