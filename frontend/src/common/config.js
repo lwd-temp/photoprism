@@ -169,10 +169,6 @@ export default class Config {
   setValues(values) {
     if (!values) return;
 
-    if (this.debug) {
-      console.log("config: updated", values);
-    }
-
     if (values.jsUri && this.values.jsUri !== values.jsUri) {
       $event.publish("dialog.update", { values });
     }

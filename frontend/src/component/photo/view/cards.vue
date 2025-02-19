@@ -442,9 +442,10 @@ export default {
           // see https://developer.chrome.com/blog/play-request-was-interrupted.
           const playPromise = player.play();
           if (playPromise !== undefined) {
-            playPromise.catch((e) => {
-              if (this.trace) {
-                console.log(e.message);
+            playPromise.catch((err) => {
+              if (this.trace && err && err.message) {
+                // Ignore this error, or uncomment the following line to log it.
+                // console.debug(err.message);
               }
             });
           }
@@ -513,14 +514,14 @@ export default {
        */
       this.$forceUpdate();
     },
-    onOpen(ev, index, showMerged, preferVideo) {
+    onOpen(ev, index, showMerged) {
       const inputType = this.input.eval(ev, index);
 
       if (inputType !== ClickShort) {
         return;
       }
 
-      this.openPhoto(index, showMerged, preferVideo);
+      this.openPhoto(index, showMerged);
     },
     onClick(ev, index) {
       const inputType = this.input.eval(ev, index);

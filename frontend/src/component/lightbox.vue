@@ -1436,9 +1436,9 @@ export default {
           // see https://developer.chrome.com/blog/play-request-was-interrupted.
           const playPromise = video.play();
           if (playPromise !== undefined) {
-            playPromise.catch((e) => {
-              if (this.trace) {
-                console.log(e.message);
+            playPromise.catch((err) => {
+              if (this.trace && err && err.message) {
+                console.log(err.message);
               }
             });
           }

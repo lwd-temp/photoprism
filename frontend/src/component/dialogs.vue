@@ -21,8 +21,8 @@
 <script>
 import Album from "model/album";
 
-import PPhotoUploadDialog from "component/photo/upload/dialog.vue";
 import PPhotoEditDialog from "component/photo/edit/dialog.vue";
+import PPhotoUploadDialog from "component/photo/upload/dialog.vue";
 import PUpdate from "component/update.vue";
 import PLightbox from "component/lightbox.vue";
 
