@@ -369,7 +369,7 @@
     border-radius: 0;
     z-index: 10;
     margin: 0;
-    padding: 8px 12px 8px 12px;
+    padding: 16px 12px 12px 12px;
     gap: 6px;
     background: linear-gradient(0deg, #000000AA, #00000000);
 }
