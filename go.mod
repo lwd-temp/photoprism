@@ -69,7 +69,7 @@ require (
 require github.com/go-ldap/ldap/v3 v3.4.10
 
 require (
-	github.com/prometheus/client_golang v1.20.5
+	github.com/prometheus/client_golang v1.21.0
 	github.com/prometheus/common v0.62.0
 )
 
