@@ -175,6 +175,10 @@ body .v-list__item .v-icon {
     cursor: text !important;
 }
 
+.cursor-copy,
+.cursor-copy i,
+.cursor-copy svg,
+.cursor-copy input,
 .cursor-pointer {
     cursor: pointer !important;
 }

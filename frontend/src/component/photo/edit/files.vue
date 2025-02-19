@@ -114,7 +114,7 @@
                           <tr>
                             <td title="Unique ID">UID</td>
                             <td class="text-break">
-                              <span class="clickable text-uppercase" @click.stop.prevent="$util.copyText(file.UID)">{{
+                              <span class="cursor-copy text-uppercase" @click.stop.prevent="$util.copyText(file.UID)">{{
                                 file.UID
                               }}</span>
                             </td>
@@ -136,7 +136,7 @@
                               {{ $gettext(`Hash`) }}
                             </td>
                             <td class="text-break">
-                              <span class="clickable text-break" @click.stop.prevent="$util.copyText(file.Hash)">{{
+                              <span class="cursor-copy text-break" @click.stop.prevent="$util.copyText(file.Hash)">{{
                                 file.Hash
                               }}</span>
                             </td>
@@ -146,7 +146,7 @@
                               {{ $gettext(`Filename`) }}
                             </td>
                             <td class="text-break">
-                              <span class="clickable" @click.stop.prevent="$util.copyText(file.Name)">{{
+                              <span class="cursor-copy" @click.stop.prevent="$util.copyText(file.Name)">{{
                                 file.Name
                               }}</span>
                             </td>
@@ -162,7 +162,7 @@
                               {{ $gettext(`Original Name`) }}
                             </td>
                             <td class="text-break">
-                              <span class="clickable" @click.stop.prevent="$util.copyText(file.OriginalName)">{{
+                              <span class="cursor-copy" @click.stop.prevent="$util.copyText(file.OriginalName)">{{
                                 file.OriginalName
                               }}</span>
                             </td>

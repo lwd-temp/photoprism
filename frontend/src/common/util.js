@@ -40,6 +40,9 @@ const Minute = 60 * Second;
 const Hour = 60 * Minute;
 let start = new Date();
 
+// True if debug logs should be created.
+const debug = window.__CONFIG__?.debug || window.__CONFIG__?.trace;
+
 export default class $util {
   static formatDate(s) {
     if (!s || !s.length) {
@@ -673,7 +676,7 @@ export default class $util {
     }
   }
 
-  static async copyText(text) {
+  static copyText(text) {
     if (!text) {
       return false;
     }
@@ -685,55 +688,27 @@ export default class $util {
       }
     }
 
-    try {
-      await this.copyToMachineClipboard(text);
-      $notify.success($gettext("Copied to clipboard"));
-      return true;
-    } catch (_) {
-      $notify.error($gettext("Cannot copy to clipboard"));
-    }
-
-    return false;
+    return this.writeToClipboard(text);
   }
 
-  static async copyToMachineClipboard(text) {
-    if (window.navigator.clipboard) {
-      await window.navigator.clipboard.writeText(text);
-    } else if (document.execCommand) {
-      // Clipboard is available only in HTTPS pages. see https://web.dev/async-clipboard/
-      // So if the official 'clipboard' doesn't supported and the 'document.execCommand' is supported.
-      // copy by a work-around by creating a textarea in the DOM and execute copy command from him.
+  static writeToClipboard(text) {
+    if (window.navigator?.clipboard && window.navigator.clipboard instanceof EventTarget) {
+      window.navigator.clipboard
+        .writeText(text)
+        .then(() => {
+          $notify.success($gettext("Copied to clipboard"));
+        })
+        .catch((err) => {
+          if (debug && err) {
+            console.log("copy:", err);
+          }
 
-      // Create the text area element (to copy from)
-      const clipboardElement = document.createElement("textarea");
-
-      // Set the text content to copy
-      clipboardElement.value = text;
-
-      // Avoid scrolling to bottom
-      clipboardElement.style.top = "0";
-      clipboardElement.style.left = "0";
-      clipboardElement.style.position = "fixed";
-
-      // Add element to DOM
-      document.body.appendChild(clipboardElement);
-
-      // "Select" the new textarea
-      clipboardElement.focus();
-      clipboardElement.select();
-
-      // Copy the selected textarea content
-      const succeed = document.execCommand("copy");
-
-      // Remove the textarea from DOM
-      document.body.removeChild(clipboardElement);
-
-      // Validate operation succeed
-      if (!succeed) {
-        throw new Error("Failed copying to clipboard");
-      }
-    } else {
-      throw new Error("Copy to clipboard does not support in your browser");
+          $notify.error($gettext("Not allowed"));
+        });
+      return true;
     }
+
+    $notify.warn($gettext("Not supported"));
+    return false;
   }
 }

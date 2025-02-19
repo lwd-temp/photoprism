@@ -20,16 +20,15 @@
 
       <v-card-text class="text-body-2">
         <v-text-field
-          append-inner-icon="mdi-content-copy"
+          :model-value="webdavUrl()"
+          readonly
+          single-line
+          hide-details
           autocorrect="off"
           autocapitalize="none"
           autocomplete="off"
-          hide-details
-          readonly
-          single-line
-          :model-value="webdavUrl()"
-          class="input-url"
-          @click:append-inner="$util.copyText(webdavUrl())"
+          append-inner-icon="mdi-content-copy"
+          class="input-url cursor-copy"
           @click.stop="$util.copyText(webdavUrl())"
         ></v-text-field>
       </v-card-text>
@@ -40,16 +39,15 @@
 
       <v-card-text class="text-body-2">
         <v-text-field
-          append-inner-icon="mdi-content-copy"
+          :model-value="windowsUrl()"
+          readonly
+          single-line
+          hide-details
           autocorrect="off"
           autocapitalize="none"
           autocomplete="off"
-          hide-details
-          readonly
-          single-line
-          :model-value="windowsUrl()"
-          class="input-url"
-          @click:append-inner="$util.copyText(windowsUrl())"
+          append-inner-icon="mdi-content-copy"
+          class="input-url cursor-copy"
           @click.stop="$util.copyText(windowsUrl())"
         ></v-text-field>
       </v-card-text>
