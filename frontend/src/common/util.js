@@ -116,6 +116,16 @@ export default class $util {
     return `${min.toString()}:${sec.toString().padStart(2, "0")}`;
   }
 
+  static formatRemainingSeconds(time, duration) {
+    if (time && time >= duration) {
+      return "0:00";
+    } else if (!time || time < 0) {
+      return this.formatSeconds(duration);
+    }
+
+    return this.formatSeconds(duration - time);
+  }
+
   static formatNs(d) {
     if (!d || typeof d !== "number") {
       return "";

@@ -72,7 +72,7 @@
       >
       </v-slider>
       <div class="video-control video-control--duration text-body-2">
-        {{ $util.formatSeconds(video.duration) }}
+        {{ $util.formatRemainingSeconds(video.time, video.duration) }}
       </div>
       <div v-if="featExperimental && video.castable" class="video-control video-control--cast">
         <v-icon
@@ -1027,6 +1027,7 @@ export default {
           lightbox.pswp.ui.registerElement({
             name: "sidebar-button",
             className: "pswp__button--sidebar-button pswp__button--mdi", // Sets the icon style/size in lightbox.css.
+            title: this.$gettext("Show/Hide Sidebar"),
             ariaLabel: this.$gettext("Show/Hide Sidebar"),
             order: 9,
             isButton: true,
@@ -1045,6 +1046,7 @@ export default {
         lightbox.pswp.ui.registerElement({
           name: "sound-toggle",
           className: "pswp__button--sound-toggle pswp__button--mdi", // Sets the icon style/size in lightbox.css.
+          title: this.$gettext("Mute"),
           ariaLabel: this.$gettext("Mute"),
           order: 10,
           isButton: true,
@@ -1060,6 +1062,7 @@ export default {
         lightbox.pswp.ui.registerElement({
           name: "slideshow-toggle",
           className: "pswp__button--slideshow-toggle pswp__button--mdi", // Sets the icon style/size in lightbox.css.
+          title: this.$gettext("Start/Stop Slideshow"),
           ariaLabel: this.$gettext("Start/Stop Slideshow"),
           order: 10,
           isButton: true,
@@ -1076,6 +1079,7 @@ export default {
           lightbox.pswp.ui.registerElement({
             name: "fullscreen-toggle",
             className: "pswp__button--fullscreen-toggle pswp__button--mdi", // Sets the icon style/size in lightbox.css.
+            title: this.$gettext("Fullscreen"),
             ariaLabel: this.$gettext("Fullscreen"),
             order: 10,
             isButton: true,
@@ -1093,6 +1097,7 @@ export default {
           lightbox.pswp.ui.registerElement({
             name: "favorite-toggle",
             className: "pswp__button--favorite-toggle pswp__button--mdi hidden-shared-only", // Sets the icon style/size in lightbox.css.
+            title: this.$gettext("Like"),
             ariaLabel: this.$gettext("Like"),
             order: 10,
             isButton: true,
@@ -1109,6 +1114,7 @@ export default {
         lightbox.pswp.ui.registerElement({
           name: "select-toggle",
           className: "pswp__button--select-toggle pswp__button--mdi", // Sets the icon style/size in lightbox.css.
+          title: this.$gettext("Select"),
           ariaLabel: this.$gettext("Select"),
           order: 10,
           isButton: true,
@@ -1125,6 +1131,7 @@ export default {
           lightbox.pswp.ui.registerElement({
             name: "edit-button",
             className: "pswp__button--edit-button pswp__button--mdi hidden-shared-only", // Sets the icon style/size in lightbox.css.
+            title: this.$gettext("Edit"),
             ariaLabel: this.$gettext("Edit"),
             order: 10,
             isButton: true,
@@ -1143,6 +1150,7 @@ export default {
           lightbox.pswp.ui.registerElement({
             name: "download-button",
             className: "pswp__button--download-button pswp__button--mdi", // Sets the icon style/size in lightbox.css.
+            title: this.$gettext("Download"),
             ariaLabel: this.$gettext("Download"),
             order: 10,
             isButton: true,
