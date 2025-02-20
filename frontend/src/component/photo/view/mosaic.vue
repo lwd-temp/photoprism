@@ -75,35 +75,32 @@
             </div>
 
             <button
-              v-if="m.Type !== 'image' || m.isStack()"
+              v-if="(m.Type !== 'image' && m.Type !== 'video') || selectMode || m.isStack()"
               class="input-open"
               @touchstart.stop="input.touchStart($event, index)"
-              @touchend.stop="onOpen($event, index, !isSharedView, m.Type === 'live')"
+              @touchend.stop="onOpen($event, index, !isSharedView)"
               @touchmove.stop
-              @click.stop.prevent="onOpen($event, index, !isSharedView, m.Type === 'live')"
+              @click.stop.prevent="onOpen($event, index, !isSharedView)"
             >
-              <i v-if="m.Type === 'raw'" class="action-raw mdi mdi-raw" :title="$gettext('RAW')"></i>
-              <i v-if="m.Type === 'live'" class="action-live" :title="$gettext('Live')"><icon-live-photo /></i>
-              <i v-if="m.Type === 'animated'" class="mdi mdi-file-gif-box" :title="$gettext('Animated')" />
-              <i v-if="m.Type === 'vector'" class="action-vector mdi mdi-vector-polyline" :title="$gettext('Vector')" />
-              <i v-if="m.Type === 'image'" class="mdi mdi-camera-burst" :title="$gettext('Stack')" />
-            </button>
-
-            <button
-              v-if="m.Type === 'image' && selectMode"
-              class="input-view"
-              :title="$gettext('View')"
-              @touchstart.stop="input.touchStart($event, index)"
-              @touchend.stop="onOpen($event, index)"
-              @touchmove.stop
-              @click.stop.prevent="onOpen($event, index)"
-            >
-              <i class="mdi mdi-magnify-plus-outline" />
+              <i v-if="m.Type === 'raw'" class="action-raw mdi mdi-raw" :title="$gettext('RAW')" />
+              <i v-else-if="m.Type === 'live'" class="action-live" :title="$gettext('Live')"><icon-live-photo /></i>
+              <i v-else-if="m.Type === 'animated'" class="mdi mdi-file-gif-box" :title="$gettext('Animated')" />
+              <i
+                v-else-if="m.Type === 'vector'"
+                class="action-vector mdi mdi-vector-polyline"
+                :title="$gettext('Vector')"
+              ></i>
+              <i
+                v-else-if="m.Type === 'image' && !selectMode"
+                class="mdi mdi-camera-burst"
+                :title="$gettext('Stack')"
+              />
+              <i v-else class="mdi mdi-magnify-plus-outline" :title="$gettext('View')" />
             </button>
 
             <div class="preview-details">
               <div v-if="!isSharedView && hidePrivate && m.Private" class="info-icon"><i class="mdi mdi-lock" /></div>
-              <div v-else-if="m.Type === 'video'" :title="$gettext('Video')" class="info-text">
+              <div v-if="m.Type === 'video'" :title="$gettext('Video')" class="info-text">
                 {{ m.getDurationInfo() }}
               </div>
             </div>
