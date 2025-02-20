@@ -55,6 +55,13 @@ body.chrome .search-results .result {
 
 .album-results .action-share {
     top: 0;
+}
+
+.is-ltr .album-results .action-share {
+    right: 0;
+}
+
+.is-rtl .album-results .action-share {
     left: 0;
 }
 
@@ -610,6 +617,15 @@ body.chrome .search-results .result {
     visibility: hidden;
     opacity: 0.75;
     top: 0;
+}
+
+.is-ltr .cards-view .input-private,
+.is-ltr .mosaic-view .input-private {
+    left: 0;
+}
+
+.is-rtl .cards-view .input-private,
+.is-rtl .mosaic-view .input-private {
     right: 0;
 }
 

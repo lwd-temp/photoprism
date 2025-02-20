@@ -159,10 +159,10 @@
             </button>
 
             <div class="preview-details">
+              <div v-if="!isSharedView && featPrivate && m.Private" class="info-icon"><i class="mdi mdi-lock" /></div>
               <div v-if="m.Type === 'video'" :title="$gettext('Video')" class="info-text">
                 {{ m.getDurationInfo() }}
               </div>
-              <div v-if="!isSharedView && featPrivate && m.Private" class="info-icon"><i class="mdi mdi-lock" /></div>
             </div>
 
             <!--
