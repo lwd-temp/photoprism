@@ -357,9 +357,9 @@ msgid "AM"
 msgstr "AM"
 
 #: src/component/navigation.vue:423 src/component/photo/edit/files.vue:351
-#: src/component/photo/view/cards.vue:315
-#: src/component/photo/view/cards.vue:479 src/component/photo/view/list.vue:172
-#: src/component/photo/view/mosaic.vue:172 src/options/options.js:368
+#: src/component/photo/view/cards.vue:313
+#: src/component/photo/view/cards.vue:466 src/component/photo/view/list.vue:172
+#: src/component/photo/view/mosaic.vue:170 src/options/options.js:368
 msgid "Animated"
 msgstr "Animované"
 
@@ -385,7 +385,7 @@ msgstr "Použiť"
 
 #: src/component/photo/clipboard.vue:64
 #: src/component/photo/edit/details.vue:640
-#: src/component/photo/view/cards.vue:409
+#: src/component/photo/view/cards.vue:396
 msgid "Approve"
 msgstr "Schváliť"
 
@@ -394,7 +394,7 @@ msgid "Apps and Devices"
 msgstr "Aplikácie a zariadenia"
 
 #: src/app/routes.js:256 src/component/navigation.vue:552
-#: src/component/photo/clipboard.vue:142 src/component/photo/view/cards.vue:391
+#: src/component/photo/clipboard.vue:142 src/component/photo/view/cards.vue:378
 #: src/page/settings/general.vue:348
 msgid "Archive"
 msgstr "Archivovať"
@@ -543,7 +543,7 @@ msgid "Calendar"
 msgstr "Kalendár"
 
 #: src/component/photo/edit/details.vue:346 src/component/photo/toolbar.vue:313
-#: src/component/photo/view/cards.vue:500 src/component/photo/view/list.vue:115
+#: src/component/photo/view/cards.vue:487 src/component/photo/view/list.vue:115
 msgid "Camera"
 msgstr "Kamera"
 
@@ -591,7 +591,7 @@ msgstr "Zrušiť"
 
 #: src/component/photo/edit/details.vue:87 src/component/photo/edit/info.vue:59
 #: src/component/photo/edit/labels.vue:42
-#: src/component/photo/view/cards.vue:439
+#: src/component/photo/view/cards.vue:426
 msgid "Caption"
 msgstr "Titulok"
 
@@ -772,7 +772,7 @@ msgstr "Prispievateľ"
 msgid "Converting"
 msgstr "Konvertuje sa"
 
-#: src/common/util.js:709
+#: src/common/util.js:719
 msgid "Copied to clipboard"
 msgstr "Skopírované do schránky"
 
@@ -1006,10 +1006,10 @@ msgid "Done."
 msgstr "Hotovo."
 
 #: src/component/album/clipboard.vue:72 src/component/album/toolbar.vue:120
-#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1050
-#: src/component/people/clipboard.vue:47 src/component/photo/clipboard.vue:116
-#: src/component/photo/edit/files.vue:167 src/page/settings/general.vue:252
-#: src/page/settings/general.vue:624
+#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1057
+#: src/component/lightbox.vue:1058 src/component/people/clipboard.vue:47
+#: src/component/photo/clipboard.vue:116 src/component/photo/edit/files.vue:167
+#: src/page/settings/general.vue:252 src/page/settings/general.vue:624
 msgid "Download"
 msgstr "Stiahnuť"
 
@@ -1027,7 +1027,7 @@ msgstr "Stiahnuť samostatné súbory a zip archívy."
 
 #: src/component/album/clipboard.vue:102 src/component/album/toolbar.vue:105
 #: src/component/file/clipboard.vue:61 src/component/label/clipboard.vue:86
-#: src/component/lightbox.vue:1600 src/component/people/clipboard.vue:59
+#: src/component/lightbox.vue:1608 src/component/people/clipboard.vue:59
 #: src/component/photo/clipboard.vue:216 src/component/photo/edit/files.vue:117
 #: src/component/photo/view/cards.vue:164 src/component/photo/view/list.vue:133
 #: src/page/library/browse.vue:118
@@ -1067,8 +1067,8 @@ msgid "E-Mail"
 msgstr "E-Mail"
 
 #: src/component/album/clipboard.vue:61 src/component/album/toolbar.vue:82
-#: src/component/lightbox.vue:1032 src/component/photo/clipboard.vue:90
-#: src/page/settings/general.vue:324
+#: src/component/lightbox.vue:1038 src/component/lightbox.vue:1039
+#: src/component/photo/clipboard.vue:90 src/page/settings/general.vue:324
 msgid "Edit"
 msgstr "Upraviť"
 
@@ -1326,7 +1326,7 @@ msgstr "Frames"
 msgid "Full Access"
 msgstr "Úplný prístup"
 
-#: src/component/lightbox.vue:983
+#: src/component/lightbox.vue:986 src/component/lightbox.vue:987
 msgid "Fullscreen"
 msgstr "Plná obrazovka"
 
@@ -1636,7 +1636,7 @@ msgid "Legal Information"
 msgstr "Právne informácie"
 
 #: src/component/photo/edit/details.vue:417
-#: src/component/photo/view/cards.vue:514
+#: src/component/photo/view/cards.vue:501
 msgid "Lens"
 msgstr "Objektív"
 
@@ -1652,7 +1652,7 @@ msgstr "Knižnica"
 msgid "License"
 msgstr "Licencia"
 
-#: src/component/lightbox.vue:1000
+#: src/component/lightbox.vue:1004 src/component/lightbox.vue:1005
 msgid "Like"
 msgstr "Páči sa mi to"
 
@@ -1676,9 +1676,9 @@ msgstr "Odkaz"
 msgid "List"
 msgstr "List"
 
-#: src/app/routes.js:228 src/component/photo/view/cards.vue:306
-#: src/component/photo/view/cards.vue:469 src/component/photo/view/list.vue:163
-#: src/component/photo/view/mosaic.vue:163 src/options/options.js:372
+#: src/app/routes.js:228 src/component/photo/view/cards.vue:305
+#: src/component/photo/view/cards.vue:456 src/component/photo/view/list.vue:163
+#: src/component/photo/view/mosaic.vue:162 src/options/options.js:372
 msgid "Live"
 msgstr "Živé"
 
@@ -1709,7 +1709,7 @@ msgstr "Lokálny čas"
 #: src/page/settings/account.vue:665 src/page/settings/account.vue:667
 #: src/component/album/edit/dialog.vue:92 src/component/photo/edit/info.vue:63
 #: src/component/photo/edit/labels.vue:48
-#: src/component/photo/view/cards.vue:536 src/component/photo/view/list.vue:116
+#: src/component/photo/view/cards.vue:523 src/component/photo/view/list.vue:116
 #: src/page/albums.vue:89 src/page/settings/account.vue:557
 #: src/page/settings/account.vue:559
 msgid "Location"
@@ -1845,7 +1845,7 @@ msgstr "Presunúť Súbory"
 msgid "Must have at least %{n} characters."
 msgstr "Musí obsahovať aspoň %{n} znakov."
 
-#: src/component/lightbox.vue:952
+#: src/component/lightbox.vue:953 src/component/lightbox.vue:954
 msgid "Mute"
 msgstr "Vypnutie zvuku"
 
@@ -1980,7 +1980,7 @@ msgstr "Nefotografické a fotografie nízkej kvality vyžadujú skontrolovanie p
 msgid "None"
 msgstr "Žiadne"
 
-#: src/common/util.js:716 src/component/lightbox.vue:569
+#: src/common/util.js:726 src/component/lightbox.vue:569
 msgid "Not allowed"
 msgstr "Nie je povolené"
 
@@ -1992,7 +1992,7 @@ msgstr "Nenájdené"
 msgid "Not sorted."
 msgstr "Nie je vytriedené."
 
-#: src/common/util.js:721 src/component/lightbox.vue:563
+#: src/common/util.js:731 src/component/lightbox.vue:563
 #: src/component/lightbox.vue:678
 msgid "Not supported"
 msgstr "Nie je podporované"
@@ -2545,7 +2545,7 @@ msgstr "Tajomstvo"
 msgid "Security and Access"
 msgstr "Bezpečnosť a prístup"
 
-#: src/component/lightbox.vue:1016
+#: src/component/lightbox.vue:1021 src/component/lightbox.vue:1022
 msgid "Select"
 msgstr "Vybrať"
 
@@ -2671,7 +2671,7 @@ msgstr "Zobraziť viac"
 msgid "Show server logs in Library."
 msgstr "Zobraziť serverové záznamy v knižnici."
 
-#: src/component/lightbox.vue:934
+#: src/component/lightbox.vue:934 src/component/lightbox.vue:935
 msgid "Show/Hide Sidebar"
 msgstr "Zobraziť/skryť bočný panel"
 
@@ -2734,8 +2734,8 @@ msgstr "Zoradené zostupne."
 msgid "Source"
 msgstr "Zdroj"
 
-#: src/component/photo/view/cards.vue:329
-#: src/component/photo/view/mosaic.vue:186
+#: src/component/photo/view/cards.vue:325
+#: src/component/photo/view/mosaic.vue:182
 msgid "Stack"
 msgstr "Naskladané fotky"
 
@@ -2759,7 +2759,7 @@ msgstr "Naskladané"
 msgid "Start"
 msgstr "Štart"
 
-#: src/component/lightbox.vue:967
+#: src/component/lightbox.vue:969 src/component/lightbox.vue:970
 msgid "Start/Stop Slideshow"
 msgstr "Spustiť/Zastaviť Prezentáciu"
 
@@ -2822,7 +2822,7 @@ msgid "Sync raw and video files"
 msgstr "Synchronizovať súbory raw a videá"
 
 #: src/component/photo/edit/info.vue:183 src/component/photo/view/cards.vue:182
-#: src/component/photo/view/cards.vue:451 src/component/photo/view/list.vue:114
+#: src/component/photo/view/cards.vue:438 src/component/photo/view/list.vue:114
 msgid "Taken"
 msgstr "Zachytené"
 
@@ -2989,7 +2989,7 @@ msgid "Unique ID"
 msgstr "Unikátne ID"
 
 #: src/page/settings/account.vue:451 src/page/settings/account.vue:476
-#: src/page/settings/account.vue:501 src/common/util.js:389
+#: src/page/settings/account.vue:501 src/common/util.js:399
 #: src/component/photo/edit/details.vue:20
 #: src/component/photo/edit/details.vue:111
 #: src/component/photo/edit/details.vue:138
@@ -3146,9 +3146,9 @@ msgstr "Meno používateľa"
 msgid "Users"
 msgstr "Používatelia"
 
-#: src/component/photo/view/cards.vue:322
-#: src/component/photo/view/cards.vue:489 src/component/photo/view/list.vue:179
-#: src/component/photo/view/mosaic.vue:179 src/model/photo.js:902
+#: src/component/photo/view/cards.vue:319
+#: src/component/photo/view/cards.vue:476 src/component/photo/view/list.vue:179
+#: src/component/photo/view/mosaic.vue:176 src/model/photo.js:902
 #: src/model/photo.js:910 src/options/options.js:380
 msgid "Vector"
 msgstr "Vektor"
@@ -3161,9 +3161,9 @@ msgstr "Vektory"
 msgid "Verification Code"
 msgstr "Overovací kód"
 
-#: src/component/photo/view/cards.vue:351
-#: src/component/photo/view/cards.vue:459 src/component/photo/view/list.vue:186
-#: src/component/photo/view/mosaic.vue:212 src/model/file.js:220
+#: src/component/photo/view/cards.vue:343
+#: src/component/photo/view/cards.vue:446 src/component/photo/view/list.vue:186
+#: src/component/photo/view/mosaic.vue:200 src/model/file.js:220
 #: src/model/photo.js:926 src/model/photo.js:944 src/options/options.js:376
 msgid "Video"
 msgstr "Video"
@@ -3177,8 +3177,8 @@ msgstr "Trvanie videa"
 msgid "Videos"
 msgstr "Videá"
 
-#: src/component/photo/toolbar.vue:341 src/component/photo/view/cards.vue:338
-#: src/component/photo/view/mosaic.vue:195
+#: src/component/photo/toolbar.vue:341 src/component/photo/view/cards.vue:330
+#: src/component/photo/view/mosaic.vue:187
 msgid "View"
 msgstr "Zobraziť"
 
