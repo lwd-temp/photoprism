@@ -738,6 +738,9 @@ export default {
         }
       }
 
+      // URL of the currently playing video.
+      this.video.src = video.src;
+
       // Loop short videos of 5 seconds or less, even if the server does not know the duration.
       if (
         !data.loop &&
@@ -749,11 +752,10 @@ export default {
         video.loop = data.loop && !this.slideshow.active;
       }
 
-      // Update properties of the currently playing video.
+      // Do not display video controls if a slideshow is running,
+      // or the video belongs to an animation or live photo.
       this.video.controls =
-        !this.slideshow.active && !video.loop && data.model?.Type !== media.Animated && data.model?.Type !== media.Live;
-
-      this.video.src = video.src;
+        !this.slideshow.active && data.model?.Type !== media.Animated && data.model?.Type !== media.Live;
 
       // Get video playback error, if any:
       // https://developer.mozilla.org/de/docs/Web/API/HTMLMediaElement/error
