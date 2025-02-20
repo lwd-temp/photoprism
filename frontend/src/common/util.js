@@ -362,21 +362,31 @@ export default class $util {
     }
   }
 
-  static formatCamera(camera, cameraID, cameraMake, cameraModel) {
+  static formatCamera(camera, cameraID, cameraMake, cameraModel, long) {
     if (camera) {
-      if (camera.Model.length > 7) {
+      if (!long && camera.Model.length > 7) {
+        // Return only the model name if it is longer than 7 characters.
         return camera.Model;
       } else {
+        // Return the full camera name with make and model.
         return camera.Make + " " + camera.Model;
       }
     } else if (cameraMake && cameraModel) {
-      if (cameraModel.length > 7) {
+      if (!long && cameraModel.length > 7) {
+        // Return only the model name if it is longer than 7 characters.
         return cameraModel;
       } else {
+        // Return the full camera name with make and model.
         return cameraMake + " " + cameraModel;
       }
     } else if (cameraID > 1 && cameraModel) {
+      // Return only the model if the camera make is unknown.
       return cameraModel;
+    }
+
+    // Return a placeholder string for unknown cameras.
+    if (long) {
+      return $gettext("Unknown");
     }
 
     return "";

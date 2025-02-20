@@ -57,6 +57,7 @@
                                   @click.stop.prevent="downloadFile(file)"
                                 >
                                   {{ $gettext(`Download`) }}
+                                  <v-icon icon="mdi-download" size="18" end></v-icon>
                                 </v-btn>
                                 <v-btn
                                   v-if="
@@ -73,6 +74,7 @@
                                   @click.stop.prevent="setPrimaryFile(file)"
                                 >
                                   {{ $gettext(`Primary`) }}
+                                  <v-icon icon="mdi-image" size="18" end></v-icon>
                                 </v-btn>
                                 <v-btn
                                   v-if="
@@ -86,6 +88,7 @@
                                   @click.stop.prevent="unstackFile(file)"
                                 >
                                   {{ $gettext(`Unstack`) }}
+                                  <v-icon icon="mdi-undo-variant" size="18" end></v-icon>
                                 </v-btn>
                                 <v-btn
                                   v-if="features.delete && !file.Primary"
@@ -97,16 +100,18 @@
                                   @click.stop.prevent="showDeleteDialog(file)"
                                 >
                                   {{ $gettext(`Delete`) }}
+                                  <v-icon icon="mdi-delete" size="18" end></v-icon>
                                 </v-btn>
                                 <v-btn
                                   v-if="experimental && canAccessPrivate && file.Primary"
                                   density="comfortable"
                                   variant="flat"
                                   color="highlight"
-                                  class="btn-action action-open-folder"
+                                  class="btn-action action-browse action-folder action-open-folder"
                                   @click.stop.prevent="openFolder(file)"
                                 >
-                                  {{ $gettext(`Open Folder`) }}
+                                  <v-icon icon="mdi-folder" size="18" start></v-icon>
+                                  {{ $gettext(`Browse`) }}
                                 </v-btn>
                               </div>
                             </td>

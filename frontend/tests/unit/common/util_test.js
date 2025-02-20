@@ -38,13 +38,16 @@ describe("common/util", () => {
     assert.equal(long, "45,065,875 ms");
   });
   it("should return formatted camera name", () => {
-    const iPhone15Pro = $util.formatCamera({ Make: "Apple", Model: "iPhone 15 Pro" }, 23, "Apple", "iPhone 15 Pro");
+    const iPhone15Pro = $util.formatCamera({ Make: "Apple", Model: "iPhone 15 Pro" }, 23, "Apple", "iPhone 15 Pro", false);
     assert.equal(iPhone15Pro, "iPhone 15 Pro");
 
-    const iPhone14 = $util.formatCamera({ Make: "Apple", Model: "iPhone 14" }, 22, "Apple", "iPhone 14");
+    const iPhone15ProLong = $util.formatCamera({ Make: "Apple", Model: "iPhone 15 Pro" }, 23, "Apple", "iPhone 15 Pro", true);
+    assert.equal(iPhone15ProLong, "Apple iPhone 15 Pro");
+
+    const iPhone14 = $util.formatCamera({ Make: "Apple", Model: "iPhone 14" }, 22, "Apple", "iPhone 14", false);
     assert.equal(iPhone14, "iPhone 14");
 
-    const iPhone13 = $util.formatCamera(null, 21, "Apple", "iPhone 13");
+    const iPhone13 = $util.formatCamera(null, 21, "Apple", "iPhone 13", false);
     assert.equal(iPhone13, "iPhone 13");
   });
   it("should return matching video format name", () => {

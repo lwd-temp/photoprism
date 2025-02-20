@@ -84,7 +84,6 @@
             >
               <i v-if="m.Type === 'raw'" class="action-raw mdi mdi-raw" :title="$gettext('RAW')"></i>
               <i v-if="m.Type === 'live'" class="action-live" :title="$gettext('Live')"><icon-live-photo /></i>
-              <i v-if="m.Type === 'video'" class="mdi mdi-play" :title="$gettext('Video')" />
               <i v-if="m.Type === 'animated'" class="mdi mdi-file-gif-box" :title="$gettext('Animated')" />
               <i v-if="m.Type === 'vector'" class="action-vector mdi mdi-vector-polyline" :title="$gettext('Vector')" />
               <i v-if="m.Type === 'image'" class="mdi mdi-camera-burst" :title="$gettext('Stack')" />
@@ -104,7 +103,9 @@
 
             <div class="preview-details">
               <div v-if="!isSharedView && hidePrivate && m.Private" class="info-icon"><i class="mdi mdi-lock" /></div>
-              <div v-else-if="m.Type === 'video'" class="info-text">{{ m.getDurationInfo() }}</div>
+              <div v-else-if="m.Type === 'video'" :title="$gettext('Video')" class="info-text">
+                {{ m.getDurationInfo() }}
+              </div>
             </div>
 
             <!--

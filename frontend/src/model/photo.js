@@ -928,15 +928,9 @@ export class Photo extends RestModel {
 
     const info = [];
 
-    const cameraInfo = $util.formatCamera(camera, cameraId, cameraMake, cameraModel);
-
-    if (cameraInfo) {
-      info.push(cameraInfo);
-    }
-
-    /* if (file.Duration > 0) {
+    if (file.Duration > 0) {
       info.push($util.formatDuration(file.Duration));
-    } */
+    }
 
     if (file.Codec) {
       info.push($util.formatCodec(file.Codec));
@@ -961,24 +955,36 @@ export class Photo extends RestModel {
 
   generateDurationInfo = memoizeOne((file) => {
     if (!file) {
-      return "";
+      return "▶";
     } else if (file.Duration && file.Duration > 0) {
       return $util.formatDuration(file.Duration);
     }
 
-    return "";
+    if (file.Codec) {
+      return $util.formatCodec(file.Codec);
+    } else if (file.FileType) {
+      return $util.formatCodec(file.FileType);
+    }
+
+    return "▶";
   });
 
   // Example: Apple iPhone 12 Pro Max, DNG, 4032 × 3024, 32.9 MB
-  getPhotoInfo = () => {
+  getCameraInfo = () => {
     let file = this.originalFile() || this.videoFile();
-    return this.generatePhotoInfo(this.Camera, this.CameraID, this.CameraMake, this.CameraModel, file);
+    return this.generateCameraInfo(this.Camera, this.CameraID, this.CameraMake, this.CameraModel, file);
   };
 
-  generatePhotoInfo = memoizeOne((camera, cameraId, cameraMake, cameraModel, file) => {
+  generateCameraInfo = memoizeOne((camera, cameraId, cameraMake, cameraModel, file) => {
     let info = [];
 
-    const cameraInfo = $util.formatCamera(camera, cameraId, cameraMake, cameraModel);
+    // Return only the complete camera name if the original is or contains a video.
+    if (file.Video) {
+      return $util.formatCamera(camera, cameraId, cameraMake, cameraModel, true);
+    }
+
+    // Get short camera names to leave room for additional details.
+    const cameraInfo = $util.formatCamera(camera, cameraId, cameraMake, cameraModel, false);
 
     if (cameraInfo) {
       info.push(cameraInfo);

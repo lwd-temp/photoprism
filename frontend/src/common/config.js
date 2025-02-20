@@ -432,13 +432,17 @@ export default class Config {
     if (document && document.body) {
       const isRtl = this.isRtl(locale);
 
-      // Update <html> lang and dir attributes on current locale.
+      // Update <html> lang attribute and dir attribute to match the current locale.
       document.documentElement.setAttribute("lang", locale);
       document.documentElement.setAttribute("dir", this.dir(isRtl));
 
-      // Set body.is-rtl class depending on current locale.
-      if (isRtl !== document.body.classList.contains("is-rtl")) {
-        document.body.classList.toggle("is-rtl");
+      // Set body.is-rtl or .is-ltr, depending on the writing direction of the current locale.
+      if (isRtl) {
+        document.body.classList.add("is-rtl");
+        document.body.classList.remove("is-ltr");
+      } else {
+        document.body.classList.remove("is-rtl");
+        document.body.classList.add("is-ltr");
       }
     }
 
