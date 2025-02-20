@@ -213,7 +213,7 @@ msgstr "検索結果から写真を選択して追加することができます
 msgid "Add to album"
 msgstr "アルバムに追加"
 
-#: src/component/photo/edit/files.vue:475
+#: src/component/photo/edit/files.vue:500
 msgid "Added"
 msgstr "追加済み"
 
@@ -356,10 +356,10 @@ msgstr "高度 (m)"
 msgid "AM"
 msgstr "AM"
 
-#: src/component/navigation.vue:423 src/component/photo/edit/files.vue:326
-#: src/component/photo/view/cards.vue:307
-#: src/component/photo/view/cards.vue:465 src/component/photo/view/list.vue:172
-#: src/component/photo/view/mosaic.vue:183 src/options/options.js:368
+#: src/component/navigation.vue:423 src/component/photo/edit/files.vue:351
+#: src/component/photo/view/cards.vue:315
+#: src/component/photo/view/cards.vue:479 src/component/photo/view/list.vue:172
+#: src/component/photo/view/mosaic.vue:172 src/options/options.js:368
 msgid "Animated"
 msgstr "アニメーション"
 
@@ -385,7 +385,7 @@ msgstr "適用"
 
 #: src/component/photo/clipboard.vue:64
 #: src/component/photo/edit/details.vue:640
-#: src/component/photo/view/cards.vue:397
+#: src/component/photo/view/cards.vue:409
 msgid "Approve"
 msgstr "承認"
 
@@ -394,7 +394,7 @@ msgid "Apps and Devices"
 msgstr "アプリとデバイス"
 
 #: src/app/routes.js:256 src/component/navigation.vue:552
-#: src/component/photo/clipboard.vue:142 src/component/photo/view/cards.vue:379
+#: src/component/photo/clipboard.vue:142 src/component/photo/view/cards.vue:391
 #: src/page/settings/general.vue:348
 msgid "Archive"
 msgstr "アーカイブ"
@@ -440,7 +440,7 @@ msgstr "本当に実行しますか ?"
 msgid "Artist"
 msgstr "アーティスト"
 
-#: src/component/photo/edit/files.vue:380
+#: src/component/photo/edit/files.vue:405
 msgid "Aspect Ratio"
 msgstr "アスペクト比"
 
@@ -509,7 +509,7 @@ msgstr "青"
 msgid "Brown"
 msgstr "茶"
 
-#: src/component/photo/toolbar.vue:223
+#: src/component/photo/edit/files.vue:262 src/component/photo/toolbar.vue:223
 #: src/component/photo/upload/dialog.vue:234
 msgid "Browse"
 msgstr "ブラウズ"
@@ -543,7 +543,7 @@ msgid "Calendar"
 msgstr "カレンダー"
 
 #: src/component/photo/edit/details.vue:346 src/component/photo/toolbar.vue:313
-#: src/component/photo/view/cards.vue:482 src/component/photo/view/list.vue:115
+#: src/component/photo/view/cards.vue:500 src/component/photo/view/list.vue:115
 msgid "Camera"
 msgstr "カメラ"
 
@@ -591,7 +591,7 @@ msgstr "キャンセル"
 
 #: src/component/photo/edit/details.vue:87 src/component/photo/edit/info.vue:59
 #: src/component/photo/edit/labels.vue:42
-#: src/component/photo/view/cards.vue:427
+#: src/component/photo/view/cards.vue:439
 msgid "Caption"
 msgstr "キャプション"
 
@@ -653,7 +653,7 @@ msgstr "詳細設定の変更を有効にするには再起動が必要です。
 msgid "Checked"
 msgstr "選択済み"
 
-#: src/component/photo/edit/files.vue:457
+#: src/component/photo/edit/files.vue:482
 msgid "Chroma"
 msgstr "彩度"
 
@@ -690,7 +690,7 @@ msgstr "クライアント資格情報"
 msgid "Close"
 msgstr "閉じる"
 
-#: src/component/photo/edit/files.vue:332
+#: src/component/photo/edit/files.vue:357
 msgid "Codec"
 msgstr "コーデック"
 
@@ -698,7 +698,7 @@ msgstr "コーデック"
 msgid "Color"
 msgstr "色"
 
-#: src/component/photo/edit/files.vue:445
+#: src/component/photo/edit/files.vue:470
 msgid "Color Profile"
 msgstr "カラープロファイル"
 
@@ -772,7 +772,7 @@ msgstr "投稿者"
 msgid "Converting"
 msgstr "変換しています"
 
-#: src/common/util.js:699
+#: src/common/util.js:709
 msgid "Copied to clipboard"
 msgstr "クリップボードにコピーしました"
 
@@ -877,7 +877,7 @@ msgstr "既定のフォルダ"
 #: src/component/label/delete/dialog.vue:58
 #: src/component/photo/clipboard.vue:168
 #: src/component/photo/delete/dialog.vue:69
-#: src/component/photo/edit/files.vue:222 src/component/service/remove.vue:60
+#: src/component/photo/edit/files.vue:237 src/component/service/remove.vue:60
 #: src/component/share/dialog.vue:170 src/page/library/errors.vue:103
 #: src/page/settings/general.vue:372
 msgid "Delete"
@@ -1050,7 +1050,7 @@ msgstr "大量のメールを受信しているため、すぐにお返事でき
 msgid "Duplicates will be skipped and only appear once."
 msgstr "重複している項目はスキップされ、1度だけ表示されます。"
 
-#: src/component/photo/edit/files.vue:338
+#: src/component/photo/edit/files.vue:363
 msgid "Duration"
 msgstr "寄付"
 
@@ -1270,7 +1270,7 @@ msgstr "ファイル名"
 msgid "File Size"
 msgstr "ファイルサイズ"
 
-#: src/component/photo/edit/files.vue:276
+#: src/component/photo/edit/files.vue:301
 msgid "Filename"
 msgstr "ファイル名"
 
@@ -1314,11 +1314,11 @@ msgstr "フォルダ"
 msgid "Forgot password?"
 msgstr "パスワードを忘れましたか？"
 
-#: src/component/photo/edit/files.vue:350
+#: src/component/photo/edit/files.vue:375
 msgid "FPS"
 msgstr "FPS"
 
-#: src/component/photo/edit/files.vue:344
+#: src/component/photo/edit/files.vue:369
 msgid "Frames"
 msgstr "フレーム"
 
@@ -1380,7 +1380,7 @@ msgstr "グレー"
 msgid "Guest"
 msgstr "ゲスト"
 
-#: src/component/photo/edit/files.vue:266
+#: src/component/photo/edit/files.vue:291
 msgid "Hash"
 msgstr "ハッシュ"
 
@@ -1412,7 +1412,7 @@ msgstr "アーカイブに移動された写真を隠します。"
 msgid "High"
 msgstr "高"
 
-#: src/component/photo/edit/files.vue:362
+#: src/component/photo/edit/files.vue:387
 msgid "High Dynamic Range (HDR)"
 msgstr "ハイダイナミックレンジ（HDR）"
 
@@ -1458,13 +1458,13 @@ msgstr "%{s} をインポートしています …"
 msgid "Importing files to originals…"
 msgstr "オリジナルフォルダにファイルをインポートしています…"
 
-#: src/component/photo/edit/files.vue:476
-#: src/component/photo/edit/files.vue:481
+#: src/component/photo/edit/files.vue:501
+#: src/component/photo/edit/files.vue:506
 msgid "in"
 msgstr "次の場所で"
 
-#: src/component/photo/view/cards.vue:117 src/component/photo/view/list.vue:87
-#: src/component/photo/view/mosaic.vue:76 src/page/labels.vue:178
+#: src/component/photo/view/cards.vue:125 src/component/photo/view/list.vue:87
+#: src/component/photo/view/mosaic.vue:72 src/page/labels.vue:178
 #: src/page/library/browse.vue:129
 msgid "In case pictures you expect are missing, please rescan your library and wait until indexing has been completed."
 msgstr "探している写真が見つからない場合は、ライブラリーを再スキャンし、インデックス作成が完了するまでお待ちください。"
@@ -1498,7 +1498,7 @@ msgstr "インデックスに失敗"
 msgid "Indexing media and sidecar files…"
 msgstr "メディアとサイドカーファイルをインデックスしています…"
 
-#: src/component/photo/edit/files.vue:256
+#: src/component/photo/edit/files.vue:281
 msgid "Instance ID"
 msgstr "インスタンスID"
 
@@ -1636,7 +1636,7 @@ msgid "Legal Information"
 msgstr "法的情報"
 
 #: src/component/photo/edit/details.vue:417
-#: src/component/photo/view/cards.vue:493
+#: src/component/photo/view/cards.vue:514
 msgid "Lens"
 msgstr "レンズ"
 
@@ -1676,9 +1676,9 @@ msgstr "リンク"
 msgid "List"
 msgstr "リスト"
 
-#: src/app/routes.js:228 src/component/photo/view/cards.vue:291
-#: src/component/photo/view/cards.vue:456 src/component/photo/view/list.vue:163
-#: src/component/photo/view/mosaic.vue:167 src/options/options.js:372
+#: src/app/routes.js:228 src/component/photo/view/cards.vue:306
+#: src/component/photo/view/cards.vue:469 src/component/photo/view/list.vue:163
+#: src/component/photo/view/mosaic.vue:163 src/options/options.js:372
 msgid "Live"
 msgstr "ライブ"
 
@@ -1709,7 +1709,7 @@ msgstr "現地時間"
 #: src/page/settings/account.vue:665 src/page/settings/account.vue:667
 #: src/component/album/edit/dialog.vue:92 src/component/photo/edit/info.vue:63
 #: src/component/photo/edit/labels.vue:48
-#: src/component/photo/view/cards.vue:513 src/component/photo/view/list.vue:116
+#: src/component/photo/view/cards.vue:536 src/component/photo/view/list.vue:116
 #: src/page/albums.vue:89 src/page/settings/account.vue:557
 #: src/page/settings/account.vue:559
 msgid "Location"
@@ -1749,7 +1749,7 @@ msgstr "低解像度"
 msgid "Magenta"
 msgstr "マゼンタ"
 
-#: src/component/photo/edit/files.vue:451
+#: src/component/photo/edit/files.vue:476
 msgid "Main Color"
 msgstr "主な色"
 
@@ -1807,7 +1807,7 @@ msgstr "メトリクス"
 msgid "Minimize"
 msgstr "最小化"
 
-#: src/component/photo/edit/files.vue:470 src/component/photo/edit/info.vue:367
+#: src/component/photo/edit/files.vue:495 src/component/photo/edit/info.vue:367
 msgid "Missing"
 msgstr "見つからない"
 
@@ -1937,15 +1937,15 @@ msgstr "これ以上ない"
 msgid "No people found"
 msgstr "ユーザーが見つかりませんでした"
 
-#: src/component/lightbox.vue:304 src/component/photo/view/cards.vue:112
-#: src/component/photo/view/list.vue:82 src/component/photo/view/mosaic.vue:71
+#: src/component/lightbox.vue:304 src/component/photo/view/cards.vue:120
+#: src/component/photo/view/list.vue:82 src/component/photo/view/mosaic.vue:67
 #: src/page/album/photos.vue:454 src/page/library/browse.vue:128
 #: src/page/photos.vue:591 src/page/places.vue:452 src/page/places.vue:539
 msgid "No pictures found"
 msgstr "写真はありません"
 
-#: src/component/photo/view/cards.vue:111 src/component/photo/view/list.vue:81
-#: src/component/photo/view/mosaic.vue:70
+#: src/component/photo/view/cards.vue:119 src/component/photo/view/list.vue:81
+#: src/component/photo/view/mosaic.vue:66
 msgid "No recently edited pictures"
 msgstr "最近編集した写真がありません"
 
@@ -1970,8 +1970,8 @@ msgid "No warnings or error containing this keyword. Note that search is case-se
 msgstr "このキーワードを含む警告やエラーが見つかりませんでした。この検索では大文字と小文字を区別することに気をつけてください。"
 
 #: src/component/photo/upload/dialog.vue:202
-#: src/component/photo/view/cards.vue:122 src/component/photo/view/list.vue:58
-#: src/component/photo/view/list.vue:92 src/component/photo/view/mosaic.vue:81
+#: src/component/photo/view/cards.vue:130 src/component/photo/view/list.vue:58
+#: src/component/photo/view/list.vue:92 src/component/photo/view/mosaic.vue:77
 msgid "Non-photographic and low-quality images require a review before they appear in search results."
 msgstr "写真ではないものや、低品質な画像は検索結果に表示される前にレビューが必要です。"
 
@@ -1980,7 +1980,7 @@ msgstr "写真ではないものや、低品質な画像は検索結果に表示
 msgid "None"
 msgstr "なし"
 
-#: src/common/util.js:706 src/component/lightbox.vue:569
+#: src/common/util.js:716 src/component/lightbox.vue:569
 msgid "Not allowed"
 msgstr "不可"
 
@@ -1992,7 +1992,7 @@ msgstr "見つかりませんでした"
 msgid "Not sorted."
 msgstr "選別されていない。"
 
-#: src/common/util.js:711 src/component/lightbox.vue:563
+#: src/common/util.js:721 src/component/lightbox.vue:563
 #: src/component/lightbox.vue:678
 msgid "Not supported"
 msgstr "サポートされていない"
@@ -2085,10 +2085,6 @@ msgstr "2FAによる認証を設定できるのは、ローカルで管理され
 msgid "Open"
 msgstr "オープン"
 
-#: src/component/photo/edit/files.vue:237
-msgid "Open Folder"
-msgstr "フォルダを開く"
-
 #: src/component/service/add.vue:86 src/component/service/add.vue:107
 msgid "optional"
 msgstr "任意"
@@ -2105,7 +2101,7 @@ msgstr "オレンジ"
 msgid "Organization"
 msgstr "組織"
 
-#: src/component/photo/edit/files.vue:386
+#: src/component/photo/edit/files.vue:411
 msgid "Orientation"
 msgstr "方向"
 
@@ -2113,7 +2109,7 @@ msgstr "方向"
 msgid "Original file names will be stored and indexed."
 msgstr "オリジナルのファイル名は保存され、インデックスされます。"
 
-#: src/component/photo/edit/files.vue:293 src/component/photo/edit/info.vue:135
+#: src/component/photo/edit/files.vue:318 src/component/photo/edit/info.vue:135
 msgid "Original Name"
 msgstr "オリジナルの名前"
 
@@ -2189,7 +2185,7 @@ msgstr "人物"
 msgid "Personal"
 msgstr "個人"
 
-#: src/model/photo.js:1263
+#: src/model/photo.js:1269
 msgid "Photo"
 msgstr "写真"
 
@@ -2269,7 +2265,7 @@ msgstr "PM"
 msgid "PNG Size Limit: %{n}px"
 msgstr "PNGサイズ制限: %{n} px"
 
-#: src/component/photo/edit/files.vue:368
+#: src/component/photo/edit/files.vue:393
 msgid "Portrait"
 msgstr "ポートレート"
 
@@ -2309,8 +2305,8 @@ msgstr "前のページ"
 msgid "Previous visual"
 msgstr "以前のビジュアル"
 
-#: src/component/photo/edit/files.vue:33 src/component/photo/edit/files.vue:188
-#: src/component/photo/edit/files.vue:356
+#: src/component/photo/edit/files.vue:33 src/component/photo/edit/files.vue:193
+#: src/component/photo/edit/files.vue:381
 msgid "Primary"
 msgstr "プライマリ"
 
@@ -2324,7 +2320,7 @@ msgstr "プライベート"
 msgid "Product Feedback"
 msgstr "製品のフィードバック"
 
-#: src/component/photo/edit/files.vue:374
+#: src/component/photo/edit/files.vue:399
 msgid "Projection"
 msgstr "投影"
 
@@ -2356,8 +2352,8 @@ msgstr "1}の{0}評価"
 msgid "Raw"
 msgstr "Raw"
 
-#: src/component/photo/view/cards.vue:284
-#: src/component/photo/view/mosaic.vue:160 src/page/settings/general.vue:673
+#: src/component/photo/view/cards.vue:299
+#: src/component/photo/view/mosaic.vue:156 src/page/settings/general.vue:673
 msgid "RAW"
 msgstr "RAW"
 
@@ -2695,7 +2691,7 @@ msgstr "サインイン"
 msgid "Similar"
 msgstr "似ている項目"
 
-#: src/component/photo/edit/files.vue:49 src/component/photo/edit/files.vue:303
+#: src/component/photo/edit/files.vue:49 src/component/photo/edit/files.vue:328
 #: src/component/service/edit.vue:138
 msgid "Size"
 msgstr "サイズ"
@@ -2704,7 +2700,7 @@ msgstr "サイズ"
 msgid "Slow"
 msgstr "低速"
 
-#: src/component/photo/edit/files.vue:308
+#: src/component/photo/edit/files.vue:333
 msgid "Software"
 msgstr "ソフトウェア"
 
@@ -2738,8 +2734,8 @@ msgstr "降順にソートされている。"
 msgid "Source"
 msgstr "ソース"
 
-#: src/component/photo/view/cards.vue:321
-#: src/component/photo/view/mosaic.vue:197
+#: src/component/photo/view/cards.vue:329
+#: src/component/photo/view/mosaic.vue:186
 msgid "Stack"
 msgstr "スタック"
 
@@ -2775,7 +2771,7 @@ msgstr "静的サイズ制限: %{n} px"
 msgid "Status"
 msgstr "状態"
 
-#: src/component/photo/edit/files.vue:287
+#: src/component/photo/edit/files.vue:312
 msgid "Storage"
 msgstr "ストレージフォルダ"
 
@@ -2825,8 +2821,8 @@ msgstr "同期"
 msgid "Sync raw and video files"
 msgstr "Rawファイルや動画ファイルを同期"
 
-#: src/component/photo/edit/info.vue:183 src/component/photo/view/cards.vue:174
-#: src/component/photo/view/cards.vue:439 src/component/photo/view/list.vue:114
+#: src/component/photo/edit/info.vue:183 src/component/photo/view/cards.vue:182
+#: src/component/photo/view/cards.vue:451 src/component/photo/view/list.vue:114
 msgid "Taken"
 msgstr "撮影済み"
 
@@ -2964,8 +2960,8 @@ msgstr "地形"
 msgid "Troubleshooting Checklists"
 msgstr "トラブルシューティングチェックリスト"
 
-#: src/component/photo/view/cards.vue:114 src/component/photo/view/list.vue:53
-#: src/component/photo/view/list.vue:84 src/component/photo/view/mosaic.vue:73
+#: src/component/photo/view/cards.vue:122 src/component/photo/view/list.vue:53
+#: src/component/photo/view/list.vue:84 src/component/photo/view/mosaic.vue:69
 #: src/page/albums.vue:318 src/page/labels.vue:178
 #: src/page/people/recognized.vue:176
 msgid "Try again using other filters or keywords."
@@ -2975,7 +2971,7 @@ msgstr "他のフィルターまたはキーワードを用いて、再度試し
 msgid "Two-factor authentication has been enabled for your account."
 msgstr "あなたのアカウントでは2要素認証が有効になっています。"
 
-#: src/component/photo/edit/files.vue:56 src/component/photo/edit/files.vue:314
+#: src/component/photo/edit/files.vue:56 src/component/photo/edit/files.vue:339
 #: src/component/photo/edit/info.vue:87 src/component/service/edit.vue:386
 msgid "Type"
 msgstr "種類"
@@ -2993,13 +2989,14 @@ msgid "Unique ID"
 msgstr "一意のID"
 
 #: src/page/settings/account.vue:451 src/page/settings/account.vue:476
-#: src/page/settings/account.vue:501 src/component/photo/edit/details.vue:20
+#: src/page/settings/account.vue:501 src/common/util.js:389
+#: src/component/photo/edit/details.vue:20
 #: src/component/photo/edit/details.vue:111
 #: src/component/photo/edit/details.vue:138
 #: src/component/photo/edit/details.vue:164 src/model/album.js:179
 #: src/model/photo.js:344 src/model/photo.js:795 src/model/photo.js:816
-#: src/model/photo.js:839 src/model/photo.js:857 src/model/photo.js:994
-#: src/model/photo.js:1050 src/model/photo.js:1064 src/model/user.js:155
+#: src/model/photo.js:839 src/model/photo.js:857 src/model/photo.js:1000
+#: src/model/photo.js:1056 src/model/photo.js:1070 src/model/user.js:155
 #: src/options/options.js:50 src/options/options.js:68
 #: src/options/options.js:85 src/options/options.js:99
 #: src/options/options.js:111 src/page/library/errors.vue:195
@@ -3016,11 +3013,11 @@ msgstr "未登録"
 msgid "Unsorted"
 msgstr "未分類"
 
-#: src/component/photo/edit/files.vue:206
+#: src/component/photo/edit/files.vue:216
 msgid "Unstack"
 msgstr "スタック解除"
 
-#: src/component/photo/edit/files.vue:480 src/component/photo/edit/info.vue:416
+#: src/component/photo/edit/files.vue:505 src/component/photo/edit/info.vue:416
 msgid "Updated"
 msgstr "更新日"
 
@@ -3149,9 +3146,9 @@ msgstr "ユーザー名"
 msgid "Users"
 msgstr "ユーザー"
 
-#: src/component/photo/view/cards.vue:314
-#: src/component/photo/view/cards.vue:474 src/component/photo/view/list.vue:179
-#: src/component/photo/view/mosaic.vue:190 src/model/photo.js:902
+#: src/component/photo/view/cards.vue:322
+#: src/component/photo/view/cards.vue:489 src/component/photo/view/list.vue:179
+#: src/component/photo/view/mosaic.vue:179 src/model/photo.js:902
 #: src/model/photo.js:910 src/options/options.js:380
 msgid "Vector"
 msgstr "ベクター"
@@ -3164,10 +3161,10 @@ msgstr "ベクター"
 msgid "Verification Code"
 msgstr "検証コード"
 
-#: src/component/photo/view/cards.vue:300
-#: src/component/photo/view/cards.vue:447 src/component/photo/view/list.vue:186
-#: src/component/photo/view/mosaic.vue:176 src/model/file.js:220
-#: src/model/photo.js:926 src/model/photo.js:950 src/options/options.js:376
+#: src/component/photo/view/cards.vue:351
+#: src/component/photo/view/cards.vue:459 src/component/photo/view/list.vue:186
+#: src/component/photo/view/mosaic.vue:212 src/model/file.js:220
+#: src/model/photo.js:926 src/model/photo.js:944 src/options/options.js:376
 msgid "Video"
 msgstr "動画"
 
@@ -3180,8 +3177,8 @@ msgstr "動画の長さ"
 msgid "Videos"
 msgstr "動画"
 
-#: src/component/photo/toolbar.vue:341 src/component/photo/view/cards.vue:330
-#: src/component/photo/view/mosaic.vue:206
+#: src/component/photo/toolbar.vue:341 src/component/photo/view/cards.vue:338
+#: src/component/photo/view/mosaic.vue:195
 msgid "View"
 msgstr "表示"
 
@@ -3260,11 +3257,11 @@ msgstr "黄"
 
 #: src/component/confirm/action.vue:54 src/component/people/merge/dialog.vue:58
 #: src/component/photo/archive/dialog.vue:58
-#: src/component/photo/edit/files.vue:327
-#: src/component/photo/edit/files.vue:357
-#: src/component/photo/edit/files.vue:363
-#: src/component/photo/edit/files.vue:369
-#: src/component/photo/edit/files.vue:471 src/component/photo/edit/info.vue:281
+#: src/component/photo/edit/files.vue:352
+#: src/component/photo/edit/files.vue:382
+#: src/component/photo/edit/files.vue:388
+#: src/component/photo/edit/files.vue:394
+#: src/component/photo/edit/files.vue:496 src/component/photo/edit/info.vue:281
 #: src/component/photo/edit/info.vue:297 src/component/photo/edit/info.vue:313
 #: src/component/photo/edit/info.vue:329 src/component/photo/edit/info.vue:344
 msgid "Yes"
@@ -3316,6 +3313,9 @@ msgstr "あなたのライブラリは継続的に分析され、特別な瞬間
 #: src/component/lightbox.vue:228
 msgid "Zoom in/out"
 msgstr "ズーム イン/アウト"
+
+#~ msgid "Open Folder"
+#~ msgstr "フォルダを開く"
 
 #~ msgid "Cannot copy to clipboard"
 #~ msgstr "クリップボードにコピーできない"
