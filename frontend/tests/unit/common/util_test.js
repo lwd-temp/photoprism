@@ -32,18 +32,30 @@ describe("common/util", () => {
     assert.equal(duration, "10:00");
   });
   it("should return formatted seconds", () => {
-    const fractions = $util.formatSeconds(65.4);
-    assert.equal(fractions, "1:06");
+    const floor = $util.formatSeconds(Math.floor(65.4));
+    assert.equal(floor, "1:05");
+    const ceil = $util.formatSeconds(Math.ceil(65.4));
+    assert.equal(ceil, "1:06");
     const unknown = $util.formatSeconds(0);
     assert.equal(unknown, "0:00");
     const negative = $util.formatSeconds(-1);
     assert.equal(negative, "0:00");
   });
   it("should return remaining seconds", () => {
-    const difference = $util.formatRemainingSeconds(23.5, 42.5);
-    assert.equal(difference, "0:19");
-    const duration = $util.formatRemainingSeconds(0, 123);
-    assert.equal(duration, "2:03");
+    const t = 23.3;
+    const d = 42.6;
+    const time = $util.formatSeconds(Math.floor(t));
+    assert.equal(time, "0:23");
+    const duration = $util.formatRemainingSeconds(0.0, d);
+    assert.equal(duration, "0:43");
+    const difference = $util.formatRemainingSeconds(t, d);
+    assert.equal(difference, "0:20");
+    const dotTime = $util.formatSeconds(Math.floor(9.5));
+    assert.equal(dotTime, "0:09");
+    const dotDiff = $util.formatRemainingSeconds(9.5, 12);
+    assert.equal(dotDiff, "0:03");
+    const smallDiff = $util.formatRemainingSeconds(7.959863, 8.033);
+    assert.equal(smallDiff, "0:02");
   });
   it("should return formatted milliseconds", () => {
     const short = $util.formatNs(45065875);

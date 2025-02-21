@@ -55,7 +55,7 @@
         <v-icon v-else icon="mdi-play" class="clickable" @pointerdown.stop.prevent="toggleVideo"></v-icon>
       </div>
       <div class="video-control video-control--time text-body-2">
-        {{ $util.formatSeconds(video.time) }}
+        {{ $util.formatSeconds(video.ended ? Math.ceil(video.time) : Math.floor(video.time)) }}
       </div>
       <v-slider
         :model-value="video.time"
@@ -788,7 +788,11 @@ export default {
       }
 
       this.video.state = video.readyState;
-      this.video.time = video.currentTime;
+
+      if (this.video.time !== video.currentTime) {
+        this.video.time = video.currentTime;
+      }
+
       this.video.duration = video.duration ? video.duration : data.duration;
       this.video.seeking = video.seeking === true;
 
