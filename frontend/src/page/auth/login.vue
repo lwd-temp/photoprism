@@ -6,7 +6,6 @@
     fill-height
     class="auth-login wallpaper background-welcome pa-6"
     :style="wallpaper()"
-    tabindex="1"
   >
     <v-theme-provider theme="login">
       <v-row id="auth-layout" class="auth-layout">
@@ -49,6 +48,7 @@
                         :disabled="loading"
                         :length="6"
                         :max-width="320"
+                        autofocus
                         variant="solo-filled"
                         base-color="surface"
                         name="one-time-code"
@@ -65,6 +65,7 @@
                       <v-text-field
                         id="auth-username"
                         v-model="username"
+                        tabindex="1"
                         :disabled="loading || enterCode"
                         name="username"
                         variant="solo"
@@ -72,6 +73,7 @@
                         type="text"
                         :placeholder="$gettext('Name')"
                         hide-details
+                        autofocus
                         autocorrect="off"
                         autocapitalize="none"
                         autocomplete="username"
@@ -84,6 +86,7 @@
                       <v-text-field
                         id="auth-password"
                         v-model="password"
+                        tabindex="2"
                         :disabled="loading"
                         name="password"
                         variant="solo"
@@ -106,6 +109,7 @@
                     <div class="action-buttons auth-buttons pb-1 d-flex ga-3 align-center justify-center">
                       <v-btn
                         v-if="enterCode"
+                        tabindex="7"
                         color="highlight"
                         variant="outlined"
                         :block="$vuetify.display.xs"
@@ -116,6 +120,7 @@
                       </v-btn>
                       <v-btn
                         v-else-if="registerUri"
+                        tabindex="6"
                         color="highlight"
                         variant="outlined"
                         :block="$vuetify.display.xs"
@@ -125,6 +130,7 @@
                         {{ $gettext(`Create Account`) }}
                       </v-btn>
                       <v-btn
+                        tabindex="4"
                         color="highlight"
                         variant="flat"
                         :disabled="loginDisabled"
@@ -146,7 +152,7 @@
                       {{ $gettext(`Use your recovery code or contact an administrator for help.`) }}
                     </div>
                     <div v-else-if="passwordResetUri" class="auth-links text-center opacity-80">
-                      <a :href="passwordResetUri" class="text-secondary">
+                      <a :href="passwordResetUri" tabindex="8" class="text-secondary">
                         {{ $gettext(`Forgot password?`) }}
                       </a>
                     </div>
@@ -156,6 +162,7 @@
                       <v-divider />
                       <div class="text-center oidc-buttons mt-6">
                         <v-btn
+                          tabindex="5"
                           color="highlight"
                           variant="flat"
                           :disabled="loading"
@@ -286,7 +293,6 @@ export default {
         .catch((e) => {
           if (e.response?.data?.code === 32) {
             this.enterCode = true;
-            this.$nextTick(() => this.$refs.code.focus());
           }
           this.loading = false;
         });
