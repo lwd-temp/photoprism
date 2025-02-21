@@ -839,16 +839,33 @@ export const Get = (name) => {
 };
 
 // Set adds or replaces a theme by name.
-export const Set = (name, val) => {
-  if (typeof themes[name] === "undefined") {
+export const Set = (name, theme) => {
+  if (!theme) {
+    return;
+  }
+
+  const force = !!theme.force;
+
+  if (force) {
+    // If the force flag is set, make this theme the only available option.
+    options = [
+      {
+        text: theme.title ? theme.title : $gettext("Custom"),
+        value: theme.name,
+        disabled: false,
+      },
+    ];
+  } else if (typeof themes[name] === "undefined") {
+    // Otherwise, add it to the list of available themes,
+    // unless a theme with the same name already exists.
     options.push({
-      text: val.title,
-      value: val.name,
+      text: theme.title ? theme.title : $gettext("Custom"),
+      value: theme.name,
       disabled: false,
     });
   }
 
-  themes[name] = val;
+  themes[name] = theme;
 };
 
 // Remove deletes a theme by name.
