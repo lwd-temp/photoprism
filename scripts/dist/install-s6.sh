@@ -15,6 +15,12 @@ if [[ ${1} == "--help" ]]; then
   exit 0
 fi
 
+# Abort if not executed as root.
+if [[ $(id -u) != "0" ]]; then
+  echo "${0##*/} [version] [dir] must be run as root" 1>&2
+  exit 1
+fi
+
 # You can provide a custom installation directory as the first argument.
 S6_OVERLAY_DESTDIR=$(realpath "${2:-/}")
 
@@ -66,11 +72,11 @@ echo "NOARCH URL: ${S6_NOARCH_URL}"
 echo "------------------------------------------------"
 
 echo "Extracting \"$S6_ARCH_URL\" to \"$S6_OVERLAY_DESTDIR\"."
-sudo mkdir -p "${S6_OVERLAY_DESTDIR}"
-wget --inet4-only -c "$S6_ARCH_URL" -O - | sudo tar -C "${S6_OVERLAY_DESTDIR}" -Jxp
+mkdir -p "${S6_OVERLAY_DESTDIR}"
+wget --inet4-only -c "$S6_ARCH_URL" -O - | tar -C "${S6_OVERLAY_DESTDIR}" -Jxp
 
 echo "Extracting \"$S6_NOARCH_URL\" to \"$S6_OVERLAY_DESTDIR\"."
-sudo mkdir -p "${S6_OVERLAY_DESTDIR}"
-wget --inet4-only -c "$S6_NOARCH_URL" -O - | sudo tar -C "${S6_OVERLAY_DESTDIR}" -Jxp
+mkdir -p "${S6_OVERLAY_DESTDIR}"
+wget --inet4-only -c "$S6_NOARCH_URL" -O - | tar -C "${S6_OVERLAY_DESTDIR}" -Jxp
 
 echo "Done."
