@@ -73,10 +73,10 @@ echo "------------------------------------------------"
 
 echo "Extracting \"$S6_ARCH_URL\" to \"$S6_OVERLAY_DESTDIR\"."
 mkdir -p "${S6_OVERLAY_DESTDIR}"
-wget --inet4-only -c "$S6_ARCH_URL" -O - | tar -C "${S6_OVERLAY_DESTDIR}" -Jxp
+curl -fsSL "$S6_ARCH_URL" | tar -C "${S6_OVERLAY_DESTDIR}" -Jxp
 
 echo "Extracting \"$S6_NOARCH_URL\" to \"$S6_OVERLAY_DESTDIR\"."
 mkdir -p "${S6_OVERLAY_DESTDIR}"
-wget --inet4-only -c "$S6_NOARCH_URL" -O - | tar -C "${S6_OVERLAY_DESTDIR}" -Jxp
+curl -fsSL "$S6_NOARCH_URL" | tar -C "${S6_OVERLAY_DESTDIR}" -Jxp
 
 echo "Done."
