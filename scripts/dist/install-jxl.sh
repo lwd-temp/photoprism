@@ -46,7 +46,7 @@ case $DESTARCH in
       rm -rf /tmp/jpegxl
       mkdir -p "$TMPDIR"
       echo "Extracting \"$URL\" to \"$TMPDIR\"."
-      wget --inet4-only -c "$URL" -O - | tar --overwrite --mode=755 -xz -C "$TMPDIR"
+      curl -fsSL "$URL" | tar --overwrite --mode=755 -xz -C "$TMPDIR"
       (cd "$TMPDIR" && dpkg -i jxl_0.8.1_amd64.deb libjxl_0.8.1_amd64.deb libjxl-dev_0.8.1_amd64.deb)
       apt --fix-broken install
       rm -rf /tmp/jpegxl

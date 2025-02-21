@@ -72,7 +72,7 @@ echo "------------------------------------------------"
 
 echo "Extracting \"$URL\" to \"$DESTDIR\"."
 sudo mkdir -p "${DESTDIR}"
-wget --inet4-only -c "$URL" -O - | sudo tar --strip-components=1 --overwrite --mode=755 -x --xz -C "$DESTDIR"
+curl -fsSL "$URL" | sudo tar --strip-components=1 --overwrite --mode=755 -x --xz -C "$DESTDIR"
 sudo chown -R root:root "${DESTDIR}"
 
 # Create a symbolic link to the static ffmpeg binary.

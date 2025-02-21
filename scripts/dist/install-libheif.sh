@@ -74,7 +74,7 @@ echo "DESTDIR: $DESTDIR"
 echo "------------------------------------------------"
 
 echo "Extracting \"$URL\" to \"$DESTDIR\"."
-wget --inet4-only -c "$URL" -O - | tar --overwrite --mode=755 -xz -C "$DESTDIR"
+curl -fsSL "$URL" | tar --overwrite --mode=755 -xz -C "$DESTDIR"
 
 if [[ $DESTDIR == "/usr" || $DESTDIR == "/usr/local" ]]; then
   echo "Running \"ldconfig\"."
