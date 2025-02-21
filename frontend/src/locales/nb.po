@@ -829,6 +829,10 @@ msgstr "Kubisk: Moderat kvalitet, god ytelse"
 msgid "Current Password"
 msgstr "Nåværende Passord"
 
+#: src/options/themes.js:853 src/options/themes.js:862
+msgid "Custom"
+msgstr ""
+
 #: src/page/about/feedback.vue:5 src/options/options.js:472
 msgid "Customer Support"
 msgstr "Kundeservice"
@@ -862,7 +866,7 @@ msgstr "Feilsøkingslogger"
 #: src/component/photo/edit/info.vue:110 src/model/session.js:64
 #: src/model/user.js:244 src/options/auth.js:20 src/options/auth.js:21
 #: src/options/auth.js:39 src/options/auth.js:40 src/options/options.js:323
-#: src/options/options.js:387 src/options/themes.js:701 src/page/places.vue:201
+#: src/options/options.js:387 src/options/themes.js:711 src/page/places.vue:201
 msgid "Default"
 msgstr "Standard"
 
@@ -1006,8 +1010,8 @@ msgid "Done."
 msgstr "Ferdig."
 
 #: src/component/album/clipboard.vue:72 src/component/album/toolbar.vue:120
-#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1057
-#: src/component/lightbox.vue:1058 src/component/people/clipboard.vue:47
+#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1059
+#: src/component/lightbox.vue:1060 src/component/people/clipboard.vue:47
 #: src/component/photo/clipboard.vue:116 src/component/photo/edit/files.vue:167
 #: src/page/settings/general.vue:252 src/page/settings/general.vue:624
 msgid "Download"
@@ -1027,7 +1031,7 @@ msgstr "Last ned enkelte filer og zip-arkiver."
 
 #: src/component/album/clipboard.vue:102 src/component/album/toolbar.vue:105
 #: src/component/file/clipboard.vue:61 src/component/label/clipboard.vue:86
-#: src/component/lightbox.vue:1608 src/component/people/clipboard.vue:59
+#: src/component/lightbox.vue:1610 src/component/people/clipboard.vue:59
 #: src/component/photo/clipboard.vue:216 src/component/photo/edit/files.vue:117
 #: src/component/photo/view/cards.vue:164 src/component/photo/view/list.vue:133
 #: src/page/library/browse.vue:118
@@ -1067,7 +1071,7 @@ msgid "E-Mail"
 msgstr "E-post"
 
 #: src/component/album/clipboard.vue:61 src/component/album/toolbar.vue:82
-#: src/component/lightbox.vue:1038 src/component/lightbox.vue:1039
+#: src/component/lightbox.vue:1040 src/component/lightbox.vue:1041
 #: src/component/photo/clipboard.vue:90 src/page/settings/general.vue:324
 msgid "Edit"
 msgstr "Rediger"
@@ -1326,7 +1330,7 @@ msgstr "Rammer"
 msgid "Full Access"
 msgstr "Full tilgang"
 
-#: src/component/lightbox.vue:986 src/component/lightbox.vue:987
+#: src/component/lightbox.vue:988 src/component/lightbox.vue:989
 msgid "Fullscreen"
 msgstr "Fullskjerm"
 
@@ -1652,7 +1656,7 @@ msgstr "Bibliotek"
 msgid "License"
 msgstr "Lisens"
 
-#: src/component/lightbox.vue:1004 src/component/lightbox.vue:1005
+#: src/component/lightbox.vue:1006 src/component/lightbox.vue:1007
 msgid "Like"
 msgstr "Lik"
 
@@ -1845,7 +1849,7 @@ msgstr "Flytt Filer"
 msgid "Must have at least %{n} characters."
 msgstr "Må ha minst %{n} tegn."
 
-#: src/component/lightbox.vue:953 src/component/lightbox.vue:954
+#: src/component/lightbox.vue:955 src/component/lightbox.vue:956
 msgid "Mute"
 msgstr "Mute"
 
@@ -1993,7 +1997,7 @@ msgid "Not sorted."
 msgstr "Ikke sortert."
 
 #: src/common/util.js:731 src/component/lightbox.vue:563
-#: src/component/lightbox.vue:678
+#: src/component/lightbox.vue:680
 msgid "Not supported"
 msgstr "Ikke støttet"
 
@@ -2442,7 +2446,7 @@ msgstr "Fjern fra albumet"
 msgid "Remove imported files to save storage. Unsupported file types will never be deleted, they remain in their current location."
 msgstr "Fjern importerte filer for å spare lagringsplass. Filtyper som ikke støttes vil ikke bli slettet, men vil forbli der de er lagret nå."
 
-#: src/common/api.js:102 src/component/lightbox.vue:674
+#: src/common/api.js:102 src/component/lightbox.vue:676
 msgid "Request failed - are you offline?"
 msgstr "Forespørselen mislyktes - er du frakoblet?"
 
@@ -2545,7 +2549,7 @@ msgstr "Hemmelig"
 msgid "Security and Access"
 msgstr "Sikkerhet og tilgang"
 
-#: src/component/lightbox.vue:1021 src/component/lightbox.vue:1022
+#: src/component/lightbox.vue:1023 src/component/lightbox.vue:1024
 msgid "Select"
 msgstr "Velg"
 
@@ -2671,7 +2675,7 @@ msgstr "Vis mer"
 msgid "Show server logs in Library."
 msgstr "Vis server-logger i Biblioteket."
 
-#: src/component/lightbox.vue:934 src/component/lightbox.vue:935
+#: src/component/lightbox.vue:936 src/component/lightbox.vue:937
 msgid "Show/Hide Sidebar"
 msgstr "Vis/skjul sidefelt"
 
@@ -2708,7 +2712,7 @@ msgstr "Programvare"
 msgid "Software Update"
 msgstr "Oppdatering av programvare"
 
-#: src/component/lightbox.vue:671
+#: src/component/lightbox.vue:673
 msgid "Something went wrong, try again"
 msgstr "Noe gikk galt, prøv igjen"
 
@@ -2759,7 +2763,7 @@ msgstr "Stabler"
 msgid "Start"
 msgstr "Start"
 
-#: src/component/lightbox.vue:969 src/component/lightbox.vue:970
+#: src/component/lightbox.vue:971 src/component/lightbox.vue:972
 msgid "Start/Stop Slideshow"
 msgstr "Start/Stopp Lysbildefremvisning"
 

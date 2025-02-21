@@ -829,6 +829,10 @@ msgstr "立方：中等品質，良好效能"
 msgid "Current Password"
 msgstr "目前的密碼"
 
+#: src/options/themes.js:853 src/options/themes.js:862
+msgid "Custom"
+msgstr ""
+
 #: src/page/about/feedback.vue:5 src/options/options.js:472
 msgid "Customer Support"
 msgstr "使用者支援"
@@ -862,7 +866,7 @@ msgstr "除錯紀錄"
 #: src/component/photo/edit/info.vue:110 src/model/session.js:64
 #: src/model/user.js:244 src/options/auth.js:20 src/options/auth.js:21
 #: src/options/auth.js:39 src/options/auth.js:40 src/options/options.js:323
-#: src/options/options.js:387 src/options/themes.js:701 src/page/places.vue:201
+#: src/options/options.js:387 src/options/themes.js:711 src/page/places.vue:201
 msgid "Default"
 msgstr "預設"
 
@@ -1006,8 +1010,8 @@ msgid "Done."
 msgstr "完成。"
 
 #: src/component/album/clipboard.vue:72 src/component/album/toolbar.vue:120
-#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1057
-#: src/component/lightbox.vue:1058 src/component/people/clipboard.vue:47
+#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1059
+#: src/component/lightbox.vue:1060 src/component/people/clipboard.vue:47
 #: src/component/photo/clipboard.vue:116 src/component/photo/edit/files.vue:167
 #: src/page/settings/general.vue:252 src/page/settings/general.vue:624
 msgid "Download"
@@ -1027,7 +1031,7 @@ msgstr "下載單一檔案以及 zip 壓縮檔。"
 
 #: src/component/album/clipboard.vue:102 src/component/album/toolbar.vue:105
 #: src/component/file/clipboard.vue:61 src/component/label/clipboard.vue:86
-#: src/component/lightbox.vue:1608 src/component/people/clipboard.vue:59
+#: src/component/lightbox.vue:1610 src/component/people/clipboard.vue:59
 #: src/component/photo/clipboard.vue:216 src/component/photo/edit/files.vue:117
 #: src/component/photo/view/cards.vue:164 src/component/photo/view/list.vue:133
 #: src/page/library/browse.vue:118
@@ -1067,7 +1071,7 @@ msgid "E-Mail"
 msgstr "電子郵件"
 
 #: src/component/album/clipboard.vue:61 src/component/album/toolbar.vue:82
-#: src/component/lightbox.vue:1038 src/component/lightbox.vue:1039
+#: src/component/lightbox.vue:1040 src/component/lightbox.vue:1041
 #: src/component/photo/clipboard.vue:90 src/page/settings/general.vue:324
 msgid "Edit"
 msgstr "編輯"
@@ -1326,7 +1330,7 @@ msgstr "框架"
 msgid "Full Access"
 msgstr "完全存取權限"
 
-#: src/component/lightbox.vue:986 src/component/lightbox.vue:987
+#: src/component/lightbox.vue:988 src/component/lightbox.vue:989
 msgid "Fullscreen"
 msgstr "全螢幕"
 
@@ -1652,7 +1656,7 @@ msgstr "收藏庫"
 msgid "License"
 msgstr "授權"
 
-#: src/component/lightbox.vue:1004 src/component/lightbox.vue:1005
+#: src/component/lightbox.vue:1006 src/component/lightbox.vue:1007
 msgid "Like"
 msgstr "喜歡"
 
@@ -1845,7 +1849,7 @@ msgstr "移動檔案"
 msgid "Must have at least %{n} characters."
 msgstr "必須至少有 %{n} 個字元。"
 
-#: src/component/lightbox.vue:953 src/component/lightbox.vue:954
+#: src/component/lightbox.vue:955 src/component/lightbox.vue:956
 msgid "Mute"
 msgstr "沉默的"
 
@@ -1993,7 +1997,7 @@ msgid "Not sorted."
 msgstr "沒有排序。"
 
 #: src/common/util.js:731 src/component/lightbox.vue:563
-#: src/component/lightbox.vue:678
+#: src/component/lightbox.vue:680
 msgid "Not supported"
 msgstr "不支援"
 
@@ -2442,7 +2446,7 @@ msgstr "從相簿中刪除"
 msgid "Remove imported files to save storage. Unsupported file types will never be deleted, they remain in their current location."
 msgstr "刪除已匯入的檔案以節省儲存空間。不支援的檔案類型將不會被刪除，它們會保留在當前位置。"
 
-#: src/common/api.js:102 src/component/lightbox.vue:674
+#: src/common/api.js:102 src/component/lightbox.vue:676
 msgid "Request failed - are you offline?"
 msgstr "要求失敗－您是否處於離線狀態？"
 
@@ -2545,7 +2549,7 @@ msgstr "秘密"
 msgid "Security and Access"
 msgstr "安全和存取"
 
-#: src/component/lightbox.vue:1021 src/component/lightbox.vue:1022
+#: src/component/lightbox.vue:1023 src/component/lightbox.vue:1024
 msgid "Select"
 msgstr "選擇"
 
@@ -2671,7 +2675,7 @@ msgstr "顯示更多"
 msgid "Show server logs in Library."
 msgstr "在收藏庫中顯示伺服器日誌。"
 
-#: src/component/lightbox.vue:934 src/component/lightbox.vue:935
+#: src/component/lightbox.vue:936 src/component/lightbox.vue:937
 msgid "Show/Hide Sidebar"
 msgstr "顯示/隱藏側邊欄"
 
@@ -2708,7 +2712,7 @@ msgstr "軟體"
 msgid "Software Update"
 msgstr "軟體更新"
 
-#: src/component/lightbox.vue:671
+#: src/component/lightbox.vue:673
 msgid "Something went wrong, try again"
 msgstr "出错了，再试一次"
 
@@ -2759,7 +2763,7 @@ msgstr "堆疊"
 msgid "Start"
 msgstr "開始"
 
-#: src/component/lightbox.vue:969 src/component/lightbox.vue:970
+#: src/component/lightbox.vue:971 src/component/lightbox.vue:972
 msgid "Start/Stop Slideshow"
 msgstr "開始/停止 幻燈片"
 

@@ -829,6 +829,10 @@ msgstr "Cúbic: qualitat moderada, bon rendiment"
 msgid "Current Password"
 msgstr "Contrasenya actual"
 
+#: src/options/themes.js:853 src/options/themes.js:862
+msgid "Custom"
+msgstr ""
+
 #: src/page/about/feedback.vue:5 src/options/options.js:472
 msgid "Customer Support"
 msgstr "Atenció al client"
@@ -862,7 +866,7 @@ msgstr "Registres de depuració"
 #: src/component/photo/edit/info.vue:110 src/model/session.js:64
 #: src/model/user.js:244 src/options/auth.js:20 src/options/auth.js:21
 #: src/options/auth.js:39 src/options/auth.js:40 src/options/options.js:323
-#: src/options/options.js:387 src/options/themes.js:701 src/page/places.vue:201
+#: src/options/options.js:387 src/options/themes.js:711 src/page/places.vue:201
 msgid "Default"
 msgstr "Per defecte"
 
@@ -1006,8 +1010,8 @@ msgid "Done."
 msgstr "Fet."
 
 #: src/component/album/clipboard.vue:72 src/component/album/toolbar.vue:120
-#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1057
-#: src/component/lightbox.vue:1058 src/component/people/clipboard.vue:47
+#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1059
+#: src/component/lightbox.vue:1060 src/component/people/clipboard.vue:47
 #: src/component/photo/clipboard.vue:116 src/component/photo/edit/files.vue:167
 #: src/page/settings/general.vue:252 src/page/settings/general.vue:624
 msgid "Download"
@@ -1027,7 +1031,7 @@ msgstr "Baixeu fitxers únics i arxius zip."
 
 #: src/component/album/clipboard.vue:102 src/component/album/toolbar.vue:105
 #: src/component/file/clipboard.vue:61 src/component/label/clipboard.vue:86
-#: src/component/lightbox.vue:1608 src/component/people/clipboard.vue:59
+#: src/component/lightbox.vue:1610 src/component/people/clipboard.vue:59
 #: src/component/photo/clipboard.vue:216 src/component/photo/edit/files.vue:117
 #: src/component/photo/view/cards.vue:164 src/component/photo/view/list.vue:133
 #: src/page/library/browse.vue:118
@@ -1067,7 +1071,7 @@ msgid "E-Mail"
 msgstr "Correu electrònic"
 
 #: src/component/album/clipboard.vue:61 src/component/album/toolbar.vue:82
-#: src/component/lightbox.vue:1038 src/component/lightbox.vue:1039
+#: src/component/lightbox.vue:1040 src/component/lightbox.vue:1041
 #: src/component/photo/clipboard.vue:90 src/page/settings/general.vue:324
 msgid "Edit"
 msgstr "Edita"
@@ -1326,7 +1330,7 @@ msgstr "Marcs"
 msgid "Full Access"
 msgstr "Accés complet"
 
-#: src/component/lightbox.vue:986 src/component/lightbox.vue:987
+#: src/component/lightbox.vue:988 src/component/lightbox.vue:989
 msgid "Fullscreen"
 msgstr "Pantalla completa"
 
@@ -1652,7 +1656,7 @@ msgstr "Biblioteca"
 msgid "License"
 msgstr "Llicència"
 
-#: src/component/lightbox.vue:1004 src/component/lightbox.vue:1005
+#: src/component/lightbox.vue:1006 src/component/lightbox.vue:1007
 msgid "Like"
 msgstr "M'agrada"
 
@@ -1845,7 +1849,7 @@ msgstr "Mou arxius"
 msgid "Must have at least %{n} characters."
 msgstr "Ha de tenir almenys %{n} caràcters."
 
-#: src/component/lightbox.vue:953 src/component/lightbox.vue:954
+#: src/component/lightbox.vue:955 src/component/lightbox.vue:956
 msgid "Mute"
 msgstr "Silenciar"
 
@@ -1993,7 +1997,7 @@ msgid "Not sorted."
 msgstr "No ordenat."
 
 #: src/common/util.js:731 src/component/lightbox.vue:563
-#: src/component/lightbox.vue:678
+#: src/component/lightbox.vue:680
 msgid "Not supported"
 msgstr "No s'admet"
 
@@ -2442,7 +2446,7 @@ msgstr "Elimina de l'àlbum"
 msgid "Remove imported files to save storage. Unsupported file types will never be deleted, they remain in their current location."
 msgstr "Elimina els fitxers importats per estalviar emmagatzematge. Els tipus de fitxers no compatibles no se suprimiran mai, es mantenen a la seva ubicació actual."
 
-#: src/common/api.js:102 src/component/lightbox.vue:674
+#: src/common/api.js:102 src/component/lightbox.vue:676
 msgid "Request failed - are you offline?"
 msgstr "La sol·licitud ha fallat; estàs fora de línia?"
 
@@ -2545,7 +2549,7 @@ msgstr "Secret"
 msgid "Security and Access"
 msgstr "Seguretat i Accés"
 
-#: src/component/lightbox.vue:1021 src/component/lightbox.vue:1022
+#: src/component/lightbox.vue:1023 src/component/lightbox.vue:1024
 msgid "Select"
 msgstr "Selecciona"
 
@@ -2671,7 +2675,7 @@ msgstr "Mostra’n més"
 msgid "Show server logs in Library."
 msgstr "Mostra els registres del servidor a la biblioteca."
 
-#: src/component/lightbox.vue:934 src/component/lightbox.vue:935
+#: src/component/lightbox.vue:936 src/component/lightbox.vue:937
 msgid "Show/Hide Sidebar"
 msgstr "Mostra/amaga la barra lateral"
 
@@ -2708,7 +2712,7 @@ msgstr "Programari"
 msgid "Software Update"
 msgstr "Actualització de programari"
 
-#: src/component/lightbox.vue:671
+#: src/component/lightbox.vue:673
 msgid "Something went wrong, try again"
 msgstr "S'ha produït un error, torna-ho a provar"
 
@@ -2759,7 +2763,7 @@ msgstr "Piles"
 msgid "Start"
 msgstr "Inici"
 
-#: src/component/lightbox.vue:969 src/component/lightbox.vue:970
+#: src/component/lightbox.vue:971 src/component/lightbox.vue:972
 msgid "Start/Stop Slideshow"
 msgstr "Inicia/atura la presentació de diapositives"
 

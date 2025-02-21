@@ -829,6 +829,10 @@ msgstr "घन: मध्यम गुणवत्ता, अच्छा प्
 msgid "Current Password"
 msgstr "वर्तमान पासवर्ड"
 
+#: src/options/themes.js:853 src/options/themes.js:862
+msgid "Custom"
+msgstr ""
+
 #: src/page/about/feedback.vue:5 src/options/options.js:472
 msgid "Customer Support"
 msgstr "ग्राहक सहेयता"
@@ -862,7 +866,7 @@ msgstr "दोषमार्जन लॉग"
 #: src/component/photo/edit/info.vue:110 src/model/session.js:64
 #: src/model/user.js:244 src/options/auth.js:20 src/options/auth.js:21
 #: src/options/auth.js:39 src/options/auth.js:40 src/options/options.js:323
-#: src/options/options.js:387 src/options/themes.js:701 src/page/places.vue:201
+#: src/options/options.js:387 src/options/themes.js:711 src/page/places.vue:201
 msgid "Default"
 msgstr "चूक"
 
@@ -1006,8 +1010,8 @@ msgid "Done."
 msgstr "किया हुआ |"
 
 #: src/component/album/clipboard.vue:72 src/component/album/toolbar.vue:120
-#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1057
-#: src/component/lightbox.vue:1058 src/component/people/clipboard.vue:47
+#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1059
+#: src/component/lightbox.vue:1060 src/component/people/clipboard.vue:47
 #: src/component/photo/clipboard.vue:116 src/component/photo/edit/files.vue:167
 #: src/page/settings/general.vue:252 src/page/settings/general.vue:624
 msgid "Download"
@@ -1027,7 +1031,7 @@ msgstr "एकल फाइलें और ज़िप अभिलेखा�
 
 #: src/component/album/clipboard.vue:102 src/component/album/toolbar.vue:105
 #: src/component/file/clipboard.vue:61 src/component/label/clipboard.vue:86
-#: src/component/lightbox.vue:1608 src/component/people/clipboard.vue:59
+#: src/component/lightbox.vue:1610 src/component/people/clipboard.vue:59
 #: src/component/photo/clipboard.vue:216 src/component/photo/edit/files.vue:117
 #: src/component/photo/view/cards.vue:164 src/component/photo/view/list.vue:133
 #: src/page/library/browse.vue:118
@@ -1067,7 +1071,7 @@ msgid "E-Mail"
 msgstr "ईमेल"
 
 #: src/component/album/clipboard.vue:61 src/component/album/toolbar.vue:82
-#: src/component/lightbox.vue:1038 src/component/lightbox.vue:1039
+#: src/component/lightbox.vue:1040 src/component/lightbox.vue:1041
 #: src/component/photo/clipboard.vue:90 src/page/settings/general.vue:324
 msgid "Edit"
 msgstr "संपादित करें"
@@ -1326,7 +1330,7 @@ msgstr "फ्रेम्स"
 msgid "Full Access"
 msgstr "पूर्ण पहुँच"
 
-#: src/component/lightbox.vue:986 src/component/lightbox.vue:987
+#: src/component/lightbox.vue:988 src/component/lightbox.vue:989
 msgid "Fullscreen"
 msgstr "पूर्ण स्क्रीन"
 
@@ -1652,7 +1656,7 @@ msgstr "पुस्तकालय"
 msgid "License"
 msgstr "लाइसेंस"
 
-#: src/component/lightbox.vue:1004 src/component/lightbox.vue:1005
+#: src/component/lightbox.vue:1006 src/component/lightbox.vue:1007
 msgid "Like"
 msgstr "पसंद"
 
@@ -1845,7 +1849,7 @@ msgstr "फ़ाइलें ले जाएँ"
 msgid "Must have at least %{n} characters."
 msgstr "कम से कम %{n} अक्षर होने चाहिए।"
 
-#: src/component/lightbox.vue:953 src/component/lightbox.vue:954
+#: src/component/lightbox.vue:955 src/component/lightbox.vue:956
 msgid "Mute"
 msgstr "आवाज़ बंद करना"
 
@@ -1993,7 +1997,7 @@ msgid "Not sorted."
 msgstr "क्रमबद्ध नहीं।"
 
 #: src/common/util.js:731 src/component/lightbox.vue:563
-#: src/component/lightbox.vue:678
+#: src/component/lightbox.vue:680
 msgid "Not supported"
 msgstr "समर्थित नहीं"
 
@@ -2442,7 +2446,7 @@ msgstr "एल्बम से निकालें"
 msgid "Remove imported files to save storage. Unsupported file types will never be deleted, they remain in their current location."
 msgstr "स्टोरेज को सेव करने के लिए इंपोर्टेड फाइल्स निकालें। असमर्थित फ़ाइल प्रकार कभी भी हटाए नहीं जाएंगे, वे अपने वर्तमान स्थान पर बने रहेंगे।"
 
-#: src/common/api.js:102 src/component/lightbox.vue:674
+#: src/common/api.js:102 src/component/lightbox.vue:676
 msgid "Request failed - are you offline?"
 msgstr "अनुरोध विफल - क्या आप ऑफ़लाइन हैं?"
 
@@ -2545,7 +2549,7 @@ msgstr "गुप्त"
 msgid "Security and Access"
 msgstr "सुरक्षा और पहुंच"
 
-#: src/component/lightbox.vue:1021 src/component/lightbox.vue:1022
+#: src/component/lightbox.vue:1023 src/component/lightbox.vue:1024
 msgid "Select"
 msgstr "चुनें"
 
@@ -2671,7 +2675,7 @@ msgstr "और दिखाओ"
 msgid "Show server logs in Library."
 msgstr "लायब्रेरी में सर्वर लॉग दिखाएं।"
 
-#: src/component/lightbox.vue:934 src/component/lightbox.vue:935
+#: src/component/lightbox.vue:936 src/component/lightbox.vue:937
 msgid "Show/Hide Sidebar"
 msgstr "साइडबार दिखाएँ/छिपाएँ"
 
@@ -2708,7 +2712,7 @@ msgstr "सॉफ़्टवेयर"
 msgid "Software Update"
 msgstr "सॉफ्टवेयर अपडेट"
 
-#: src/component/lightbox.vue:671
+#: src/component/lightbox.vue:673
 msgid "Something went wrong, try again"
 msgstr "कुछ गलत हुआ है, दोबारा कोशिश करें"
 
@@ -2759,7 +2763,7 @@ msgstr "ढेर"
 msgid "Start"
 msgstr "शुरू"
 
-#: src/component/lightbox.vue:969 src/component/lightbox.vue:970
+#: src/component/lightbox.vue:971 src/component/lightbox.vue:972
 msgid "Start/Stop Slideshow"
 msgstr "शुरू / बंद स्लाइड शो"
 

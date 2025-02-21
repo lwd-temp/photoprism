@@ -837,6 +837,10 @@ msgstr "Cubique : Qualité modérée, bonne performance"
 msgid "Current Password"
 msgstr "Mot de passe actuel"
 
+#: src/options/themes.js:853 src/options/themes.js:862
+msgid "Custom"
+msgstr ""
+
 #: src/page/about/feedback.vue:5 src/options/options.js:472
 msgid "Customer Support"
 msgstr "Support Client"
@@ -870,7 +874,7 @@ msgstr "Journaux de débogage"
 #: src/component/photo/edit/info.vue:110 src/model/session.js:64
 #: src/model/user.js:244 src/options/auth.js:20 src/options/auth.js:21
 #: src/options/auth.js:39 src/options/auth.js:40 src/options/options.js:323
-#: src/options/options.js:387 src/options/themes.js:701 src/page/places.vue:201
+#: src/options/options.js:387 src/options/themes.js:711 src/page/places.vue:201
 msgid "Default"
 msgstr "Valeur par défaut"
 
@@ -1014,8 +1018,8 @@ msgid "Done."
 msgstr "Terminé."
 
 #: src/component/album/clipboard.vue:72 src/component/album/toolbar.vue:120
-#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1057
-#: src/component/lightbox.vue:1058 src/component/people/clipboard.vue:47
+#: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1059
+#: src/component/lightbox.vue:1060 src/component/people/clipboard.vue:47
 #: src/component/photo/clipboard.vue:116 src/component/photo/edit/files.vue:167
 #: src/page/settings/general.vue:252 src/page/settings/general.vue:624
 msgid "Download"
@@ -1035,7 +1039,7 @@ msgstr "Téléchargement de fichiers et d'archives zip."
 
 #: src/component/album/clipboard.vue:102 src/component/album/toolbar.vue:105
 #: src/component/file/clipboard.vue:61 src/component/label/clipboard.vue:86
-#: src/component/lightbox.vue:1608 src/component/people/clipboard.vue:59
+#: src/component/lightbox.vue:1610 src/component/people/clipboard.vue:59
 #: src/component/photo/clipboard.vue:216 src/component/photo/edit/files.vue:117
 #: src/component/photo/view/cards.vue:164 src/component/photo/view/list.vue:133
 #: src/page/library/browse.vue:118
@@ -1075,7 +1079,7 @@ msgid "E-Mail"
 msgstr "Courriel"
 
 #: src/component/album/clipboard.vue:61 src/component/album/toolbar.vue:82
-#: src/component/lightbox.vue:1038 src/component/lightbox.vue:1039
+#: src/component/lightbox.vue:1040 src/component/lightbox.vue:1041
 #: src/component/photo/clipboard.vue:90 src/page/settings/general.vue:324
 msgid "Edit"
 msgstr "Modifier"
@@ -1338,7 +1342,7 @@ msgstr "Cadres"
 msgid "Full Access"
 msgstr "Accès intégral"
 
-#: src/component/lightbox.vue:986 src/component/lightbox.vue:987
+#: src/component/lightbox.vue:988 src/component/lightbox.vue:989
 msgid "Fullscreen"
 msgstr "Plein écran"
 
@@ -1669,7 +1673,7 @@ msgstr "Bibliothèque"
 msgid "License"
 msgstr "Licence"
 
-#: src/component/lightbox.vue:1004 src/component/lightbox.vue:1005
+#: src/component/lightbox.vue:1006 src/component/lightbox.vue:1007
 msgid "Like"
 msgstr "Préféré"
 
@@ -1863,7 +1867,7 @@ msgstr "Déplacer les fichiers"
 msgid "Must have at least %{n} characters."
 msgstr "Doit comporter au moins %{n} caractères."
 
-#: src/component/lightbox.vue:953 src/component/lightbox.vue:954
+#: src/component/lightbox.vue:955 src/component/lightbox.vue:956
 msgid "Mute"
 msgstr "Muet"
 
@@ -2013,7 +2017,7 @@ msgid "Not sorted."
 msgstr "Non trié."
 
 #: src/common/util.js:731 src/component/lightbox.vue:563
-#: src/component/lightbox.vue:678
+#: src/component/lightbox.vue:680
 msgid "Not supported"
 msgstr "Non pris en charge"
 
@@ -2463,7 +2467,7 @@ msgstr "Retirer de l'album"
 msgid "Remove imported files to save storage. Unsupported file types will never be deleted, they remain in their current location."
 msgstr "Supprimez les fichiers importés pour économiser l'espace de stockage. Les fichiers non pris en charge ne sont jamais supprimés et demeurent à leur emplacement actuel."
 
-#: src/common/api.js:102 src/component/lightbox.vue:674
+#: src/common/api.js:102 src/component/lightbox.vue:676
 msgid "Request failed - are you offline?"
 msgstr "La requête a échoué - êtes-vous hors ligne ?"
 
@@ -2566,7 +2570,7 @@ msgstr "Secret"
 msgid "Security and Access"
 msgstr "Sécurité et accès"
 
-#: src/component/lightbox.vue:1021 src/component/lightbox.vue:1022
+#: src/component/lightbox.vue:1023 src/component/lightbox.vue:1024
 msgid "Select"
 msgstr "Sélectionner"
 
@@ -2692,7 +2696,7 @@ msgstr "Montre plus"
 msgid "Show server logs in Library."
 msgstr "Afficher les journaux serveurs dans Bibliothèque."
 
-#: src/component/lightbox.vue:934 src/component/lightbox.vue:935
+#: src/component/lightbox.vue:936 src/component/lightbox.vue:937
 #, fuzzy
 msgid "Show/Hide Sidebar"
 msgstr "Afficher/masquer la barre latérale"
@@ -2730,7 +2734,7 @@ msgstr "Logiciel"
 msgid "Software Update"
 msgstr "Mise à jour du logiciel"
 
-#: src/component/lightbox.vue:671
+#: src/component/lightbox.vue:673
 msgid "Something went wrong, try again"
 msgstr "Quelque chose s'est mal passé, réessayez"
 
@@ -2781,7 +2785,7 @@ msgstr "Groupes"
 msgid "Start"
 msgstr "Démarrer"
 
-#: src/component/lightbox.vue:969 src/component/lightbox.vue:970
+#: src/component/lightbox.vue:971 src/component/lightbox.vue:972
 msgid "Start/Stop Slideshow"
 msgstr "Démarrer / arrêter le diaporama"
 
