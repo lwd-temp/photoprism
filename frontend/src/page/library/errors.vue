@@ -186,8 +186,8 @@ export default {
     },
   },
   created() {
-    if (this.$config.deny("logs", "view")) {
-      this.$router.push({ name: "albums" });
+    if (this.$config.deny("logs", "access_all")) {
+      this.$router.push({ name: this.$session.getDefaultRoute() });
       return;
     }
 

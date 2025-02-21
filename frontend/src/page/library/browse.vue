@@ -175,8 +175,8 @@ export default {
     },
   },
   created() {
-    if (this.$config.deny("files", "access_library")) {
-      this.$router.push({ name: "albums" });
+    if (this.$config.deny("files", "access_library") || this.$config.deny("files", "access_private")) {
+      this.$router.push({ name: this.$session.getDefaultRoute() });
       return;
     }
 

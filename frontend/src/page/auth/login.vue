@@ -210,7 +210,6 @@ export default {
       sponsor: this.$config.isSponsor(),
       config: this.$config.values,
       siteDescription: this.$config.getSiteDescription(),
-      nextUrl: this.$route.params.nextUrl ? this.$route.params.nextUrl : "/",
       wallpaperUri: this.$config.values.wallpaperUri,
       registerUri: this.$config.values.registerUri,
       passwordResetUri: this.$config.values.passwordResetUri,
@@ -251,15 +250,11 @@ export default {
       return "";
     },
     load() {
-      this.$notify.blockUI();
-
-      let route = this.$router.resolve({
-        name: this.$session.getHome(),
+      let homeRoute = this.$router.resolve({
+        name: this.$session.getDefaultRoute(),
       });
 
-      setTimeout(() => {
-        window.location = route.href;
-      }, 100);
+      this.$session.followLoginRedirectUrl(homeRoute.href);
     },
     reset() {
       this.username = "";
@@ -318,9 +313,7 @@ export default {
 
       if (this.config.ext?.oidc?.loginUri) {
         this.loading = true;
-        this.$nextTick(() => {
-          window.location = this.config.ext.oidc.loginUri;
-        });
+        this.$session.followRedirect(this.config.ext.oidc.loginUri);
       } else {
         this.$notify.warn(this.$gettext("Missing or invalid configuration"));
       }
