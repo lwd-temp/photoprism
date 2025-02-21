@@ -18,7 +18,7 @@ DESTDIR=$(realpath "${1:-/opt/ffmpeg}")
 # In addition, you can specify a custom version as the second argument.
 FFMPEG_VERSION=${2:-release}
 
-# Determine the system architecture.
+# Determine target architecture.
 if [[ $PHOTOPRISM_ARCH ]]; then
   SYSTEM_ARCH=$PHOTOPRISM_ARCH
 else

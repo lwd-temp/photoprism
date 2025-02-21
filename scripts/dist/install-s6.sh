@@ -24,7 +24,7 @@ fi
 # You can provide a custom installation directory as the first argument.
 S6_OVERLAY_DESTDIR=$(realpath "${2:-/}")
 
-# Determine the system architecture.
+# Determine target architecture.
 if [[ $PHOTOPRISM_ARCH ]]; then
   SYSTEM_ARCH=$PHOTOPRISM_ARCH
 else
@@ -71,12 +71,14 @@ echo "BINARY URL: ${S6_ARCH_URL}"
 echo "NOARCH URL: ${S6_NOARCH_URL}"
 echo "------------------------------------------------"
 
-echo "Extracting \"$S6_ARCH_URL\" to \"$S6_OVERLAY_DESTDIR\"."
+# Create the destination directory if it does not already exist.
 mkdir -p "${S6_OVERLAY_DESTDIR}"
+
+# Download and install the s6-overlay release from GitHub.
+echo "Extracting \"$S6_ARCH_URL\" to \"$S6_OVERLAY_DESTDIR\"."
 curl -fsSL "$S6_ARCH_URL" | tar -C "${S6_OVERLAY_DESTDIR}" -Jxp
 
 echo "Extracting \"$S6_NOARCH_URL\" to \"$S6_OVERLAY_DESTDIR\"."
-mkdir -p "${S6_OVERLAY_DESTDIR}"
 curl -fsSL "$S6_NOARCH_URL" | tar -C "${S6_OVERLAY_DESTDIR}" -Jxp
 
 echo "Done."

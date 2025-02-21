@@ -15,7 +15,7 @@ fi
 
 CURRENT_DIR=$(pwd)
 
-# Determine the system architecture.
+# Determine target architecture.
 if [[ $PHOTOPRISM_ARCH ]]; then
   SYSTEM_ARCH=$PHOTOPRISM_ARCH
 else
