@@ -70,7 +70,7 @@ func GetAlbum(router *gin.RouterGroup) {
 		}
 
 		// Other restricted users can only access their own or shared content.
-		if album.CreatedBy != s.UserUID && s.User().HasSharedAccessOnly(acl.ResourceAlbums) {
+		if s.User().HasSharedAccessOnly(acl.ResourceAlbums) && album.CreatedBy != s.UserUID && !s.HasShare(uid) {
 			AbortForbidden(c)
 			return
 		}
