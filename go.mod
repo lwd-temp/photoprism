@@ -41,7 +41,7 @@ require (
 	github.com/tidwall/gjson v1.18.0
 	github.com/ulule/deepcopier v0.0.0-20200430083143-45decc6639b6
 	go4.org v0.0.0-20230225012048-214862532bf5 // indirect
-	golang.org/x/crypto v0.33.0
+	golang.org/x/crypto v0.34.0
 	golang.org/x/net v0.35.0
 	gonum.org/v1/gonum v0.15.1
 	gopkg.in/photoprism/go-tz.v2 v2.1.3
@@ -85,7 +85,7 @@ require (
 	github.com/swaggo/files v1.0.1
 	github.com/swaggo/gin-swagger v1.6.0
 	github.com/urfave/cli/v2 v2.27.5
-	github.com/zitadel/oidc/v3 v3.34.1
+	github.com/zitadel/oidc/v3 v3.34.2
 )
 
 require (
@@ -143,7 +143,7 @@ require (
 	go.opentelemetry.io/otel/metric v1.29.0 // indirect
 	go.opentelemetry.io/otel/trace v1.29.0 // indirect
 	golang.org/x/exp v0.0.0-20250106191152-7588d65b2ba8 // indirect
-	golang.org/x/oauth2 v0.25.0 // indirect
+	golang.org/x/oauth2 v0.26.0 // indirect
 	golang.org/x/sys v0.30.0 // indirect
 	golang.org/x/tools v0.30.0 // indirect
 	google.golang.org/protobuf v1.36.4 // indirect
