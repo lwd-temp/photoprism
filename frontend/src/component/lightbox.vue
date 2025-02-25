@@ -125,7 +125,7 @@ export default {
       canEdit: this.$config.allow("photos", "update") && this.$config.feature("edit"),
       canLike: this.$config.allow("photos", "manage") && this.$config.feature("favorites"),
       canDownload: this.$config.allow("photos", "download") && this.$config.feature("download"),
-      canFullscreen: !this.$isMobile,
+      canFullscreen: !this.$isMobile || this.$config.featExperimental(),
       isFullscreen: !window.screenTop && !window.screenY,
       isZoomable: true,
       mobileBreakpoint: 600, // Minimum viewport width for large screens.
