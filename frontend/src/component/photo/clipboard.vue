@@ -27,7 +27,7 @@
         </template>
 
         <v-btn
-          v-if="canServiceUpload && context !== 'archive' && context !== 'hidden' && context !== 'review'"
+          v-if="canShare && canServiceUpload && context !== 'archive' && context !== 'hidden' && context !== 'review'"
           key="action-share"
           :title="$gettext('Share')"
           icon="mdi-share"
