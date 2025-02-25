@@ -221,6 +221,7 @@ export class View {
   constructor() {
     this.uid = 0;
     this.scopes = [];
+    this.hideScrollbar = false;
     this.preventNavigation = false;
 
     if (trace) {
@@ -317,7 +318,7 @@ export class View {
       return;
     }
 
-    let hideScrollbar = false;
+    let hideScrollbar = this.layers() > 2 ? this.hideScrollbar : false;
     let disableScrolling = false;
     let disableNavigationGestures = false;
     let preventNavigation = uid > 0 && !name.startsWith("PPage");
@@ -351,6 +352,7 @@ export class View {
         break;
     }
 
+    this.hideScrollbar = hideScrollbar;
     this.preventNavigation = preventNavigation;
 
     const htmlEl = getHtmlElement();
@@ -429,6 +431,11 @@ export class View {
     return true;
   }
 
+  // Returns the current number of view layers.
+  layers() {
+    return this.scopes?.length ? this.scopes.length : 0;
+  }
+
   // Returns the currently active view component or null if none exists.
   current() {
     if (this.scopes.length) {
@@ -436,6 +443,26 @@ export class View {
     } else {
       return null;
     }
+  }
+
+  // Returns the parent view of the currently active view or null if none exists.
+  parent() {
+    if (this.scopes.length > 1) {
+      return this.scopes[this.scopes.length - 2];
+    } else {
+      return null;
+    }
+  }
+
+  // Returns the name of the parent view component or an empty string if none exists.
+  parentName() {
+    const c = this.parent();
+
+    if (!c) {
+      return "";
+    }
+
+    return c?.$options?.name ? c.$options.name : "";
   }
 
   // Returns the currently active view data or an empty reactive object otherwise.
