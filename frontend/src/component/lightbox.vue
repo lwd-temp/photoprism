@@ -312,7 +312,7 @@ export default {
         wheelToZoom: true,
         maxZoomLevel: 8,
         bgOpacity: 1,
-        preload: [2, 2],
+        preload: [1, 1],
         showHideAnimationType: "none",
         mainClass: "p-lightbox__pswp",
         tapAction: (point, ev) => this.onContentTap(ev),
