@@ -1,4 +1,5 @@
 import { toRaw } from "vue";
+import $notify from "common/notify";
 
 const TouchStartEvent = "touchstart";
 const TouchMoveEvent = "touchmove";
@@ -479,6 +480,48 @@ export class View {
   // Gives focus to the specified HTML element, or the first element that matches the specified selector string.
   focus(el, selector, scroll) {
     return setFocus(el, selector, scroll);
+  }
+
+  // Navigates to the specified URL, optionally with a delay set in milliseconds and a blocked user interface.
+  redirect(url, delay, blockUI) {
+    // Return if no URL was passed.
+    if (!url) {
+      console.warn(`cannot redirect because no URL was specified`);
+      return;
+    }
+
+    // Verify that the target URL is different from the current location.
+    const link = document.createElement("a");
+    link.href = url;
+    if (window.location.href === link.toString()) {
+      console.warn(`cannot redirect to ${url} because it is the current location`);
+      return;
+    }
+
+    // Block the user interface, if requested.
+    if (blockUI) {
+      $notify.blockUI();
+    }
+
+    // Make sure navigation is allowed.
+    this.preventNavigation = false;
+
+    // Navigate to the URL, optionally with the specified delay in milliseconds.
+    if (delay) {
+      if (trace) {
+        console.log(`%credirect to "${url}" (${delay}ms delay)`, "color: #F06292");
+      }
+
+      setTimeout(() => {
+        window.location = url;
+      }, delay);
+    } else {
+      if (trace) {
+        console.log(`%credirect to "${url}"`, "color: #F06292");
+      }
+
+      window.location = url;
+    }
   }
 
   // Returns true if the specified view component is currently inactive, e.g. hidden in the background.
