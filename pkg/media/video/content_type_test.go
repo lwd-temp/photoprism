@@ -16,6 +16,13 @@ func TestContentType(t *testing.T) {
 	t.Run("Mov", func(t *testing.T) {
 		assert.Equal(t, header.ContentTypeMp4, ContentType(header.ContentTypeMov, "", "", false))
 	})
+	t.Run("M4v", func(t *testing.T) {
+		assert.Equal(t, header.ContentTypeMp4, ContentType(header.ContentTypeM4v, "", "", false))
+		assert.Equal(t, header.ContentTypeMp4AvcMain, ContentType(header.ContentTypeM4v, "", CodecAvc1, false))
+		assert.Equal(t, header.ContentTypeMp4AvcHigh10, ContentType(header.ContentTypeM4v, "", CodecAvc1, true))
+		assert.Equal(t, header.ContentTypeMp4HvcMain10, ContentType(header.ContentTypeM4v, "", CodecHvc1, false))
+		assert.Equal(t, header.ContentTypeMp4HvcMain10, ContentType(header.ContentTypeM4v, "", CodecHvc1, true))
+	})
 	t.Run("Mov/Hvc", func(t *testing.T) {
 		assert.Equal(t, header.ContentTypeMp4HvcMain10, ContentType(header.ContentTypeMov, "mov", CodecHvc1, false))
 	})
