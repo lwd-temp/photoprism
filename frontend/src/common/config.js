@@ -648,13 +648,29 @@ export default class Config {
 
   // setTokens sets the security tokens required to load thumbnails and download files from the server.
   setTokens(tokens) {
-    if (!tokens || !tokens.previewToken || !tokens.downloadToken) {
+    if (!tokens || typeof tokens !== "object") {
       return;
     }
-    this.previewToken = tokens.previewToken;
-    this.values.previewToken = tokens.previewToken;
-    this.downloadToken = tokens.downloadToken;
-    this.values.downloadToken = tokens.downloadToken;
+
+    if (tokens.previewToken) {
+      if (this.previewToken !== tokens.previewToken) {
+        this.previewToken = tokens.previewToken;
+      }
+
+      if (this.values.previewToken !== tokens.previewToken) {
+        this.values.previewToken = tokens.previewToken;
+      }
+    }
+
+    if (tokens.downloadToken) {
+      if (this.downloadToken !== tokens.downloadToken) {
+        this.downloadToken = tokens.downloadToken;
+      }
+
+      if ((this.values.downloadToken = tokens.downloadToken)) {
+        this.values.downloadToken = tokens.downloadToken;
+      }
+    }
   }
 
   // updateTokens updates the security tokens required to load thumbnails and download files from the server.

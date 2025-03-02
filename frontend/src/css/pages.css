@@ -1,3 +1,14 @@
+.v-main > .p-page {
+    position: relative;
+}
+
+.v-main > .p-page .p-page__navigation {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    overflow: visible;
+}
+
 .p-page-about {
     line-height: 1.5rem;
 }
