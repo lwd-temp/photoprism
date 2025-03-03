@@ -8,8 +8,8 @@ import (
 )
 
 // parseCommaSeparatedValues parses comma separated string into a map.
-func parseCommaSeparatedValues(values string) map[string]struct{} {
-	m := make(map[string]struct{})
+func parseCommaSeparatedValues(values string) FilterValues {
+	m := make(FilterValues)
 	for _, v := range strings.Split(values, ",") {
 		v = strings.TrimSpace(v)
 		if len(v) == 0 {
@@ -19,11 +19,12 @@ func parseCommaSeparatedValues(values string) map[string]struct{} {
 		v = strings.ToLower(v)
 		m[v] = struct{}{}
 	}
+
 	return m
 }
 
 // validateGroups validates the parsed group maps.
-func validateGroups(m map[string]struct{}) error {
+func validateGroups(m FilterValues) error {
 	for k := range m {
 		found := false
 		for _, g := range groups {
@@ -42,7 +43,7 @@ func validateGroups(m map[string]struct{}) error {
 }
 
 // findInKey parse a slice of pattern to match the given key.
-func findInKey(str string, km map[string]struct{}) bool {
+func findInKey(str string, km FilterValues) bool {
 	for p := range km {
 		if wildcard.Match(p, str) {
 			return true

@@ -10,14 +10,32 @@ var (
 	onlyMp      = ""
 )
 
+type FilterValues map[string]struct{}
+
+func NewFilterValues(s ...string) FilterValues {
+	if len(s) == 0 {
+		return make(FilterValues)
+	} else if len(s) == 1 {
+		return parseCommaSeparatedValues(s[0])
+	}
+
+	result := make(FilterValues, len(s))
+
+	for i := range s {
+		result[s[i]] = struct{}{}
+	}
+
+	return result
+}
+
 // FilterOptions contains all filters.
 type FilterOptions struct {
-	HiddenDevices map[string]struct{}
-	OnlyDevices   map[string]struct{}
+	HiddenDevices FilterValues
+	OnlyDevices   FilterValues
 
-	HiddenFilesystems map[string]struct{}
-	OnlyFilesystems   map[string]struct{}
+	HiddenFilesystems FilterValues
+	OnlyFilesystems   FilterValues
 
-	HiddenMountPoints map[string]struct{}
-	OnlyMountPoints   map[string]struct{}
+	HiddenMountPoints FilterValues
+	OnlyMountPoints   FilterValues
 }

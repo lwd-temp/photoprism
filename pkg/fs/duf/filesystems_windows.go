@@ -12,8 +12,8 @@ const (
 
 var windowsSandboxMountPoints = loadRegisteredWindowsSandboxMountPoints()
 
-func loadRegisteredWindowsSandboxMountPoints() (ret map[string]struct{}) {
-	ret = make(map[string]struct{})
+func loadRegisteredWindowsSandboxMountPoints() (ret FilterValues) {
+	ret = make(FilterValues)
 	key, err := registry.OpenKey(registry.CURRENT_USER, WindowsSandboxMountPointRegistryPath, registry.READ)
 	if err != nil {
 		return
