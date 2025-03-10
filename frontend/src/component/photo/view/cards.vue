@@ -60,7 +60,11 @@
                 <i :title="$gettext('Taken')" class="mdi mdi-calendar-range" />
                 {{ m.getDateString(true) }}
               </button>
-              <button v-if="m.CameraID > 1 || m.Iso" class="meta-camera action-camera-edit text-truncate" :data-uid="m.UID">
+              <button
+                v-if="m.CameraID > 1 || m.Iso"
+                class="meta-camera action-camera-edit text-truncate"
+                :data-uid="m.UID"
+              >
                 <i class="mdi" :class="m.Type === 'video' ? 'mdi-video-vintage' : 'mdi-camera'" />
                 {{ m.getCameraInfo() }}
               </button>
