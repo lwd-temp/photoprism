@@ -88,7 +88,7 @@ body.dark-theme {
 }
 
 .v-snackbar.p-notify--info .v-snackbar__wrapper {
-    background-color: rgba(var(--v-theme-info), 0.2) !important;
+    background-color: rgba(var(--v-theme-info), 0.22) !important;
     color: rgba(var(--v-theme-on-surface), 1) !important;
 }
 
