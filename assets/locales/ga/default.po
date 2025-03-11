@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: ci@photoprism.app\n"
-"POT-Creation-Date: 2025-03-11 16:41+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-11 19:22+0000\n"
 "PO-Revision-Date: 2025-03-11 17:07+0000\n"
 "Last-Translator: Google Cloud Translation Basic <noreply-mt-google-"
 "translate@weblate.org>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :("
-"n>6 && n<11) ? 3 : 4;\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :"
+"(n>6 && n<11) ? 3 : 4;\n"
 "X-Generator: Weblate 5.9.2\n"
 
 #: messages.go:103
@@ -207,8 +207,8 @@ msgid "Too many requests"
 msgstr "An iomarca iarratas"
 
 #: messages.go:149
-msgid "Storage is full"
-msgstr "Tá an stóráil iomlán"
+msgid "Insufficient storage"
+msgstr ""
 
 #: messages.go:150
 msgid "Quota exceeded"
@@ -412,3 +412,6 @@ msgstr "D'éirigh leis a fhíorú"
 #: messages.go:198
 msgid "Successfully activated"
 msgstr "Cuireadh i ngníomh go rathúil"
+
+#~ msgid "Storage is full"
+#~ msgstr "Tá an stóráil iomlán"
