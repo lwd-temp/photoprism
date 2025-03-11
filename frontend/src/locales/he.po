@@ -1486,6 +1486,10 @@ msgstr "כלול קובצי תמונה RAW בעת הורדת ערימות ואר
 msgid "Include sidecar files when downloading stacks and archives."
 msgstr "כלול קבצי Sidecar בעת הורדת ערימות וארכיונים."
 
+#: src/component/photo/upload/dialog.vue:134 src/page/library/import.vue:48
+msgid "Increase storage size or delete files to continue."
+msgstr ""
+
 #: src/component/navigation.vue:1876 src/page/library.vue:36
 #: src/page/settings/library.vue:32
 msgid "Index"
@@ -1510,6 +1514,10 @@ msgstr "יצירת אינדקס של קבצי מדיה וקבצי עזר…"
 #: src/component/photo/edit/files.vue:281
 msgid "Instance ID"
 msgstr "מזהה מופע"
+
+#: src/component/photo/upload/dialog.vue:134 src/page/library/import.vue:48
+msgid "Insufficient storage."
+msgstr ""
 
 #: src/component/service/edit.vue:207
 msgid "Interval"
@@ -1943,10 +1951,6 @@ msgstr "לא נמצאו רשומות תואמות"
 #: src/locales.js:124
 msgid "No more"
 msgstr "לא יותר"
-
-#: src/component/photo/upload/dialog.vue:134 src/page/library/import.vue:48
-msgid "No new files can be added to your library."
-msgstr "לא ניתן להוסיף קבצים חדשים לספרייה שלך."
 
 #: src/component/photo/edit/people.vue:34 src/page/people/new.vue:344
 #: src/page/people/new.vue:433 src/page/people/new.vue:134
@@ -3330,13 +3334,15 @@ msgstr "התמיכה המתמשכת שלך עוזרת לנו לספק עדכונ
 msgid "Your library is continuously analyzed to automatically create albums of special moments, trips, and places."
 msgstr "הספרייה שלך מנותחת באופן רציף ליצירת אלבומים של רגעים מיוחדים, טיולים ומקומות באופן אוטומטי."
 
-#: src/component/photo/upload/dialog.vue:134 src/page/library/import.vue:48
-msgid "Your storage is full."
-msgstr "האחסון שלך מלא."
-
 #: src/component/lightbox.vue:228
 msgid "Zoom in/out"
 msgstr "זום פנימה\\החוצה"
+
+#~ msgid "No new files can be added to your library."
+#~ msgstr "לא ניתן להוסיף קבצים חדשים לספרייה שלך."
+
+#~ msgid "Your storage is full."
+#~ msgstr "האחסון שלך מלא."
 
 #~ msgid "Open Folder"
 #~ msgstr "פתח תיקייה"

@@ -1486,6 +1486,10 @@ msgstr "Zahrnúť obrazové súbory RAW pri preberaní zásobníkov a archívov.
 msgid "Include sidecar files when downloading stacks and archives."
 msgstr "Pri preberaní zásobníkov a archívov zahrňte vedľajšie súbory."
 
+#: src/component/photo/upload/dialog.vue:134 src/page/library/import.vue:48
+msgid "Increase storage size or delete files to continue."
+msgstr ""
+
 #: src/component/navigation.vue:1876 src/page/library.vue:36
 #: src/page/settings/library.vue:32
 msgid "Index"
@@ -1510,6 +1514,10 @@ msgstr "Indexovanie médií a pripojených súborov…"
 #: src/component/photo/edit/files.vue:281
 msgid "Instance ID"
 msgstr "ID Inštancie"
+
+#: src/component/photo/upload/dialog.vue:134 src/page/library/import.vue:48
+msgid "Insufficient storage."
+msgstr ""
 
 #: src/component/service/edit.vue:207
 msgid "Interval"
@@ -1943,10 +1951,6 @@ msgstr "Nenašli sa žiadne zodpovedajúce záznamy"
 #: src/locales.js:124
 msgid "No more"
 msgstr "Nie viac"
-
-#: src/component/photo/upload/dialog.vue:134 src/page/library/import.vue:48
-msgid "No new files can be added to your library."
-msgstr "Do knižnice nie je možné pridať žiadne nové súbory."
 
 #: src/component/photo/edit/people.vue:34 src/page/people/new.vue:344
 #: src/page/people/new.vue:433 src/page/people/new.vue:134
@@ -3330,13 +3334,15 @@ msgstr "Vaša podpora nám pomáha poskytovať pravidelné aktualizácie a zosta
 msgid "Your library is continuously analyzed to automatically create albums of special moments, trips, and places."
 msgstr "Vaša knižnica sa priebežne analyzuje aby mohla automaticky vytvárať albumy špeciálnych momentov, výletov a miest."
 
-#: src/component/photo/upload/dialog.vue:134 src/page/library/import.vue:48
-msgid "Your storage is full."
-msgstr "Úložisko je plné."
-
 #: src/component/lightbox.vue:228
 msgid "Zoom in/out"
 msgstr "Priblíziť/Oddialiť"
+
+#~ msgid "No new files can be added to your library."
+#~ msgstr "Do knižnice nie je možné pridať žiadne nové súbory."
+
+#~ msgid "Your storage is full."
+#~ msgstr "Úložisko je plné."
 
 #~ msgid "Open Folder"
 #~ msgstr "Otvoriť priečinok"
