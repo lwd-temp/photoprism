@@ -1,8 +1,9 @@
 package form
 
 import (
-	"github.com/photoprism/photoprism/pkg/authn"
 	"testing"
+
+	"github.com/photoprism/photoprism/pkg/authn"
 
 	"github.com/stretchr/testify/assert"
 )
