@@ -1,6 +1,7 @@
 package form
 
 import (
+	"github.com/photoprism/photoprism/pkg/authn"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -30,4 +31,18 @@ func TestSearchSessions_ParseQueryString(t *testing.T) {
 
 	assert.Equal(t, 3, form.Count)
 	assert.Equal(t, "test", form.Query)
+}
+
+func TestSearchSessions_AuthProviders(t *testing.T) {
+	form := &SearchSessions{Provider: "oidc"}
+	r := form.AuthProviders()
+
+	assert.Equal(t, authn.ProviderOIDC, r[0])
+}
+
+func TestSearchSessions_AuthMethods(t *testing.T) {
+	form := &SearchSessions{Method: "2fa"}
+	r := form.AuthMethods()
+
+	assert.Equal(t, authn.Method2FA, r[0])
 }
