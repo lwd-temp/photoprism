@@ -34,7 +34,7 @@ import PShareDialog from "component/share/dialog.vue";
 import PSettingsWebdav from "component/settings/webdav.vue";
 
 // Confirm.
-import PConfirmAction from "component/confirm/action.vue";
+import PConfirmDialog from "component/confirm/dialog.vue";
 import PConfirmSponsor from "component/confirm/sponsor.vue";
 
 // Originals.
@@ -99,7 +99,7 @@ export function install(app) {
 
   app.component("PShareDialog", PShareDialog);
 
-  app.component("PConfirmAction", PConfirmAction);
+  app.component("PConfirmDialog", PConfirmDialog);
   app.component("PConfirmSponsor", PConfirmSponsor);
 
   app.component("PFileClipboard", PFileClipboard);

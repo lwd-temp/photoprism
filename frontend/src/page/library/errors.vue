@@ -121,13 +121,13 @@
         </div>
       </v-alert>
     </div>
-    <p-confirm-action
+    <p-confirm-dialog
       :visible="dialog.delete"
       :text="$gettext(`Delete all?`)"
       icon="mdi-delete-sweep-outline"
       @close="dialog.delete = false"
       @confirm="onConfirmDelete"
-    ></p-confirm-action>
+    ></p-confirm-dialog>
     <v-dialog :model-value="details.visible" max-width="550" class="p-dialog">
       <v-card>
         <v-card-title class="d-flex justify-start align-center ga-3">
@@ -157,14 +157,14 @@
 <script>
 import { DateTime } from "luxon";
 import $api from "common/api";
-import PConfirmAction from "component/confirm/action.vue";
+import PConfirmDialog from "component/confirm/dialog.vue";
 import PLoading from "component/loading.vue";
 
 export default {
   name: "PPageErrors",
   components: {
     PLoading,
-    PConfirmAction,
+    PConfirmDialog,
   },
   data() {
     const query = this.$route.query;

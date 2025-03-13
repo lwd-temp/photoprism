@@ -470,7 +470,7 @@ msgid "Are you sure you want to permanently delete this file?"
 msgstr ""
 
 #: src/component/session/remove/dialog.vue:32
-#: src/component/confirm/action.vue:30
+#: src/component/confirm/dialog.vue:30
 msgid "Are you sure?"
 msgstr ""
 
@@ -635,7 +635,7 @@ msgstr ""
 #: src/page/connect.vue:117
 #: src/component/album/delete/dialog.vue:43
 #: src/component/album/edit/dialog.vue:198
-#: src/component/confirm/action.vue:43
+#: src/component/confirm/dialog.vue:43
 #: src/component/file/delete/dialog.vue:47
 #: src/component/label/delete/dialog.vue:47
 #: src/component/label/edit/dialog.vue:107
@@ -3791,7 +3791,7 @@ msgstr ""
 msgid "Yellow"
 msgstr ""
 
-#: src/component/confirm/action.vue:54
+#: src/component/confirm/dialog.vue:54
 #: src/component/people/merge/dialog.vue:58
 #: src/component/photo/archive/dialog.vue:58
 #: src/component/photo/edit/files.vue:365

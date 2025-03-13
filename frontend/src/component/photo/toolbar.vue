@@ -318,11 +318,11 @@
 import * as options from "options/options";
 import $api from "common/api";
 import $notify from "common/notify";
-import PConfirmAction from "../confirm/action.vue";
+import PConfirmDialog from "../confirm/dialog.vue";
 
 export default {
   name: "PPhotoToolbar",
-  components: { PConfirmAction },
+  components: { PConfirmDialog },
   props: {
     context: {
       type: String,
