@@ -14,15 +14,13 @@
       color="secondary"
     >
       <v-toolbar-title :title="album.Title" class="page__title">
-        <span v-if="$vuetify.display.smAndUp">
-          <router-link :to="{ name: collectionRoute }">
-            {{ T(collectionTitle) }}
-          </router-link>
-          <v-icon :icon="navIcon"></v-icon>
-        </span>
-        <span class="clickable" @click.stop="$router.push({ name: collectionRoute })">
+        <router-link :to="{ name: collectionRoute }" class="hidden-xs">
+          {{ T(collectionTitle) }}
+          <v-icon>{{ navIcon }}</v-icon>
+        </router-link>
+        <router-link :to="{ name: collectionRoute }">
           {{ album.Title }}
-        </span>
+        </router-link>
       </v-toolbar-title>
 
       <v-btn-toggle
