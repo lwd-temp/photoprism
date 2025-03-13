@@ -303,7 +303,7 @@
         </v-card>
       </v-expand-transition>
     </div>
-    <p-photo-delete-dialog
+    <p-confirm-dialog
       :visible="dialog.delete"
       :text="$gettext(`Delete all?`)"
       :action="$gettext('Yes')"
@@ -311,18 +311,21 @@
       @close="dialog.delete = false"
       @confirm="batchDelete"
     >
-    </p-photo-delete-dialog>
+    </p-confirm-dialog>
   </v-form>
 </template>
 <script>
 import * as options from "options/options";
 import $api from "common/api";
 import $notify from "common/notify";
-import PConfirmDialog from "../confirm/dialog.vue";
+
+import PConfirmDialog from "component/confirm/dialog.vue";
 
 export default {
   name: "PPhotoToolbar",
-  components: { PConfirmDialog },
+  components: {
+    PConfirmDialog,
+  },
   props: {
     context: {
       type: String,

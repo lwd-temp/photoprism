@@ -61,7 +61,6 @@ import PPhotoPreview from "component/photo/preview.vue";
 import PPhotoArchiveDialog from "component/photo/archive/dialog.vue";
 import PPhotoAlbumDialog from "component/photo/album/dialog.vue";
 import PPhotoEditDialog from "component/photo/edit/dialog.vue";
-import PPhotoDeleteDialog from "component/photo/delete/dialog.vue";
 import PPhotoUploadDialog from "component/photo/upload/dialog.vue";
 
 // Services.
@@ -122,7 +121,6 @@ export function install(app) {
   app.component("PPhotoArchiveDialog", PPhotoArchiveDialog);
   app.component("PPhotoAlbumDialog", PPhotoAlbumDialog);
   app.component("PPhotoEditDialog", PPhotoEditDialog);
-  app.component("PPhotoDeleteDialog", PPhotoDeleteDialog);
   app.component("PPhotoUploadDialog", PPhotoUploadDialog);
 
   app.component("PServiceAdd", PServiceAdd);

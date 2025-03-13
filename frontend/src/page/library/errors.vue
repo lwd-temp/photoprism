@@ -157,8 +157,9 @@
 <script>
 import { DateTime } from "luxon";
 import $api from "common/api";
-import PConfirmDialog from "component/confirm/dialog.vue";
+
 import PLoading from "component/loading.vue";
+import PConfirmDialog from "component/confirm/dialog.vue";
 
 export default {
   name: "PPageErrors",
