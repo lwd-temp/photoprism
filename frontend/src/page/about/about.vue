@@ -113,9 +113,7 @@
         <h3>Getting Started</h3>
         <p>
           Follow our
-          <a href="https://docs.photoprism.app/user-guide/first-steps/" class="text-link" target="_blank"
-            >First Steps 👣</a
-          >
+          <a :href="links.firstSteps" class="text-link" target="_blank">First Steps 👣</a>
           tutorial to learn how to navigate the user interface and ensure your library is indexed according to your
           individual preferences. Additional help and product-specific information can be found in our
           <a href="https://www.photoprism.app/plus/kb" class="text-link" target="_blank">Knowledge Base</a>.
@@ -124,12 +122,10 @@
         <h3>User Guide</h3>
         <p>
           Visit
-          <a href="https://link.photoprism.app/docs" class="text-link" target="_blank"
-            >docs.photoprism.app/user-guide</a
-          >
+          <a :href="links.docs" class="text-link" target="_blank">docs.photoprism.app/user-guide</a>
           to learn how to sync, organize, and share your pictures. Our
-          <a href="https://docs.photoprism.app/user-guide/" class="text-link" target="_blank">User Guide</a> also covers
-          many advanced topics, such as
+          <a :href="links.userGuide" class="text-link" target="_blank">User Guide</a> also covers many advanced topics,
+          such as
           <a href="https://docs.photoprism.app/user-guide/use-cases/google/" class="text-link" target="_blank"
             >migrating from Google Photos</a
           >
@@ -238,6 +234,8 @@
 </template>
 
 <script>
+import links from "common/links";
+
 import PAboutFooter from "component/about/footer.vue";
 
 export default {
@@ -252,6 +250,7 @@ export default {
     const isPublic = this.$config.isPublic();
     const isSuperAdmin = this.$session.isSuperAdmin();
     return {
+      links,
       rtl: this.$isRtl,
       tier: tier,
       membership: membership,

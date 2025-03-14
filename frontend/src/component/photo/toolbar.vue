@@ -285,6 +285,7 @@
 import * as options from "options/options";
 import $api from "common/api";
 import $notify from "common/notify";
+import links from "common/links";
 
 import PActionMenu from "component/action/menu.vue";
 import PConfirmDialog from "component/confirm/dialog.vue";
@@ -464,7 +465,7 @@ export default {
           icon: "mdi-book-open-page-variant-outline",
           text: this.$gettext("Get Started"),
           visible: this.context !== "hidden",
-          href: "https://docs.photoprism.app/user-guide/first-steps/",
+          href: links.firstSteps,
           target: "_blank",
         },
         {
@@ -472,7 +473,7 @@ export default {
           icon: "mdi-book-open-page-variant-outline",
           text: this.$gettext("Troubleshooting"),
           visible: this.context === "hidden",
-          href: "https://docs.photoprism.app/getting-started/troubleshooting/#missing-pictures",
+          href: links.missingPictures,
           target: "_blank",
         },
       ];
