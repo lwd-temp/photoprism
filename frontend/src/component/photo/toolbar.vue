@@ -460,13 +460,6 @@ export default {
           },
         },
         {
-          name: "settings",
-          icon: "mdi-cog-outline",
-          text: this.$gettext("Settings"),
-          visible: this.featSettings && this.isSuperAdmin && this.context !== "hidden",
-          to: this.$router.resolve({ name: this.context === "archive" ? "settings" : "settings_media" }),
-        },
-        {
           name: "docs",
           icon: "mdi-book-open-page-variant-outline",
           text: this.$gettext("Get Started"),
