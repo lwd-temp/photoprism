@@ -473,11 +473,11 @@ export default [
       settings: true,
       background: "background",
     },
-    props: { tab: "settings-general" },
+    props: { tab: "settings_general" },
   },
   {
-    name: "settings_media",
-    path: "/settings/media",
+    name: "settings_content",
+    path: "/settings/content",
     component: Settings,
     meta: {
       title: $gettext("Settings"),
@@ -486,7 +486,12 @@ export default [
       settings: true,
       background: "background",
     },
-    props: { tab: "settings-media" },
+    props: { tab: "settings_content" },
+  },
+  {
+    name: "settings_media",
+    path: "/settings/media",
+    redirect: "/settings/content",
   },
   {
     name: "settings_advanced",
@@ -499,7 +504,7 @@ export default [
       settings: true,
       background: "background",
     },
-    props: { tab: "settings-advanced" },
+    props: { tab: "settings_advanced" },
   },
   {
     name: "settings_services",
@@ -512,7 +517,7 @@ export default [
       settings: true,
       background: "background",
     },
-    props: { tab: "settings-services" },
+    props: { tab: "settings_services" },
   },
   {
     name: "settings_account",
@@ -524,7 +529,7 @@ export default [
       settings: true,
       background: "background",
     },
-    props: { tab: "settings-account" },
+    props: { tab: "settings_account" },
   },
   {
     name: "discover",
