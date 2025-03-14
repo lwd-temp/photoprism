@@ -636,8 +636,8 @@ msgstr "Ezin izan dira aldaketak gorde"
 #: src/component/photo/edit/files.vue:160 src/component/service/edit.vue:90
 #: src/component/share/dialog.vue:92 src/component/share/dialog.vue:111
 #: src/page/albums.vue:648 src/page/people/recognized.vue:119
-#: src/page/settings/advanced.vue:58 src/page/settings/general.vue:107
-#: src/page/settings/library.vue:57
+#: src/page/settings/advanced.vue:58 src/page/settings/content.vue:57
+#: src/page/settings/general.vue:107
 msgid "Changes successfully saved"
 msgstr "Aldaketak ongi gorde dira"
 
@@ -751,6 +751,10 @@ msgstr "%{n} irudi ditu."
 #: src/page/people/recognized.vue:296
 msgid "Contains one picture."
 msgstr "Irudi bat dauka."
+
+#: src/page/settings.vue:49
+msgid "Content"
+msgstr ""
 
 #: src/component/settings/apps.vue:163
 msgid "Continue"
@@ -1019,11 +1023,11 @@ msgstr "Eginda."
 #: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1063
 #: src/component/lightbox.vue:1064 src/component/people/clipboard.vue:47
 #: src/component/photo/clipboard.vue:116 src/component/photo/edit/files.vue:168
-#: src/page/settings/general.vue:252 src/page/settings/general.vue:624
+#: src/page/settings/content.vue:236 src/page/settings/general.vue:252
 msgid "Download"
 msgstr "Deskargatu"
 
-#: src/page/settings/general.vue:651
+#: src/page/settings/content.vue:263
 msgid "Download only original media files, without any automatically generated files."
 msgstr "Deskargatu jatorrizko multimedia fitxategiak soilik, automatikoki sortutako fitxategirik gabe."
 
@@ -1154,11 +1158,11 @@ msgstr "Akatsak"
 msgid "Estimate"
 msgstr "Estimazioa"
 
-#: src/page/settings/library.vue:85
+#: src/page/settings/content.vue:85
 msgid "Estimate Locations"
 msgstr "Estimatu kokapenak"
 
-#: src/page/settings/library.vue:86
+#: src/page/settings/content.vue:86
 msgid "Estimate the approximate location of pictures without GPS coordinates."
 msgstr "Kalkulatu argazkien gutxi gorabeherako kokapena GPS koordenaturik gabe."
 
@@ -1192,7 +1196,7 @@ msgstr "Iraungitzen da"
 msgid "Exposure"
 msgstr "Esposizio"
 
-#: src/page/settings/library.vue:109
+#: src/page/settings/content.vue:109
 msgid "Extract still images and generate thumbnails while indexing."
 msgstr "Atera irudi finkoak eta sortu miniaturak indexatzen dituzun bitartean."
 
@@ -1285,7 +1289,7 @@ msgstr "Fitxategi izena"
 msgid "Files"
 msgstr "Fitxategiak"
 
-#: src/page/settings/library.vue:207
+#: src/page/settings/content.vue:207
 msgid "Files with sequential names like 'IMG_1234 (2)' and 'IMG_1234 (3)' belong to the same picture."
 msgstr "'IMG_1234 (2)' eta 'IMG_1234 (3)' bezalako izen sekuentzialak dituzten fitxategiak irudi berekoak dira."
 
@@ -1348,7 +1352,7 @@ msgstr "Sortu"
 msgid "Generate albums of special moments, journeys, and places."
 msgstr "Momentu, bidai eta leku berezien albumak automatikoki sortzen ditu."
 
-#: src/page/settings/library.vue:108
+#: src/page/settings/content.vue:108
 msgid "Generate Previews"
 msgstr "Sortu Aurrebistak"
 
@@ -1480,11 +1484,11 @@ msgstr "urtean"
 msgid "In case pictures you expect are missing, please rescan your library and wait until indexing has been completed."
 msgstr "Espero dituzun argazkiak falta badira, eskaneatu berriro zure liburutegia eta itxaron indexazioa amaitu arte."
 
-#: src/page/settings/general.vue:674
+#: src/page/settings/content.vue:286
 msgid "Include RAW image files when downloading stacks and archives."
 msgstr "Sartu RAW irudi-fitxategiak pila eta artxiboak deskargatzean."
 
-#: src/page/settings/general.vue:697
+#: src/page/settings/content.vue:309
 msgid "Include sidecar files when downloading stacks and archives."
 msgstr "Sartu sidecar fitxategiak pilak eta artxiboak deskargatzean."
 
@@ -1493,7 +1497,7 @@ msgid "Increase storage size or delete files to continue."
 msgstr "Aurrera egiteko, handitu biltegiratze-tamaina edo ezabatu fitxategiak."
 
 #: src/component/navigation.vue:1894 src/page/library.vue:36
-#: src/page/settings/library.vue:32
+#: src/page/settings/content.vue:32
 msgid "Index"
 msgstr "Aurkibidea"
 
@@ -1665,8 +1669,7 @@ msgid "Lens"
 msgstr "Lentea"
 
 #: src/app/routes.js:422 src/app/routes.js:438 src/app/routes.js:454
-#: src/component/navigation.vue:1215 src/page/settings.vue:49
-#: src/page/settings/general.vue:420
+#: src/component/navigation.vue:1215 src/page/settings/general.vue:420
 msgid "Library"
 msgstr "Liburutegia"
 
@@ -2144,7 +2147,7 @@ msgstr "Jatorrizko izena"
 
 #: src/component/navigation.vue:1252 src/model/file.js:196
 #: src/options/options.js:497 src/page/library/browse.vue:65
-#: src/page/settings/general.vue:444 src/page/settings/general.vue:650
+#: src/page/settings/content.vue:262 src/page/settings/general.vue:444
 msgid "Originals"
 msgstr "Jatorrizkoak"
 
@@ -2247,7 +2250,7 @@ msgstr "Arrosa"
 msgid "Place"
 msgstr "Lekua"
 
-#: src/page/settings/library.vue:159
+#: src/page/settings/content.vue:159
 msgid "Place & Time"
 msgstr "Lekua eta Ordua"
 
@@ -2361,7 +2364,7 @@ msgstr "Proiekzioa"
 msgid "Purple"
 msgstr "Morea"
 
-#: src/page/settings/library.vue:58
+#: src/page/settings/content.vue:58
 msgid "Quality Filter"
 msgstr "Kalitate-iragazkia"
 
@@ -2386,7 +2389,7 @@ msgid "Raw"
 msgstr "Gordinik"
 
 #: src/component/photo/view/cards.vue:312
-#: src/component/photo/view/mosaic.vue:156 src/page/settings/general.vue:673
+#: src/component/photo/view/mosaic.vue:156 src/page/settings/content.vue:285
 msgid "RAW"
 msgstr "GORDINA"
 
@@ -2455,7 +2458,7 @@ msgid "Reload"
 msgstr "Berriz kargatu"
 
 #: src/component/navigation.vue:108 src/component/update.vue:26
-#: src/page/settings/general.vue:103 src/page/settings/library.vue:53
+#: src/page/settings/content.vue:53 src/page/settings/general.vue:103
 msgid "Reloading…"
 msgstr "Berriro kargatzen…"
 
@@ -2487,7 +2490,7 @@ msgstr "Eskaerak huts egin du - konexiorik gabe zaude?"
 msgid "Request failed - invalid response"
 msgstr "Eskaerak huts egin du - erantzun baliogabea"
 
-#: src/page/settings/library.vue:60
+#: src/page/settings/content.vue:60
 msgid "Require non-photographic and low-quality images to be reviewed before they appear in search results."
 msgstr "Eskatu argazkirik gabeko eta kalitate baxuko irudiak berrikustea bilaketa-emaitzetan agertu aurretik."
 
@@ -2632,7 +2635,7 @@ msgstr "Hautaketa leheneratu da"
 msgid "Send"
 msgstr "Bidali"
 
-#: src/page/settings/library.vue:205
+#: src/page/settings/content.vue:205
 msgid "Sequential Name"
 msgstr "Izena sekuentziala"
 
@@ -2713,7 +2716,7 @@ msgstr "Erakutsi zerbitzariaren erregistroak Liburutegian."
 msgid "Show/Hide Sidebar"
 msgstr "Erakutsi/Ezkutatu alboko barra"
 
-#: src/model/file.js:214 src/page/settings/general.vue:696
+#: src/model/file.js:214 src/page/settings/content.vue:308
 msgid "Sidecar"
 msgstr "Sidecar"
 
@@ -2777,11 +2780,11 @@ msgstr "Iturria"
 msgid "Stack"
 msgstr "Pila"
 
-#: src/page/settings/library.vue:183
+#: src/page/settings/content.vue:183
 msgid "Stack files sharing the same unique image or instance identifier."
 msgstr "Pilatu fitxategiak irudi edo instantzia-identifikatzaile esklusibo bera partekatzen dutenak."
 
-#: src/page/settings/library.vue:160
+#: src/page/settings/content.vue:160
 msgid "Stack pictures taken at the exact same time and location based on their metadata."
 msgstr "Metadatuetan oinarrituta, pilatu ordu eta kokapen berean ateratako argazkiak."
 
@@ -2789,7 +2792,7 @@ msgstr "Metadatuetan oinarrituta, pilatu ordu eta kokapen berean ateratako argaz
 msgid "Stackable"
 msgstr "Pilagarria"
 
-#: src/component/navigation.vue:437 src/page/settings/library.vue:133
+#: src/component/navigation.vue:437 src/page/settings/content.vue:133
 msgid "Stacks"
 msgstr "Pilak"
 
@@ -3019,7 +3022,7 @@ msgstr "Baimenik gabe"
 msgid "Undo"
 msgstr "Desegin"
 
-#: src/page/settings/library.vue:182
+#: src/page/settings/content.vue:182
 msgid "Unique ID"
 msgstr "ID bakarra"
 

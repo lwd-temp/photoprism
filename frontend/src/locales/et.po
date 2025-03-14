@@ -636,8 +636,8 @@ msgstr "Muudatuste salvestamine ebaõnnestus"
 #: src/component/photo/edit/files.vue:160 src/component/service/edit.vue:90
 #: src/component/share/dialog.vue:92 src/component/share/dialog.vue:111
 #: src/page/albums.vue:648 src/page/people/recognized.vue:119
-#: src/page/settings/advanced.vue:58 src/page/settings/general.vue:107
-#: src/page/settings/library.vue:57
+#: src/page/settings/advanced.vue:58 src/page/settings/content.vue:57
+#: src/page/settings/general.vue:107
 msgid "Changes successfully saved"
 msgstr "Muudatused edukalt salvestatud"
 
@@ -751,6 +751,10 @@ msgstr "Sisaldab %{n} pilti."
 #: src/page/people/recognized.vue:296
 msgid "Contains one picture."
 msgstr "Sisaldab ühte pilti."
+
+#: src/page/settings.vue:49
+msgid "Content"
+msgstr ""
 
 #: src/component/settings/apps.vue:163
 msgid "Continue"
@@ -1019,11 +1023,11 @@ msgstr "Tehtud."
 #: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1063
 #: src/component/lightbox.vue:1064 src/component/people/clipboard.vue:47
 #: src/component/photo/clipboard.vue:116 src/component/photo/edit/files.vue:168
-#: src/page/settings/general.vue:252 src/page/settings/general.vue:624
+#: src/page/settings/content.vue:236 src/page/settings/general.vue:252
 msgid "Download"
 msgstr "Laadi alla"
 
-#: src/page/settings/general.vue:651
+#: src/page/settings/content.vue:263
 msgid "Download only original media files, without any automatically generated files."
 msgstr "Laadige alla ainult originaalsed meediafailid, ilma automaatselt genereeritud failideta."
 
@@ -1154,11 +1158,11 @@ msgstr "Vead"
 msgid "Estimate"
 msgstr "Hinnang:"
 
-#: src/page/settings/library.vue:85
+#: src/page/settings/content.vue:85
 msgid "Estimate Locations"
 msgstr "Hinnangulised asukohad"
 
-#: src/page/settings/library.vue:86
+#: src/page/settings/content.vue:86
 msgid "Estimate the approximate location of pictures without GPS coordinates."
 msgstr "Hinnake piltide ligikaudset asukohta ilma GPS-koordinaatideta."
 
@@ -1192,7 +1196,7 @@ msgstr "Aegub"
 msgid "Exposure"
 msgstr "Säriaeg"
 
-#: src/page/settings/library.vue:109
+#: src/page/settings/content.vue:109
 msgid "Extract still images and generate thumbnails while indexing."
 msgstr "Väljavõte fotodest ja pisipiltide genereerimine indekseerimise ajal."
 
@@ -1285,7 +1289,7 @@ msgstr "Failinimi"
 msgid "Files"
 msgstr "Failid"
 
-#: src/page/settings/library.vue:207
+#: src/page/settings/content.vue:207
 msgid "Files with sequential names like 'IMG_1234 (2)' and 'IMG_1234 (3)' belong to the same picture."
 msgstr "Järjestikuste nimedega failid nagu 'IMG_1234 (2)' ja 'IMG_1234 (3)' kuuluvad samale pildile."
 
@@ -1348,7 +1352,7 @@ msgstr "Genereeri"
 msgid "Generate albums of special moments, journeys, and places."
 msgstr "Loob automaatselt albumid erilistest hetkedest, reisidest ja kohtadest."
 
-#: src/page/settings/library.vue:108
+#: src/page/settings/content.vue:108
 msgid "Generate Previews"
 msgstr "Loo eelvaateid"
 
@@ -1480,11 +1484,11 @@ msgstr "ajaga"
 msgid "In case pictures you expect are missing, please rescan your library and wait until indexing has been completed."
 msgstr "Kui pildid, mida ootasid, on puudu, skanni oma fototeek uuesti ja oota, kuni indekseerimine on lõpetatud."
 
-#: src/page/settings/general.vue:674
+#: src/page/settings/content.vue:286
 msgid "Include RAW image files when downloading stacks and archives."
 msgstr "Kaasa RAW-pildifailid virnade ja arhiivide allalaadimisel."
 
-#: src/page/settings/general.vue:697
+#: src/page/settings/content.vue:309
 msgid "Include sidecar files when downloading stacks and archives."
 msgstr "Kaasa külgkorvifailid virnade ja arhiivide allalaadimisel."
 
@@ -1493,7 +1497,7 @@ msgid "Increase storage size or delete files to continue."
 msgstr "Jätkamiseks suurendage salvestusruumi suurust või kustutage faile."
 
 #: src/component/navigation.vue:1894 src/page/library.vue:36
-#: src/page/settings/library.vue:32
+#: src/page/settings/content.vue:32
 msgid "Index"
 msgstr "Indeks"
 
@@ -1665,8 +1669,7 @@ msgid "Lens"
 msgstr "Objektiiv"
 
 #: src/app/routes.js:422 src/app/routes.js:438 src/app/routes.js:454
-#: src/component/navigation.vue:1215 src/page/settings.vue:49
-#: src/page/settings/general.vue:420
+#: src/component/navigation.vue:1215 src/page/settings/general.vue:420
 msgid "Library"
 msgstr "Fototeek"
 
@@ -2144,7 +2147,7 @@ msgstr "Esialgne nimi"
 
 #: src/component/navigation.vue:1252 src/model/file.js:196
 #: src/options/options.js:497 src/page/library/browse.vue:65
-#: src/page/settings/general.vue:444 src/page/settings/general.vue:650
+#: src/page/settings/content.vue:262 src/page/settings/general.vue:444
 msgid "Originals"
 msgstr "Originaalid"
 
@@ -2247,7 +2250,7 @@ msgstr "Roosa"
 msgid "Place"
 msgstr "Koht"
 
-#: src/page/settings/library.vue:159
+#: src/page/settings/content.vue:159
 msgid "Place & Time"
 msgstr "Koht ja aeg"
 
@@ -2361,7 +2364,7 @@ msgstr "Projektsioon"
 msgid "Purple"
 msgstr "Lilla"
 
-#: src/page/settings/library.vue:58
+#: src/page/settings/content.vue:58
 msgid "Quality Filter"
 msgstr "Kvaliteedifilter"
 
@@ -2386,7 +2389,7 @@ msgid "Raw"
 msgstr "RAW"
 
 #: src/component/photo/view/cards.vue:312
-#: src/component/photo/view/mosaic.vue:156 src/page/settings/general.vue:673
+#: src/component/photo/view/mosaic.vue:156 src/page/settings/content.vue:285
 msgid "RAW"
 msgstr "RAW"
 
@@ -2455,7 +2458,7 @@ msgid "Reload"
 msgstr "Laadi uuesti"
 
 #: src/component/navigation.vue:108 src/component/update.vue:26
-#: src/page/settings/general.vue:103 src/page/settings/library.vue:53
+#: src/page/settings/content.vue:53 src/page/settings/general.vue:103
 msgid "Reloading…"
 msgstr "Uuesti laadimine…"
 
@@ -2487,7 +2490,7 @@ msgstr "Taotlus ebaõnnestus - kas olete võrguühenduseta?"
 msgid "Request failed - invalid response"
 msgstr "Päring ebaõnnestus - vigane vastus"
 
-#: src/page/settings/library.vue:60
+#: src/page/settings/content.vue:60
 msgid "Require non-photographic and low-quality images to be reviewed before they appear in search results."
 msgstr "Nõuda mittefotograafiliste ja madala kvaliteediga piltide läbivaatamist enne nende ilmumist otsingutulemustesse."
 
@@ -2632,7 +2635,7 @@ msgstr "Valik taastatud"
 msgid "Send"
 msgstr "Saada"
 
-#: src/page/settings/library.vue:205
+#: src/page/settings/content.vue:205
 msgid "Sequential Name"
 msgstr "Järjestikune nimi"
 
@@ -2713,7 +2716,7 @@ msgstr "Näita serverilogisid fototeegis."
 msgid "Show/Hide Sidebar"
 msgstr "Näita/peida külgriba"
 
-#: src/model/file.js:214 src/page/settings/general.vue:696
+#: src/model/file.js:214 src/page/settings/content.vue:308
 msgid "Sidecar"
 msgstr "Abifail"
 
@@ -2777,11 +2780,11 @@ msgstr "Allikas"
 msgid "Stack"
 msgstr "Virn"
 
-#: src/page/settings/library.vue:183
+#: src/page/settings/content.vue:183
 msgid "Stack files sharing the same unique image or instance identifier."
 msgstr "Pane virna failid, mis jagavad sama unikaalset kujutist või identifikaatorit."
 
-#: src/page/settings/library.vue:160
+#: src/page/settings/content.vue:160
 msgid "Stack pictures taken at the exact same time and location based on their metadata."
 msgstr "Pane virna metaandmete alusel täpselt samal ajal ja samas kohas tehtud pildid."
 
@@ -2789,7 +2792,7 @@ msgstr "Pane virna metaandmete alusel täpselt samal ajal ja samas kohas tehtud 
 msgid "Stackable"
 msgstr "Virnastatav"
 
-#: src/component/navigation.vue:437 src/page/settings/library.vue:133
+#: src/component/navigation.vue:437 src/page/settings/content.vue:133
 msgid "Stacks"
 msgstr "Virnad"
 
@@ -3019,7 +3022,7 @@ msgstr "Autoriseerimata"
 msgid "Undo"
 msgstr "Võta tagasi"
 
-#: src/page/settings/library.vue:182
+#: src/page/settings/content.vue:182
 msgid "Unique ID"
 msgstr "Unikaalne ID"
 

@@ -638,8 +638,8 @@ msgstr "Módosításokat nem sikerült menteni"
 #: src/component/photo/edit/files.vue:160 src/component/service/edit.vue:90
 #: src/component/share/dialog.vue:92 src/component/share/dialog.vue:111
 #: src/page/albums.vue:648 src/page/people/recognized.vue:119
-#: src/page/settings/advanced.vue:58 src/page/settings/general.vue:107
-#: src/page/settings/library.vue:57
+#: src/page/settings/advanced.vue:58 src/page/settings/content.vue:57
+#: src/page/settings/general.vue:107
 msgid "Changes successfully saved"
 msgstr "Módosítások sikeresen mentve"
 
@@ -753,6 +753,10 @@ msgstr "%{n} képet tartalmaz."
 #: src/page/people/recognized.vue:296
 msgid "Contains one picture."
 msgstr "Egy képet tartalmaz."
+
+#: src/page/settings.vue:49
+msgid "Content"
+msgstr ""
 
 #: src/component/settings/apps.vue:163
 msgid "Continue"
@@ -1021,11 +1025,11 @@ msgstr "Kész."
 #: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1063
 #: src/component/lightbox.vue:1064 src/component/people/clipboard.vue:47
 #: src/component/photo/clipboard.vue:116 src/component/photo/edit/files.vue:168
-#: src/page/settings/general.vue:252 src/page/settings/general.vue:624
+#: src/page/settings/content.vue:236 src/page/settings/general.vue:252
 msgid "Download"
 msgstr "Letöltés"
 
-#: src/page/settings/general.vue:651
+#: src/page/settings/content.vue:263
 msgid "Download only original media files, without any automatically generated files."
 msgstr "Csak eredeti médiafájlok letöltése, automatikusan generált fájlok nélkül."
 
@@ -1156,11 +1160,11 @@ msgstr "Hibák"
 msgid "Estimate"
 msgstr "Becslés"
 
-#: src/page/settings/library.vue:85
+#: src/page/settings/content.vue:85
 msgid "Estimate Locations"
 msgstr "Becsült helyszínek"
 
-#: src/page/settings/library.vue:86
+#: src/page/settings/content.vue:86
 msgid "Estimate the approximate location of pictures without GPS coordinates."
 msgstr "A képek hozzávetőleges helyének becslése GPS-koordináták nélkül."
 
@@ -1194,7 +1198,7 @@ msgstr "Lejár"
 msgid "Exposure"
 msgstr "Kitettség"
 
-#: src/page/settings/library.vue:109
+#: src/page/settings/content.vue:109
 msgid "Extract still images and generate thumbnails while indexing."
 msgstr "Állóképek kivonása és miniatűrök készítése indexelés közben."
 
@@ -1287,7 +1291,7 @@ msgstr "Fájlnév"
 msgid "Files"
 msgstr "Fájlok"
 
-#: src/page/settings/library.vue:207
+#: src/page/settings/content.vue:207
 msgid "Files with sequential names like 'IMG_1234 (2)' and 'IMG_1234 (3)' belong to the same picture."
 msgstr "Az olyan szekvenciális nevű fájlok, mint az „IMG_1234 (2)” és „IMG_1234 (3)”, ugyanahhoz a képhez tartoznak."
 
@@ -1350,7 +1354,7 @@ msgstr "generál"
 msgid "Generate albums of special moments, journeys, and places."
 msgstr "Automatikusan albumokat hoz létre különleges pillanatokról, utazásokról és helyekről."
 
-#: src/page/settings/library.vue:108
+#: src/page/settings/content.vue:108
 msgid "Generate Previews"
 msgstr "Előnézetek generálása"
 
@@ -1482,11 +1486,11 @@ msgstr "-ban/-ben"
 msgid "In case pictures you expect are missing, please rescan your library and wait until indexing has been completed."
 msgstr "Ha hiányoznak a várt képek, kérjük, ellenőrizze újra a könyvtárát, és várja meg, amíg az indexelés befejeződik."
 
-#: src/page/settings/general.vue:674
+#: src/page/settings/content.vue:286
 msgid "Include RAW image files when downloading stacks and archives."
 msgstr "RAW képfájlok felvétele a verem és az archívumok letöltésekor."
 
-#: src/page/settings/general.vue:697
+#: src/page/settings/content.vue:309
 msgid "Include sidecar files when downloading stacks and archives."
 msgstr "Oldalkocsis fájlok bevonása a verem és az archívumok letöltésekor."
 
@@ -1495,7 +1499,7 @@ msgid "Increase storage size or delete files to continue."
 msgstr "A folytatáshoz növelje a tároló méretét vagy törölje a fájlokat."
 
 #: src/component/navigation.vue:1894 src/page/library.vue:36
-#: src/page/settings/library.vue:32
+#: src/page/settings/content.vue:32
 msgid "Index"
 msgstr "Index"
 
@@ -1667,8 +1671,7 @@ msgid "Lens"
 msgstr "Lencse"
 
 #: src/app/routes.js:422 src/app/routes.js:438 src/app/routes.js:454
-#: src/component/navigation.vue:1215 src/page/settings.vue:49
-#: src/page/settings/general.vue:420
+#: src/component/navigation.vue:1215 src/page/settings/general.vue:420
 msgid "Library"
 msgstr "Könyvtár"
 
@@ -2146,7 +2149,7 @@ msgstr "Eredeti Név"
 
 #: src/component/navigation.vue:1252 src/model/file.js:196
 #: src/options/options.js:497 src/page/library/browse.vue:65
-#: src/page/settings/general.vue:444 src/page/settings/general.vue:650
+#: src/page/settings/content.vue:262 src/page/settings/general.vue:444
 msgid "Originals"
 msgstr "Eredetiek"
 
@@ -2249,7 +2252,7 @@ msgstr "Rózsaszín"
 msgid "Place"
 msgstr "Hely"
 
-#: src/page/settings/library.vue:159
+#: src/page/settings/content.vue:159
 msgid "Place & Time"
 msgstr "Hely és idő"
 
@@ -2363,7 +2366,7 @@ msgstr "Kivetítés"
 msgid "Purple"
 msgstr "Lila"
 
-#: src/page/settings/library.vue:58
+#: src/page/settings/content.vue:58
 msgid "Quality Filter"
 msgstr "Minőségi szűrő"
 
@@ -2388,7 +2391,7 @@ msgid "Raw"
 msgstr "Nyers"
 
 #: src/component/photo/view/cards.vue:312
-#: src/component/photo/view/mosaic.vue:156 src/page/settings/general.vue:673
+#: src/component/photo/view/mosaic.vue:156 src/page/settings/content.vue:285
 msgid "RAW"
 msgstr "NYERS"
 
@@ -2457,7 +2460,7 @@ msgid "Reload"
 msgstr "Újratöltés"
 
 #: src/component/navigation.vue:108 src/component/update.vue:26
-#: src/page/settings/general.vue:103 src/page/settings/library.vue:53
+#: src/page/settings/content.vue:53 src/page/settings/general.vue:103
 msgid "Reloading…"
 msgstr "Újratöltés…"
 
@@ -2489,7 +2492,7 @@ msgstr "A kérés sikertelen - offline vagy?"
 msgid "Request failed - invalid response"
 msgstr "Sikertelen kérés – érvénytelen válasz"
 
-#: src/page/settings/library.vue:60
+#: src/page/settings/content.vue:60
 msgid "Require non-photographic and low-quality images to be reviewed before they appear in search results."
 msgstr "A nem fényképes és gyenge minőségű képeket a keresési eredményekben való megjelenésük előtt felül kell vizsgálni."
 
@@ -2634,7 +2637,7 @@ msgstr "Kiválasztás visszaállítva"
 msgid "Send"
 msgstr "Küld"
 
-#: src/page/settings/library.vue:205
+#: src/page/settings/content.vue:205
 msgid "Sequential Name"
 msgstr "Sorozati név"
 
@@ -2715,7 +2718,7 @@ msgstr "Szervernaplók megjelenítése a Könyvtárban."
 msgid "Show/Hide Sidebar"
 msgstr "Oldalsáv megjelenítése/elrejtése"
 
-#: src/model/file.js:214 src/page/settings/general.vue:696
+#: src/model/file.js:214 src/page/settings/content.vue:308
 msgid "Sidecar"
 msgstr "Oldalkocsi"
 
@@ -2779,11 +2782,11 @@ msgstr "Forrás"
 msgid "Stack"
 msgstr "Csoportosítás"
 
-#: src/page/settings/library.vue:183
+#: src/page/settings/content.vue:183
 msgid "Stack files sharing the same unique image or instance identifier."
 msgstr "Fájlok csoportosítása, amelyek ugyanazt az egyedi képet vagy példányazonosítót tartalmazzák."
 
-#: src/page/settings/library.vue:160
+#: src/page/settings/content.vue:160
 msgid "Stack pictures taken at the exact same time and location based on their metadata."
 msgstr "A metaadataik alapján csoportosítsa a pontosan ugyanabban az időben és helyen készült képeket."
 
@@ -2791,7 +2794,7 @@ msgstr "A metaadataik alapján csoportosítsa a pontosan ugyanabban az időben �
 msgid "Stackable"
 msgstr "Egymásra rakható"
 
-#: src/component/navigation.vue:437 src/page/settings/library.vue:133
+#: src/component/navigation.vue:437 src/page/settings/content.vue:133
 msgid "Stacks"
 msgstr "Stackek"
 
@@ -3021,7 +3024,7 @@ msgstr "Jogosulatlan"
 msgid "Undo"
 msgstr "Visszavonás"
 
-#: src/page/settings/library.vue:182
+#: src/page/settings/content.vue:182
 msgid "Unique ID"
 msgstr "Egyéni azonosító"
 

@@ -639,8 +639,8 @@ msgstr "Perubahan tidak dapat disimpan"
 #: src/component/photo/edit/files.vue:160 src/component/service/edit.vue:90
 #: src/component/share/dialog.vue:92 src/component/share/dialog.vue:111
 #: src/page/albums.vue:648 src/page/people/recognized.vue:119
-#: src/page/settings/advanced.vue:58 src/page/settings/general.vue:107
-#: src/page/settings/library.vue:57
+#: src/page/settings/advanced.vue:58 src/page/settings/content.vue:57
+#: src/page/settings/general.vue:107
 msgid "Changes successfully saved"
 msgstr "Perubahan berhasil disimpan"
 
@@ -754,6 +754,10 @@ msgstr "Berisi %{n} gambar."
 #: src/page/people/recognized.vue:296
 msgid "Contains one picture."
 msgstr "Berisi satu gambar."
+
+#: src/page/settings.vue:49
+msgid "Content"
+msgstr ""
 
 #: src/component/settings/apps.vue:163
 msgid "Continue"
@@ -1022,11 +1026,11 @@ msgstr "Selesai."
 #: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1063
 #: src/component/lightbox.vue:1064 src/component/people/clipboard.vue:47
 #: src/component/photo/clipboard.vue:116 src/component/photo/edit/files.vue:168
-#: src/page/settings/general.vue:252 src/page/settings/general.vue:624
+#: src/page/settings/content.vue:236 src/page/settings/general.vue:252
 msgid "Download"
 msgstr "Unduh"
 
-#: src/page/settings/general.vue:651
+#: src/page/settings/content.vue:263
 msgid "Download only original media files, without any automatically generated files."
 msgstr "Unduh hanya file media asli, tanpa file yang dibuat secara otomatis."
 
@@ -1157,11 +1161,11 @@ msgstr "Kesalahan"
 msgid "Estimate"
 msgstr "Memperkirakan"
 
-#: src/page/settings/library.vue:85
+#: src/page/settings/content.vue:85
 msgid "Estimate Locations"
 msgstr "Perkirakan Lokasi"
 
-#: src/page/settings/library.vue:86
+#: src/page/settings/content.vue:86
 msgid "Estimate the approximate location of pictures without GPS coordinates."
 msgstr "Memperkirakan perkiraan lokasi gambar tanpa koordinat GPS."
 
@@ -1195,7 +1199,7 @@ msgstr "Kedaluwarsa"
 msgid "Exposure"
 msgstr "Eksposur"
 
-#: src/page/settings/library.vue:109
+#: src/page/settings/content.vue:109
 msgid "Extract still images and generate thumbnails while indexing."
 msgstr "Mengekstrak gambar diam dan menghasilkan gambar mini sewaktu mengindeks."
 
@@ -1288,7 +1292,7 @@ msgstr "Nama Berkas"
 msgid "Files"
 msgstr "Berkas"
 
-#: src/page/settings/library.vue:207
+#: src/page/settings/content.vue:207
 msgid "Files with sequential names like 'IMG_1234 (2)' and 'IMG_1234 (3)' belong to the same picture."
 msgstr "File dengan nama berurutan seperti 'IMG_1234 (2)' dan 'IMG_1234 (3)' milik gambar yang sama."
 
@@ -1351,7 +1355,7 @@ msgstr "Menghasilkan"
 msgid "Generate albums of special moments, journeys, and places."
 msgstr "Secara otomatis membuat album momen spesial, perjalanan, dan tempat."
 
-#: src/page/settings/library.vue:108
+#: src/page/settings/content.vue:108
 msgid "Generate Previews"
 msgstr "Menghasilkan Pratinjau"
 
@@ -1483,11 +1487,11 @@ msgstr "dalam"
 msgid "In case pictures you expect are missing, please rescan your library and wait until indexing has been completed."
 msgstr "Jika gambar yang Anda harapkan hilang, silakan pindai ulang perpustakaan Anda dan tunggu."
 
-#: src/page/settings/general.vue:674
+#: src/page/settings/content.vue:286
 msgid "Include RAW image files when downloading stacks and archives."
 msgstr "Sertakan file gambar RAW apabila mengunduh tumpukan dan arsip."
 
-#: src/page/settings/general.vue:697
+#: src/page/settings/content.vue:309
 msgid "Include sidecar files when downloading stacks and archives."
 msgstr "Sertakan file sespan saat mengunduh tumpukan dan arsip."
 
@@ -1496,7 +1500,7 @@ msgid "Increase storage size or delete files to continue."
 msgstr "Menambah ukuran penyimpanan atau menghapus file untuk melanjutkan."
 
 #: src/component/navigation.vue:1894 src/page/library.vue:36
-#: src/page/settings/library.vue:32
+#: src/page/settings/content.vue:32
 msgid "Index"
 msgstr "Indeks"
 
@@ -1668,8 +1672,7 @@ msgid "Lens"
 msgstr "Lensa"
 
 #: src/app/routes.js:422 src/app/routes.js:438 src/app/routes.js:454
-#: src/component/navigation.vue:1215 src/page/settings.vue:49
-#: src/page/settings/general.vue:420
+#: src/component/navigation.vue:1215 src/page/settings/general.vue:420
 msgid "Library"
 msgstr "Perpustakaan"
 
@@ -2147,7 +2150,7 @@ msgstr "Nama Asli"
 
 #: src/component/navigation.vue:1252 src/model/file.js:196
 #: src/options/options.js:497 src/page/library/browse.vue:65
-#: src/page/settings/general.vue:444 src/page/settings/general.vue:650
+#: src/page/settings/content.vue:262 src/page/settings/general.vue:444
 msgid "Originals"
 msgstr "Asli"
 
@@ -2250,7 +2253,7 @@ msgstr "Merah Muda"
 msgid "Place"
 msgstr "Tempat"
 
-#: src/page/settings/library.vue:159
+#: src/page/settings/content.vue:159
 msgid "Place & Time"
 msgstr "Tempat & Waktu"
 
@@ -2364,7 +2367,7 @@ msgstr "Proyeksi"
 msgid "Purple"
 msgstr "Ungu"
 
-#: src/page/settings/library.vue:58
+#: src/page/settings/content.vue:58
 msgid "Quality Filter"
 msgstr "Filter Kualitas"
 
@@ -2389,7 +2392,7 @@ msgid "Raw"
 msgstr "Raw"
 
 #: src/component/photo/view/cards.vue:312
-#: src/component/photo/view/mosaic.vue:156 src/page/settings/general.vue:673
+#: src/component/photo/view/mosaic.vue:156 src/page/settings/content.vue:285
 msgid "RAW"
 msgstr "RAW"
 
@@ -2458,7 +2461,7 @@ msgid "Reload"
 msgstr "Muat ulang"
 
 #: src/component/navigation.vue:108 src/component/update.vue:26
-#: src/page/settings/general.vue:103 src/page/settings/library.vue:53
+#: src/page/settings/content.vue:53 src/page/settings/general.vue:103
 msgid "Reloading…"
 msgstr "Memuat ulang…"
 
@@ -2490,7 +2493,7 @@ msgstr "Permintaan gagal - apakah Anda sedang offline?"
 msgid "Request failed - invalid response"
 msgstr "Permintaan gagal - tanggapan tidak valid"
 
-#: src/page/settings/library.vue:60
+#: src/page/settings/content.vue:60
 msgid "Require non-photographic and low-quality images to be reviewed before they appear in search results."
 msgstr "Mewajibkan gambar non-fotografi dan gambar berkualitas rendah untuk ditinjau sebelum muncul di hasil pencarian."
 
@@ -2635,7 +2638,7 @@ msgstr "Pilihan dipulihkan"
 msgid "Send"
 msgstr "Kirim"
 
-#: src/page/settings/library.vue:205
+#: src/page/settings/content.vue:205
 msgid "Sequential Name"
 msgstr "Nama Urutan"
 
@@ -2716,7 +2719,7 @@ msgstr "Tampilkan log server di Perpustakaan."
 msgid "Show/Hide Sidebar"
 msgstr "Tampilkan/Sembunyikan Bilah Samping"
 
-#: src/model/file.js:214 src/page/settings/general.vue:696
+#: src/model/file.js:214 src/page/settings/content.vue:308
 msgid "Sidecar"
 msgstr "Sespan"
 
@@ -2780,11 +2783,11 @@ msgstr "Sumber"
 msgid "Stack"
 msgstr "Tumpukan"
 
-#: src/page/settings/library.vue:183
+#: src/page/settings/content.vue:183
 msgid "Stack files sharing the same unique image or instance identifier."
 msgstr "Tumpuk file untuk berbagi yang gambarnya unik atau pengenal instans yang sama."
 
-#: src/page/settings/library.vue:160
+#: src/page/settings/content.vue:160
 msgid "Stack pictures taken at the exact same time and location based on their metadata."
 msgstr "Stack gambar yang diambil pada waktu dan lokasi yang sama persis berdasarkan metadata."
 
@@ -2792,7 +2795,7 @@ msgstr "Stack gambar yang diambil pada waktu dan lokasi yang sama persis berdasa
 msgid "Stackable"
 msgstr "Dapat ditumpuk"
 
-#: src/component/navigation.vue:437 src/page/settings/library.vue:133
+#: src/component/navigation.vue:437 src/page/settings/content.vue:133
 msgid "Stacks"
 msgstr "Tumpukan"
 
@@ -3022,7 +3025,7 @@ msgstr "Tidak sah"
 msgid "Undo"
 msgstr "Batalkan"
 
-#: src/page/settings/library.vue:182
+#: src/page/settings/content.vue:182
 msgid "Unique ID"
 msgstr "ID Unik"
 

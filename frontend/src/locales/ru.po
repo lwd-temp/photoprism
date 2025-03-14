@@ -639,8 +639,8 @@ msgstr "Изменения не будут сохранены"
 #: src/component/photo/edit/files.vue:160 src/component/service/edit.vue:90
 #: src/component/share/dialog.vue:92 src/component/share/dialog.vue:111
 #: src/page/albums.vue:648 src/page/people/recognized.vue:119
-#: src/page/settings/advanced.vue:58 src/page/settings/general.vue:107
-#: src/page/settings/library.vue:57
+#: src/page/settings/advanced.vue:58 src/page/settings/content.vue:57
+#: src/page/settings/general.vue:107
 msgid "Changes successfully saved"
 msgstr "Изменения успешно сохранены"
 
@@ -754,6 +754,10 @@ msgstr "Содержит %{n} фотографий."
 #: src/page/people/recognized.vue:296
 msgid "Contains one picture."
 msgstr "Содержит одну фотографию."
+
+#: src/page/settings.vue:49
+msgid "Content"
+msgstr ""
 
 #: src/component/settings/apps.vue:163
 msgid "Continue"
@@ -1022,11 +1026,11 @@ msgstr "Готово."
 #: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1063
 #: src/component/lightbox.vue:1064 src/component/people/clipboard.vue:47
 #: src/component/photo/clipboard.vue:116 src/component/photo/edit/files.vue:168
-#: src/page/settings/general.vue:252 src/page/settings/general.vue:624
+#: src/page/settings/content.vue:236 src/page/settings/general.vue:252
 msgid "Download"
 msgstr "Скачать"
 
-#: src/page/settings/general.vue:651
+#: src/page/settings/content.vue:263
 msgid "Download only original media files, without any automatically generated files."
 msgstr "Загружайте только оригинальные медиафайлы, без каких-либо автоматически сгенерированных файлов."
 
@@ -1157,11 +1161,11 @@ msgstr "Ошибки"
 msgid "Estimate"
 msgstr "Смета"
 
-#: src/page/settings/library.vue:85
+#: src/page/settings/content.vue:85
 msgid "Estimate Locations"
 msgstr "Примерные места"
 
-#: src/page/settings/library.vue:86
+#: src/page/settings/content.vue:86
 msgid "Estimate the approximate location of pictures without GPS coordinates."
 msgstr "Оценивай примерное местоположение картинок без GPS-координат."
 
@@ -1195,7 +1199,7 @@ msgstr "Ожидаемое время"
 msgid "Exposure"
 msgstr "Экспозиция"
 
-#: src/page/settings/library.vue:109
+#: src/page/settings/content.vue:109
 msgid "Extract still images and generate thumbnails while indexing."
 msgstr "Извлекай неподвижные изображения и создавай миниатюры во время индексации."
 
@@ -1288,7 +1292,7 @@ msgstr "Название файла"
 msgid "Files"
 msgstr "Файлы"
 
-#: src/page/settings/library.vue:207
+#: src/page/settings/content.vue:207
 msgid "Files with sequential names like 'IMG_1234 (2)' and 'IMG_1234 (3)' belong to the same picture."
 msgstr "Файлы с последовательными именами типа 'IMG_1234 (2)' и 'IMG_1234 (3)' принадлежат одной картинке."
 
@@ -1351,7 +1355,7 @@ msgstr "Генерировать"
 msgid "Generate albums of special moments, journeys, and places."
 msgstr "Автоматически создает альбомы особых моментов, поездок и мест."
 
-#: src/page/settings/library.vue:108
+#: src/page/settings/content.vue:108
 msgid "Generate Previews"
 msgstr "Создавайте предварительные просмотры"
 
@@ -1483,11 +1487,11 @@ msgstr "в"
 msgid "In case pictures you expect are missing, please rescan your library and wait until indexing has been completed."
 msgstr "Если ожидаемые вами фотографии отсутствуют, пожалуйста, повторно просканируйте библиотеку и дождитесь окончания индексации."
 
-#: src/page/settings/general.vue:674
+#: src/page/settings/content.vue:286
 msgid "Include RAW image files when downloading stacks and archives."
 msgstr "Включать файлы изображений RAW при загрузке стопок и архивов."
 
-#: src/page/settings/general.vue:697
+#: src/page/settings/content.vue:309
 msgid "Include sidecar files when downloading stacks and archives."
 msgstr "Включать файлы sidecar при загрузке стеков и архивов."
 
@@ -1496,7 +1500,7 @@ msgid "Increase storage size or delete files to continue."
 msgstr "Увеличь размер хранилища или удали файлы, чтобы продолжить."
 
 #: src/component/navigation.vue:1894 src/page/library.vue:36
-#: src/page/settings/library.vue:32
+#: src/page/settings/content.vue:32
 msgid "Index"
 msgstr "Индексировать"
 
@@ -1668,8 +1672,7 @@ msgid "Lens"
 msgstr "Объектив"
 
 #: src/app/routes.js:422 src/app/routes.js:438 src/app/routes.js:454
-#: src/component/navigation.vue:1215 src/page/settings.vue:49
-#: src/page/settings/general.vue:420
+#: src/component/navigation.vue:1215 src/page/settings/general.vue:420
 msgid "Library"
 msgstr "Библиотека"
 
@@ -2147,7 +2150,7 @@ msgstr "Оригинальное Название"
 
 #: src/component/navigation.vue:1252 src/model/file.js:196
 #: src/options/options.js:497 src/page/library/browse.vue:65
-#: src/page/settings/general.vue:444 src/page/settings/general.vue:650
+#: src/page/settings/content.vue:262 src/page/settings/general.vue:444
 msgid "Originals"
 msgstr "Оригиналы"
 
@@ -2250,7 +2253,7 @@ msgstr "Розовый"
 msgid "Place"
 msgstr "Место"
 
-#: src/page/settings/library.vue:159
+#: src/page/settings/content.vue:159
 msgid "Place & Time"
 msgstr "Место и время"
 
@@ -2364,7 +2367,7 @@ msgstr "Проекция"
 msgid "Purple"
 msgstr "Фиолетовый"
 
-#: src/page/settings/library.vue:58
+#: src/page/settings/content.vue:58
 msgid "Quality Filter"
 msgstr "Фильтр Качества"
 
@@ -2389,7 +2392,7 @@ msgid "Raw"
 msgstr "Исходный"
 
 #: src/component/photo/view/cards.vue:312
-#: src/component/photo/view/mosaic.vue:156 src/page/settings/general.vue:673
+#: src/component/photo/view/mosaic.vue:156 src/page/settings/content.vue:285
 msgid "RAW"
 msgstr "RAW"
 
@@ -2458,7 +2461,7 @@ msgid "Reload"
 msgstr "Перезагрузить"
 
 #: src/component/navigation.vue:108 src/component/update.vue:26
-#: src/page/settings/general.vue:103 src/page/settings/library.vue:53
+#: src/page/settings/content.vue:53 src/page/settings/general.vue:103
 msgid "Reloading…"
 msgstr "Перезагрузка…"
 
@@ -2490,7 +2493,7 @@ msgstr "Запрос не прошел - вы не в сети?"
 msgid "Request failed - invalid response"
 msgstr "Запрос не удался - неверный ответ"
 
-#: src/page/settings/library.vue:60
+#: src/page/settings/content.vue:60
 msgid "Require non-photographic and low-quality images to be reviewed before they appear in search results."
 msgstr "Требуй, чтобы нефотографические и низкокачественные изображения проходили проверку, прежде чем они появятся в результатах поиска."
 
@@ -2635,7 +2638,7 @@ msgstr "Выбранное восстановлено"
 msgid "Send"
 msgstr "Отправить"
 
-#: src/page/settings/library.vue:205
+#: src/page/settings/content.vue:205
 msgid "Sequential Name"
 msgstr "Последовательное название"
 
@@ -2716,7 +2719,7 @@ msgstr "Показывать журналы сервера в Библиотек
 msgid "Show/Hide Sidebar"
 msgstr "Показать/скрыть боковую панель"
 
-#: src/model/file.js:214 src/page/settings/general.vue:696
+#: src/model/file.js:214 src/page/settings/content.vue:308
 msgid "Sidecar"
 msgstr "Сопутствующий файл"
 
@@ -2780,11 +2783,11 @@ msgstr "Источник"
 msgid "Stack"
 msgstr "Серия"
 
-#: src/page/settings/library.vue:183
+#: src/page/settings/content.vue:183
 msgid "Stack files sharing the same unique image or instance identifier."
 msgstr "Объединять в серию файлы с одним и тем же уникальным изображением или идентификатором экземпляра."
 
-#: src/page/settings/library.vue:160
+#: src/page/settings/content.vue:160
 msgid "Stack pictures taken at the exact same time and location based on their metadata."
 msgstr "Объединять в серию снимки, сделанные в одно и то же время и в одном и том же месте, на основе их метаданных."
 
@@ -2792,7 +2795,7 @@ msgstr "Объединять в серию снимки, сделанные в �
 msgid "Stackable"
 msgstr "Возможно объединение в серию"
 
-#: src/component/navigation.vue:437 src/page/settings/library.vue:133
+#: src/component/navigation.vue:437 src/page/settings/content.vue:133
 msgid "Stacks"
 msgstr "Серии"
 
@@ -3022,7 +3025,7 @@ msgstr "Неавторизованный"
 msgid "Undo"
 msgstr "Отменить"
 
-#: src/page/settings/library.vue:182
+#: src/page/settings/content.vue:182
 msgid "Unique ID"
 msgstr "Уникальный ID"
 

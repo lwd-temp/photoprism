@@ -639,8 +639,8 @@ msgstr "Ändringarna kunde inte sparas"
 #: src/component/photo/edit/files.vue:160 src/component/service/edit.vue:90
 #: src/component/share/dialog.vue:92 src/component/share/dialog.vue:111
 #: src/page/albums.vue:648 src/page/people/recognized.vue:119
-#: src/page/settings/advanced.vue:58 src/page/settings/general.vue:107
-#: src/page/settings/library.vue:57
+#: src/page/settings/advanced.vue:58 src/page/settings/content.vue:57
+#: src/page/settings/general.vue:107
 msgid "Changes successfully saved"
 msgstr "Ändringarna har sparats"
 
@@ -754,6 +754,10 @@ msgstr "Innehåller %{n} bilder."
 #: src/page/people/recognized.vue:296
 msgid "Contains one picture."
 msgstr "Innehåller en bild."
+
+#: src/page/settings.vue:49
+msgid "Content"
+msgstr ""
 
 #: src/component/settings/apps.vue:163
 msgid "Continue"
@@ -1022,11 +1026,11 @@ msgstr "Klart."
 #: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1063
 #: src/component/lightbox.vue:1064 src/component/people/clipboard.vue:47
 #: src/component/photo/clipboard.vue:116 src/component/photo/edit/files.vue:168
-#: src/page/settings/general.vue:252 src/page/settings/general.vue:624
+#: src/page/settings/content.vue:236 src/page/settings/general.vue:252
 msgid "Download"
 msgstr "Ladda ner"
 
-#: src/page/settings/general.vue:651
+#: src/page/settings/content.vue:263
 msgid "Download only original media files, without any automatically generated files."
 msgstr "Hämta endast originalmediefiler, utan automatiskt genererade filer."
 
@@ -1157,11 +1161,11 @@ msgstr "Fel"
 msgid "Estimate"
 msgstr "Uppskattning"
 
-#: src/page/settings/library.vue:85
+#: src/page/settings/content.vue:85
 msgid "Estimate Locations"
 msgstr "Uppskatta platser"
 
-#: src/page/settings/library.vue:86
+#: src/page/settings/content.vue:86
 msgid "Estimate the approximate location of pictures without GPS coordinates."
 msgstr "Uppskatta den ungefärliga positionen för bilder utan GPS-koordinater."
 
@@ -1195,7 +1199,7 @@ msgstr "Upphör att gälla"
 msgid "Exposure"
 msgstr "Exponering"
 
-#: src/page/settings/library.vue:109
+#: src/page/settings/content.vue:109
 msgid "Extract still images and generate thumbnails while indexing."
 msgstr "Extrahera stillbilder och skapa miniatyrbilder under indexeringen."
 
@@ -1288,7 +1292,7 @@ msgstr "Filnamn"
 msgid "Files"
 msgstr "Filer"
 
-#: src/page/settings/library.vue:207
+#: src/page/settings/content.vue:207
 msgid "Files with sequential names like 'IMG_1234 (2)' and 'IMG_1234 (3)' belong to the same picture."
 msgstr "Filer med sekventiella namn som 'IMG_1234 (2)' och 'IMG_1234 (3)' tillhör samma bild."
 
@@ -1351,7 +1355,7 @@ msgstr "Generera"
 msgid "Generate albums of special moments, journeys, and places."
 msgstr "Skapa automatiskt album med speciella ögonblick, resor och platser."
 
-#: src/page/settings/library.vue:108
+#: src/page/settings/content.vue:108
 msgid "Generate Previews"
 msgstr "Generera förhandsgranskningar"
 
@@ -1483,11 +1487,11 @@ msgstr "i"
 msgid "In case pictures you expect are missing, please rescan your library and wait until indexing has been completed."
 msgstr "Om du upplever att bilder saknas, vänligen skanna om biblioteket och vänta tills indexeringen är slutförd."
 
-#: src/page/settings/general.vue:674
+#: src/page/settings/content.vue:286
 msgid "Include RAW image files when downloading stacks and archives."
 msgstr "Inkludera RAW-bildfiler när du laddar ner staplar och arkiv."
 
-#: src/page/settings/general.vue:697
+#: src/page/settings/content.vue:309
 msgid "Include sidecar files when downloading stacks and archives."
 msgstr "Inkludera sidecar-filer när du laddar ner stackar och arkiv."
 
@@ -1496,7 +1500,7 @@ msgid "Increase storage size or delete files to continue."
 msgstr "Öka lagringsstorleken eller radera filer för att fortsätta."
 
 #: src/component/navigation.vue:1894 src/page/library.vue:36
-#: src/page/settings/library.vue:32
+#: src/page/settings/content.vue:32
 msgid "Index"
 msgstr "Index"
 
@@ -1668,8 +1672,7 @@ msgid "Lens"
 msgstr "Objektiv"
 
 #: src/app/routes.js:422 src/app/routes.js:438 src/app/routes.js:454
-#: src/component/navigation.vue:1215 src/page/settings.vue:49
-#: src/page/settings/general.vue:420
+#: src/component/navigation.vue:1215 src/page/settings/general.vue:420
 msgid "Library"
 msgstr "Bibliotek"
 
@@ -2147,7 +2150,7 @@ msgstr "Ursprungligt namn"
 
 #: src/component/navigation.vue:1252 src/model/file.js:196
 #: src/options/options.js:497 src/page/library/browse.vue:65
-#: src/page/settings/general.vue:444 src/page/settings/general.vue:650
+#: src/page/settings/content.vue:262 src/page/settings/general.vue:444
 msgid "Originals"
 msgstr "Original"
 
@@ -2250,7 +2253,7 @@ msgstr "Rosa"
 msgid "Place"
 msgstr "Plats"
 
-#: src/page/settings/library.vue:159
+#: src/page/settings/content.vue:159
 msgid "Place & Time"
 msgstr "Plats och Tid"
 
@@ -2364,7 +2367,7 @@ msgstr "Projektion"
 msgid "Purple"
 msgstr "Lila"
 
-#: src/page/settings/library.vue:58
+#: src/page/settings/content.vue:58
 msgid "Quality Filter"
 msgstr "Kvalitetsfilter"
 
@@ -2389,7 +2392,7 @@ msgid "Raw"
 msgstr "Rå"
 
 #: src/component/photo/view/cards.vue:312
-#: src/component/photo/view/mosaic.vue:156 src/page/settings/general.vue:673
+#: src/component/photo/view/mosaic.vue:156 src/page/settings/content.vue:285
 msgid "RAW"
 msgstr "RAW"
 
@@ -2458,7 +2461,7 @@ msgid "Reload"
 msgstr "Ladda om"
 
 #: src/component/navigation.vue:108 src/component/update.vue:26
-#: src/page/settings/general.vue:103 src/page/settings/library.vue:53
+#: src/page/settings/content.vue:53 src/page/settings/general.vue:103
 msgid "Reloading…"
 msgstr "Laddar om …"
 
@@ -2490,7 +2493,7 @@ msgstr "Förfrågan misslyckades - är du offline?"
 msgid "Request failed - invalid response"
 msgstr "Förfrågan misslyckades - ogiltigt svar"
 
-#: src/page/settings/library.vue:60
+#: src/page/settings/content.vue:60
 msgid "Require non-photographic and low-quality images to be reviewed before they appear in search results."
 msgstr "Krav på att icke-fotografiska bilder och bilder av låg kvalitet ska granskas innan de visas i sökresultaten."
 
@@ -2635,7 +2638,7 @@ msgstr "Urvalet har återställts"
 msgid "Send"
 msgstr "Skicka"
 
-#: src/page/settings/library.vue:205
+#: src/page/settings/content.vue:205
 msgid "Sequential Name"
 msgstr "Sekventiellt namn"
 
@@ -2716,7 +2719,7 @@ msgstr "Visa serverloggar i biblioteket."
 msgid "Show/Hide Sidebar"
 msgstr "Visa/dölj sidofält"
 
-#: src/model/file.js:214 src/page/settings/general.vue:696
+#: src/model/file.js:214 src/page/settings/content.vue:308
 msgid "Sidecar"
 msgstr "Sidecar"
 
@@ -2780,11 +2783,11 @@ msgstr "Källa"
 msgid "Stack"
 msgstr "Samling"
 
-#: src/page/settings/library.vue:183
+#: src/page/settings/content.vue:183
 msgid "Stack files sharing the same unique image or instance identifier."
 msgstr "Stapla filer som har samma unika bild- eller instansidentifierare."
 
-#: src/page/settings/library.vue:160
+#: src/page/settings/content.vue:160
 msgid "Stack pictures taken at the exact same time and location based on their metadata."
 msgstr "Stapla bilder som tagits vid exakt samma tidpunkt och plats baserat på deras metadata."
 
@@ -2792,7 +2795,7 @@ msgstr "Stapla bilder som tagits vid exakt samma tidpunkt och plats baserat på 
 msgid "Stackable"
 msgstr "Staplingsbar"
 
-#: src/component/navigation.vue:437 src/page/settings/library.vue:133
+#: src/component/navigation.vue:437 src/page/settings/content.vue:133
 msgid "Stacks"
 msgstr "Staplar"
 
@@ -3022,7 +3025,7 @@ msgstr "Obehörig"
 msgid "Undo"
 msgstr "Ångra"
 
-#: src/page/settings/library.vue:182
+#: src/page/settings/content.vue:182
 msgid "Unique ID"
 msgstr "Unikt ID"
 
