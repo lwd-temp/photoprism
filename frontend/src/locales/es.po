@@ -2710,10 +2710,6 @@ msgstr "Mostrar"
 msgid "Show all new faces"
 msgstr "Mostrar todas las caras nuevas"
 
-#: src/page/settings/content.vue:313
-msgid "Show caption metadata in search results."
-msgstr "Mostrar los metadatos de los pies de foto en los resultados de la búsqueda."
-
 #: src/page/people/new.vue:62 src/page/people/recognized.vue:97
 msgid "Show hidden"
 msgstr "Mostrar oculto"
@@ -2726,13 +2722,17 @@ msgstr "Ver menos"
 msgid "Show more"
 msgstr "Ver más"
 
+#: src/page/settings/content.vue:313
+msgid "Show picture captions in search results."
+msgstr ""
+
+#: src/page/settings/content.vue:290
+msgid "Show picture titles in search results."
+msgstr ""
+
 #: src/page/settings/general.vue:469
 msgid "Show server logs in Library."
 msgstr "Mostrar los registros del servidor en la biblioteca."
-
-#: src/page/settings/content.vue:290
-msgid "Show title metadata in search results."
-msgstr "Mostrar metadatos del título en los resultados de búsqueda."
 
 #: src/component/lightbox.vue:940 src/component/lightbox.vue:941
 msgid "Show/Hide Sidebar"
@@ -3382,6 +3382,12 @@ msgstr "Tu biblioteca se analiza continuamente para crear automáticamente álbu
 #: src/component/lightbox.vue:228
 msgid "Zoom in/out"
 msgstr "Acercar/Alejar"
+
+#~ msgid "Show caption metadata in search results."
+#~ msgstr "Mostrar los metadatos de los pies de foto en los resultados de la búsqueda."
+
+#~ msgid "Show title metadata in search results."
+#~ msgstr "Mostrar metadatos del título en los resultados de búsqueda."
 
 #~ msgid "Are you sure you want to delete all archived pictures?"
 #~ msgstr "¿Estás seguro de que quieres borrar todas las imágenes archivadas?"
