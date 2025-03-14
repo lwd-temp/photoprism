@@ -133,7 +133,7 @@
           <a href="https://docs.photoprism.app/user-guide/settings/advanced/#images" class="text-link" target="_blank"
             >thumbnail quality settings</a
           >. Common issues can be quickly diagnosed and solved using the troubleshooting checklists we provide at
-          <a href="https://docs.photoprism.app/getting-started/troubleshooting/" class="text-link" target="_blank"
+          <a :href="links.troubleshooting" class="text-link" target="_blank"
             >docs.photoprism.app/getting-started/troubleshooting</a
           >.
         </p>
@@ -141,9 +141,7 @@
         <h3>Getting Support</h3>
         <p>
           Before reporting a bug, please use our
-          <a href="https://docs.photoprism.app/getting-started/troubleshooting/" class="text-link" target="_blank"
-            >Troubleshooting Checklists</a
-          >
+          <a :href="links.troubleshooting" class="text-link" target="_blank">Troubleshooting Checklists</a>
           to determine the cause of your problem. If you have a general question, need help, it could be a local
           configuration issue, or a misunderstanding in how the software works, you are welcome to ask in our
           <a href="https://link.photoprism.app/chat" class="text-link" target="_blank">Community Chat</a> or post your
@@ -152,9 +150,7 @@
         </p>
         <p>
           When reporting a problem, always include the software versions you are using and
-          <a href="https://www.photoprism.app/kb/reporting-bugs" class="text-link" target="_blank"
-            >other information about your environment</a
-          >
+          <a :href="links.bugs" class="text-link" target="_blank">other information about your environment</a>
           such as
           <a
             href="https://docs.photoprism.app/getting-started/troubleshooting/browsers/"
@@ -171,11 +167,9 @@
         <h3>Developer Guide</h3>
         <p>
           Our
-          <a href="https://docs.photoprism.app/developer-guide/" class="text-link" target="_blank">Developer Guide</a>
+          <a :href="links.developerGuide" class="text-link" target="_blank">Developer Guide</a>
           contains all the information you need to get started as a developer. It guides you from
-          <a href="https://docs.photoprism.app/developer-guide/setup/" class="text-link" target="_blank"
-            >setting up your development environment</a
-          >
+          <a :href="links.developerSetup" class="text-link" target="_blank">setting up your development environment</a>
           and
           <a href="https://docs.photoprism.app/developer-guide/pull-requests/" class="text-link" target="_blank"
             >creating pull requests</a
