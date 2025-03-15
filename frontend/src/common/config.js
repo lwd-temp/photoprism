@@ -608,7 +608,7 @@ export default class Config {
       if (features && typeof features === "object" && startPage && typeof startPage === "string") {
         switch (startPage) {
           case "browse":
-            return browseRoute;
+            return defaultRoute;
           case "albums":
             return features.albums ? startPage : defaultRoute;
           case "photos":
