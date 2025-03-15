@@ -80,11 +80,11 @@ msgstr "%{s} çok uzun"
 msgid "%{s} is too short"
 msgstr "s} çok kısa"
 
-#: src/options/options.js:444
+#: src/options/options.js:466
 msgid "1 hour"
 msgstr "1 saat"
 
-#: src/options/options.js:446
+#: src/options/options.js:468
 msgid "12 hours"
 msgstr "12 saat"
 
@@ -97,7 +97,7 @@ msgstr "2 Faktörlü Kimlik Doğrulama"
 msgid "2FA"
 msgstr "2FA"
 
-#: src/options/options.js:445
+#: src/options/options.js:467
 msgid "4 hours"
 msgstr "4 saat"
 
@@ -124,7 +124,7 @@ msgstr "Erişim Belirteci"
 #: src/component/navigation.vue:87 src/component/navigation.vue:1736
 #: src/component/service/upload.vue:71 src/model/service.js:96
 #: src/model/user.js:171 src/page/settings.vue:85
-#: src/page/settings/general.vue:492
+#: src/page/settings/general.vue:537
 msgid "Account"
 msgstr "Hesabınız"
 
@@ -191,7 +191,7 @@ msgstr "Hesap ekle"
 msgid "Add Album"
 msgstr "Albüm Ekle"
 
-#: src/page/settings/general.vue:229
+#: src/page/settings/general.vue:274
 msgid "Add files to your library via Web Upload."
 msgstr "Web Yükleme aracılığıyla kitaplığınıza dosya ekleyin."
 
@@ -229,15 +229,15 @@ msgstr "Yönetici"
 msgid "Advanced"
 msgstr "Gelişmiş"
 
-#: src/options/options.js:454
+#: src/options/options.js:476
 msgid "After 1 day"
 msgstr "1 gün sonra"
 
-#: src/options/options.js:455
+#: src/options/options.js:477
 msgid "After 3 days"
 msgstr "3 gün sonra"
 
-#: src/options/options.js:456
+#: src/options/options.js:478
 msgid "After 7 days"
 msgstr "7 gün sonra"
 
@@ -245,11 +245,11 @@ msgstr "7 gün sonra"
 msgid "After entering your password for confirmation, you can set up two-factor authentication with a compatible authenticator app or device:"
 msgstr "Onay için şifrenizi girdikten sonra, uyumlu bir kimlik doğrulama uygulaması veya cihazıyla iki faktörlü kimlik doğrulamayı ayarlayabilirsiniz:"
 
-#: src/options/options.js:458
+#: src/options/options.js:480
 msgid "After one month"
 msgstr "Bir ay sonra"
 
-#: src/options/options.js:460
+#: src/options/options.js:482
 msgid "After one year"
 msgstr "Bir yıl sonra"
 
@@ -257,11 +257,11 @@ msgstr "Bir yıl sonra"
 msgid "After selecting pictures from search results, you can add them to an album using the context menu."
 msgstr "Arama sonuçlarından resimleri seçtikten sonra, içerik menüsünü kullanarak bunları bir albüme ekleyebilirsiniz."
 
-#: src/options/options.js:459
+#: src/options/options.js:481
 msgid "After two months"
 msgstr "İki ay sonra"
 
-#: src/options/options.js:457
+#: src/options/options.js:479
 msgid "After two weeks"
 msgstr "İki hafta sonra"
 
@@ -279,7 +279,7 @@ msgstr "Albüm oluşturuldu"
 
 #: src/app/routes.js:176 src/component/album/toolbar.vue:61
 #: src/component/navigation.vue:617 src/component/navigation.vue:1830
-#: src/component/photo/edit/info.vue:220
+#: src/component/photo/edit/info.vue:220 src/options/options.js:312
 msgid "Albums"
 msgstr "Albümler"
 
@@ -363,11 +363,11 @@ msgstr "AM"
 #: src/component/navigation.vue:418 src/component/photo/edit/files.vue:364
 #: src/component/photo/view/cards.vue:321
 #: src/component/photo/view/cards.vue:496 src/component/photo/view/list.vue:172
-#: src/component/photo/view/mosaic.vue:170 src/options/options.js:375
+#: src/component/photo/view/mosaic.vue:170 src/options/options.js:397
 msgid "Animated"
 msgstr "Hareketli"
 
-#: src/page/settings/general.vue:596
+#: src/page/settings/general.vue:641
 msgid "Animation"
 msgstr "Animasyon"
 
@@ -399,7 +399,7 @@ msgstr "Uygulamalar ve Cihazlar"
 
 #: src/app/routes.js:266 src/component/navigation.vue:568
 #: src/component/photo/clipboard.vue:142 src/component/photo/view/cards.vue:386
-#: src/page/settings/general.vue:348
+#: src/page/settings/general.vue:393
 msgid "Archive"
 msgstr "Arşiv"
 
@@ -493,19 +493,19 @@ msgstr "Özgeçmiş"
 msgid "Birth Date"
 msgstr "Doğum Tarihi"
 
-#: src/options/options.js:479
+#: src/options/options.js:501
 msgid "Black"
 msgstr "Siyah"
 
-#: src/options/options.js:509
+#: src/options/options.js:531
 msgid "Blackman: Lanczos Modification, Less Ringing Artifacts"
 msgstr "Blackman: Lanczos Değişikliği, Daha Az Çınlayan Eserler"
 
-#: src/options/options.js:475
+#: src/options/options.js:497
 msgid "Blue"
 msgstr "Mavi"
 
-#: src/options/options.js:476
+#: src/options/options.js:498
 msgid "Brown"
 msgstr "Kahverengi"
 
@@ -514,7 +514,7 @@ msgstr "Kahverengi"
 msgid "Browse"
 msgstr "Gözat"
 
-#: src/page/settings/general.vue:179
+#: src/page/settings/general.vue:224
 msgid "Browse and edit image classification labels."
 msgstr "Görüntü sınıflandırma etiketlerine göz atın ve düzenleyin."
 
@@ -522,11 +522,11 @@ msgstr "Görüntü sınıflandırma etiketlerine göz atın ve düzenleyin."
 msgid "Browse Files"
 msgstr "Dosyalara Gözat"
 
-#: src/page/settings/general.vue:445
+#: src/page/settings/general.vue:490
 msgid "Browse indexed files and folders in Library."
 msgstr "Kitaplık'ta dizine alınmış dosya ve klasörlere göz atın."
 
-#: src/page/about/feedback.vue:8 src/options/options.js:486
+#: src/page/about/feedback.vue:8 src/options/options.js:508
 msgid "Bug Report"
 msgstr "Hata raporu"
 
@@ -539,6 +539,7 @@ msgid "By using the software and services we provide, you agree to our terms of 
 msgstr "Sağladığımız yazılım ve hizmetleri kullanarak hizmet şartlarımızı, gizlilik politikamızı ve davranış kurallarımızı kabul etmiş olursunuz."
 
 #: src/app/routes.js:189 src/component/navigation.vue:1029
+#: src/options/options.js:317
 msgid "Calendar"
 msgstr "Takvim"
 
@@ -619,11 +620,11 @@ msgstr "Avatarı değiştir"
 msgid "Change Password"
 msgstr "Şifre Değiştir"
 
-#: src/page/settings/general.vue:493
+#: src/page/settings/general.vue:538
 msgid "Change personal profile and security settings."
 msgstr "Kişisel profil ve güvenlik ayarlarını değiştirin."
 
-#: src/page/settings/general.vue:325
+#: src/page/settings/general.vue:370
 msgid "Change photo titles, locations, and other metadata."
 msgstr "Fotoğraf başlıklarını, konumları ve diğer meta verileri değiştirin."
 
@@ -828,7 +829,7 @@ msgstr "Oluşturuldu"
 msgid "Creating thumbnails for"
 msgstr "Önizlemeler üretiliyor"
 
-#: src/options/options.js:511
+#: src/options/options.js:533
 msgid "Cubic: Moderate Quality, Good Performance"
 msgstr "Cubic: Ortalama Kalite, İyi Performans"
 
@@ -840,15 +841,15 @@ msgstr "Mevcut Şifre"
 msgid "Custom"
 msgstr "Özel"
 
-#: src/page/about/feedback.vue:5 src/options/options.js:483
+#: src/page/about/feedback.vue:5 src/options/options.js:505
 msgid "Customer Support"
 msgstr "Müşteri Hizmetleri"
 
-#: src/options/options.js:474
+#: src/options/options.js:496
 msgid "Cyan"
 msgstr "Camgöbeği"
 
-#: src/options/options.js:447
+#: src/options/options.js:469
 msgid "Daily"
 msgstr "Günlük"
 
@@ -872,8 +873,10 @@ msgstr "Hata Kayıtları"
 #: src/page/admin/users.vue:174 src/component/photo/edit/info.vue:45
 #: src/component/photo/edit/info.vue:110 src/model/session.js:66
 #: src/model/user.js:246 src/options/auth.js:20 src/options/auth.js:21
-#: src/options/auth.js:39 src/options/auth.js:40 src/options/options.js:330
-#: src/options/options.js:398 src/options/themes.js:727 src/page/places.vue:318
+#: src/options/auth.js:39 src/options/auth.js:40 src/options/options.js:310
+#: src/options/options.js:352 src/options/options.js:420
+#: src/options/themes.js:727 src/page/places.vue:318
+#: src/page/settings/general.vue:127
 msgid "Default"
 msgstr "Varsayılan"
 
@@ -888,7 +891,7 @@ msgstr "Varsayılan Klasör"
 #: src/component/label/delete/dialog.vue:58
 #: src/component/photo/clipboard.vue:168 src/component/photo/edit/files.vue:238
 #: src/component/service/remove.vue:60 src/component/share/dialog.vue:170
-#: src/page/settings/general.vue:372
+#: src/page/settings/general.vue:417
 msgid "Delete"
 msgstr "Sil"
 
@@ -993,7 +996,7 @@ msgstr "Göz ardı et"
 msgid "Display Name"
 msgstr "Ekran adı"
 
-#: src/component/photo/view/cards.vue:506 src/options/options.js:391
+#: src/component/photo/view/cards.vue:506 src/options/options.js:413
 msgid "Document"
 msgstr "Belge"
 
@@ -1013,7 +1016,7 @@ msgstr "Görüntüleri dönüştürmek için ImageMagick kullanmayın."
 msgid "Don't use RawTherapee to convert RAW images."
 msgstr "RAW görüntüleri dönüştürmek için RawTherapee kullanmayın."
 
-#: src/options/options.js:487
+#: src/options/options.js:509
 msgid "Donations"
 msgstr "Bağışlar"
 
@@ -1030,7 +1033,7 @@ msgstr "Tamamlandı."
 #: src/component/file/clipboard.vue:48 src/component/lightbox.vue:1063
 #: src/component/lightbox.vue:1064 src/component/people/clipboard.vue:47
 #: src/component/photo/clipboard.vue:116 src/component/photo/edit/files.vue:168
-#: src/page/settings/content.vue:339 src/page/settings/general.vue:252
+#: src/page/settings/content.vue:339 src/page/settings/general.vue:297
 msgid "Download"
 msgstr "İndirmek"
 
@@ -1042,7 +1045,7 @@ msgstr "Otomatik olarak oluşturulan dosyalar olmadan yalnızca orijinal medya d
 msgid "Download remote files"
 msgstr "Uzak dosyaları indir"
 
-#: src/page/settings/general.vue:253
+#: src/page/settings/general.vue:298
 msgid "Download single files and zip archives."
 msgstr "Tek dosyaları ve zip arşivlerini indirin."
 
@@ -1089,7 +1092,7 @@ msgstr "E-Posta"
 
 #: src/component/album/clipboard.vue:61 src/component/album/toolbar.vue:93
 #: src/component/lightbox.vue:1044 src/component/lightbox.vue:1045
-#: src/component/photo/clipboard.vue:90 src/page/settings/general.vue:324
+#: src/component/photo/clipboard.vue:90 src/page/settings/general.vue:369
 msgid "Edit"
 msgstr "Düzenle"
 
@@ -1173,11 +1176,11 @@ msgstr "Tahmini Konumlar"
 msgid "Estimate the approximate location of pictures without GPS coordinates."
 msgstr "GPS koordinatları olmadan resimlerin yaklaşık konumunu tahmin edin."
 
-#: src/options/options.js:448
+#: src/options/options.js:470
 msgid "Every two days"
 msgstr "İki günde bir"
 
-#: src/page/settings/general.vue:204
+#: src/page/settings/general.vue:249
 msgid "Exclude content marked as private from search results, shared albums, labels, and places."
 msgstr "Özel olarak işaretlenen içeriği arama sonuçlarından, paylaşılan albümlerden, etiketlerden ve yerlerden hariç tutun."
 
@@ -1237,7 +1240,7 @@ msgstr "Bağlantı güncellenemedi"
 msgid "Family Name"
 msgstr "Soyadı"
 
-#: src/options/options.js:314
+#: src/options/options.js:336
 msgid "Fast"
 msgstr "Hızlı"
 
@@ -1249,11 +1252,11 @@ msgid "Favorite"
 msgstr "Favori"
 
 #: src/app/routes.js:222 src/component/navigation.vue:841
-#: src/page/albums.vue:96
+#: src/options/options.js:315 src/page/albums.vue:96
 msgid "Favorites"
 msgstr "Favoriler"
 
-#: src/page/about/feedback.vue:7 src/options/options.js:485
+#: src/page/about/feedback.vue:7 src/options/options.js:507
 msgid "Feature Request"
 msgstr "Özellik isteği"
 
@@ -1261,7 +1264,7 @@ msgstr "Özellik isteği"
 msgid "Feedback"
 msgstr "Geri bildirim"
 
-#: src/options/options.js:517
+#: src/options/options.js:539
 msgid "Female"
 msgstr "Kadın"
 
@@ -1325,6 +1328,7 @@ msgid "Folder is empty"
 msgstr "Klasör boş"
 
 #: src/app/routes.js:202 src/component/navigation.vue:1173
+#: src/options/options.js:320
 msgid "Folders"
 msgstr "Klasörler"
 
@@ -1356,7 +1360,7 @@ msgstr "Genel"
 msgid "Generate"
 msgstr "Oluştur"
 
-#: src/page/settings/general.vue:155
+#: src/page/settings/general.vue:200
 msgid "Generate albums of special moments, journeys, and places."
 msgstr "Özel anların, gezilerin ve yerlerin albümlerini otomatik olarak oluşturur."
 
@@ -1386,15 +1390,15 @@ msgstr "Küresel Seçenekler"
 msgid "Go to page {0}"
 msgstr "{0}. sayfaya gidin"
 
-#: src/options/options.js:469
+#: src/options/options.js:491
 msgid "Gold"
 msgstr "Altın"
 
-#: src/options/options.js:472
+#: src/options/options.js:494
 msgid "Green"
 msgstr "Yeşil"
 
-#: src/options/options.js:478
+#: src/options/options.js:500
 msgid "Grey"
 msgstr "Gri"
 
@@ -1426,11 +1430,11 @@ msgstr "Gizli Dosyalar"
 msgid "Hide"
 msgstr "Gizle"
 
-#: src/page/settings/general.vue:349
+#: src/page/settings/general.vue:394
 msgid "Hide photos that have been moved to archive."
 msgstr "Arşive taşınan fotoğrafları gizleyin."
 
-#: src/options/options.js:402
+#: src/options/options.js:424
 msgid "High"
 msgstr "Yüksek"
 
@@ -1448,7 +1452,7 @@ msgstr "Kimlik doğrulayıcı uygulamanıza veya cihazınıza erişiminizi kaybe
 
 #: src/component/photo/edit/info.vue:61 src/component/photo/edit/labels.vue:46
 #: src/component/photo/view/cards.vue:517 src/model/file.js:218
-#: src/options/options.js:367
+#: src/options/options.js:389
 msgid "Image"
 msgstr "Resim"
 
@@ -1457,7 +1461,7 @@ msgid "Image Quality"
 msgstr "Görüntü Kalitesi"
 
 #: src/page/library.vue:46 src/page/library/import.vue:152
-#: src/page/settings/general.vue:276
+#: src/page/settings/general.vue:321
 msgid "Import"
 msgstr "İçe aktarmak"
 
@@ -1469,7 +1473,7 @@ msgstr "İçe aktarılamadı"
 msgid "Imported files will be sorted by date and given a unique name to avoid duplicates."
 msgstr "İçe aktarılan dosyalar tarihe göre sıralanacak ve yinelemeleri önlemek için benzersiz bir ad verilecektir."
 
-#: src/page/settings/general.vue:277
+#: src/page/settings/general.vue:322
 msgid "Imported files will be sorted by date and given a unique name."
 msgstr "İçe aktarılan dosyalar tarihe göre sıralanacak ve benzersiz bir ad verilecektir."
 
@@ -1509,7 +1513,7 @@ msgstr "Devam etmek için depolama boyutunu artırın veya dosyaları silin."
 msgid "Index"
 msgstr "İndeks"
 
-#: src/page/settings/general.vue:421
+#: src/page/settings/general.vue:466
 msgid "Index and import files through the user interface."
 msgstr "Kullanıcı arayüzü üzerinden dosyaları indeksleyin ve içe aktarın."
 
@@ -1611,7 +1615,8 @@ msgstr "Etiket"
 
 #: src/app/routes.js:368 src/component/navigation.vue:1125
 #: src/component/photo/edit/dialog.vue:182
-#: src/component/photo/edit/dialog.vue:199 src/page/settings/general.vue:178
+#: src/component/photo/edit/dialog.vue:199 src/options/options.js:319
+#: src/page/settings/general.vue:223
 msgid "Labels"
 msgstr "Etiketler"
 
@@ -1619,11 +1624,11 @@ msgstr "Etiketler"
 msgid "Labels deleted"
 msgstr "Etiketler silindi"
 
-#: src/options/options.js:510
+#: src/options/options.js:532
 msgid "Lanczos: Detail Preservation, Minimal Artifacts"
 msgstr "Lanczos: Detayların Korunması, Minimal Eserler"
 
-#: src/page/settings/general.vue:82
+#: src/page/settings/general.vue:105
 msgid "Language"
 msgstr "Dil"
 
@@ -1677,7 +1682,7 @@ msgid "Lens"
 msgstr "Lens"
 
 #: src/app/routes.js:422 src/app/routes.js:438 src/app/routes.js:454
-#: src/component/navigation.vue:1215 src/page/settings/general.vue:420
+#: src/component/navigation.vue:1215 src/page/settings/general.vue:465
 msgid "Library"
 msgstr "Kütüphane"
 
@@ -1691,7 +1696,7 @@ msgstr "Lisans"
 msgid "Like"
 msgstr "Sevmek"
 
-#: src/options/options.js:471
+#: src/options/options.js:493
 msgid "Lime"
 msgstr "Lime yeşili"
 
@@ -1699,7 +1704,7 @@ msgstr "Lime yeşili"
 msgid "Limit reached, showing first %{n} files"
 msgstr "Sınıra ulaşıldı, ilk %{n} dosya gösteriliyor"
 
-#: src/options/options.js:512
+#: src/options/options.js:534
 msgid "Linear: Very Smooth, Best Performance"
 msgstr "Doğrusal: Çok Pürüzsüz, En İyi Performans"
 
@@ -1717,7 +1722,7 @@ msgstr "Liste Görünümü"
 
 #: src/app/routes.js:229 src/component/photo/view/cards.vue:313
 #: src/component/photo/view/cards.vue:486 src/component/photo/view/list.vue:163
-#: src/component/photo/view/mosaic.vue:162 src/options/options.js:379
+#: src/component/photo/view/mosaic.vue:162 src/options/options.js:401
 msgid "Live"
 msgstr "Canlı"
 
@@ -1767,7 +1772,7 @@ msgid "Logout"
 msgstr "Çıkış"
 
 #: src/component/navigation.vue:1910 src/page/library.vue:59
-#: src/page/settings/general.vue:468
+#: src/page/settings/general.vue:513
 msgid "Logs"
 msgstr "Kayıtlar"
 
@@ -1776,15 +1781,15 @@ msgstr "Kayıtlar"
 msgid "Longitude"
 msgstr "Boylam"
 
-#: src/options/options.js:406
+#: src/options/options.js:428
 msgid "Low"
 msgstr "Düşük"
 
-#: src/options/options.js:357
+#: src/options/options.js:379
 msgid "Low Resolution"
 msgstr "Düşük Çözünürlük"
 
-#: src/options/options.js:465
+#: src/options/options.js:487
 msgid "Magenta"
 msgstr "Magenta"
 
@@ -1792,7 +1797,7 @@ msgstr "Magenta"
 msgid "Main Color"
 msgstr "Ana renk"
 
-#: src/options/options.js:516
+#: src/options/options.js:538
 msgid "Male"
 msgstr "Erkek"
 
@@ -1810,7 +1815,7 @@ msgstr "El Kitabı"
 msgid "Manual Upload"
 msgstr "Manuel Yükleme"
 
-#: src/page/settings/general.vue:573
+#: src/page/settings/general.vue:618
 msgid "Maps"
 msgstr "Haritalar"
 
@@ -1822,7 +1827,7 @@ msgstr "İşaretleyici"
 msgid "Maximum number of accounts has been reached."
 msgstr "Maksimum hesap sayısına ulaşıldı."
 
-#: src/options/options.js:318
+#: src/options/options.js:340
 msgid "Medium"
 msgstr "Orta"
 
@@ -1859,7 +1864,7 @@ msgid "Missing or invalid configuration"
 msgstr "Eksik veya geçersiz yapılandırma"
 
 #: src/app/routes.js:163 src/component/navigation.vue:1077
-#: src/page/settings/general.vue:154
+#: src/options/options.js:318 src/page/settings/general.vue:199
 msgid "Moments"
 msgstr "Anlar"
 
@@ -1915,8 +1920,8 @@ msgstr "Ad"
 msgid "Name too long"
 msgstr "İsim çok uzun"
 
-#: src/page/admin/users.vue:202 src/options/options.js:443
-#: src/options/options.js:453 src/page/settings/services.vue:74
+#: src/page/admin/users.vue:202 src/options/options.js:465
+#: src/options/options.js:475 src/page/settings/services.vue:74
 msgid "Never"
 msgstr "Asla"
 
@@ -2018,8 +2023,8 @@ msgstr "Bu anahtar kelimeyi içeren uyarı veya hata yok. Aramanın büyük/kü�
 msgid "Non-photographic and low-quality images require a review before they appear in search results."
 msgstr "Fotoğrafik olmayan ve düşük kaliteli görüntülerin arama sonuçlarında görünmeden önce incelenmesi gerekmektedir."
 
-#: src/options/admin.js:47 src/options/auth.js:32 src/options/options.js:310
-#: src/options/options.js:410
+#: src/options/admin.js:47 src/options/auth.js:32 src/options/options.js:332
+#: src/options/options.js:432
 msgid "None"
 msgstr "Hiçbiri"
 
@@ -2088,7 +2093,7 @@ msgstr "Windows'ta, bağlantı iletişim kutusuna aşağıdaki kaynağı girin:"
 msgid "On-demand generation of thumbnails may cause high CPU and memory usage. It is not recommended for resource-constrained servers and NAS devices."
 msgstr "Küçük resimlerin isteğe bağlı olarak oluşturulması yüksek CPU ve bellek kullanımına neden olabilir. Kaynakları kısıtlı sunucular ve NAS cihazları için önerilmez."
 
-#: src/options/options.js:449
+#: src/options/options.js:471
 msgid "Once a week"
 msgstr "Haftada bir"
 
@@ -2137,7 +2142,7 @@ msgstr "isteğe bağlı"
 msgid "or"
 msgstr "veya"
 
-#: src/options/options.js:468
+#: src/options/options.js:490
 msgid "Orange"
 msgstr "Turuncu"
 
@@ -2158,12 +2163,12 @@ msgid "Original Name"
 msgstr "Orijinal Adı"
 
 #: src/component/navigation.vue:1252 src/model/file.js:196
-#: src/options/options.js:497 src/page/library/browse.vue:65
-#: src/page/settings/content.vue:365 src/page/settings/general.vue:444
+#: src/options/options.js:519 src/page/library/browse.vue:65
+#: src/page/settings/content.vue:365 src/page/settings/general.vue:489
 msgid "Originals"
 msgstr "Orijinaller"
 
-#: src/options/options.js:488 src/options/options.js:518
+#: src/options/options.js:510 src/options/options.js:540
 msgid "Other"
 msgstr "Diğer"
 
@@ -2171,7 +2176,7 @@ msgstr "Diğer"
 msgid "Our mission is to provide the most user- and privacy-friendly solution to keep your pictures organized and accessible."
 msgstr "Misyonumuz, resimlerinizi düzenli ve erişilebilir tutmak için en kullanıcı ve gizlilik dostu çözümü sunmaktır."
 
-#: src/options/options.js:344 src/page/places.vue:334
+#: src/options/options.js:366 src/page/places.vue:334
 msgid "Outdoor"
 msgstr "Dış mekan"
 
@@ -2209,7 +2214,8 @@ msgstr "Şifre Değiştirildi"
 
 #: src/app/routes.js:383 src/app/routes.js:407 src/component/navigation.vue:793
 #: src/component/navigation.vue:1846 src/component/photo/edit/dialog.vue:222
-#: src/component/photo/edit/dialog.vue:239 src/page/settings/general.vue:130
+#: src/component/photo/edit/dialog.vue:239 src/options/options.js:314
+#: src/page/settings/general.vue:175
 msgid "People"
 msgstr "Kişi"
 
@@ -2221,7 +2227,7 @@ msgstr "Bağlantı paylaştığınız kişiler herkese açık içerikleri görü
 msgid "Permanently deleted"
 msgstr "Kalıcı olarak silindi"
 
-#: src/page/settings/general.vue:373
+#: src/page/settings/general.vue:418
 msgid "Permanently remove files to free up storage."
 msgstr "Depolama alanını boşaltmak için dosyaları kalıcı olarak kaldırın."
 
@@ -2254,7 +2260,7 @@ msgstr "Fotoğraflar"
 msgid "Picture Title"
 msgstr "Resim Başlığı"
 
-#: src/options/options.js:466
+#: src/options/options.js:488
 msgid "Pink"
 msgstr "Pembe"
 
@@ -2268,8 +2274,9 @@ msgstr "Yer ve Zaman"
 
 #: src/app/routes.js:282 src/app/routes.js:288 src/app/routes.js:294
 #: src/app/routes.js:309 src/component/navigation.vue:934
-#: src/component/navigation.vue:1862 src/page/places.vue:50
-#: src/page/settings/general.vue:518 src/page/settings/general.vue:547
+#: src/component/navigation.vue:1862 src/options/options.js:316
+#: src/page/places.vue:50 src/page/settings/general.vue:563
+#: src/page/settings/general.vue:592
 msgid "Places"
 msgstr "Konumlar"
 
@@ -2360,11 +2367,11 @@ msgstr "Birincil"
 
 #: src/app/routes.js:250 src/component/album/edit/dialog.vue:175
 #: src/component/navigation.vue:544 src/component/photo/edit/info.vue:303
-#: src/page/settings/general.vue:202
+#: src/page/settings/general.vue:247
 msgid "Private"
 msgstr "Özel"
 
-#: src/page/about/feedback.vue:6 src/options/options.js:484
+#: src/page/about/feedback.vue:6 src/options/options.js:506
 msgid "Product Feedback"
 msgstr "Ürün Geri Bildirimi"
 
@@ -2372,7 +2379,7 @@ msgstr "Ürün Geri Bildirimi"
 msgid "Projection"
 msgstr "Projeksiyon"
 
-#: src/options/options.js:464
+#: src/options/options.js:486
 msgid "Purple"
 msgstr "Mor"
 
@@ -2396,7 +2403,7 @@ msgstr "Rastgele"
 msgid "Rating {0} of {1}"
 msgstr "Değerlendirme {1}'in {0}'ı"
 
-#: src/options/options.js:371
+#: src/options/options.js:393
 msgid "Raw"
 msgstr "Raw"
 
@@ -2432,7 +2439,7 @@ msgstr "Son zamanlarda Düzenlendi"
 msgid "Recognition starts after indexing has been completed."
 msgstr "Tanıma işlemi indeksleme tamamlandıktan sonra başlar."
 
-#: src/page/settings/general.vue:131
+#: src/page/settings/general.vue:176
 msgid "Recognize faces so people can be assigned and found."
 msgstr "Belirli kişilerin bulunabilmesi için yüzleri tanır."
 
@@ -2444,7 +2451,7 @@ msgstr "Tanımlanmış"
 msgid "Recovery Code"
 msgstr "Kurtarma Kodu"
 
-#: src/options/options.js:467
+#: src/options/options.js:489
 msgid "Red"
 msgstr "Kırmızı"
 
@@ -2545,7 +2552,7 @@ msgstr "Rol"
 msgid "Rows per page:"
 msgstr "Sayfa başına satır sayısı:"
 
-#: src/options/options.js:339 src/page/places.vue:330
+#: src/options/options.js:361 src/page/places.vue:330
 msgid "Satellite"
 msgstr "Uydu"
 
@@ -2576,14 +2583,14 @@ msgstr "Kapsam"
 
 #: src/page/admin/sessions.vue:70 src/page/admin/users.vue:62
 #: src/component/navigation.vue:339 src/component/navigation.vue:1814
-#: src/component/photo/toolbar.vue:56 src/page/albums.vue:100
-#: src/page/labels.vue:77 src/page/library/errors.vue:75
-#: src/page/people/recognized.vue:65 src/page/places.vue:78
-#: src/page/settings/content.vue:240
+#: src/component/photo/toolbar.vue:56 src/options/options.js:311
+#: src/page/albums.vue:100 src/page/labels.vue:77
+#: src/page/library/errors.vue:75 src/page/people/recognized.vue:65
+#: src/page/places.vue:78 src/page/settings/content.vue:240
 msgid "Search"
 msgstr "Arama"
 
-#: src/page/settings/general.vue:519
+#: src/page/settings/general.vue:564
 msgid "Search and display photos on a map."
 msgstr "Fotoğrafları harita üzerinde arayın ve görüntüleyin."
 
@@ -2657,7 +2664,7 @@ msgstr "Sıralı İsim"
 msgid "Service URL"
 msgstr "Hizmet URL'si"
 
-#: src/page/settings.vue:73 src/page/settings/general.vue:396
+#: src/page/settings.vue:73 src/page/settings/general.vue:441
 msgid "Services"
 msgstr "Hizmetler"
 
@@ -2689,7 +2696,7 @@ msgid "Setup"
 msgstr "Kurulum"
 
 #: src/component/album/clipboard.vue:49 src/component/album/toolbar.vue:102
-#: src/component/photo/clipboard.vue:51 src/page/settings/general.vue:300
+#: src/component/photo/clipboard.vue:51 src/page/settings/general.vue:345
 msgid "Share"
 msgstr "Paylaş"
 
@@ -2697,7 +2704,7 @@ msgstr "Paylaş"
 msgid "Share %{s}"
 msgstr "Paylaş %{s}"
 
-#: src/page/settings/general.vue:397
+#: src/page/settings/general.vue:442
 msgid "Share your pictures with other apps and services."
 msgstr "Fotoğraflarınızı diğer uygulamalar ve hizmetlerle paylaşın."
 
@@ -2729,7 +2736,7 @@ msgstr "Arama sonuçlarında resim başlıklarını gösterin."
 msgid "Show picture titles in search results."
 msgstr "Arama sonuçlarında resim başlıklarını gösterin."
 
-#: src/page/settings/general.vue:469
+#: src/page/settings/general.vue:514
 msgid "Show server logs in Library."
 msgstr "Kütüphane'de sunucu günlüklerini gösterin."
 
@@ -2758,7 +2765,7 @@ msgstr "Benzer"
 msgid "Size"
 msgstr "Boyut"
 
-#: src/options/options.js:322
+#: src/options/options.js:344
 msgid "Slow"
 msgstr "Yavaş"
 
@@ -2821,6 +2828,10 @@ msgstr "Yığınlar"
 msgid "Start"
 msgstr "Başla"
 
+#: src/page/settings/general.vue:82
+msgid "Start Page"
+msgstr ""
+
 #: src/component/lightbox.vue:975 src/component/lightbox.vue:976
 msgid "Start/Stop Slideshow"
 msgstr "Slayt Gösterisini Başlat/Durdur"
@@ -2837,7 +2848,7 @@ msgstr "Durum"
 msgid "Storage"
 msgstr "Depolama"
 
-#: src/options/options.js:334 src/page/places.vue:326
+#: src/options/options.js:356 src/page/places.vue:326
 msgid "Streets"
 msgstr "Sokaklar"
 
@@ -2888,7 +2899,7 @@ msgstr "Ham ve video dosyalarını senkronize edin"
 msgid "Taken"
 msgstr "Alınmış"
 
-#: src/options/options.js:473
+#: src/options/options.js:495
 msgid "Teal"
 msgstr "Turkuaz"
 
@@ -2939,7 +2950,7 @@ msgstr "Bu, orijinaller klasörünü bir ağ sürücüsü olarak bağlar ve dosy
 msgid "Time UTC"
 msgstr "Zaman UTC"
 
-#: src/component/photo/edit/details.vue:219
+#: src/component/photo/edit/details.vue:219 src/page/settings/general.vue:128
 msgid "Time Zone"
 msgstr "Saat dilimi"
 
@@ -3015,7 +3026,7 @@ msgstr "Çok fazla dosya seçildi"
 msgid "Too many requests"
 msgstr "Çok fazla talep var"
 
-#: src/options/options.js:349 src/page/places.vue:338
+#: src/options/options.js:371 src/page/places.vue:338
 msgid "Topographic"
 msgstr "Topografik"
 
@@ -3124,7 +3135,7 @@ msgstr "Şimdi Yükselt"
 #: src/component/album/toolbar.vue:121 src/component/navigation.vue:1772
 #: src/component/photo/toolbar.vue:173 src/component/photo/upload/dialog.vue:49
 #: src/component/service/upload.vue:143 src/page/albums.vue:181
-#: src/page/library/import.vue:133 src/page/settings/general.vue:228
+#: src/page/library/import.vue:133 src/page/settings/general.vue:273
 #: src/page/settings/services.vue:37
 msgid "Upload"
 msgstr "Yükle"
@@ -3152,7 +3163,7 @@ msgstr "Yerel dosyaları yükleme"
 msgid "Upload Path"
 msgstr "Yükleme Yolu"
 
-#: src/page/settings/general.vue:301
+#: src/page/settings/general.vue:346
 msgid "Upload to WebDAV and share links with friends."
 msgstr "WebDAV'a yükleyin ve bağlantıları arkadaşlarınızla paylaşın."
 
@@ -3212,7 +3223,7 @@ msgstr "Kullanıcılar"
 
 #: src/component/photo/view/cards.vue:327
 #: src/component/photo/view/cards.vue:506 src/component/photo/view/list.vue:179
-#: src/component/photo/view/mosaic.vue:176 src/options/options.js:387
+#: src/component/photo/view/mosaic.vue:176 src/options/options.js:409
 msgid "Vector"
 msgstr "Vektör"
 
@@ -3227,7 +3238,7 @@ msgstr "Doğrulama kodu"
 #: src/component/photo/view/cards.vue:351
 #: src/component/photo/view/cards.vue:476 src/component/photo/view/list.vue:186
 #: src/component/photo/view/mosaic.vue:200 src/model/file.js:221
-#: src/model/photo.js:928 src/model/photo.js:946 src/options/options.js:383
+#: src/model/photo.js:928 src/model/photo.js:946 src/options/options.js:405
 msgid "Video"
 msgstr "Video"
 
@@ -3237,6 +3248,7 @@ msgid "Video Duration"
 msgstr "Video Süresi"
 
 #: src/app/routes.js:236 src/component/navigation.vue:701
+#: src/options/options.js:313
 msgid "Videos"
 msgstr "Videolar"
 
@@ -3280,7 +3292,7 @@ msgstr "Web Girişi"
 
 #: src/component/user/add/dialog.vue:248 src/component/user/edit/dialog.vue:432
 #: src/page/admin/users.vue:80 src/options/auth.js:55 src/options/auth.js:68
-#: src/options/options.js:528
+#: src/options/options.js:550
 msgid "WebDAV"
 msgstr "WebDAV"
 
@@ -3305,7 +3317,7 @@ msgstr "Tarayıcınızda WebGL desteği devre dışı bırakılmış"
 msgid "Website"
 msgstr "Website"
 
-#: src/options/options.js:477
+#: src/options/options.js:499
 msgid "White"
 msgstr "Beyaz"
 
@@ -3318,7 +3330,7 @@ msgstr "İş Detayları"
 msgid "Year"
 msgstr "Yıl"
 
-#: src/options/options.js:470
+#: src/options/options.js:492
 msgid "Yellow"
 msgstr "Sarı"
 
